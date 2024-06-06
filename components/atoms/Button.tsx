@@ -61,7 +61,6 @@ export const Button = ({
       disabled={disabled}
       className={Object.values(className).join(' ')}
     >
-      <div className=""></div>
       {children}
     </button>
   );
