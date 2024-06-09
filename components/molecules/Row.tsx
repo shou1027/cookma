@@ -1,35 +1,21 @@
 import { ReactElement } from 'react';
 
-const gaps = {
-  0: 'gap-0',
-  1: 'gap-1',
-  2: 'gap-2',
-  3: 'gap-3',
-  4: 'gap-4',
-  5: 'gap-5',
-  6: 'gap-6',
-  7: 'gap-7',
-  8: 'gap-8',
-  9: 'gap-9',
-  10: 'gap-10',
-};
-
 type Props = {
-  gap?: '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '10';
+  gap?: Gaps;
   positionX?: 'left' | 'center' | 'right';
   positionY?: 'top' | 'center' | 'bottom' | 'between' | 'around';
   children: ReactElement;
 };
 
 export const Row = ({
-  gap = '2',
+  gap = 'gap-2',
   positionX = 'center',
   positionY = 'center',
   children,
 }: Props) => {
   let className = {
     display: 'flex flex-col',
-    gap: gaps[gap],
+    gap: gap,
     justify: 'justify-center',
     items: 'items-center',
   };
