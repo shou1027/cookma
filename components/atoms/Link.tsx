@@ -1,16 +1,13 @@
 import { Link as MuiLink } from '@mui/material';
 import NextLink from 'next/link';
-import { ReactElement } from 'react';
+import React, { ComponentProps } from 'react';
 
-type Props = {
-  href: string;
-  children: ReactElement | ReactElement[] | string;
-};
+type Props = ComponentProps<typeof MuiLink>;
 
-export const Link = ({ href, children }: Props) => {
-  return (
-    <MuiLink href={href} component={NextLink}>
-      {children}
-    </MuiLink>
-  );
+export const Link = (props: Props) => {
+  if (props.href === undefined) {
+    return;
+  }
+
+  return <MuiLink href={props.href} component={NextLink} {...props}></MuiLink>;
 };
