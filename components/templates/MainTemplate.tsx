@@ -22,8 +22,8 @@ export const MainTemplate = ({ headerElement, mainElement }: Props) => {
           {headerElement}
         </Toolbar>
       </AppBar>
-      <Box pt={11} px={3} pb={3} component="main">
-        <Box maxWidth={1000} mx="auto">
+      <Box pt={8} px={3} component="main">
+        <Box maxWidth={1000} mx="auto" py={5}>
           {mainElement}
         </Box>
       </Box>
