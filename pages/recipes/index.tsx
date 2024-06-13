@@ -1,17 +1,17 @@
 import { Header } from '@/components/molecules/Header';
-import { GridRecipes } from '@/components/organisms/GridRecipes';
+import { RecipeGrid } from '@/components/organisms/RecipeGrid';
 import { MainTemplate } from '@/components/templates/MainTemplate';
 import { dammyRecipes } from '@/data/dammyRecipes';
 
-const Recipe = () => {
+const Recipes = () => {
   return (
     <>
       <MainTemplate
         headerElement={<Header />}
-        mainElement={<GridRecipes recipes={dammyRecipes} />}
+        mainElement={<RecipeGrid recipes={dammyRecipes} />}
       />
     </>
   );
 };
 
-export default Recipe;
+export default Recipes;

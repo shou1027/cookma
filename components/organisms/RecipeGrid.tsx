@@ -1,5 +1,5 @@
 import { Recipe } from '@/types/Recipe';
-import { Grid, Stack, Typography } from '@mui/material';
+import { Box, Grid, Stack, Typography } from '@mui/material';
 import Image from 'next/image';
 import { Link } from '../atoms/Link';
 import { LiquidText } from '../molecules/LiquidText';
@@ -9,7 +9,7 @@ type Props = {
   recipes: Recipe[];
 };
 
-export const GridRecipes = ({ recipes }: Props) => {
+export const RecipeGrid = ({ recipes }: Props) => {
   return (
     <Grid container columnSpacing={3} rowSpacing={5} component="ul">
       {recipes.map((recipe) => (
@@ -27,10 +27,10 @@ export const GridRecipes = ({ recipes }: Props) => {
             </Link>
           </Typography>
           <Stack direction="row" justifyContent="space-between">
-            <div>
+            <Box>
               <Typography variant="body1">{recipe.calorie}kcal</Typography>
-            </div>
-            <div>
+            </Box>
+            <Box>
               <LiquidText
                 variableText="炭水化物:"
                 fixText={`${recipe.carbohydrate}g`}
@@ -49,7 +49,7 @@ export const GridRecipes = ({ recipes }: Props) => {
                 textWidth="3em"
                 direction="right"
               />
-            </div>
+            </Box>
           </Stack>
         </Grid>
       ))}
