@@ -2,8 +2,8 @@ import { Recipe } from '@/types/Recipe';
 import { Grid, Stack, Typography } from '@mui/material';
 import Image from 'next/image';
 import { Link } from '../atoms/Link';
-import { LiquidText } from '../organism/LiquidText';
-import { OpacityLink } from '../organism/OpacityLink';
+import { LiquidText } from '../molecules/LiquidText';
+import { OpacityLink } from '../molecules/OpacityLink';
 
 type Props = {
   recipes: Recipe[];

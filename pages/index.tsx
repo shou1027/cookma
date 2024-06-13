@@ -1,4 +1,4 @@
-import { Header } from '@/components/organism/Header';
+import { Header } from '@/components/molecules/Header';
 import { MainTemplate } from '@/components/templates/MainTemplate';
 import { Delete, Settings, VolumeDown, VolumeUp } from '@mui/icons-material';
 import {

@@ -1,4 +1,4 @@
-import { Header } from '@/components/organism/Header';
+import { Header } from '@/components/molecules/Header';
 import { GridRecipes } from '@/components/organisms/GridRecipes';
 import { MainTemplate } from '@/components/templates/MainTemplate';
 import { dammyRecipes } from '@/data/dammyRecipes';
