@@ -6,6 +6,7 @@ import {
   Box,
   Button,
   Chip,
+  FormLabel,
   IconButton,
   InputAdornment,
   List,
@@ -14,7 +15,6 @@ import {
   TextField,
   Typography,
 } from '@mui/material';
-import Image from 'next/image';
 import { SubmitHandler, useFieldArray, useForm } from 'react-hook-form';
 import * as Yup from 'yup';
 
@@ -35,12 +35,18 @@ export const schema = Yup.object().shape({
     )
     .min(1, '最低1つ以上の項目が必要です。'),
   ways: Yup.array()
-    .of(Yup.object({ detail: Yup.string().required('入力必須の項目です。') }))
+    .of(
+      Yup.object({
+        detail: Yup.string()
+          .required('入力必須の項目です。')
+          .max(255, '最大255文字まで入力できます。'),
+      }),
+    )
     .min(1, '最低1つ以上の項目が必要です。'),
   attention: Yup.string().max(256, '最大256文字まで入力できます。'),
 });
 
-type FormData = Yup.InferType<typeof schema>;
+type FormDataType = Yup.InferType<typeof schema>;
 
 const Recipe = () => {
   const {
@@ -56,7 +62,7 @@ const Recipe = () => {
         { name: '', amount: 0 },
         { name: '', amount: 0 },
       ],
-      ways: [{ detail: '' }, { detail: '' }, { detail: '' }],
+      ways: [{ detail: '' }],
       attention: '',
     },
     resolver: yupResolver(schema),
@@ -81,9 +87,25 @@ const Recipe = () => {
     name: 'ways',
   });
 
-  const onSubmit: SubmitHandler<FormData> = (data) => {
+  const onSubmit: SubmitHandler<FormDataType> = async (data) => {
     //入力したデータを使って任意の処理を実装する
     console.log(data);
+
+    const formData = new FormData();
+
+    for (const key in data) {
+      if (key === 'file') {
+        // formData.append(key, data[key][0]);
+      } else {
+        formData.append(key, data[key]);
+      }
+      console.log(formData);
+    }
+
+    const res = await fetch('http://tdegi-dev.lo/form.php', {
+      method: 'POST',
+      body: formData,
+    }).then((res) => console.log(res));
   };
 
   return (
@@ -194,12 +216,34 @@ const Recipe = () => {
                       gap={3}
                     >
                       <Box width={200}>
-                        <Image
+                        {/* <Image
                           src="/pasta.jpg"
                           width={200}
                           height={200}
                           alt=""
-                        />
+                        /> */}
+                        {/* <MuiFileInput inputProps={{ accept: '.png, .jpeg' }} /> */}
+                        <FormLabel>
+                          <Button
+                            variant="contained"
+                            // disabled={props.images.length >= maxImagesUpload}
+                            component="span"
+                            sx={{ mt: 4 }}
+                          >
+                            画像アップロード
+                          </Button>
+                          <input
+                            // id={inputId}
+                            type="file"
+                            multiple
+                            accept="image/*,.png,.jpg,.jpeg,.gif"
+                            // onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                            //   handleOnAddImage(e)
+                            // }
+                            {...register(`ways.${index}.image`)}
+                            style={{ display: 'none' }}
+                          />
+                        </FormLabel>
                       </Box>
                       <Box flex="1">
                         <TextField
