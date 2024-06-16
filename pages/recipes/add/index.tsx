@@ -107,23 +107,9 @@ const Recipe = () => {
 
   const [textImages, setTextImages] = useState<string[]>([]);
 
-  // useEffect(() => {
-  //   // const image = getValues('ways').image[0];
-  //   // const file = uploadImage.files[0];
-  //   // const reader = new FileReader();
-  //   // reader.onload = (event) => {
-  //   //   const base64Text = event.currentTarget.result;
-  //   // };
-  //   // reader.readAsDataURL(file);
-
-  //   console.log(111);
-  // }, []);
-
-  console.log(textImages);
-
   const onSubmit: SubmitHandler<FormDataType> = async (data) => {
     //入力したデータを使って任意の処理を実装する
-    console.log(data);
+
     const formData = objToFormData(data);
 
     const res = await fetch('http://api.localhost/form.php', {
@@ -132,7 +118,6 @@ const Recipe = () => {
     });
 
     // console.log(await res.json());
-    console.log(await res.text());
   };
 
   return (
@@ -154,7 +139,7 @@ const Recipe = () => {
             />
             <Box mt={4}>
               <Typography variant="h5">材料</Typography>
-              {ingreFields && (
+              {ingreFields.length > 0 && (
                 <Box mt={2}>
                   <Stack gap={1}>
                     <Stack direction="row" gap={1}>
