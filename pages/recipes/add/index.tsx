@@ -1,12 +1,12 @@
 import { Header } from '@/components/molecules/Header';
 import { MainTemplate } from '@/components/templates/MainTemplate';
+import { objToFormData } from '@/utils/objToFormData';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { Add, Delete } from '@mui/icons-material';
 import {
   Box,
   Button,
   Chip,
-  FormLabel,
   IconButton,
   InputAdornment,
   List,
@@ -15,8 +15,10 @@ import {
   TextField,
   Typography,
 } from '@mui/material';
+import { useState } from 'react';
 import { SubmitHandler, useFieldArray, useForm } from 'react-hook-form';
 import * as Yup from 'yup';
+import { ImageSelector } from '../../../components/molecules/ImageSelector';
 
 export const schema = Yup.object().shape({
   title: Yup.string()
@@ -37,6 +39,19 @@ export const schema = Yup.object().shape({
   ways: Yup.array()
     .of(
       Yup.object({
+        image: Yup.mixed<FileList>(),
+
+        // .test(
+        //   'is-valid-size',
+        //   `ファイル合計サイズが1MBを超えています`,
+        //   (files: FileList) => {
+        //     if (files.length > 0) {
+        //       return files[0].size < 1024 * 1024;
+        //     }
+
+        //     return true;
+        //   },
+        // ),
         detail: Yup.string()
           .required('入力必須の項目です。')
           .max(255, '最大255文字まで入力できます。'),
@@ -54,16 +69,19 @@ const Recipe = () => {
     handleSubmit,
     control,
     reset,
+    setValue,
+
     formState: { isValid, errors },
   } = useForm({
     defaultValues: {
+      title: 'aaaaa',
       ingredients: [
-        { name: '', amount: 0 },
-        { name: '', amount: 0 },
-        { name: '', amount: 0 },
+        { name: 'bbbbb', amount: 2 },
+        // { name: '', amount: 0 },
+        // { name: '', amount: 0 },
       ],
-      ways: [{ detail: '' }],
-      attention: '',
+      ways: [{ detail: 'ccccc' }],
+      attention: 'ddddd',
     },
     resolver: yupResolver(schema),
     mode: 'onBlur',
@@ -87,25 +105,34 @@ const Recipe = () => {
     name: 'ways',
   });
 
+  const [textImages, setTextImages] = useState<string[]>([]);
+
+  // useEffect(() => {
+  //   // const image = getValues('ways').image[0];
+  //   // const file = uploadImage.files[0];
+  //   // const reader = new FileReader();
+  //   // reader.onload = (event) => {
+  //   //   const base64Text = event.currentTarget.result;
+  //   // };
+  //   // reader.readAsDataURL(file);
+
+  //   console.log(111);
+  // }, []);
+
+  console.log(textImages);
+
   const onSubmit: SubmitHandler<FormDataType> = async (data) => {
     //入力したデータを使って任意の処理を実装する
     console.log(data);
+    const formData = objToFormData(data);
 
-    const formData = new FormData();
-
-    for (const key in data) {
-      if (key === 'file') {
-        // formData.append(key, data[key][0]);
-      } else {
-        formData.append(key, data[key]);
-      }
-      console.log(formData);
-    }
-
-    const res = await fetch('http://tdegi-dev.lo/form.php', {
+    const res = await fetch('http://api.localhost/form.php', {
       method: 'POST',
       body: formData,
-    }).then((res) => console.log(res));
+    });
+
+    // console.log(await res.json());
+    console.log(await res.text());
   };
 
   return (
@@ -216,34 +243,10 @@ const Recipe = () => {
                       gap={3}
                     >
                       <Box width={200}>
-                        {/* <Image
-                          src="/pasta.jpg"
-                          width={200}
-                          height={200}
-                          alt=""
-                        /> */}
-                        {/* <MuiFileInput inputProps={{ accept: '.png, .jpeg' }} /> */}
-                        <FormLabel>
-                          <Button
-                            variant="contained"
-                            // disabled={props.images.length >= maxImagesUpload}
-                            component="span"
-                            sx={{ mt: 4 }}
-                          >
-                            画像アップロード
-                          </Button>
-                          <input
-                            // id={inputId}
-                            type="file"
-                            multiple
-                            accept="image/*,.png,.jpg,.jpeg,.gif"
-                            // onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-                            //   handleOnAddImage(e)
-                            // }
-                            {...register(`ways.${index}.image`)}
-                            style={{ display: 'none' }}
-                          />
-                        </FormLabel>
+                        <ImageSelector
+                          register={register(`ways.${index}.image`)}
+                          setValue={setValue}
+                        />
                       </Box>
                       <Box flex="1">
                         <TextField
