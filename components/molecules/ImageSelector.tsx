@@ -1,31 +1,21 @@
 import { CameraAlt, Cancel } from '@mui/icons-material';
 import { Box, IconButton, Stack } from '@mui/material';
 import { ChangeEvent, useRef, useState } from 'react';
+import { UseFormRegisterReturn, UseFormSetValue } from 'react-hook-form';
 
-function readAsDataURL(blob) {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
+type Props = {
+  register: UseFormRegisterReturn<string>;
+  setValue: UseFormSetValue<any>;
+};
 
-    reader.onload = (event) => {
-      resolve(event.target.result);
-    };
-
-    reader.onerror = (error) => {
-      reject(error);
-    };
-
-    reader.readAsDataURL(blob);
-  });
-}
-
-export const ImageSelector = ({ register, setValue }) => {
+export const ImageSelector = ({ register, setValue }: Props) => {
   const [textImage, setTextImage] = useState('');
   const imageRef = useRef<HTMLInputElement | null>(null);
 
   const handleImageChange = async (e: ChangeEvent<HTMLInputElement>) => {
     // const _images = getValues('ways').map((value) => value.image);
 
-    if (typeof e.target.files[0] !== 'undefined') {
+    if (e.target.files !== null && typeof e.target.files[0] !== 'undefined') {
       const result = await readAsDataURL(e.target.files[0]);
 
       setTextImage(result);
@@ -70,6 +60,7 @@ export const ImageSelector = ({ register, setValue }) => {
 
       <input
         type="file"
+        capture="environment"
         accept="image/*,.png,.jpg,.jpeg,.gif"
         {...register}
         ref={(e) => {

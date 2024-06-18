@@ -118,6 +118,7 @@ const Recipe = () => {
     });
 
     // console.log(await res.json());
+    console.log(await res.text());
   };
 
   return (
