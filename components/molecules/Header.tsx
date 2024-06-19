@@ -1,6 +1,7 @@
 import { Menu } from '@mui/icons-material';
 import { Box, Button, Drawer, IconButton, Typography } from '@mui/material';
 import { useState } from 'react';
+import { Link } from '../atoms/Link';
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
@@ -21,7 +22,7 @@ export const Header = () => {
         <Menu />
       </IconButton>
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        News
+        <Link href="/">News</Link>
       </Typography>
       <Button color="inherit">Login</Button>
     </>
