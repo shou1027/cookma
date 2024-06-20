@@ -17,6 +17,7 @@ import {
 } from '@mui/material';
 import { useState } from 'react';
 import { SubmitHandler, useFieldArray, useForm } from 'react-hook-form';
+import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from 'recharts';
 import * as Yup from 'yup';
 import { ImageSelector } from '../../../components/molecules/ImageSelector';
 
@@ -140,73 +141,124 @@ const Recipe = () => {
             />
             <Box mt={4}>
               <Typography variant="h5">材料</Typography>
-              {ingreFields.length > 0 && (
-                <Box mt={2}>
-                  <Stack gap={1}>
-                    <Stack direction="row" gap={1}>
-                      <Stack
-                        maxWidth="223px"
-                        width="100%"
-                        bgcolor="#ccc"
-                        justifyContent="center"
-                        alignItems="center"
-                        py={0.5}
-                      >
-                        材料・調味料
-                      </Stack>
-                      <Stack
-                        maxWidth="100px"
-                        width="100%"
-                        bgcolor="#ccc"
-                        justifyContent="center"
-                        alignItems="center"
-                        py={0.5}
-                      >
-                        分量
-                      </Stack>
-                    </Stack>
-                    {ingreFields.map((field, index) => (
-                      <Stack
-                        direction="row"
-                        alignItems="center"
-                        gap={1}
-                        key={field.id}
-                      >
-                        <TextField
-                          margin="none"
-                          {...register(`ingredients.${index}.name`)}
-                          error={
-                            errors.ingredients?.[index]?.name !== undefined
-                          }
-                        />
+              <Stack>
+                <Box>
+                  {ingreFields.length > 0 && (
+                    <Box mt={2}>
+                      <Stack gap={1}>
+                        <Stack direction="row" gap={1}>
+                          <Stack
+                            maxWidth="223px"
+                            width="100%"
+                            bgcolor="#ccc"
+                            justifyContent="center"
+                            alignItems="center"
+                            py={0.5}
+                          >
+                            材料・調味料
+                          </Stack>
+                          <Stack
+                            maxWidth="100px"
+                            width="100%"
+                            bgcolor="#ccc"
+                            justifyContent="center"
+                            alignItems="center"
+                            py={0.5}
+                          >
+                            分量
+                          </Stack>
+                        </Stack>
+                        {ingreFields.map((field, index) => (
+                          <Stack
+                            direction="row"
+                            alignItems="center"
+                            gap={1}
+                            key={field.id}
+                          >
+                            <TextField
+                              margin="none"
+                              {...register(`ingredients.${index}.name`)}
+                              error={
+                                errors.ingredients?.[index]?.name !== undefined
+                              }
+                            />
 
-                        <TextField
-                          type="number"
-                          margin="none"
-                          InputProps={{
-                            endAdornment: (
-                              <InputAdornment position="end">g</InputAdornment>
-                            ),
-                            inputProps: {
-                              min: 0,
-                              max: 10,
-                              step: 0.1,
-                            },
-                          }}
-                          sx={{ maxWidth: 100 }}
-                          {...register(`ingredients.${index}.amount`)}
-                          error={
-                            errors.ingredients?.[index]?.amount !== undefined
-                          }
-                        />
-                        <IconButton onClick={() => ingreRemove(index)}>
-                          <Delete />
-                        </IconButton>
+                            <TextField
+                              type="number"
+                              margin="none"
+                              InputProps={{
+                                endAdornment: (
+                                  <InputAdornment position="end">
+                                    g
+                                  </InputAdornment>
+                                ),
+                                inputProps: {
+                                  min: 0,
+                                  max: 10,
+                                  step: 0.1,
+                                },
+                              }}
+                              sx={{ maxWidth: 100 }}
+                              {...register(`ingredients.${index}.amount`)}
+                              error={
+                                errors.ingredients?.[index]?.amount !==
+                                undefined
+                              }
+                            />
+                            <IconButton onClick={() => ingreRemove(index)}>
+                              <Delete />
+                            </IconButton>
+                          </Stack>
+                        ))}
                       </Stack>
-                    ))}
-                  </Stack>
+                    </Box>
+                  )}
                 </Box>
-              )}
+                <Box>
+                  <RadarChart
+                    height={250}
+                    width={500}
+                    data={[
+                      {
+                        subject: '炭水化物',
+                        A: 100,
+                        fullMark: 100,
+                      },
+                      {
+                        subject: 'タンパク質',
+                        A: 50,
+                        fullMark: 100,
+                      },
+                      {
+                        subject: '脂質',
+                        A: 30,
+                        fullMark: 100,
+                      },
+                      {
+                        subject: 'ビタミン',
+                        A: 60,
+                        fullMark: 100,
+                      },
+                      {
+                        subject: 'ミネラル',
+                        A: 20,
+                        fullMark: 100,
+                      },
+                    ]}
+                  >
+                    <PolarGrid />
+                    <PolarAngleAxis dataKey="subject" />
+                    {/* <PolarRadiusAxis angle={30} domain={[0, 100]} /> */}
+                    <Radar
+                      name="Mike"
+                      dataKey="A"
+                      stroke="#8884d8"
+                      fill="#8884d8"
+                      fillOpacity={0.5}
+                    />
+                  </RadarChart>
+                </Box>
+              </Stack>
 
               <Chip
                 label="材料を追加"
