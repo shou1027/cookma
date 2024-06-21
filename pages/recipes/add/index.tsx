@@ -1,9 +1,11 @@
 import { Header } from '@/components/molecules/Header';
 import { MainTemplate } from '@/components/templates/MainTemplate';
+import { dammyIngredients } from '@/data/dammyIngredients';
 import { objToFormData } from '@/utils/objToFormData';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { Add, Delete } from '@mui/icons-material';
 import {
+  Autocomplete,
   Box,
   Button,
   Chip,
@@ -175,17 +177,28 @@ const Recipe = () => {
                             gap={1}
                             key={field.id}
                           >
-                            <TextField
-                              margin="none"
-                              {...register(`ingredients.${index}.name`)}
-                              error={
-                                errors.ingredients?.[index]?.name !== undefined
-                              }
+                            <Autocomplete
+                              size="small"
+                              sx={{ width: 223 }}
+                              options={dammyIngredients.map((value) => ({
+                                label: value.name,
+                              }))}
+                              renderInput={(params) => (
+                                <TextField
+                                  {...params}
+                                  {...register(`ingredients.${index}.name`)}
+                                  error={
+                                    errors.ingredients?.[index]?.name !==
+                                    undefined
+                                  }
+                                />
+                              )}
                             />
 
                             <TextField
                               type="number"
-                              margin="none"
+                              // margin="none"
+
                               InputProps={{
                                 endAdornment: (
                                   <InputAdornment position="end">
@@ -221,7 +234,7 @@ const Recipe = () => {
                     data={[
                       {
                         subject: '炭水化物',
-                        A: 100,
+                        A: 70,
                         fullMark: 100,
                       },
                       {
