@@ -228,6 +228,7 @@ const Recipe = () => {
                   )}
                 </Box>
                 <Box>
+                  {/* TODO: チャートをコンポーネントに分割 */}
                   <RadarChart
                     height={250}
                     width={500}
