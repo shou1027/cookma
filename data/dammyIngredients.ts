@@ -2,6 +2,7 @@ import { Ingredient } from '@/types/Ingredient';
 
 export const dammyIngredients: Ingredient[] = [
   {
+    id: 1,
     name: 'アマランサス　玄穀',
     protein: 1452,
     carbohydrate: 343,
@@ -10,6 +11,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.7,
   },
   {
+    id: 2,
     name: 'あわ　精白粒',
     protein: 1466,
     carbohydrate: 346,
@@ -18,6 +20,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 11.2,
   },
   {
+    id: 3,
     name: 'あわ　あわもち',
     protein: 890,
     carbohydrate: 210,
@@ -26,6 +29,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.1,
   },
   {
+    id: 4,
     name: 'えんばく　オートミール',
     protein: 1479,
     carbohydrate: 350,
@@ -34,6 +38,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 13.7,
   },
   {
+    id: 5,
     name: 'おおむぎ　七分つき押麦',
     protein: 1454,
     carbohydrate: 343,
@@ -42,6 +47,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.9,
   },
   {
+    id: 6,
     name: 'おおむぎ　押麦　乾',
     protein: 1395,
     carbohydrate: 329,
@@ -50,6 +56,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.7,
   },
   {
+    id: 7,
     name: 'おおむぎ　押麦　めし',
     protein: 500,
     carbohydrate: 118,
@@ -58,6 +65,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 8,
     name: 'おおむぎ　米粒麦',
     protein: 1407,
     carbohydrate: 333,
@@ -66,6 +74,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.0,
   },
   {
+    id: 9,
     name: 'おおむぎ　大麦めん　乾',
     protein: 1457,
     carbohydrate: 343,
@@ -74,6 +83,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.9,
   },
   {
+    id: 10,
     name: 'おおむぎ　大麦めん　ゆで',
     protein: 516,
     carbohydrate: 121,
@@ -82,6 +92,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.8,
   },
   {
+    id: 11,
     name: 'おおむぎ　麦こがし',
     protein: 1553,
     carbohydrate: 368,
@@ -90,6 +101,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.5,
   },
   {
+    id: 12,
     name: 'キヌア　玄穀',
     protein: 1455,
     carbohydrate: 344,
@@ -98,6 +110,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 13.4,
   },
   {
+    id: 13,
     name: 'きび　精白粒',
     protein: 1496,
     carbohydrate: 353,
@@ -106,6 +119,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 11.3,
   },
   {
+    id: 14,
     name: 'こむぎ　［玄穀］　国産　普通',
     protein: 1391,
     carbohydrate: 329,
@@ -114,6 +128,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.8,
   },
   {
+    id: 15,
     name: 'こむぎ　［玄穀］　輸入　軟質',
     protein: 1457,
     carbohydrate: 344,
@@ -122,6 +137,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.1,
   },
   {
+    id: 16,
     name: 'こむぎ　［玄穀］　輸入　硬質',
     protein: 1406,
     carbohydrate: 332,
@@ -130,6 +146,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 13.0,
   },
   {
+    id: 17,
     name: 'こむぎ　［小麦粉］　薄力粉　1等',
     protein: 1485,
     carbohydrate: 349,
@@ -138,6 +155,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.3,
   },
   {
+    id: 18,
     name: 'こむぎ　［小麦粉］　薄力粉　2等',
     protein: 1467,
     carbohydrate: 345,
@@ -146,6 +164,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.3,
   },
   {
+    id: 19,
     name: 'こむぎ　［小麦粉］　中力粉　1等',
     protein: 1435,
     carbohydrate: 337,
@@ -154,6 +173,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.0,
   },
   {
+    id: 20,
     name: 'こむぎ　［小麦粉］　中力粉　2等',
     protein: 1466,
     carbohydrate: 346,
@@ -162,6 +182,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.7,
   },
   {
+    id: 21,
     name: 'こむぎ　［小麦粉］　強力粉　1等',
     protein: 1432,
     carbohydrate: 337,
@@ -170,6 +191,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 11.8,
   },
   {
+    id: 22,
     name: 'こむぎ　［小麦粉］　強力粉　2等',
     protein: 1455,
     carbohydrate: 343,
@@ -178,6 +200,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.6,
   },
   {
+    id: 23,
     name: 'こむぎ　［小麦粉］　強力粉　全粒粉',
     protein: 1356,
     carbohydrate: 320,
@@ -186,6 +209,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.8,
   },
   {
+    id: 24,
     name: 'こむぎ　［小麦粉］　プレミックス粉　お好み焼き用',
     protein: 1426,
     carbohydrate: 335,
@@ -194,6 +218,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.1,
   },
   {
+    id: 25,
     name: 'こむぎ　［小麦粉］　プレミックス粉　ホットケーキ用',
     protein: 1529,
     carbohydrate: 360,
@@ -202,6 +227,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.8,
   },
   {
+    id: 26,
     name: 'こむぎ　［小麦粉］　プレミックス粉　から揚げ用',
     protein: 1325,
     carbohydrate: 311,
@@ -210,6 +236,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.2,
   },
   {
+    id: 27,
     name: 'こむぎ　［小麦粉］　プレミックス粉　天ぷら用',
     protein: 1434,
     carbohydrate: 337,
@@ -218,6 +245,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.8,
   },
   {
+    id: 28,
     name: 'こむぎ　［小麦粉］　プレミックス粉　天ぷら用　バッター',
     protein: 563,
     carbohydrate: 132,
@@ -226,6 +254,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.3,
   },
   {
+    id: 29,
     name: 'こむぎ　［小麦粉］　プレミックス粉　天ぷら用　バッター　揚げ',
     protein: 2439,
     carbohydrate: 588,
@@ -234,6 +263,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.3,
   },
   {
+    id: 30,
     name: 'こむぎ　［パン類］　角形食パン　食パン',
     protein: 1050,
     carbohydrate: 248,
@@ -242,6 +272,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.9,
   },
   {
+    id: 31,
     name: 'こむぎ　［パン類］　角形食パン　焼き',
     protein: 1138,
     carbohydrate: 269,
@@ -250,6 +281,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.7,
   },
   {
+    id: 32,
     name: 'こむぎ　［パン類］　角形食パン　耳を除いたもの',
     protein: 955,
     carbohydrate: 226,
@@ -258,6 +290,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.2,
   },
   {
+    id: 33,
     name: 'こむぎ　［パン類］　角形食パン　耳',
     protein: 1152,
     carbohydrate: 273,
@@ -266,6 +299,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.7,
   },
   {
+    id: 34,
     name: 'こむぎ　［パン類］　食パン　リーンタイプ',
     protein: 1045,
     carbohydrate: 246,
@@ -274,6 +308,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.0,
   },
   {
+    id: 35,
     name: 'こむぎ　［パン類］　食パン　リッチタイプ',
     protein: 1085,
     carbohydrate: 256,
@@ -282,6 +317,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.8,
   },
   {
+    id: 36,
     name: 'こむぎ　［パン類］　山形食パン　食パン',
     protein: 1043,
     carbohydrate: 246,
@@ -290,6 +326,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.8,
   },
   {
+    id: 37,
     name: 'こむぎ　［パン類］　コッペパン',
     protein: 1155,
     carbohydrate: 273,
@@ -298,6 +335,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.2,
   },
   {
+    id: 38,
     name: 'こむぎ　［パン類］　バンズ',
     protein: 1159,
     carbohydrate: 274,
@@ -306,6 +344,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.4,
   },
   {
+    id: 39,
     name: 'こむぎ　［パン類］　乾パン',
     protein: 1639,
     carbohydrate: 386,
@@ -314,6 +353,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.5,
   },
   {
+    id: 40,
     name: 'こむぎ　［パン類］　フランスパン',
     protein: 1231,
     carbohydrate: 289,
@@ -322,6 +362,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.4,
   },
   {
+    id: 41,
     name: 'こむぎ　［パン類］　ライ麦パン',
     protein: 1066,
     carbohydrate: 252,
@@ -330,6 +371,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.4,
   },
   {
+    id: 42,
     name: 'こむぎ　［パン類］　全粒粉パン',
     protein: 1059,
     carbohydrate: 251,
@@ -338,6 +380,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.9,
   },
   {
+    id: 43,
     name: 'こむぎ　［パン類］　ぶどうパン',
     protein: 1113,
     carbohydrate: 263,
@@ -346,6 +389,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.2,
   },
   {
+    id: 44,
     name: 'こむぎ　［パン類］　ロールパン',
     protein: 1304,
     carbohydrate: 309,
@@ -354,6 +398,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.1,
   },
   {
+    id: 45,
     name: 'こむぎ　［パン類］　クロワッサン　レギュラータイプ',
     protein: 1702,
     carbohydrate: 406,
@@ -362,6 +407,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.5,
   },
   {
+    id: 46,
     name: 'こむぎ　［パン類］　クロワッサン　リッチタイプ',
     protein: 1828,
     carbohydrate: 438,
@@ -370,6 +416,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.9,
   },
   {
+    id: 47,
     name: 'こむぎ　［パン類］　くるみパン',
     protein: 1225,
     carbohydrate: 292,
@@ -378,6 +425,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.2,
   },
   {
+    id: 48,
     name: 'こむぎ　［パン類］　イングリッシュマフィン',
     protein: 946,
     carbohydrate: 224,
@@ -386,6 +434,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.1,
   },
   {
+    id: 49,
     name: 'こむぎ　［パン類］　ナン',
     protein: 1086,
     carbohydrate: 257,
@@ -394,6 +443,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.3,
   },
   {
+    id: 50,
     name: 'こむぎ　［パン類］　ベーグル',
     protein: 1142,
     carbohydrate: 270,
@@ -402,6 +452,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.6,
   },
   {
+    id: 51,
     name: 'こむぎ　［うどん・そうめん類］　うどん　生',
     protein: 1058,
     carbohydrate: 249,
@@ -410,6 +461,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.1,
   },
   {
+    id: 52,
     name: 'こむぎ　［うどん・そうめん類］　うどん　ゆで',
     protein: 402,
     carbohydrate: 95,
@@ -418,6 +470,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.6,
   },
   {
+    id: 53,
     name: 'こむぎ　［うどん・そうめん類］　うどん　半生うどん',
     protein: 1257,
     carbohydrate: 296,
@@ -426,6 +479,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.8,
   },
   {
+    id: 54,
     name: 'こむぎ　［うどん・そうめん類］　干しうどん　乾',
     protein: 1420,
     carbohydrate: 333,
@@ -434,6 +488,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.5,
   },
   {
+    id: 55,
     name: 'こむぎ　［うどん・そうめん類］　干しうどん　ゆで',
     protein: 498,
     carbohydrate: 117,
@@ -442,6 +497,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.1,
   },
   {
+    id: 56,
     name: 'こむぎ　［うどん・そうめん類］　そうめん・ひやむぎ　乾',
     protein: 1413,
     carbohydrate: 333,
@@ -450,6 +506,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.5,
   },
   {
+    id: 57,
     name: 'こむぎ　［うどん・そうめん類］　そうめん・ひやむぎ　ゆで',
     protein: 487,
     carbohydrate: 114,
@@ -458,6 +515,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.5,
   },
   {
+    id: 58,
     name: 'こむぎ　［うどん・そうめん類］　手延そうめん・手延ひやむぎ　乾',
     protein: 1329,
     carbohydrate: 312,
@@ -466,6 +524,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.3,
   },
   {
+    id: 59,
     name: 'こむぎ　［うどん・そうめん類］　手延そうめん・手延ひやむぎ　ゆで',
     protein: 506,
     carbohydrate: 119,
@@ -474,6 +533,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.5,
   },
   {
+    id: 60,
     name: 'こむぎ　［中華めん類］　中華めん　生',
     protein: 1057,
     carbohydrate: 249,
@@ -482,6 +542,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.6,
   },
   {
+    id: 61,
     name: 'こむぎ　［中華めん類］　中華めん　ゆで',
     protein: 564,
     carbohydrate: 133,
@@ -490,6 +551,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.9,
   },
   {
+    id: 62,
     name: 'こむぎ　［中華めん類］　半生中華めん　',
     protein: 1293,
     carbohydrate: 305,
@@ -498,6 +560,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.9,
   },
   {
+    id: 63,
     name: 'こむぎ　［中華めん類］　蒸し中華めん　蒸し中華めん',
     protein: 686,
     carbohydrate: 162,
@@ -506,6 +569,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.9,
   },
   {
+    id: 64,
     name: 'こむぎ　［中華めん類］　蒸し中華めん  ソテー',
     protein: 893,
     carbohydrate: 211,
@@ -514,6 +578,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.2,
   },
   {
+    id: 65,
     name: 'こむぎ　［中華めん類］　干し中華めん　乾',
     protein: 1433,
     carbohydrate: 337,
@@ -522,6 +587,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 11.7,
   },
   {
+    id: 66,
     name: 'こむぎ　［中華めん類］　干し中華めん　ゆで',
     protein: 558,
     carbohydrate: 131,
@@ -530,6 +596,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.9,
   },
   {
+    id: 67,
     name: 'こむぎ　［中華めん類］　沖縄そば　生',
     protein: 1128,
     carbohydrate: 266,
@@ -538,6 +605,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.2,
   },
   {
+    id: 68,
     name: 'こむぎ　［中華めん類］　沖縄そば　ゆで',
     protein: 561,
     carbohydrate: 132,
@@ -546,6 +614,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.2,
   },
   {
+    id: 69,
     name: 'こむぎ　［中華めん類］　干し沖縄そば　乾',
     protein: 1349,
     carbohydrate: 317,
@@ -554,6 +623,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.0,
   },
   {
+    id: 70,
     name: 'こむぎ　［中華めん類］　干し沖縄そば　ゆで',
     protein: 561,
     carbohydrate: 132,
@@ -562,6 +632,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.2,
   },
   {
+    id: 71,
     name: 'こむぎ　［即席めん類］　即席中華めん　油揚げ味付け',
     protein: 1785,
     carbohydrate: 424,
@@ -570,6 +641,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.1,
   },
   {
+    id: 72,
     name: 'こむぎ　［即席めん類］　即席中華めん　油揚げ　乾　（添付調味料等を含むもの）',
     protein: 1847,
     carbohydrate: 439,
@@ -578,6 +650,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.1,
   },
   {
+    id: 73,
     name: 'こむぎ　［即席めん類］　即席中華めん　油揚げ　調理後全体　（添付調味料等を含むもの）',
     protein: 421,
     carbohydrate: 100,
@@ -586,6 +659,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 74,
     name: 'こむぎ　［即席めん類］　即席中華めん　油揚げ　ゆで　（添付調味料等を含まないもの）',
     protein: 793,
     carbohydrate: 189,
@@ -594,6 +668,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.9,
   },
   {
+    id: 75,
     name: 'こむぎ　［即席めん類］　即席中華めん　油揚げ　乾　（添付調味料等を含まないもの）',
     protein: 1902,
     carbohydrate: 453,
@@ -602,6 +677,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.9,
   },
   {
+    id: 76,
     name: 'こむぎ　［即席めん類］　即席中華めん　非油揚げ　乾　（添付調味料等を含むもの）',
     protein: 1426,
     carbohydrate: 336,
@@ -610,6 +686,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.3,
   },
   {
+    id: 77,
     name: 'こむぎ　［即席めん類］　即席中華めん　非油揚げ　調理後全体　（添付調味料等を含むもの）',
     protein: 392,
     carbohydrate: 93,
@@ -618,6 +695,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.0,
   },
   {
+    id: 78,
     name: 'こむぎ　［即席めん類］　即席中華めん　非油揚げ　ゆで　（添付調味料等を含まないもの）',
     protein: 588,
     carbohydrate: 139,
@@ -626,6 +704,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.4,
   },
   {
+    id: 79,
     name: 'こむぎ　［即席めん類］　即席中華めん　非油揚げ　乾　（添付調味料等を含まないもの）',
     protein: 1419,
     carbohydrate: 334,
@@ -634,6 +713,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.5,
   },
   {
+    id: 80,
     name: 'こむぎ　［即席めん類］　中華スタイル即席カップめん　油揚げ　塩味　乾　（添付調味料等を含むもの）',
     protein: 1772,
     carbohydrate: 422,
@@ -642,6 +722,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.9,
   },
   {
+    id: 81,
     name: 'こむぎ　［即席めん類］　中華スタイル即席カップめん　油揚げ　塩味　調理後全体　（添付調味料等を含むもの）',
     protein: 386,
     carbohydrate: 92,
@@ -650,6 +731,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.5,
   },
   {
+    id: 82,
     name: 'こむぎ　［即席めん類］　中華スタイル即席カップめん　油揚げ　塩味　調理後のめん　（スープを残したもの）',
     protein: 735,
     carbohydrate: 175,
@@ -658,6 +740,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.8,
   },
   {
+    id: 83,
     name: 'こむぎ　［即席めん類］　中華スタイル即席カップめん　油揚げ　しょうゆ味　乾　（添付調味料等を含むもの）',
     protein: 1748,
     carbohydrate: 417,
@@ -666,6 +749,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.0,
   },
   {
+    id: 84,
     name: 'こむぎ　［即席めん類］　中華スタイル即席カップめん　油揚げ　しょうゆ味　調理後全体　（添付調味料等を含むもの）',
     protein: 374,
     carbohydrate: 90,
@@ -674,6 +758,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 85,
     name: 'こむぎ　［即席めん類］　中華スタイル即席カップめん　油揚げ　しょうゆ味　調理後のめん　（スープを残したもの）',
     protein: 596,
     carbohydrate: 142,
@@ -682,6 +767,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.0,
   },
   {
+    id: 86,
     name: 'こむぎ　［即席めん類］　中華スタイル即席カップめん　油揚げ　焼きそば　乾　（添付調味料等を含むもの）',
     protein: 1757,
     carbohydrate: 418,
@@ -690,6 +776,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.2,
   },
   {
+    id: 87,
     name: 'こむぎ　［即席めん類］　中華スタイル即席カップめん　油揚げ　焼きそば　調理後全体　（添付調味料等を含むもの）',
     protein: 929,
     carbohydrate: 222,
@@ -698,6 +785,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.0,
   },
   {
+    id: 88,
     name: 'こむぎ　［即席めん類］　中華スタイル即席カップめん　非油揚げ　乾　（添付調味料等を含むもの）',
     protein: 1326,
     carbohydrate: 314,
@@ -706,6 +794,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.2,
   },
   {
+    id: 89,
     name: 'こむぎ　［即席めん類］　中華スタイル即席カップめん　非油揚げ　調理後全体　（添付調味料等を含むもの）',
     protein: 277,
     carbohydrate: 66,
@@ -714,6 +803,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.5,
   },
   {
+    id: 90,
     name: 'こむぎ　［即席めん類］　中華スタイル即席カップめん　非油揚げ　調理後のめん　（スープを残したもの）',
     protein: 514,
     carbohydrate: 121,
@@ -722,6 +812,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.4,
   },
   {
+    id: 91,
     name: 'こむぎ　［即席めん類］　和風スタイル即席カップめん　油揚げ　乾　（添付調味料等を含むもの）',
     protein: 1835,
     carbohydrate: 437,
@@ -730,6 +821,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.9,
   },
   {
+    id: 92,
     name: 'こむぎ　［即席めん類］　和風スタイル即席カップめん　油揚げ　調理後全体　（添付調味料等を含むもの）',
     protein: 382,
     carbohydrate: 91,
@@ -738,6 +830,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 93,
     name: 'こむぎ　［即席めん類］　和風スタイル即席カップめん　油揚げ　調理後のめん　（スープを残したもの）',
     protein: 683,
     carbohydrate: 163,
@@ -746,6 +839,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 94,
     name: 'こむぎ　［マカロニ・スパゲッティ類］　マカロニ・スパゲッティ　乾',
     protein: 1476,
     carbohydrate: 347,
@@ -754,6 +848,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.9,
   },
   {
+    id: 95,
     name: 'こむぎ　［マカロニ・スパゲッティ類］　マカロニ・スパゲッティ　ゆで',
     protein: 636,
     carbohydrate: 150,
@@ -762,6 +857,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.8,
   },
   {
+    id: 96,
     name: 'こむぎ　［マカロニ・スパゲッティ類］　マカロニ・スパゲッティ　ソテー',
     protein: 785,
     carbohydrate: 186,
@@ -770,6 +866,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.5,
   },
   {
+    id: 97,
     name: 'こむぎ　［マカロニ・スパゲッティ類］　生パスタ　生',
     protein: 982,
     carbohydrate: 232,
@@ -778,6 +875,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.8,
   },
   {
+    id: 98,
     name: 'こむぎ　［ふ類］　生ふ',
     protein: 684,
     carbohydrate: 161,
@@ -786,6 +884,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.7,
   },
   {
+    id: 99,
     name: 'こむぎ　［ふ類］　焼きふ　釜焼きふ',
     protein: 1511,
     carbohydrate: 357,
@@ -794,6 +893,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 28.5,
   },
   {
+    id: 100,
     name: 'こむぎ　［ふ類］　焼きふ　板ふ',
     protein: 1488,
     carbohydrate: 351,
@@ -802,6 +902,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 25.6,
   },
   {
+    id: 101,
     name: 'こむぎ　［ふ類］　焼きふ　車ふ',
     protein: 1528,
     carbohydrate: 361,
@@ -810,6 +911,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 30.2,
   },
   {
+    id: 102,
     name: 'こむぎ　［ふ類］　油ふ',
     protein: 2279,
     carbohydrate: 547,
@@ -818,6 +920,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 22.7,
   },
   {
+    id: 103,
     name: 'こむぎ　［その他］　小麦はいが',
     protein: 1642,
     carbohydrate: 391,
@@ -826,6 +929,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 32.0,
   },
   {
+    id: 104,
     name: 'こむぎ　［その他］　小麦たんぱく　粉末状',
     protein: 1682,
     carbohydrate: 398,
@@ -834,6 +938,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 72.0,
   },
   {
+    id: 105,
     name: 'こむぎ　［その他］　小麦たんぱく　粒状',
     protein: 429,
     carbohydrate: 101,
@@ -842,6 +947,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 20.0,
   },
   {
+    id: 106,
     name: 'こむぎ　［その他］　小麦たんぱく　ペースト状',
     protein: 613,
     carbohydrate: 145,
@@ -850,6 +956,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 25.0,
   },
   {
+    id: 107,
     name: 'こむぎ　［その他］　かやきせんべい',
     protein: 1525,
     carbohydrate: 359,
@@ -858,6 +965,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.6,
   },
   {
+    id: 108,
     name: 'こむぎ　［その他］　ぎょうざの皮　生',
     protein: 1172,
     carbohydrate: 275,
@@ -866,6 +974,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.3,
   },
   {
+    id: 109,
     name: 'こむぎ　［その他］　しゅうまいの皮　生',
     protein: 1169,
     carbohydrate: 275,
@@ -874,6 +983,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.3,
   },
   {
+    id: 110,
     name: 'こむぎ　［その他］　春巻きの皮　生',
     protein: 1218,
     carbohydrate: 288,
@@ -882,6 +992,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.3,
   },
   {
+    id: 111,
     name: 'こむぎ　［その他］　春巻きの皮　揚げ',
     protein: 2135,
     carbohydrate: 512,
@@ -890,6 +1001,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.2,
   },
   {
+    id: 112,
     name: 'こむぎ　［その他］　ピザ生地',
     protein: 1124,
     carbohydrate: 265,
@@ -898,6 +1010,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.1,
   },
   {
+    id: 113,
     name: 'こむぎ　［その他］　ちくわぶ',
     protein: 677,
     carbohydrate: 160,
@@ -906,6 +1019,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.1,
   },
   {
+    id: 114,
     name: 'こむぎ　［その他］　パン粉　生',
     protein: 1173,
     carbohydrate: 277,
@@ -914,6 +1028,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 11.0,
   },
   {
+    id: 115,
     name: 'こむぎ　［その他］　パン粉　半生',
     protein: 1336,
     carbohydrate: 315,
@@ -922,6 +1037,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.5,
   },
   {
+    id: 116,
     name: 'こむぎ　［その他］　パン粉　乾燥',
     protein: 1479,
     carbohydrate: 349,
@@ -930,6 +1046,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 14.9,
   },
   {
+    id: 117,
     name: 'こむぎ　［その他］　冷めん　生',
     protein: 1058,
     carbohydrate: 249,
@@ -938,6 +1055,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.9,
   },
   {
+    id: 118,
     name: 'こめ　［水稲穀粒］　玄米',
     protein: 1472,
     carbohydrate: 346,
@@ -946,6 +1064,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.8,
   },
   {
+    id: 119,
     name: 'こめ　［水稲穀粒］　半つき米',
     protein: 1470,
     carbohydrate: 345,
@@ -954,6 +1073,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.5,
   },
   {
+    id: 120,
     name: 'こめ　［水稲穀粒］　七分つき米',
     protein: 1483,
     carbohydrate: 348,
@@ -962,6 +1082,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.3,
   },
   {
+    id: 121,
     name: 'こめ　［水稲穀粒］　精白米　うるち米',
     protein: 1455,
     carbohydrate: 342,
@@ -970,6 +1091,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.1,
   },
   {
+    id: 122,
     name: 'こめ　［水稲穀粒］　精白米　もち米',
     protein: 1455,
     carbohydrate: 343,
@@ -978,6 +1100,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.4,
   },
   {
+    id: 123,
     name: 'こめ　［水稲穀粒］　精白米　インディカ米',
     protein: 1472,
     carbohydrate: 347,
@@ -986,6 +1109,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.4,
   },
   {
+    id: 124,
     name: 'こめ　［水稲穀粒］　はいが精米',
     protein: 1460,
     carbohydrate: 343,
@@ -994,6 +1118,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.5,
   },
   {
+    id: 125,
     name: 'こめ　［水稲穀粒］　発芽玄米',
     protein: 1440,
     carbohydrate: 339,
@@ -1002,6 +1127,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.5,
   },
   {
+    id: 126,
     name: 'こめ　［水稲穀粒］　赤米',
     protein: 1460,
     carbohydrate: 344,
@@ -1010,6 +1136,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.5,
   },
   {
+    id: 127,
     name: 'こめ　［水稲穀粒］　黒米',
     protein: 1447,
     carbohydrate: 341,
@@ -1018,6 +1145,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.8,
   },
   {
+    id: 128,
     name: 'こめ　［水稲めし］　玄米',
     protein: 647,
     carbohydrate: 152,
@@ -1026,6 +1154,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.8,
   },
   {
+    id: 129,
     name: 'こめ　［水稲めし］　半つき米',
     protein: 654,
     carbohydrate: 154,
@@ -1034,6 +1163,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 130,
     name: 'こめ　［水稲めし］　七分つき米',
     protein: 681,
     carbohydrate: 160,
@@ -1042,6 +1172,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.6,
   },
   {
+    id: 131,
     name: 'こめ　［水稲めし］　精白米　インディカ米',
     protein: 781,
     carbohydrate: 184,
@@ -1050,6 +1181,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.8,
   },
   {
+    id: 132,
     name: 'こめ　［水稲めし］　精白米　うるち米',
     protein: 663,
     carbohydrate: 156,
@@ -1058,6 +1190,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.5,
   },
   {
+    id: 133,
     name: 'こめ　［水稲めし］　精白米　もち米',
     protein: 801,
     carbohydrate: 188,
@@ -1066,6 +1199,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.5,
   },
   {
+    id: 134,
     name: 'こめ　［水稲めし］　はいが精米',
     protein: 679,
     carbohydrate: 159,
@@ -1074,6 +1208,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 135,
     name: 'こめ　［水稲めし］　発芽玄米',
     protein: 680,
     carbohydrate: 161,
@@ -1082,6 +1217,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.0,
   },
   {
+    id: 136,
     name: 'こめ　［水稲めし］　赤米',
     protein: 636,
     carbohydrate: 150,
@@ -1090,6 +1226,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.8,
   },
   {
+    id: 137,
     name: 'こめ　［水稲めし］　黒米',
     protein: 634,
     carbohydrate: 150,
@@ -1098,6 +1235,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.6,
   },
   {
+    id: 138,
     name: 'こめ　［水稲軟めし］　精白米',
     protein: 482,
     carbohydrate: 113,
@@ -1106,6 +1244,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.8,
   },
   {
+    id: 139,
     name: 'こめ　［水稲全かゆ］　玄米',
     protein: 274,
     carbohydrate: 64,
@@ -1114,6 +1253,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.2,
   },
   {
+    id: 140,
     name: 'こめ　［水稲全かゆ］　半つき米',
     protein: 278,
     carbohydrate: 65,
@@ -1122,6 +1262,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 141,
     name: 'こめ　［水稲全かゆ］　七分つき米',
     protein: 289,
     carbohydrate: 68,
@@ -1130,6 +1271,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 142,
     name: 'こめ　［水稲全かゆ］　精白米',
     protein: 278,
     carbohydrate: 65,
@@ -1138,6 +1280,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 143,
     name: 'こめ　［水稲五分かゆ］　玄米',
     protein: 137,
     carbohydrate: 32,
@@ -1146,6 +1289,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 144,
     name: 'こめ　［水稲五分かゆ］　半つき米',
     protein: 138,
     carbohydrate: 32,
@@ -1154,6 +1298,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 145,
     name: 'こめ　［水稲五分かゆ］　七分つき米',
     protein: 138,
     carbohydrate: 32,
@@ -1162,6 +1307,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 146,
     name: 'こめ　［水稲五分かゆ］　精白米',
     protein: 141,
     carbohydrate: 33,
@@ -1170,6 +1316,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.5,
   },
   {
+    id: 147,
     name: 'こめ　［水稲おもゆ］　玄米',
     protein: 81,
     carbohydrate: 19,
@@ -1178,6 +1325,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.4,
   },
   {
+    id: 148,
     name: 'こめ　［水稲おもゆ］　半つき米',
     protein: 82,
     carbohydrate: 19,
@@ -1186,6 +1334,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.3,
   },
   {
+    id: 149,
     name: 'こめ　［水稲おもゆ］　七分つき米',
     protein: 87,
     carbohydrate: 20,
@@ -1194,6 +1343,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.3,
   },
   {
+    id: 150,
     name: 'こめ　［水稲おもゆ］　精白米',
     protein: 80,
     carbohydrate: 19,
@@ -1202,6 +1352,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.3,
   },
   {
+    id: 151,
     name: 'こめ　［陸稲穀粒］　玄米',
     protein: 1517,
     carbohydrate: 357,
@@ -1210,6 +1361,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.1,
   },
   {
+    id: 152,
     name: 'こめ　［陸稲穀粒］　半つき米',
     protein: 1514,
     carbohydrate: 356,
@@ -1218,6 +1370,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.6,
   },
   {
+    id: 153,
     name: 'こめ　［陸稲穀粒］　七分つき米',
     protein: 1528,
     carbohydrate: 359,
@@ -1226,6 +1379,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.5,
   },
   {
+    id: 154,
     name: 'こめ　［陸稲穀粒］　精白米',
     protein: 1409,
     carbohydrate: 331,
@@ -1234,6 +1388,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.3,
   },
   {
+    id: 155,
     name: 'こめ　［陸稲めし］　玄米',
     protein: 665,
     carbohydrate: 156,
@@ -1242,6 +1397,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.1,
   },
   {
+    id: 156,
     name: 'こめ　［陸稲めし］　半つき米',
     protein: 669,
     carbohydrate: 157,
@@ -1250,6 +1406,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.8,
   },
   {
+    id: 157,
     name: 'こめ　［陸稲めし］　七分つき米',
     protein: 660,
     carbohydrate: 155,
@@ -1258,6 +1415,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.6,
   },
   {
+    id: 158,
     name: 'こめ　［陸稲めし］　精白米',
     protein: 670,
     carbohydrate: 157,
@@ -1266,6 +1424,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.5,
   },
   {
+    id: 159,
     name: 'こめ　［うるち米製品］　アルファ化米　一般用',
     protein: 1527,
     carbohydrate: 358,
@@ -1274,6 +1433,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.0,
   },
   {
+    id: 160,
     name: 'こめ　［うるち米製品］　アルファ化米　学校給食用強化品',
     protein: 1527,
     carbohydrate: 358,
@@ -1282,6 +1442,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.0,
   },
   {
+    id: 161,
     name: 'こめ　［うるち米製品］　水稲全かゆ　レトルト　玄米',
     protein: 190,
     carbohydrate: 45,
@@ -1290,6 +1451,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 162,
     name: 'こめ　［うるち米製品］　水稲全かゆ　レトルト　精白米',
     protein: 157,
     carbohydrate: 37,
@@ -1298,6 +1460,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 163,
     name: 'こめ　［うるち米製品］　おにぎり',
     protein: 723,
     carbohydrate: 170,
@@ -1306,6 +1469,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 164,
     name: 'こめ　［うるち米製品］　焼きおにぎり',
     protein: 709,
     carbohydrate: 166,
@@ -1314,6 +1478,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.1,
   },
   {
+    id: 165,
     name: 'こめ　［うるち米製品］　きりたんぽ',
     protein: 850,
     carbohydrate: 200,
@@ -1322,6 +1487,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.2,
   },
   {
+    id: 166,
     name: 'こめ　［うるち米製品］　上新粉',
     protein: 1464,
     carbohydrate: 343,
@@ -1330,6 +1496,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.2,
   },
   {
+    id: 167,
     name: 'こめ　［うるち米製品］　玄米粉',
     protein: 1572,
     carbohydrate: 370,
@@ -1338,6 +1505,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.1,
   },
   {
+    id: 168,
     name: 'こめ　［うるち米製品］　米粉',
     protein: 1512,
     carbohydrate: 356,
@@ -1346,6 +1514,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.0,
   },
   {
+    id: 169,
     name: 'こめ　［うるち米製品］　米粉パン　食パン',
     protein: 1043,
     carbohydrate: 247,
@@ -1354,6 +1523,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.7,
   },
   {
+    id: 170,
     name: 'こめ　［うるち米製品］　米粉パン　ロールパン',
     protein: 1081,
     carbohydrate: 256,
@@ -1362,6 +1532,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.8,
   },
   {
+    id: 171,
     name: 'こめ　［うるち米製品］　米粉パン　小麦グルテン不使用のもの',
     protein: 1048,
     carbohydrate: 247,
@@ -1370,6 +1541,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.4,
   },
   {
+    id: 172,
     name: 'こめ　［うるち米製品］　米粉めん',
     protein: 1069,
     carbohydrate: 252,
@@ -1378,6 +1550,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.6,
   },
   {
+    id: 173,
     name: 'こめ　［うるち米製品］　ビーフン',
     protein: 1526,
     carbohydrate: 360,
@@ -1386,6 +1559,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.0,
   },
   {
+    id: 174,
     name: 'こめ　［うるち米製品］　ライスペーパー',
     protein: 1442,
     carbohydrate: 339,
@@ -1394,6 +1568,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.5,
   },
   {
+    id: 175,
     name: 'こめ　［うるち米製品］　米こうじ',
     protein: 1106,
     carbohydrate: 260,
@@ -1402,6 +1577,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.8,
   },
   {
+    id: 176,
     name: 'こめ　［もち米製品］　もち',
     protein: 947,
     carbohydrate: 223,
@@ -1410,6 +1586,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.0,
   },
   {
+    id: 177,
     name: 'こめ　［もち米製品］　赤飯',
     protein: 790,
     carbohydrate: 186,
@@ -1418,6 +1595,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.3,
   },
   {
+    id: 178,
     name: 'こめ　［もち米製品］　あくまき',
     protein: 555,
     carbohydrate: 131,
@@ -1426,6 +1604,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 179,
     name: 'こめ　［もち米製品］　白玉粉',
     protein: 1477,
     carbohydrate: 347,
@@ -1434,6 +1613,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.3,
   },
   {
+    id: 180,
     name: 'こめ　［もち米製品］　道明寺粉',
     protein: 1489,
     carbohydrate: 349,
@@ -1442,6 +1622,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.1,
   },
   {
+    id: 181,
     name: 'こめ　［その他］　米ぬか',
     protein: 1556,
     carbohydrate: 374,
@@ -1450,6 +1631,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 13.4,
   },
   {
+    id: 182,
     name: 'そば　そば粉　全層粉',
     protein: 1438,
     carbohydrate: 339,
@@ -1458,6 +1640,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.0,
   },
   {
+    id: 183,
     name: 'そば　そば粉　内層粉',
     protein: 1455,
     carbohydrate: 342,
@@ -1466,6 +1649,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.0,
   },
   {
+    id: 184,
     name: 'そば　そば粉　中層粉',
     protein: 1417,
     carbohydrate: 334,
@@ -1474,6 +1658,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.2,
   },
   {
+    id: 185,
     name: 'そば　そば粉　表層粉',
     protein: 1425,
     carbohydrate: 337,
@@ -1482,6 +1667,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 15.0,
   },
   {
+    id: 186,
     name: 'そば　そば米',
     protein: 1471,
     carbohydrate: 347,
@@ -1490,6 +1676,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.6,
   },
   {
+    id: 187,
     name: 'そば　そば　生',
     protein: 1149,
     carbohydrate: 271,
@@ -1498,6 +1685,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.8,
   },
   {
+    id: 188,
     name: 'そば　そば　ゆで',
     protein: 552,
     carbohydrate: 130,
@@ -1506,6 +1694,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.8,
   },
   {
+    id: 189,
     name: 'そば　そば　半生そば',
     protein: 1378,
     carbohydrate: 325,
@@ -1514,6 +1703,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.5,
   },
   {
+    id: 190,
     name: 'そば　干しそば　乾',
     protein: 1463,
     carbohydrate: 344,
@@ -1522,6 +1712,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 14.0,
   },
   {
+    id: 191,
     name: 'そば　干しそば　ゆで',
     protein: 479,
     carbohydrate: 113,
@@ -1530,6 +1721,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.8,
   },
   {
+    id: 192,
     name: 'とうもろこし　玄穀　黄色種',
     protein: 1441,
     carbohydrate: 341,
@@ -1538,6 +1730,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.6,
   },
   {
+    id: 193,
     name: 'とうもろこし　玄穀　白色種',
     protein: 1441,
     carbohydrate: 341,
@@ -1546,6 +1739,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.6,
   },
   {
+    id: 194,
     name: 'とうもろこし　コーンミール　黄色種',
     protein: 1591,
     carbohydrate: 375,
@@ -1554,6 +1748,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.3,
   },
   {
+    id: 195,
     name: 'とうもろこし　コーンミール　白色種',
     protein: 1591,
     carbohydrate: 375,
@@ -1562,6 +1757,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.3,
   },
   {
+    id: 196,
     name: 'とうもろこし　コーングリッツ　黄色種',
     protein: 1498,
     carbohydrate: 352,
@@ -1570,6 +1766,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.2,
   },
   {
+    id: 197,
     name: 'とうもろこし　コーングリッツ　白色種',
     protein: 1498,
     carbohydrate: 352,
@@ -1578,6 +1775,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.2,
   },
   {
+    id: 198,
     name: 'とうもろこし　コーンフラワー　黄色種',
     protein: 1478,
     carbohydrate: 347,
@@ -1586,6 +1784,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.6,
   },
   {
+    id: 199,
     name: 'とうもろこし　コーンフラワー　白色種',
     protein: 1478,
     carbohydrate: 347,
@@ -1594,6 +1793,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.6,
   },
   {
+    id: 200,
     name: 'とうもろこし　ジャイアントコーン　フライ　味付け',
     protein: 1718,
     carbohydrate: 409,
@@ -1602,6 +1802,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.7,
   },
   {
+    id: 201,
     name: 'とうもろこし　ポップコーン',
     protein: 1979,
     carbohydrate: 472,
@@ -1610,6 +1811,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.2,
   },
   {
+    id: 202,
     name: 'とうもろこし　コーンフレーク',
     protein: 1618,
     carbohydrate: 380,
@@ -1618,6 +1820,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.8,
   },
   {
+    id: 203,
     name: 'はとむぎ　精白粒',
     protein: 1496,
     carbohydrate: 353,
@@ -1626,6 +1829,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 13.3,
   },
   {
+    id: 204,
     name: 'ひえ　精白粒',
     protein: 1534,
     carbohydrate: 361,
@@ -1634,6 +1838,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.4,
   },
   {
+    id: 205,
     name: 'もろこし　玄穀',
     protein: 1454,
     carbohydrate: 344,
@@ -1642,6 +1847,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.3,
   },
   {
+    id: 206,
     name: 'もろこし　精白粒',
     protein: 1473,
     carbohydrate: 348,
@@ -1650,6 +1856,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.5,
   },
   {
+    id: 207,
     name: 'ライむぎ　全粒粉',
     protein: 1342,
     carbohydrate: 317,
@@ -1658,6 +1865,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.7,
   },
   {
+    id: 208,
     name: 'ライむぎ　ライ麦粉',
     protein: 1368,
     carbohydrate: 324,
@@ -1666,6 +1874,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.5,
   },
   {
+    id: 209,
     name: '＜いも類＞　アメリカほどいも　塊根　生',
     protein: 616,
     carbohydrate: 146,
@@ -1674,6 +1883,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.9,
   },
   {
+    id: 210,
     name: '＜いも類＞　アメリカほどいも　塊根　ゆで',
     protein: 609,
     carbohydrate: 144,
@@ -1682,6 +1892,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.0,
   },
   {
+    id: 211,
     name: '＜いも類＞　きくいも　塊茎　生',
     protein: 278,
     carbohydrate: 66,
@@ -1690,6 +1901,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 212,
     name: '＜いも類＞　きくいも　塊茎　水煮',
     protein: 215,
     carbohydrate: 51,
@@ -1698,6 +1910,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 213,
     name: '＜いも類＞　こんにゃく　精粉',
     protein: 786,
     carbohydrate: 194,
@@ -1706,6 +1919,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.0,
   },
   {
+    id: 214,
     name: '＜いも類＞　こんにゃく　板こんにゃく　精粉こんにゃく',
     protein: 21,
     carbohydrate: 5,
@@ -1714,6 +1928,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 215,
     name: '＜いも類＞　こんにゃく　板こんにゃく　生いもこんにゃく',
     protein: 35,
     carbohydrate: 8,
@@ -1722,6 +1937,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 216,
     name: '＜いも類＞　こんにゃく　赤こんにゃく',
     protein: 24,
     carbohydrate: 6,
@@ -1730,6 +1946,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 217,
     name: '＜いも類＞　こんにゃく　凍みこんにゃく　乾',
     protein: 777,
     carbohydrate: 192,
@@ -1738,6 +1955,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.3,
   },
   {
+    id: 218,
     name: '＜いも類＞　こんにゃく　凍みこんにゃく　ゆで',
     protein: 169,
     carbohydrate: 42,
@@ -1746,6 +1964,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 219,
     name: '＜いも類＞　こんにゃく　しらたき',
     protein: 28,
     carbohydrate: 7,
@@ -1754,6 +1973,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.2,
   },
   {
+    id: 220,
     name: '＜いも類＞　（さつまいも類）　さつまいも　塊根　皮つき　生',
     protein: 539,
     carbohydrate: 127,
@@ -1762,6 +1982,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 221,
     name: '＜いも類＞　（さつまいも類）　さつまいも　塊根　皮つき　蒸し',
     protein: 548,
     carbohydrate: 129,
@@ -1770,6 +1991,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 222,
     name: '＜いも類＞　（さつまいも類）　さつまいも　塊根　皮つき　天ぷら',
     protein: 866,
     carbohydrate: 205,
@@ -1778,6 +2000,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 223,
     name: '＜いも類＞　（さつまいも類）　さつまいも　塊根　皮なし　生',
     protein: 536,
     carbohydrate: 126,
@@ -1786,6 +2009,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.2,
   },
   {
+    id: 224,
     name: '＜いも類＞　（さつまいも類）　さつまいも　塊根　皮なし　蒸し',
     protein: 559,
     carbohydrate: 131,
@@ -1794,6 +2018,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.2,
   },
   {
+    id: 225,
     name: '＜いも類＞　（さつまいも類）　さつまいも　塊根　皮なし　焼き',
     protein: 642,
     carbohydrate: 151,
@@ -1802,6 +2027,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 226,
     name: '＜いも類＞　（さつまいも類）　さつまいも　蒸し切干',
     protein: 1179,
     carbohydrate: 277,
@@ -1810,6 +2036,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.1,
   },
   {
+    id: 227,
     name: '＜いも類＞　（さつまいも類）　むらさきいも　塊根　皮なし　生',
     protein: 522,
     carbohydrate: 123,
@@ -1818,6 +2045,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.2,
   },
   {
+    id: 228,
     name: '＜いも類＞　（さつまいも類）　むらさきいも　塊根　皮なし　蒸し',
     protein: 519,
     carbohydrate: 122,
@@ -1826,6 +2054,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.2,
   },
   {
+    id: 229,
     name: '＜いも類＞　（さといも類）　さといも　球茎　生',
     protein: 227,
     carbohydrate: 53,
@@ -1834,6 +2063,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 230,
     name: '＜いも類＞　（さといも類）　さといも　球茎　水煮',
     protein: 221,
     carbohydrate: 52,
@@ -1842,6 +2072,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 231,
     name: '＜いも類＞　（さといも類）　さといも　球茎　冷凍',
     protein: 233,
     carbohydrate: 56,
@@ -1850,6 +2081,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 232,
     name: '＜いも類＞　（さといも類）　セレベス　球茎　生',
     protein: 338,
     carbohydrate: 80,
@@ -1858,6 +2090,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 233,
     name: '＜いも類＞　（さといも類）　セレベス　球茎　水煮',
     protein: 326,
     carbohydrate: 77,
@@ -1866,6 +2099,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.1,
   },
   {
+    id: 234,
     name: '＜いも類＞　（さといも類）　たけのこいも　球茎　生',
     protein: 411,
     carbohydrate: 97,
@@ -1874,6 +2108,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.7,
   },
   {
+    id: 235,
     name: '＜いも類＞　（さといも類）　たけのこいも　球茎　水煮',
     protein: 363,
     carbohydrate: 86,
@@ -1882,6 +2117,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 236,
     name: '＜いも類＞　（さといも類）　みずいも　球茎　生',
     protein: 470,
     carbohydrate: 111,
@@ -1890,6 +2126,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 237,
     name: '＜いも類＞　（さといも類）　みずいも　球茎　水煮',
     protein: 428,
     carbohydrate: 101,
@@ -1898,6 +2135,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 238,
     name: '＜いも類＞　（さといも類）　やつがしら　球茎　生',
     protein: 398,
     carbohydrate: 94,
@@ -1906,6 +2144,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.0,
   },
   {
+    id: 239,
     name: '＜いも類＞　（さといも類）　やつがしら　球茎　水煮',
     protein: 392,
     carbohydrate: 92,
@@ -1914,6 +2153,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 240,
     name: '＜いも類＞　じゃがいも　塊茎　皮つき　生',
     protein: 213,
     carbohydrate: 51,
@@ -1922,6 +2162,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.8,
   },
   {
+    id: 241,
     name: '＜いも類＞　じゃがいも　塊茎　皮つき　電子レンジ調理',
     protein: 331,
     carbohydrate: 78,
@@ -1930,6 +2171,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.1,
   },
   {
+    id: 242,
     name: '＜いも類＞　じゃがいも　塊茎　皮つき　フライドポテト　（生を揚げたもの）',
     protein: 641,
     carbohydrate: 153,
@@ -1938,6 +2180,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 243,
     name: '＜いも類＞　じゃがいも　塊茎　皮なし　生',
     protein: 245,
     carbohydrate: 59,
@@ -1946,6 +2189,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.8,
   },
   {
+    id: 244,
     name: '＜いも類＞　じゃがいも　塊茎　皮なし　水煮',
     protein: 301,
     carbohydrate: 71,
@@ -1954,6 +2198,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.7,
   },
   {
+    id: 245,
     name: '＜いも類＞　じゃがいも　塊茎　皮なし　蒸し',
     protein: 322,
     carbohydrate: 76,
@@ -1962,6 +2207,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 246,
     name: '＜いも類＞　じゃがいも　塊茎　皮なし　電子レンジ調理',
     protein: 329,
     carbohydrate: 78,
@@ -1970,6 +2216,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 247,
     name: '＜いも類＞　じゃがいも　塊茎　皮なし　フライドポテト　（生を揚げたもの）',
     protein: 668,
     carbohydrate: 159,
@@ -1978,6 +2225,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 248,
     name: '＜いも類＞　じゃがいも　塊茎　皮なし　フライドポテト　（市販冷凍食品を揚げたもの）',
     protein: 958,
     carbohydrate: 229,
@@ -1986,6 +2234,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.9,
   },
   {
+    id: 249,
     name: '＜いも類＞　じゃがいも　乾燥マッシュポテト',
     protein: 1470,
     carbohydrate: 347,
@@ -1994,6 +2243,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.6,
   },
   {
+    id: 250,
     name: '＜いも類＞　ヤーコン　塊根　生',
     protein: 221,
     carbohydrate: 52,
@@ -2002,6 +2252,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 251,
     name: '＜いも類＞　ヤーコン　塊根　水煮',
     protein: 177,
     carbohydrate: 42,
@@ -2010,6 +2261,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 252,
     name: '＜いも類＞　（やまのいも類）　ながいも　いちょういも　塊根　生',
     protein: 458,
     carbohydrate: 108,
@@ -2018,6 +2270,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.5,
   },
   {
+    id: 253,
     name: '＜いも類＞　（やまのいも類）　ながいも　ながいも　塊根　生',
     protein: 273,
     carbohydrate: 64,
@@ -2026,6 +2279,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 254,
     name: '＜いも類＞　（やまのいも類）　ながいも　ながいも　塊根　水煮',
     protein: 247,
     carbohydrate: 58,
@@ -2034,6 +2288,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.0,
   },
   {
+    id: 255,
     name: '＜いも類＞　（やまのいも類）　ながいも　やまといも　塊根　生',
     protein: 504,
     carbohydrate: 119,
@@ -2042,6 +2297,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.5,
   },
   {
+    id: 256,
     name: '＜いも類＞　（やまのいも類）　じねんじょ　塊根　生',
     protein: 498,
     carbohydrate: 118,
@@ -2050,6 +2306,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.8,
   },
   {
+    id: 257,
     name: '＜いも類＞　（やまのいも類）　だいじょ　塊根　生',
     protein: 434,
     carbohydrate: 102,
@@ -2058,6 +2315,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.6,
   },
   {
+    id: 258,
     name: '＜でん粉・でん粉製品＞　（でん粉類）　おおうばゆりでん粉',
     protein: 1396,
     carbohydrate: 327,
@@ -2066,6 +2324,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 259,
     name: '＜でん粉・でん粉製品＞　（でん粉類）　キャッサバでん粉',
     protein: 1510,
     carbohydrate: 354,
@@ -2074,6 +2333,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 260,
     name: '＜でん粉・でん粉製品＞　（でん粉類）　くずでん粉',
     protein: 1517,
     carbohydrate: 356,
@@ -2082,6 +2342,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.2,
   },
   {
+    id: 261,
     name: '＜でん粉・でん粉製品＞　（でん粉類）　米でん粉',
     protein: 1601,
     carbohydrate: 375,
@@ -2090,6 +2351,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.2,
   },
   {
+    id: 262,
     name: '＜でん粉・でん粉製品＞　（でん粉類）　小麦でん粉',
     protein: 1536,
     carbohydrate: 360,
@@ -2098,6 +2360,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.2,
   },
   {
+    id: 263,
     name: '＜でん粉・でん粉製品＞　（でん粉類）　サゴでん粉',
     protein: 1524,
     carbohydrate: 357,
@@ -2106,6 +2369,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 264,
     name: '＜でん粉・でん粉製品＞　（でん粉類）　さつまいもでん粉',
     protein: 1452,
     carbohydrate: 340,
@@ -2114,6 +2378,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 265,
     name: '＜でん粉・でん粉製品＞　（でん粉類）　じゃがいもでん粉',
     protein: 1442,
     carbohydrate: 338,
@@ -2122,6 +2387,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 266,
     name: '＜でん粉・でん粉製品＞　（でん粉類）　とうもろこしでん粉',
     protein: 1548,
     carbohydrate: 363,
@@ -2130,6 +2396,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 267,
     name: '＜でん粉・でん粉製品＞　（でん粉製品）　くずきり　乾',
     protein: 1452,
     carbohydrate: 341,
@@ -2138,6 +2405,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.2,
   },
   {
+    id: 268,
     name: '＜でん粉・でん粉製品＞　（でん粉製品）　くずきり　ゆで',
     protein: 564,
     carbohydrate: 133,
@@ -2146,6 +2414,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 269,
     name: '＜でん粉・でん粉製品＞　（でん粉製品）　ごま豆腐',
     protein: 315,
     carbohydrate: 75,
@@ -2154,6 +2423,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 270,
     name: '＜でん粉・でん粉製品＞　（でん粉製品）　タピオカパール　乾',
     protein: 1494,
     carbohydrate: 352,
@@ -2162,6 +2432,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 271,
     name: '＜でん粉・でん粉製品＞　（でん粉製品）　タピオカパール　ゆで',
     protein: 260,
     carbohydrate: 61,
@@ -2170,6 +2441,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 272,
     name: '＜でん粉・でん粉製品＞　（でん粉製品）　でん粉めん　生',
     protein: 548,
     carbohydrate: 129,
@@ -2178,6 +2450,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 273,
     name: '＜でん粉・でん粉製品＞　（でん粉製品）　でん粉めん　乾',
     protein: 1473,
     carbohydrate: 347,
@@ -2186,6 +2459,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.2,
   },
   {
+    id: 274,
     name: '＜でん粉・でん粉製品＞　（でん粉製品）　でん粉めん　乾　ゆで',
     protein: 350,
     carbohydrate: 83,
@@ -2194,6 +2468,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 275,
     name: '＜でん粉・でん粉製品＞　（でん粉製品）　はるさめ　緑豆はるさめ　乾',
     protein: 1466,
     carbohydrate: 344,
@@ -2202,6 +2477,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.2,
   },
   {
+    id: 276,
     name: '＜でん粉・でん粉製品＞　（でん粉製品）　はるさめ　緑豆はるさめ　ゆで',
     protein: 331,
     carbohydrate: 78,
@@ -2210,6 +2486,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 277,
     name: '＜でん粉・でん粉製品＞　（でん粉製品）　はるさめ　普通はるさめ　乾',
     protein: 1468,
     carbohydrate: 346,
@@ -2218,6 +2495,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 278,
     name: '＜でん粉・でん粉製品＞　（でん粉製品）　はるさめ　普通はるさめ　ゆで',
     protein: 323,
     carbohydrate: 76,
@@ -2226,6 +2504,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 279,
     name: '（砂糖類）　黒砂糖',
     protein: 1504,
     carbohydrate: 352,
@@ -2234,6 +2513,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.7,
   },
   {
+    id: 280,
     name: '（砂糖類）　てんさい含蜜糖',
     protein: 1517,
     carbohydrate: 357,
@@ -2242,6 +2522,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 281,
     name: '（砂糖類）　和三盆糖',
     protein: 1675,
     carbohydrate: 393,
@@ -2250,6 +2531,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.2,
   },
   {
+    id: 282,
     name: '（砂糖類）　車糖　上白糖',
     protein: 1667,
     carbohydrate: 391,
@@ -2258,6 +2540,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 283,
     name: '（砂糖類）　車糖　三温糖',
     protein: 1662,
     carbohydrate: 390,
@@ -2266,6 +2549,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 284,
     name: '（砂糖類）　ざらめ糖　グラニュー糖',
     protein: 1679,
     carbohydrate: 394,
@@ -2274,6 +2558,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 285,
     name: '（砂糖類）　ざらめ糖　白ざら糖',
     protein: 1678,
     carbohydrate: 393,
@@ -2282,6 +2567,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 286,
     name: '（砂糖類）　ざらめ糖　中ざら糖',
     protein: 1677,
     carbohydrate: 393,
@@ -2290,6 +2576,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 287,
     name: '（砂糖類）　加工糖　角砂糖',
     protein: 1679,
     carbohydrate: 394,
@@ -2298,6 +2585,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 288,
     name: '（砂糖類）　加工糖　氷砂糖',
     protein: 1679,
     carbohydrate: 394,
@@ -2306,6 +2594,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 289,
     name: '（砂糖類）　加工糖　コーヒーシュガー',
     protein: 1680,
     carbohydrate: 394,
@@ -2314,6 +2603,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 290,
     name: '（砂糖類）　加工糖　粉糖',
     protein: 1675,
     carbohydrate: 393,
@@ -2322,6 +2612,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 291,
     name: '（砂糖類）　液糖　しょ糖型液糖',
     protein: 1141,
     carbohydrate: 267,
@@ -2330,6 +2621,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 292,
     name: '（砂糖類）　液糖　転化型液糖',
     protein: 1256,
     carbohydrate: 294,
@@ -2338,6 +2630,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 293,
     name: '（砂糖類）　氷糖みつ',
     protein: 1163,
     carbohydrate: 274,
@@ -2346,6 +2639,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.2,
   },
   {
+    id: 294,
     name: '（でん粉糖類）　還元麦芽糖',
     protein: 873,
     carbohydrate: 208,
@@ -2354,6 +2648,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 295,
     name: '（でん粉糖類）　還元水あめ',
     protein: 882,
     carbohydrate: 210,
@@ -2362,6 +2657,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 296,
     name: '（でん粉糖類）　粉あめ',
     protein: 1694,
     carbohydrate: 397,
@@ -2370,6 +2666,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 297,
     name: '（でん粉糖類）　水あめ　酵素糖化',
     protein: 1461,
     carbohydrate: 342,
@@ -2378,6 +2675,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 298,
     name: '（でん粉糖類）　水あめ　酸糖化',
     protein: 1456,
     carbohydrate: 341,
@@ -2386,6 +2684,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 299,
     name: '（でん粉糖類）　ぶどう糖　全糖',
     protein: 1460,
     carbohydrate: 342,
@@ -2394,6 +2693,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 300,
     name: '（でん粉糖類）　ぶどう糖　含水結晶',
     protein: 1461,
     carbohydrate: 342,
@@ -2402,6 +2702,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 301,
     name: '（でん粉糖類）　ぶどう糖　無水結晶',
     protein: 1595,
     carbohydrate: 374,
@@ -2410,6 +2711,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 302,
     name: '（でん粉糖類）　果糖',
     protein: 1598,
     carbohydrate: 375,
@@ -2418,6 +2720,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 303,
     name: '（でん粉糖類）　異性化液糖　ぶどう糖果糖液糖',
     protein: 1208,
     carbohydrate: 283,
@@ -2426,6 +2729,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 304,
     name: '（でん粉糖類）　異性化液糖　果糖ぶどう糖液糖',
     protein: 1208,
     carbohydrate: 283,
@@ -2434,6 +2738,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 305,
     name: '（でん粉糖類）　異性化液糖　高果糖液糖',
     protein: 1205,
     carbohydrate: 282,
@@ -2442,6 +2747,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 306,
     name: '（その他）　黒蜜',
     protein: 851,
     carbohydrate: 199,
@@ -2450,6 +2756,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 307,
     name: '（その他）　はちみつ',
     protein: 1397,
     carbohydrate: 329,
@@ -2458,6 +2765,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.3,
   },
   {
+    id: 308,
     name: '（その他）　はちみつ　国産品　',
     protein: 1392,
     carbohydrate: 328,
@@ -2466,6 +2774,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 309,
     name: '（その他）　メープルシロップ',
     protein: 1129,
     carbohydrate: 266,
@@ -2474,6 +2783,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.1,
   },
   {
+    id: 310,
     name: 'あずき　全粒　乾',
     protein: 1279,
     carbohydrate: 304,
@@ -2482,6 +2792,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 20.8,
   },
   {
+    id: 311,
     name: 'あずき　全粒　ゆで',
     protein: 523,
     carbohydrate: 124,
@@ -2490,6 +2801,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.6,
   },
   {
+    id: 312,
     name: 'あずき　ゆで小豆缶詰',
     protein: 860,
     carbohydrate: 202,
@@ -2498,6 +2810,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.4,
   },
   {
+    id: 313,
     name: 'あずき　あん　こし生あん',
     protein: 624,
     carbohydrate: 147,
@@ -2506,6 +2819,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.8,
   },
   {
+    id: 314,
     name: 'あずき　あん　さらしあん　（乾燥あん）',
     protein: 1413,
     carbohydrate: 335,
@@ -2514,6 +2828,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 23.5,
   },
   {
+    id: 315,
     name: 'あずき　あん　こし練りあん　（並あん）',
     protein: 1085,
     carbohydrate: 255,
@@ -2522,6 +2837,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.6,
   },
   {
+    id: 316,
     name: 'あずき　あん　こし練りあん　（中割りあん）',
     protein: 1115,
     carbohydrate: 262,
@@ -2530,6 +2846,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.1,
   },
   {
+    id: 317,
     name: 'あずき　あん　こし練りあん　（もなかあん）',
     protein: 1241,
     carbohydrate: 292,
@@ -2538,6 +2855,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.1,
   },
   {
+    id: 318,
     name: 'あずき　あん　つぶし生あん',
     protein: 484,
     carbohydrate: 115,
@@ -2546,6 +2864,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.6,
   },
   {
+    id: 319,
     name: 'あずき　あん　つぶし練りあん',
     protein: 1014,
     carbohydrate: 239,
@@ -2554,6 +2873,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.6,
   },
   {
+    id: 320,
     name: 'いんげんまめ　全粒　乾',
     protein: 1180,
     carbohydrate: 280,
@@ -2562,6 +2882,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 22.1,
   },
   {
+    id: 321,
     name: 'いんげんまめ　全粒　ゆで',
     protein: 535,
     carbohydrate: 127,
@@ -2570,6 +2891,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.3,
   },
   {
+    id: 322,
     name: 'いんげんまめ　うずら豆',
     protein: 908,
     carbohydrate: 214,
@@ -2578,6 +2900,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.7,
   },
   {
+    id: 323,
     name: 'いんげんまめ　こし生あん',
     protein: 568,
     carbohydrate: 135,
@@ -2586,6 +2909,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.4,
   },
   {
+    id: 324,
     name: 'いんげんまめ　豆きんとん',
     protein: 1010,
     carbohydrate: 238,
@@ -2594,6 +2918,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.9,
   },
   {
+    id: 325,
     name: 'えんどう　全粒　青えんどう　乾',
     protein: 1307,
     carbohydrate: 310,
@@ -2602,6 +2927,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 21.7,
   },
   {
+    id: 326,
     name: 'えんどう　全粒　青えんどう　ゆで',
     protein: 545,
     carbohydrate: 129,
@@ -2610,6 +2936,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.2,
   },
   {
+    id: 327,
     name: 'えんどう　全粒　赤えんどう　乾',
     protein: 1307,
     carbohydrate: 310,
@@ -2618,6 +2945,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 21.7,
   },
   {
+    id: 328,
     name: 'えんどう　全粒　赤えんどう　ゆで',
     protein: 545,
     carbohydrate: 129,
@@ -2626,6 +2954,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.2,
   },
   {
+    id: 329,
     name: 'えんどう　グリンピース（揚げ豆）',
     protein: 1570,
     carbohydrate: 375,
@@ -2634,6 +2963,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 20.8,
   },
   {
+    id: 330,
     name: 'えんどう　塩豆',
     protein: 1355,
     carbohydrate: 321,
@@ -2642,6 +2972,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 23.3,
   },
   {
+    id: 331,
     name: 'えんどう　うぐいす豆',
     protein: 965,
     carbohydrate: 228,
@@ -2650,6 +2981,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.6,
   },
   {
+    id: 332,
     name: 'えんどう　うぐいすあん',
     protein: 936,
     carbohydrate: 221,
@@ -2658,6 +2990,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.4,
   },
   {
+    id: 333,
     name: 'ささげ　全粒　乾',
     protein: 1182,
     carbohydrate: 280,
@@ -2666,6 +2999,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 23.9,
   },
   {
+    id: 334,
     name: 'ささげ　全粒　ゆで',
     protein: 547,
     carbohydrate: 130,
@@ -2674,6 +3008,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.2,
   },
   {
+    id: 335,
     name: 'そらまめ　全粒　乾',
     protein: 1368,
     carbohydrate: 323,
@@ -2682,6 +3017,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 26.0,
   },
   {
+    id: 336,
     name: 'そらまめ　フライビーンズ',
     protein: 1820,
     carbohydrate: 436,
@@ -2690,6 +3026,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 24.7,
   },
   {
+    id: 337,
     name: 'そらまめ　おたふく豆',
     protein: 1002,
     carbohydrate: 237,
@@ -2698,6 +3035,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.9,
   },
   {
+    id: 338,
     name: 'そらまめ　ふき豆',
     protein: 1065,
     carbohydrate: 251,
@@ -2706,6 +3044,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.6,
   },
   {
+    id: 339,
     name: 'そらまめ　しょうゆ豆',
     protein: 731,
     carbohydrate: 173,
@@ -2714,6 +3053,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.8,
   },
   {
+    id: 340,
     name: 'だいず　［全粒・全粒製品］　全粒　青大豆　国産　乾',
     protein: 1473,
     carbohydrate: 354,
@@ -2722,6 +3062,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 33.5,
   },
   {
+    id: 341,
     name: 'だいず　［全粒・全粒製品］　全粒　青大豆　国産　ゆで',
     protein: 605,
     carbohydrate: 145,
@@ -2730,6 +3071,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 15.0,
   },
   {
+    id: 342,
     name: 'だいず　［全粒・全粒製品］　全粒　黄大豆　国産　乾',
     protein: 1548,
     carbohydrate: 372,
@@ -2738,6 +3080,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 33.8,
   },
   {
+    id: 343,
     name: 'だいず　［全粒・全粒製品］　全粒　黄大豆　国産　ゆで',
     protein: 679,
     carbohydrate: 163,
@@ -2746,6 +3089,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 14.8,
   },
   {
+    id: 344,
     name: 'だいず　［全粒・全粒製品］　全粒　黄大豆　米国産　乾',
     protein: 1674,
     carbohydrate: 402,
@@ -2754,6 +3098,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 33.0,
   },
   {
+    id: 345,
     name: 'だいず　［全粒・全粒製品］　全粒　黄大豆　中国産　乾',
     protein: 1630,
     carbohydrate: 391,
@@ -2762,6 +3107,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 32.8,
   },
   {
+    id: 346,
     name: 'だいず　［全粒・全粒製品］　全粒　黄大豆　ブラジル産　乾',
     protein: 1725,
     carbohydrate: 414,
@@ -2770,6 +3116,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 33.6,
   },
   {
+    id: 347,
     name: 'だいず　［全粒・全粒製品］　全粒　黒大豆　国産　乾',
     protein: 1452,
     carbohydrate: 349,
@@ -2778,6 +3125,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 33.9,
   },
   {
+    id: 348,
     name: 'だいず　［全粒・全粒製品］　全粒　黒大豆　国産　ゆで',
     protein: 642,
     carbohydrate: 155,
@@ -2786,6 +3134,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 14.7,
   },
   {
+    id: 349,
     name: 'だいず　［全粒・全粒製品］　いり大豆　青大豆',
     protein: 1774,
     carbohydrate: 425,
@@ -2794,6 +3143,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 37.7,
   },
   {
+    id: 350,
     name: 'だいず　［全粒・全粒製品］　いり大豆　黄大豆',
     protein: 1788,
     carbohydrate: 429,
@@ -2802,6 +3152,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 37.5,
   },
   {
+    id: 351,
     name: 'だいず　［全粒・全粒製品］　いり大豆　黒大豆',
     protein: 1796,
     carbohydrate: 431,
@@ -2810,6 +3161,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 36.4,
   },
   {
+    id: 352,
     name: 'だいず　［全粒・全粒製品］　水煮缶詰　黄大豆',
     protein: 514,
     carbohydrate: 124,
@@ -2818,6 +3170,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.9,
   },
   {
+    id: 353,
     name: 'だいず　［全粒・全粒製品］　蒸し大豆　黄大豆',
     protein: 772,
     carbohydrate: 186,
@@ -2826,6 +3179,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 16.6,
   },
   {
+    id: 354,
     name: 'だいず　［全粒・全粒製品］　きな粉　青大豆　全粒大豆',
     protein: 1769,
     carbohydrate: 424,
@@ -2834,6 +3188,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 37.0,
   },
   {
+    id: 355,
     name: 'だいず　［全粒・全粒製品］　きな粉　青大豆　脱皮大豆',
     protein: 1736,
     carbohydrate: 418,
@@ -2842,6 +3197,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 36.6,
   },
   {
+    id: 356,
     name: 'だいず　［全粒・全粒製品］　きな粉　黄大豆　全粒大豆',
     protein: 1877,
     carbohydrate: 451,
@@ -2850,6 +3206,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 36.7,
   },
   {
+    id: 357,
     name: 'だいず　［全粒・全粒製品］　きな粉　黄大豆　脱皮大豆',
     protein: 1901,
     carbohydrate: 456,
@@ -2858,6 +3215,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 37.5,
   },
   {
+    id: 358,
     name: 'だいず　［全粒・全粒製品］　きな粉（砂糖入り）　青きな粉',
     protein: 1654,
     carbohydrate: 392,
@@ -2866,6 +3224,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 18.5,
   },
   {
+    id: 359,
     name: 'だいず　［全粒・全粒製品］　きな粉（砂糖入り）　きな粉',
     protein: 1711,
     carbohydrate: 406,
@@ -2874,6 +3233,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 18.3,
   },
   {
+    id: 360,
     name: 'だいず　［全粒・全粒製品］　大豆はいが',
     protein: 1689,
     carbohydrate: 404,
@@ -2882,6 +3242,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 37.8,
   },
   {
+    id: 361,
     name: 'だいず　［全粒・全粒製品］　ぶどう豆',
     protein: 1113,
     carbohydrate: 265,
@@ -2890,6 +3251,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 14.1,
   },
   {
+    id: 362,
     name: 'だいず　［豆腐・油揚げ類］　木綿豆腐',
     protein: 304,
     carbohydrate: 73,
@@ -2898,6 +3260,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.0,
   },
   {
+    id: 363,
     name: 'だいず　［豆腐・油揚げ類］　木綿豆腐　（凝固剤：塩化マグネシウム）',
     protein: 304,
     carbohydrate: 73,
@@ -2906,6 +3269,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.0,
   },
   {
+    id: 364,
     name: 'だいず　［豆腐・油揚げ類］　木綿豆腐　（凝固剤：硫酸カルシウム）',
     protein: 304,
     carbohydrate: 73,
@@ -2914,6 +3278,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.0,
   },
   {
+    id: 365,
     name: 'だいず　［豆腐・油揚げ類］　絹ごし豆腐',
     protein: 235,
     carbohydrate: 56,
@@ -2922,6 +3287,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.3,
   },
   {
+    id: 366,
     name: 'だいず　［豆腐・油揚げ類］　絹ごし豆腐　（凝固剤：塩化マグネシウム）',
     protein: 235,
     carbohydrate: 56,
@@ -2930,6 +3296,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.3,
   },
   {
+    id: 367,
     name: 'だいず　［豆腐・油揚げ類］　絹ごし豆腐　（凝固剤：硫酸カルシウム）',
     protein: 235,
     carbohydrate: 56,
@@ -2938,6 +3305,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.3,
   },
   {
+    id: 368,
     name: 'だいず　［豆腐・油揚げ類］　ソフト豆腐',
     protein: 234,
     carbohydrate: 56,
@@ -2946,6 +3314,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.1,
   },
   {
+    id: 369,
     name: 'だいず　［豆腐・油揚げ類］　充てん豆腐',
     protein: 234,
     carbohydrate: 56,
@@ -2954,6 +3323,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.0,
   },
   {
+    id: 370,
     name: 'だいず　［豆腐・油揚げ類］　沖縄豆腐',
     protein: 413,
     carbohydrate: 99,
@@ -2962,6 +3332,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.1,
   },
   {
+    id: 371,
     name: 'だいず　［豆腐・油揚げ類］　ゆし豆腐',
     protein: 198,
     carbohydrate: 47,
@@ -2970,6 +3341,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.3,
   },
   {
+    id: 372,
     name: 'だいず　［豆腐・油揚げ類］　焼き豆腐',
     protein: 341,
     carbohydrate: 82,
@@ -2978,6 +3350,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.8,
   },
   {
+    id: 373,
     name: 'だいず　［豆腐・油揚げ類］　生揚げ',
     protein: 595,
     carbohydrate: 143,
@@ -2986,6 +3359,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.7,
   },
   {
+    id: 374,
     name: 'だいず　［豆腐・油揚げ類］　絹生揚げ',
     protein: 429,
     carbohydrate: 103,
@@ -2994,6 +3368,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.9,
   },
   {
+    id: 375,
     name: 'だいず　［豆腐・油揚げ類］　油揚げ　生',
     protein: 1564,
     carbohydrate: 377,
@@ -3002,6 +3377,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 23.4,
   },
   {
+    id: 376,
     name: 'だいず　［豆腐・油揚げ類］　油揚げ　油抜き　生',
     protein: 1105,
     carbohydrate: 266,
@@ -3010,6 +3386,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 18.2,
   },
   {
+    id: 377,
     name: 'だいず　［豆腐・油揚げ類］　油揚げ　油抜き　ゆで',
     protein: 680,
     carbohydrate: 164,
@@ -3018,6 +3395,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 12.4,
   },
   {
+    id: 378,
     name: 'だいず　［豆腐・油揚げ類］　油揚げ　油抜き　焼き',
     protein: 1499,
     carbohydrate: 361,
@@ -3026,6 +3404,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 24.9,
   },
   {
+    id: 379,
     name: 'だいず　［豆腐・油揚げ類］　油揚げ　甘煮',
     protein: 967,
     carbohydrate: 231,
@@ -3034,6 +3413,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 11.2,
   },
   {
+    id: 380,
     name: 'だいず　［豆腐・油揚げ類］　がんもどき',
     protein: 925,
     carbohydrate: 223,
@@ -3042,6 +3422,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 15.3,
   },
   {
+    id: 381,
     name: 'だいず　［豆腐・油揚げ類］　凍り豆腐　乾',
     protein: 2064,
     carbohydrate: 496,
@@ -3050,6 +3431,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 50.5,
   },
   {
+    id: 382,
     name: 'だいず　［豆腐・油揚げ類］　凍り豆腐　水煮',
     protein: 435,
     carbohydrate: 104,
@@ -3058,6 +3440,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.7,
   },
   {
+    id: 383,
     name: 'だいず　［豆腐・油揚げ類］　豆腐よう',
     protein: 770,
     carbohydrate: 183,
@@ -3066,6 +3449,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.5,
   },
   {
+    id: 384,
     name: 'だいず　［豆腐・油揚げ類］　豆腐竹輪　蒸し',
     protein: 508,
     carbohydrate: 121,
@@ -3074,6 +3458,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 14.9,
   },
   {
+    id: 385,
     name: 'だいず　［豆腐・油揚げ類］　豆腐竹輪　焼き',
     protein: 560,
     carbohydrate: 133,
@@ -3082,6 +3467,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 16.1,
   },
   {
+    id: 386,
     name: 'だいず　［豆腐・油揚げ類］　ろくじょう豆腐',
     protein: 1384,
     carbohydrate: 332,
@@ -3090,6 +3476,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 34.7,
   },
   {
+    id: 387,
     name: 'だいず　［納豆類］　糸引き納豆',
     protein: 765,
     carbohydrate: 184,
@@ -3098,6 +3485,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 16.5,
   },
   {
+    id: 388,
     name: 'だいず　［納豆類］　挽きわり納豆',
     protein: 772,
     carbohydrate: 185,
@@ -3106,6 +3494,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 16.6,
   },
   {
+    id: 389,
     name: 'だいず　［納豆類］　五斗納豆',
     protein: 900,
     carbohydrate: 214,
@@ -3114,6 +3503,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 15.3,
   },
   {
+    id: 390,
     name: 'だいず　［納豆類］　塩納豆',
     protein: 575,
     carbohydrate: 137,
@@ -3122,6 +3512,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.3,
   },
   {
+    id: 391,
     name: 'だいず　［納豆類］　寺納豆',
     protein: 1043,
     carbohydrate: 248,
@@ -3130,6 +3521,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 18.6,
   },
   {
+    id: 392,
     name: 'だいず　［納豆類］　干し納豆',
     protein: 1491,
     carbohydrate: 357,
@@ -3138,6 +3530,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 33.0,
   },
   {
+    id: 393,
     name: 'だいず　［その他］　おから　生',
     protein: 363,
     carbohydrate: 88,
@@ -3146,6 +3539,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.1,
   },
   {
+    id: 394,
     name: 'だいず　［その他］　おから　乾燥',
     protein: 1377,
     carbohydrate: 333,
@@ -3154,6 +3548,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 23.1,
   },
   {
+    id: 395,
     name: 'だいず　［その他］　豆乳　豆乳',
     protein: 178,
     carbohydrate: 43,
@@ -3162,6 +3557,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.6,
   },
   {
+    id: 396,
     name: 'だいず　［その他］　豆乳　調製豆乳',
     protein: 253,
     carbohydrate: 61,
@@ -3170,6 +3566,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.2,
   },
   {
+    id: 397,
     name: 'だいず　［その他］　豆乳　豆乳飲料・麦芽コーヒー',
     protein: 238,
     carbohydrate: 57,
@@ -3178,6 +3575,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 398,
     name: 'だいず　［その他］　大豆たんぱく　粒状大豆たんぱく',
     protein: 1340,
     carbohydrate: 318,
@@ -3186,6 +3584,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 46.3,
   },
   {
+    id: 399,
     name: 'だいず　［その他］　大豆たんぱく　濃縮大豆たんぱく',
     protein: 1319,
     carbohydrate: 313,
@@ -3194,6 +3593,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 58.2,
   },
   {
+    id: 400,
     name: 'だいず　［その他］　大豆たんぱく　分離大豆たんぱく　塩分無調整タイプ',
     protein: 1422,
     carbohydrate: 335,
@@ -3202,6 +3602,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 79.1,
   },
   {
+    id: 401,
     name: 'だいず　［その他］　大豆たんぱく　分離大豆たんぱく　塩分調整タイプ',
     protein: 1422,
     carbohydrate: 335,
@@ -3210,6 +3611,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 79.1,
   },
   {
+    id: 402,
     name: 'だいず　［その他］　大豆たんぱく　繊維状大豆たんぱく',
     protein: 1544,
     carbohydrate: 365,
@@ -3218,6 +3620,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 59.3,
   },
   {
+    id: 403,
     name: 'だいず　［その他］　湯葉　生',
     protein: 912,
     carbohydrate: 218,
@@ -3226,6 +3629,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 21.8,
   },
   {
+    id: 404,
     name: 'だいず　［その他］　湯葉　干し　乾',
     protein: 2024,
     carbohydrate: 485,
@@ -3234,6 +3638,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 50.4,
   },
   {
+    id: 405,
     name: 'だいず　［その他］　湯葉　干し　湯戻し',
     protein: 631,
     carbohydrate: 151,
@@ -3242,6 +3647,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 15.7,
   },
   {
+    id: 406,
     name: 'だいず　［その他］　金山寺みそ',
     protein: 1046,
     carbohydrate: 247,
@@ -3250,6 +3656,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.9,
   },
   {
+    id: 407,
     name: 'だいず　［その他］　ひしおみそ',
     protein: 836,
     carbohydrate: 198,
@@ -3258,6 +3665,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.5,
   },
   {
+    id: 408,
     name: 'だいず　［その他］　テンペ',
     protein: 748,
     carbohydrate: 180,
@@ -3266,6 +3674,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 15.8,
   },
   {
+    id: 409,
     name: 'つるあずき　全粒　乾',
     protein: 1252,
     carbohydrate: 297,
@@ -3274,6 +3683,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 20.8,
   },
   {
+    id: 410,
     name: 'つるあずき　全粒　ゆで',
     protein: 556,
     carbohydrate: 132,
@@ -3282,6 +3692,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.7,
   },
   {
+    id: 411,
     name: 'ひよこまめ　全粒　乾',
     protein: 1413,
     carbohydrate: 336,
@@ -3290,6 +3701,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 20.0,
   },
   {
+    id: 412,
     name: 'ひよこまめ　全粒　ゆで',
     protein: 624,
     carbohydrate: 149,
@@ -3298,6 +3710,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.5,
   },
   {
+    id: 413,
     name: 'ひよこまめ　全粒　フライ　味付け',
     protein: 1533,
     carbohydrate: 366,
@@ -3306,6 +3719,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 18.8,
   },
   {
+    id: 414,
     name: 'べにばないんげん　全粒　乾',
     protein: 1146,
     carbohydrate: 273,
@@ -3314,6 +3728,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 17.2,
   },
   {
+    id: 415,
     name: 'べにばないんげん　全粒　ゆで',
     protein: 435,
     carbohydrate: 103,
@@ -3322,6 +3737,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.2,
   },
   {
+    id: 416,
     name: 'やぶまめ　乾',
     protein: 1614,
     carbohydrate: 383,
@@ -3330,6 +3746,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 23.4,
   },
   {
+    id: 417,
     name: 'らいまめ　全粒　乾',
     protein: 1287,
     carbohydrate: 306,
@@ -3338,6 +3755,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 21.9,
   },
   {
+    id: 418,
     name: 'らいまめ　全粒　ゆで',
     protein: 514,
     carbohydrate: 122,
@@ -3346,6 +3764,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.6,
   },
   {
+    id: 419,
     name: 'りょくとう　全粒　乾',
     protein: 1346,
     carbohydrate: 319,
@@ -3354,6 +3773,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 25.1,
   },
   {
+    id: 420,
     name: 'りょくとう　全粒　ゆで',
     protein: 528,
     carbohydrate: 125,
@@ -3362,6 +3782,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.2,
   },
   {
+    id: 421,
     name: 'レンズまめ　全粒　乾',
     protein: 1319,
     carbohydrate: 313,
@@ -3370,6 +3791,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 23.2,
   },
   {
+    id: 422,
     name: 'レンズまめ　全粒　ゆで',
     protein: 629,
     carbohydrate: 149,
@@ -3378,6 +3800,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 11.2,
   },
   {
+    id: 423,
     name: 'アーモンド　乾',
     protein: 2516,
     carbohydrate: 609,
@@ -3386,6 +3809,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 19.6,
   },
   {
+    id: 424,
     name: 'アーモンド　フライ　味付け',
     protein: 2587,
     carbohydrate: 626,
@@ -3394,6 +3818,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 21.3,
   },
   {
+    id: 425,
     name: 'アーモンド　いり　無塩',
     protein: 2513,
     carbohydrate: 608,
@@ -3402,6 +3827,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 20.3,
   },
   {
+    id: 426,
     name: 'あさ　乾',
     protein: 1867,
     carbohydrate: 450,
@@ -3410,6 +3836,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 29.9,
   },
   {
+    id: 427,
     name: 'あまに　いり',
     protein: 2230,
     carbohydrate: 540,
@@ -3418,6 +3845,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 21.8,
   },
   {
+    id: 428,
     name: 'えごま　乾',
     protein: 2162,
     carbohydrate: 523,
@@ -3426,6 +3854,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 17.7,
   },
   {
+    id: 429,
     name: 'カシューナッツ　フライ　味付け',
     protein: 2452,
     carbohydrate: 591,
@@ -3434,6 +3863,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 19.8,
   },
   {
+    id: 430,
     name: 'かぼちゃ　いり　味付け',
     protein: 2445,
     carbohydrate: 590,
@@ -3442,6 +3872,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 26.5,
   },
   {
+    id: 431,
     name: 'かや　いり',
     protein: 2595,
     carbohydrate: 629,
@@ -3450,6 +3881,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.7,
   },
   {
+    id: 432,
     name: 'ぎんなん　生',
     protein: 710,
     carbohydrate: 168,
@@ -3458,6 +3890,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.7,
   },
   {
+    id: 433,
     name: 'ぎんなん　ゆで',
     protein: 715,
     carbohydrate: 169,
@@ -3466,6 +3899,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.6,
   },
   {
+    id: 434,
     name: '（くり類）　日本ぐり　生',
     protein: 625,
     carbohydrate: 147,
@@ -3474,6 +3908,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.8,
   },
   {
+    id: 435,
     name: '（くり類）　日本ぐり　ゆで',
     protein: 646,
     carbohydrate: 152,
@@ -3482,6 +3917,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.5,
   },
   {
+    id: 436,
     name: '（くり類）　日本ぐり　甘露煮',
     protein: 984,
     carbohydrate: 232,
@@ -3490,6 +3926,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.8,
   },
   {
+    id: 437,
     name: '（くり類）　中国ぐり　甘ぐり',
     protein: 875,
     carbohydrate: 207,
@@ -3498,6 +3935,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.9,
   },
   {
+    id: 438,
     name: 'くるみ　いり',
     protein: 2940,
     carbohydrate: 713,
@@ -3506,6 +3944,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 14.6,
   },
   {
+    id: 439,
     name: 'けし　乾',
     protein: 2291,
     carbohydrate: 555,
@@ -3514,6 +3953,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 19.3,
   },
   {
+    id: 440,
     name: 'ココナッツ　ココナッツパウダー',
     protein: 2785,
     carbohydrate: 676,
@@ -3522,6 +3962,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.1,
   },
   {
+    id: 441,
     name: 'ごま　乾',
     protein: 2494,
     carbohydrate: 604,
@@ -3530,6 +3971,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 19.8,
   },
   {
+    id: 442,
     name: 'ごま　いり',
     protein: 2499,
     carbohydrate: 605,
@@ -3538,6 +3980,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 20.3,
   },
   {
+    id: 443,
     name: 'ごま　むき',
     protein: 2360,
     carbohydrate: 570,
@@ -3546,6 +3989,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 19.3,
   },
   {
+    id: 444,
     name: 'ごま　ねり',
     protein: 2667,
     carbohydrate: 646,
@@ -3554,6 +3998,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 19.0,
   },
   {
+    id: 445,
     name: 'しい　生',
     protein: 1033,
     carbohydrate: 244,
@@ -3562,6 +4007,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.2,
   },
   {
+    id: 446,
     name: 'すいか　いり　味付け',
     protein: 2193,
     carbohydrate: 528,
@@ -3570,6 +4016,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 29.6,
   },
   {
+    id: 447,
     name: 'チアシード　乾',
     protein: 1837,
     carbohydrate: 446,
@@ -3578,6 +4025,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 19.4,
   },
   {
+    id: 448,
     name: 'とち　蒸し',
     protein: 621,
     carbohydrate: 148,
@@ -3586,6 +4034,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.7,
   },
   {
+    id: 449,
     name: 'はす　未熟　生',
     protein: 344,
     carbohydrate: 81,
@@ -3594,6 +4043,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.9,
   },
   {
+    id: 450,
     name: 'はす　成熟　乾',
     protein: 1383,
     carbohydrate: 327,
@@ -3602,6 +4052,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 18.3,
   },
   {
+    id: 451,
     name: 'はす　成熟　ゆで',
     protein: 501,
     carbohydrate: 118,
@@ -3610,6 +4061,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 7.3,
   },
   {
+    id: 452,
     name: '（ひし類）　ひし　生',
     protein: 776,
     carbohydrate: 183,
@@ -3618,6 +4070,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.8,
   },
   {
+    id: 453,
     name: '（ひし類）　とうびし　生',
     protein: 513,
     carbohydrate: 122,
@@ -3626,6 +4079,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 454,
     name: '（ひし類）　とうびし　ゆで',
     protein: 510,
     carbohydrate: 120,
@@ -3634,6 +4088,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 455,
     name: 'ピスタチオ　いり　味付け',
     protein: 2549,
     carbohydrate: 617,
@@ -3642,6 +4097,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 17.4,
   },
   {
+    id: 456,
     name: 'ひまわり　フライ　味付け',
     protein: 2499,
     carbohydrate: 603,
@@ -3650,6 +4106,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 20.1,
   },
   {
+    id: 457,
     name: 'ブラジルナッツ　フライ　味付け',
     protein: 2896,
     carbohydrate: 703,
@@ -3658,6 +4115,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 14.9,
   },
   {
+    id: 458,
     name: 'ヘーゼルナッツ　フライ　味付け',
     protein: 2888,
     carbohydrate: 701,
@@ -3666,6 +4124,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 13.6,
   },
   {
+    id: 459,
     name: 'ペカン　フライ　味付け',
     protein: 2948,
     carbohydrate: 716,
@@ -3674,6 +4133,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.6,
   },
   {
+    id: 460,
     name: 'マカダミアナッツ　いり　味付け',
     protein: 3093,
     carbohydrate: 751,
@@ -3682,6 +4142,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.3,
   },
   {
+    id: 461,
     name: 'まつ　生',
     protein: 2811,
     carbohydrate: 681,
@@ -3690,6 +4151,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 15.8,
   },
   {
+    id: 462,
     name: 'まつ　いり',
     protein: 2986,
     carbohydrate: 724,
@@ -3698,6 +4160,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 14.6,
   },
   {
+    id: 463,
     name: 'らっかせい　大粒種　乾',
     protein: 2368,
     carbohydrate: 572,
@@ -3706,6 +4169,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 25.2,
   },
   {
+    id: 464,
     name: 'らっかせい　大粒種　いり',
     protein: 2537,
     carbohydrate: 613,
@@ -3714,6 +4178,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 25.0,
   },
   {
+    id: 465,
     name: 'らっかせい　小粒種　乾',
     protein: 2376,
     carbohydrate: 573,
@@ -3722,6 +4187,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 25.4,
   },
   {
+    id: 466,
     name: 'らっかせい　小粒種　いり',
     protein: 2515,
     carbohydrate: 607,
@@ -3730,6 +4196,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 26.5,
   },
   {
+    id: 467,
     name: 'らっかせい　バターピーナッツ',
     protein: 2521,
     carbohydrate: 609,
@@ -3738,6 +4205,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 23.3,
   },
   {
+    id: 468,
     name: 'らっかせい　ピーナッツバター',
     protein: 2484,
     carbohydrate: 599,
@@ -3746,6 +4214,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 20.6,
   },
   {
+    id: 469,
     name: 'アーティチョーク　花らい　生',
     protein: 159,
     carbohydrate: 39,
@@ -3754,6 +4223,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 470,
     name: 'アーティチョーク　花らい　ゆで',
     protein: 145,
     carbohydrate: 35,
@@ -3762,6 +4232,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.1,
   },
   {
+    id: 471,
     name: 'アイスプラント　生',
     protein: 22,
     carbohydrate: 5,
@@ -3770,6 +4241,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.5,
   },
   {
+    id: 472,
     name: 'あさつき　葉　生',
     protein: 145,
     carbohydrate: 34,
@@ -3778,6 +4250,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.2,
   },
   {
+    id: 473,
     name: 'あさつき　葉　ゆで',
     protein: 173,
     carbohydrate: 41,
@@ -3786,6 +4259,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.2,
   },
   {
+    id: 474,
     name: 'あしたば　茎葉　生',
     protein: 123,
     carbohydrate: 30,
@@ -3794,6 +4268,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.3,
   },
   {
+    id: 475,
     name: 'あしたば　茎葉　ゆで',
     protein: 118,
     carbohydrate: 28,
@@ -3802,6 +4277,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.9,
   },
   {
+    id: 476,
     name: 'アスパラガス　若茎　生',
     protein: 87,
     carbohydrate: 21,
@@ -3810,6 +4286,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.6,
   },
   {
+    id: 477,
     name: 'アスパラガス　若茎　ゆで',
     protein: 107,
     carbohydrate: 25,
@@ -3818,6 +4295,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.6,
   },
   {
+    id: 478,
     name: 'アスパラガス　若茎　油いため',
     protein: 225,
     carbohydrate: 54,
@@ -3826,6 +4304,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.9,
   },
   {
+    id: 479,
     name: 'アスパラガス　水煮缶詰',
     protein: 102,
     carbohydrate: 24,
@@ -3834,6 +4313,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.4,
   },
   {
+    id: 480,
     name: 'アロエ　葉　生',
     protein: 11,
     carbohydrate: 3,
@@ -3842,6 +4322,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0,
   },
   {
+    id: 481,
     name: 'いんげんまめ　さやいんげん　若ざや　生',
     protein: 97,
     carbohydrate: 23,
@@ -3850,6 +4331,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.8,
   },
   {
+    id: 482,
     name: 'いんげんまめ　さやいんげん　若ざや　ゆで',
     protein: 98,
     carbohydrate: 24,
@@ -3858,6 +4340,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.8,
   },
   {
+    id: 483,
     name: '（うど類）　うど　茎　生',
     protein: 78,
     carbohydrate: 19,
@@ -3866,6 +4349,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.8,
   },
   {
+    id: 484,
     name: '（うど類）　うど　茎　水さらし',
     protein: 54,
     carbohydrate: 13,
@@ -3874,6 +4358,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 485,
     name: '（うど類）　やまうど　茎　生',
     protein: 79,
     carbohydrate: 19,
@@ -3882,6 +4367,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 486,
     name: 'うるい　葉　生',
     protein: 78,
     carbohydrate: 19,
@@ -3890,6 +4376,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 487,
     name: 'えだまめ　生',
     protein: 524,
     carbohydrate: 125,
@@ -3898,6 +4385,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 11.7,
   },
   {
+    id: 488,
     name: 'えだまめ　ゆで',
     protein: 494,
     carbohydrate: 118,
@@ -3906,6 +4394,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 11.5,
   },
   {
+    id: 489,
     name: 'えだまめ　冷凍',
     protein: 597,
     carbohydrate: 143,
@@ -3914,6 +4403,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 13.0,
   },
   {
+    id: 490,
     name: 'エンダイブ　葉　生',
     protein: 56,
     carbohydrate: 14,
@@ -3922,6 +4412,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.2,
   },
   {
+    id: 491,
     name: '（えんどう類）　トウミョウ　茎葉　生',
     protein: 117,
     carbohydrate: 28,
@@ -3930,6 +4421,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.8,
   },
   {
+    id: 492,
     name: '（えんどう類）　トウミョウ　芽ばえ　生',
     protein: 113,
     carbohydrate: 27,
@@ -3938,6 +4430,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.8,
   },
   {
+    id: 493,
     name: '（えんどう類）　トウミョウ　芽ばえ　ゆで',
     protein: 116,
     carbohydrate: 28,
@@ -3946,6 +4439,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.6,
   },
   {
+    id: 494,
     name: '（えんどう類）　トウミョウ　芽ばえ　油いため',
     protein: 350,
     carbohydrate: 84,
@@ -3954,6 +4448,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.0,
   },
   {
+    id: 495,
     name: '（えんどう類）　さやえんどう　若ざや　生',
     protein: 160,
     carbohydrate: 38,
@@ -3962,6 +4457,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.1,
   },
   {
+    id: 496,
     name: '（えんどう類）　さやえんどう　若ざや　ゆで',
     protein: 152,
     carbohydrate: 36,
@@ -3970,6 +4466,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.2,
   },
   {
+    id: 497,
     name: '（えんどう類）　スナップえんどう　若ざや　生',
     protein: 198,
     carbohydrate: 47,
@@ -3978,6 +4475,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.9,
   },
   {
+    id: 498,
     name: '（えんどう類）　グリンピース　生',
     protein: 317,
     carbohydrate: 76,
@@ -3986,6 +4484,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.9,
   },
   {
+    id: 499,
     name: '（えんどう類）　グリンピース　ゆで',
     protein: 417,
     carbohydrate: 99,
@@ -3994,6 +4493,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.3,
   },
   {
+    id: 500,
     name: '（えんどう類）　グリンピース　冷凍',
     protein: 334,
     carbohydrate: 80,
@@ -4002,6 +4502,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.8,
   },
   {
+    id: 501,
     name: '（えんどう類）　グリンピース　冷凍　ゆで',
     protein: 344,
     carbohydrate: 82,
@@ -4010,6 +4511,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.2,
   },
   {
+    id: 502,
     name: '（えんどう類）　グリンピース　冷凍　油いため',
     protein: 474,
     carbohydrate: 114,
@@ -4018,6 +4520,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.3,
   },
   {
+    id: 503,
     name: '（えんどう類）　グリンピース　水煮缶詰',
     protein: 344,
     carbohydrate: 82,
@@ -4026,6 +4529,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.6,
   },
   {
+    id: 504,
     name: 'おおさかしろな　葉　生',
     protein: 50,
     carbohydrate: 12,
@@ -4034,6 +4538,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 505,
     name: 'おおさかしろな　葉　ゆで',
     protein: 68,
     carbohydrate: 16,
@@ -4042,6 +4547,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 506,
     name: 'おおさかしろな　塩漬',
     protein: 78,
     carbohydrate: 19,
@@ -4050,6 +4556,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.3,
   },
   {
+    id: 507,
     name: 'おかひじき　茎葉　生',
     protein: 67,
     carbohydrate: 16,
@@ -4058,6 +4565,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 508,
     name: 'おかひじき　茎葉　ゆで',
     protein: 64,
     carbohydrate: 16,
@@ -4066,6 +4574,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.2,
   },
   {
+    id: 509,
     name: 'オクラ　果実　生',
     protein: 107,
     carbohydrate: 26,
@@ -4074,6 +4583,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.1,
   },
   {
+    id: 510,
     name: 'オクラ　果実　ゆで',
     protein: 105,
     carbohydrate: 25,
@@ -4082,6 +4592,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.1,
   },
   {
+    id: 511,
     name: 'かぶ　葉　生',
     protein: 82,
     carbohydrate: 20,
@@ -4090,6 +4601,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 512,
     name: 'かぶ　葉　ゆで',
     protein: 83,
     carbohydrate: 20,
@@ -4098,6 +4610,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 513,
     name: 'かぶ　根　皮つき　生',
     protein: 74,
     carbohydrate: 18,
@@ -4106,6 +4619,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 514,
     name: 'かぶ　根　皮つき　ゆで',
     protein: 77,
     carbohydrate: 18,
@@ -4114,6 +4628,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 515,
     name: 'かぶ　根　皮なし　生',
     protein: 78,
     carbohydrate: 19,
@@ -4122,6 +4637,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 516,
     name: 'かぶ　根　皮なし　ゆで',
     protein: 82,
     carbohydrate: 20,
@@ -4130,6 +4646,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 517,
     name: 'かぶ　漬物　塩漬　葉',
     protein: 114,
     carbohydrate: 27,
@@ -4138,6 +4655,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 518,
     name: 'かぶ　漬物　塩漬　根　皮つき',
     protein: 90,
     carbohydrate: 21,
@@ -4146,6 +4664,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 519,
     name: 'かぶ　漬物　塩漬　根　皮なし',
     protein: 79,
     carbohydrate: 19,
@@ -4154,6 +4673,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.8,
   },
   {
+    id: 520,
     name: 'かぶ　漬物　ぬかみそ漬　葉',
     protein: 145,
     carbohydrate: 35,
@@ -4162,6 +4682,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.3,
   },
   {
+    id: 521,
     name: 'かぶ　漬物　ぬかみそ漬　根　皮つき',
     protein: 112,
     carbohydrate: 27,
@@ -4170,6 +4691,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 522,
     name: 'かぶ　漬物　ぬかみそ漬　根　皮なし',
     protein: 129,
     carbohydrate: 31,
@@ -4178,6 +4700,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 523,
     name: '（かぼちゃ類）　日本かぼちゃ　果実　生',
     protein: 175,
     carbohydrate: 41,
@@ -4186,6 +4709,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 524,
     name: '（かぼちゃ類）　日本かぼちゃ　果実　ゆで',
     protein: 234,
     carbohydrate: 55,
@@ -4194,6 +4718,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 525,
     name: '（かぼちゃ類）　西洋かぼちゃ　果実　生',
     protein: 331,
     carbohydrate: 78,
@@ -4202,6 +4727,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 526,
     name: '（かぼちゃ類）　西洋かぼちゃ　果実　ゆで',
     protein: 338,
     carbohydrate: 80,
@@ -4210,6 +4736,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 527,
     name: '（かぼちゃ類）　西洋かぼちゃ　果実　焼き',
     protein: 445,
     carbohydrate: 105,
@@ -4218,6 +4745,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.5,
   },
   {
+    id: 528,
     name: '（かぼちゃ類）　西洋かぼちゃ　果実　冷凍',
     protein: 317,
     carbohydrate: 75,
@@ -4226,6 +4754,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 529,
     name: '（かぼちゃ類）　そうめんかぼちゃ　果実　生',
     protein: 105,
     carbohydrate: 25,
@@ -4234,6 +4763,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 530,
     name: 'からしな　葉　生',
     protein: 106,
     carbohydrate: 26,
@@ -4242,6 +4772,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.3,
   },
   {
+    id: 531,
     name: 'からしな　塩漬',
     protein: 149,
     carbohydrate: 36,
@@ -4250,6 +4781,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.0,
   },
   {
+    id: 532,
     name: 'カリフラワー　花序　生',
     protein: 117,
     carbohydrate: 28,
@@ -4258,6 +4790,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.0,
   },
   {
+    id: 533,
     name: 'カリフラワー　花序　ゆで',
     protein: 111,
     carbohydrate: 26,
@@ -4266,6 +4799,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 534,
     name: 'かんぴょう　乾',
     protein: 1002,
     carbohydrate: 239,
@@ -4274,6 +4808,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.3,
   },
   {
+    id: 535,
     name: 'かんぴょう　ゆで',
     protein: 87,
     carbohydrate: 21,
@@ -4282,6 +4817,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 536,
     name: 'かんぴょう　甘煮',
     protein: 619,
     carbohydrate: 146,
@@ -4290,6 +4826,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 537,
     name: 'きく　花びら　生',
     protein: 104,
     carbohydrate: 25,
@@ -4298,6 +4835,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 538,
     name: 'きく　花びら　ゆで',
     protein: 88,
     carbohydrate: 21,
@@ -4306,6 +4844,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 539,
     name: 'きく　菊のり',
     protein: 1188,
     carbohydrate: 283,
@@ -4314,6 +4853,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 11.6,
   },
   {
+    id: 540,
     name: '（キャベツ類）　キャベツ　結球葉　生',
     protein: 95,
     carbohydrate: 23,
@@ -4322,6 +4862,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.2,
   },
   {
+    id: 541,
     name: '（キャベツ類）　キャベツ　結球葉　ゆで',
     protein: 79,
     carbohydrate: 19,
@@ -4330,6 +4871,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 542,
     name: '（キャベツ類）　キャベツ　結球葉　油いため',
     protein: 324,
     carbohydrate: 78,
@@ -4338,6 +4880,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 543,
     name: '（キャベツ類）　キャベツ　結球葉　カット　常法洗浄',
     protein: 63,
     carbohydrate: 15,
@@ -4346,6 +4889,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 544,
     name: '（キャベツ類）　キャベツ　結球葉　カット　次亜塩素酸洗浄',
     protein: 58,
     carbohydrate: 14,
@@ -4354,6 +4898,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 545,
     name: '（キャベツ類）　グリーンボール　結球葉　生',
     protein: 83,
     carbohydrate: 20,
@@ -4362,6 +4907,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 546,
     name: '（キャベツ類）　レッドキャベツ　結球葉　生',
     protein: 125,
     carbohydrate: 30,
@@ -4370,6 +4916,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.0,
   },
   {
+    id: 547,
     name: 'きゅうり　果実　生',
     protein: 55,
     carbohydrate: 13,
@@ -4378,6 +4925,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 548,
     name: 'きゅうり　漬物　塩漬',
     protein: 70,
     carbohydrate: 17,
@@ -4386,6 +4934,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 549,
     name: 'きゅうり　漬物　しょうゆ漬',
     protein: 216,
     carbohydrate: 51,
@@ -4394,6 +4943,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.2,
   },
   {
+    id: 550,
     name: 'きゅうり　漬物　ぬかみそ漬',
     protein: 120,
     carbohydrate: 28,
@@ -4402,6 +4952,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 551,
     name: 'きゅうり　漬物　ピクルス　スイート型',
     protein: 297,
     carbohydrate: 70,
@@ -4410,6 +4961,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.3,
   },
   {
+    id: 552,
     name: 'きゅうり　漬物　ピクルス　サワー型',
     protein: 54,
     carbohydrate: 13,
@@ -4418,6 +4970,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 553,
     name: 'ぎょうじゃにんにく　葉　生',
     protein: 147,
     carbohydrate: 35,
@@ -4426,6 +4979,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.5,
   },
   {
+    id: 554,
     name: 'キンサイ　茎葉　生',
     protein: 67,
     carbohydrate: 16,
@@ -4434,6 +4988,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 555,
     name: 'キンサイ　茎葉　ゆで',
     protein: 63,
     carbohydrate: 15,
@@ -4442,6 +4997,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 556,
     name: 'クレソン　茎葉　生',
     protein: 56,
     carbohydrate: 13,
@@ -4450,6 +5006,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.1,
   },
   {
+    id: 557,
     name: 'くわい　塊茎　生',
     protein: 541,
     carbohydrate: 128,
@@ -4458,6 +5015,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.3,
   },
   {
+    id: 558,
     name: 'くわい　塊茎　ゆで',
     protein: 546,
     carbohydrate: 129,
@@ -4466,6 +5024,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.2,
   },
   {
+    id: 559,
     name: 'ケール　葉　生',
     protein: 107,
     carbohydrate: 26,
@@ -4474,6 +5033,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.1,
   },
   {
+    id: 560,
     name: 'コールラビ　球茎　生',
     protein: 87,
     carbohydrate: 21,
@@ -4482,6 +5042,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 561,
     name: 'コールラビ　球茎　ゆで',
     protein: 85,
     carbohydrate: 20,
@@ -4490,6 +5051,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 562,
     name: 'こごみ　若芽　生',
     protein: 102,
     carbohydrate: 25,
@@ -4498,6 +5060,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.0,
   },
   {
+    id: 563,
     name: '（ごぼう類）　ごぼう　根　生',
     protein: 244,
     carbohydrate: 58,
@@ -4506,6 +5069,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.8,
   },
   {
+    id: 564,
     name: '（ごぼう類）　ごぼう　根　ゆで',
     protein: 210,
     carbohydrate: 50,
@@ -4514,6 +5078,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 565,
     name: '（ごぼう類）　堀川ごぼう　根　生',
     protein: 223,
     carbohydrate: 55,
@@ -4522,6 +5087,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.2,
   },
   {
+    id: 566,
     name: 'こまつな　葉　生',
     protein: 55,
     carbohydrate: 13,
@@ -4530,6 +5096,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 567,
     name: 'こまつな　葉　ゆで',
     protein: 59,
     carbohydrate: 14,
@@ -4538,6 +5105,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 568,
     name: 'コリアンダー　葉　生',
     protein: 75,
     carbohydrate: 18,
@@ -4546,6 +5114,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 569,
     name: 'ザーサイ　漬物',
     protein: 83,
     carbohydrate: 20,
@@ -4554,6 +5123,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.5,
   },
   {
+    id: 570,
     name: 'さんとうさい　葉　生',
     protein: 48,
     carbohydrate: 12,
@@ -4562,6 +5132,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 571,
     name: 'さんとうさい　葉　ゆで',
     protein: 58,
     carbohydrate: 14,
@@ -4570,6 +5141,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 572,
     name: 'さんとうさい　塩漬',
     protein: 74,
     carbohydrate: 18,
@@ -4578,6 +5150,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 573,
     name: 'しかくまめ　若ざや　生',
     protein: 80,
     carbohydrate: 19,
@@ -4586,6 +5159,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.4,
   },
   {
+    id: 574,
     name: '（ししとう類）　ししとう　果実　生',
     protein: 102,
     carbohydrate: 24,
@@ -4594,6 +5168,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 575,
     name: '（ししとう類）　ししとう　果実　油いため',
     protein: 210,
     carbohydrate: 51,
@@ -4602,6 +5177,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 576,
     name: '（ししとう類）　万願寺とうがらし　果実　生',
     protein: 110,
     carbohydrate: 26,
@@ -4610,6 +5186,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.3,
   },
   {
+    id: 577,
     name: 'しそ　葉　生',
     protein: 130,
     carbohydrate: 32,
@@ -4618,6 +5195,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.9,
   },
   {
+    id: 578,
     name: 'しそ　実　生',
     protein: 132,
     carbohydrate: 32,
@@ -4626,6 +5204,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.4,
   },
   {
+    id: 579,
     name: 'じゅうろくささげ　若ざや　生',
     protein: 90,
     carbohydrate: 22,
@@ -4634,6 +5213,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.5,
   },
   {
+    id: 580,
     name: 'じゅうろくささげ　若ざや　ゆで',
     protein: 116,
     carbohydrate: 28,
@@ -4642,6 +5222,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.8,
   },
   {
+    id: 581,
     name: 'しゅんぎく　葉　生',
     protein: 84,
     carbohydrate: 20,
@@ -4650,6 +5231,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 582,
     name: 'しゅんぎく　葉　ゆで',
     protein: 102,
     carbohydrate: 25,
@@ -4658,6 +5240,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 583,
     name: 'じゅんさい　若葉　水煮びん詰',
     protein: 15,
     carbohydrate: 4,
@@ -4666,6 +5249,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.4,
   },
   {
+    id: 584,
     name: '（しょうが類）　葉しょうが　根茎　生',
     protein: 36,
     carbohydrate: 9,
@@ -4674,6 +5258,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.5,
   },
   {
+    id: 585,
     name: '（しょうが類）　しょうが　根茎　皮なし　生',
     protein: 117,
     carbohydrate: 28,
@@ -4682,6 +5267,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 586,
     name: '（しょうが類）　しょうが　根茎　皮なし　生　おろし',
     protein: 240,
     carbohydrate: 58,
@@ -4690,6 +5276,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 587,
     name: '（しょうが類）　しょうが　根茎　皮なし　生　おろし汁',
     protein: 72,
     carbohydrate: 17,
@@ -4698,6 +5285,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.4,
   },
   {
+    id: 588,
     name: '（しょうが類）　しょうが　漬物　酢漬',
     protein: 62,
     carbohydrate: 15,
@@ -4706,6 +5294,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.3,
   },
   {
+    id: 589,
     name: '（しょうが類）　しょうが　漬物　甘酢漬',
     protein: 187,
     carbohydrate: 44,
@@ -4714,6 +5303,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.2,
   },
   {
+    id: 590,
     name: '（しょうが類）　新しょうが　根茎　生',
     protein: 42,
     carbohydrate: 10,
@@ -4722,6 +5312,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.3,
   },
   {
+    id: 591,
     name: 'しろうり　果実　生',
     protein: 63,
     carbohydrate: 15,
@@ -4730,6 +5321,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 592,
     name: 'しろうり　漬物　塩漬',
     protein: 62,
     carbohydrate: 15,
@@ -4738,6 +5330,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 593,
     name: 'しろうり　漬物　奈良漬',
     protein: 911,
     carbohydrate: 216,
@@ -4746,6 +5339,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.6,
   },
   {
+    id: 594,
     name: 'ずいき　生ずいき　生',
     protein: 64,
     carbohydrate: 15,
@@ -4754,6 +5348,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.5,
   },
   {
+    id: 595,
     name: 'ずいき　生ずいき　ゆで',
     protein: 41,
     carbohydrate: 10,
@@ -4762,6 +5357,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.4,
   },
   {
+    id: 596,
     name: 'ずいき　干しずいき　乾',
     protein: 972,
     carbohydrate: 232,
@@ -4770,6 +5366,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.6,
   },
   {
+    id: 597,
     name: 'ずいき　干しずいき　ゆで',
     protein: 38,
     carbohydrate: 9,
@@ -4778,6 +5375,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.5,
   },
   {
+    id: 598,
     name: 'すいぜんじな　葉　生',
     protein: 65,
     carbohydrate: 16,
@@ -4786,6 +5384,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 599,
     name: 'すぐきな　葉　生',
     protein: 94,
     carbohydrate: 23,
@@ -4794,6 +5393,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 600,
     name: 'すぐきな　根　生',
     protein: 78,
     carbohydrate: 19,
@@ -4802,6 +5402,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 601,
     name: 'すぐきな　すぐき漬',
     protein: 123,
     carbohydrate: 30,
@@ -4810,6 +5411,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.6,
   },
   {
+    id: 602,
     name: 'ズッキーニ　果実　生',
     protein: 66,
     carbohydrate: 16,
@@ -4818,6 +5420,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.3,
   },
   {
+    id: 603,
     name: 'せり　茎葉　生',
     protein: 70,
     carbohydrate: 17,
@@ -4826,6 +5429,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.0,
   },
   {
+    id: 604,
     name: 'せり　茎葉　ゆで',
     protein: 71,
     carbohydrate: 17,
@@ -4834,6 +5438,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.1,
   },
   {
+    id: 605,
     name: 'セロリ　葉柄　生',
     protein: 49,
     carbohydrate: 12,
@@ -4842,6 +5447,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.4,
   },
   {
+    id: 606,
     name: 'ぜんまい　生ぜんまい　若芽　生',
     protein: 111,
     carbohydrate: 27,
@@ -4850,6 +5456,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.7,
   },
   {
+    id: 607,
     name: 'ぜんまい　生ぜんまい　若芽　ゆで',
     protein: 72,
     carbohydrate: 17,
@@ -4858,6 +5465,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 608,
     name: 'ぜんまい　干しぜんまい　干し若芽　乾',
     protein: 1161,
     carbohydrate: 277,
@@ -4866,6 +5474,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 14.6,
   },
   {
+    id: 609,
     name: 'ぜんまい　干しぜんまい　干し若芽　ゆで',
     protein: 101,
     carbohydrate: 25,
@@ -4874,6 +5483,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.7,
   },
   {
+    id: 610,
     name: 'そらまめ　未熟豆　生',
     protein: 431,
     carbohydrate: 102,
@@ -4882,6 +5492,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.9,
   },
   {
+    id: 611,
     name: 'そらまめ　未熟豆　ゆで',
     protein: 435,
     carbohydrate: 103,
@@ -4890,6 +5501,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 10.5,
   },
   {
+    id: 612,
     name: 'タアサイ　葉　生',
     protein: 48,
     carbohydrate: 12,
@@ -4898,6 +5510,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.3,
   },
   {
+    id: 613,
     name: 'タアサイ　葉　ゆで',
     protein: 44,
     carbohydrate: 11,
@@ -4906,6 +5519,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 614,
     name: '（だいこん類）　かいわれだいこん　芽ばえ　生',
     protein: 88,
     carbohydrate: 21,
@@ -4914,6 +5528,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.1,
   },
   {
+    id: 615,
     name: '（だいこん類）　葉だいこん　葉　生',
     protein: 71,
     carbohydrate: 17,
@@ -4922,6 +5537,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.0,
   },
   {
+    id: 616,
     name: '（だいこん類）　だいこん　葉　生',
     protein: 94,
     carbohydrate: 23,
@@ -4930,6 +5546,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 617,
     name: '（だいこん類）　だいこん　葉　ゆで',
     protein: 99,
     carbohydrate: 24,
@@ -4938,6 +5555,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 618,
     name: '（だいこん類）　だいこん　根　皮つき　生',
     protein: 62,
     carbohydrate: 15,
@@ -4946,6 +5564,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.5,
   },
   {
+    id: 619,
     name: '（だいこん類）　だいこん　根　皮つき　ゆで',
     protein: 62,
     carbohydrate: 15,
@@ -4954,6 +5573,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.4,
   },
   {
+    id: 620,
     name: '（だいこん類）　だいこん　根　皮なし　生',
     protein: 63,
     carbohydrate: 15,
@@ -4962,6 +5582,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.4,
   },
   {
+    id: 621,
     name: '（だいこん類）　だいこん　根　皮なし　生　おろし',
     protein: 106,
     carbohydrate: 25,
@@ -4970,6 +5591,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 622,
     name: '（だいこん類）　だいこん　根　皮なし　生　おろし汁',
     protein: 51,
     carbohydrate: 12,
@@ -4978,6 +5600,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.3,
   },
   {
+    id: 623,
     name: '（だいこん類）　だいこん　根　皮なし　生　おろし水洗い',
     protein: 94,
     carbohydrate: 23,
@@ -4986,6 +5609,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 624,
     name: '（だいこん類）　だいこん　根　皮なし　ゆで',
     protein: 62,
     carbohydrate: 15,
@@ -4994,6 +5618,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.5,
   },
   {
+    id: 625,
     name: '（だいこん類）　切干しだいこん　乾',
     protein: 1178,
     carbohydrate: 280,
@@ -5002,6 +5627,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.7,
   },
   {
+    id: 626,
     name: '（だいこん類）　切干しだいこん　ゆで',
     protein: 54,
     carbohydrate: 13,
@@ -5010,6 +5636,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 627,
     name: '（だいこん類）　切干しだいこん　油いため',
     protein: 320,
     carbohydrate: 78,
@@ -5018,6 +5645,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 628,
     name: '（だいこん類）　漬物　いぶりがっこ',
     protein: 317,
     carbohydrate: 76,
@@ -5026,6 +5654,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 629,
     name: '（だいこん類）　漬物　ぬかみそ漬',
     protein: 124,
     carbohydrate: 29,
@@ -5034,6 +5663,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.3,
   },
   {
+    id: 630,
     name: '（だいこん類）　漬物　たくあん漬　塩押しだいこん漬',
     protein: 182,
     carbohydrate: 43,
@@ -5042,6 +5672,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 631,
     name: '（だいこん類）　漬物　たくあん漬　干しだいこん漬',
     protein: 96,
     carbohydrate: 23,
@@ -5050,6 +5681,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 632,
     name: '（だいこん類）　漬物　守口漬',
     protein: 821,
     carbohydrate: 194,
@@ -5058,6 +5690,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.3,
   },
   {
+    id: 633,
     name: '（だいこん類）　漬物　べったら漬',
     protein: 223,
     carbohydrate: 53,
@@ -5066,6 +5699,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.4,
   },
   {
+    id: 634,
     name: '（だいこん類）　漬物　みそ漬',
     protein: 218,
     carbohydrate: 52,
@@ -5074,6 +5708,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.1,
   },
   {
+    id: 635,
     name: '（だいこん類）　漬物　福神漬',
     protein: 581,
     carbohydrate: 137,
@@ -5082,6 +5717,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 636,
     name: '（たいさい類）　つまみな　葉　生',
     protein: 80,
     carbohydrate: 19,
@@ -5090,6 +5726,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 637,
     name: '（たいさい類）　たいさい　葉　生',
     protein: 63,
     carbohydrate: 15,
@@ -5098,6 +5735,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 638,
     name: '（たいさい類）　たいさい　塩漬',
     protein: 80,
     carbohydrate: 19,
@@ -5106,6 +5744,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 639,
     name: 'たかな　葉　生',
     protein: 87,
     carbohydrate: 21,
@@ -5114,6 +5753,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.8,
   },
   {
+    id: 640,
     name: 'たかな　たかな漬',
     protein: 123,
     carbohydrate: 30,
@@ -5122,6 +5762,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 641,
     name: 'たけのこ　若茎　生',
     protein: 114,
     carbohydrate: 27,
@@ -5130,6 +5771,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.6,
   },
   {
+    id: 642,
     name: 'たけのこ　若茎　ゆで',
     protein: 129,
     carbohydrate: 31,
@@ -5138,6 +5780,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.5,
   },
   {
+    id: 643,
     name: 'たけのこ　水煮缶詰',
     protein: 91,
     carbohydrate: 22,
@@ -5146,6 +5789,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.7,
   },
   {
+    id: 644,
     name: 'たけのこ　めんま　塩蔵　塩抜き',
     protein: 62,
     carbohydrate: 15,
@@ -5154,6 +5798,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 645,
     name: '（たまねぎ類）　たまねぎ　りん茎　生',
     protein: 139,
     carbohydrate: 33,
@@ -5162,6 +5807,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 646,
     name: '（たまねぎ類）　たまねぎ　りん茎　水さらし',
     protein: 103,
     carbohydrate: 24,
@@ -5170,6 +5816,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 647,
     name: '（たまねぎ類）　たまねぎ　りん茎　ゆで',
     protein: 125,
     carbohydrate: 30,
@@ -5178,6 +5825,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.8,
   },
   {
+    id: 648,
     name: '（たまねぎ類）　たまねぎ　りん茎　油いため',
     protein: 418,
     carbohydrate: 100,
@@ -5186,6 +5834,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 649,
     name: '（たまねぎ類）　たまねぎ　りん茎　油いため　（あめ色たまねぎ）',
     protein: 876,
     carbohydrate: 208,
@@ -5194,6 +5843,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.2,
   },
   {
+    id: 650,
     name: '（たまねぎ類）　赤たまねぎ　りん茎　生',
     protein: 145,
     carbohydrate: 34,
@@ -5202,6 +5852,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 651,
     name: '（たまねぎ類）　葉たまねぎ　りん茎及び葉　生',
     protein: 140,
     carbohydrate: 33,
@@ -5210,6 +5861,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.8,
   },
   {
+    id: 652,
     name: 'たらのめ　若芽　生',
     protein: 114,
     carbohydrate: 27,
@@ -5218,6 +5870,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.2,
   },
   {
+    id: 653,
     name: 'たらのめ　若芽　ゆで',
     protein: 113,
     carbohydrate: 27,
@@ -5226,6 +5879,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.0,
   },
   {
+    id: 654,
     name: 'チコリ　若芽　生',
     protein: 73,
     carbohydrate: 17,
@@ -5234,6 +5888,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 655,
     name: 'ちぢみゆきな　葉　生',
     protein: 147,
     carbohydrate: 35,
@@ -5242,6 +5897,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.6,
   },
   {
+    id: 656,
     name: 'ちぢみゆきな　葉　ゆで',
     protein: 141,
     carbohydrate: 34,
@@ -5250,6 +5906,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.8,
   },
   {
+    id: 657,
     name: 'チンゲンサイ　葉　生',
     protein: 36,
     carbohydrate: 9,
@@ -5258,6 +5915,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 658,
     name: 'チンゲンサイ　葉　ゆで',
     protein: 45,
     carbohydrate: 11,
@@ -5266,6 +5924,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 659,
     name: 'チンゲンサイ　葉　油いため',
     protein: 149,
     carbohydrate: 36,
@@ -5274,6 +5933,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.8,
   },
   {
+    id: 660,
     name: 'つくし　胞子茎　生',
     protein: 128,
     carbohydrate: 31,
@@ -5282,6 +5942,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.5,
   },
   {
+    id: 661,
     name: 'つくし　胞子茎　ゆで',
     protein: 115,
     carbohydrate: 28,
@@ -5290,6 +5951,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.4,
   },
   {
+    id: 662,
     name: 'つるな　茎葉　生',
     protein: 61,
     carbohydrate: 15,
@@ -5298,6 +5960,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.8,
   },
   {
+    id: 663,
     name: 'つるにんじん　根　生',
     protein: 225,
     carbohydrate: 55,
@@ -5306,6 +5969,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 664,
     name: 'つるむらさき　茎葉　生',
     protein: 44,
     carbohydrate: 11,
@@ -5314,6 +5978,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 665,
     name: 'つるむらさき　茎葉　ゆで',
     protein: 49,
     carbohydrate: 12,
@@ -5322,6 +5987,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 666,
     name: 'つわぶき　葉柄　生',
     protein: 80,
     carbohydrate: 19,
@@ -5330,6 +5996,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.4,
   },
   {
+    id: 667,
     name: 'つわぶき　葉柄　ゆで',
     protein: 59,
     carbohydrate: 14,
@@ -5338,6 +6005,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.3,
   },
   {
+    id: 668,
     name: 'とうがらし　葉･果実　生',
     protein: 131,
     carbohydrate: 32,
@@ -5346,6 +6014,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.4,
   },
   {
+    id: 669,
     name: 'とうがらし　葉･果実　油いため',
     protein: 333,
     carbohydrate: 81,
@@ -5354,6 +6023,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.0,
   },
   {
+    id: 670,
     name: 'とうがらし　果実　生',
     protein: 301,
     carbohydrate: 72,
@@ -5362,6 +6032,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.9,
   },
   {
+    id: 671,
     name: 'とうがらし　果実　乾',
     protein: 1117,
     carbohydrate: 270,
@@ -5370,6 +6041,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 14.7,
   },
   {
+    id: 672,
     name: 'とうがん　果実　生',
     protein: 65,
     carbohydrate: 15,
@@ -5378,6 +6050,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.5,
   },
   {
+    id: 673,
     name: 'とうがん　果実　ゆで',
     protein: 63,
     carbohydrate: 15,
@@ -5386,6 +6059,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 674,
     name: '（とうもろこし類）　スイートコーン　未熟種子　生',
     protein: 375,
     carbohydrate: 89,
@@ -5394,6 +6068,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.6,
   },
   {
+    id: 675,
     name: '（とうもろこし類）　スイートコーン　未熟種子　ゆで',
     protein: 402,
     carbohydrate: 95,
@@ -5402,6 +6077,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.5,
   },
   {
+    id: 676,
     name: '（とうもろこし類）　スイートコーン　未熟種子　電子レンジ調理',
     protein: 436,
     carbohydrate: 104,
@@ -5410,6 +6086,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.2,
   },
   {
+    id: 677,
     name: '（とうもろこし類）　スイートコーン　未熟種子　穂軸つき　冷凍',
     protein: 404,
     carbohydrate: 96,
@@ -5418,6 +6095,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.5,
   },
   {
+    id: 678,
     name: '（とうもろこし類）　スイートコーン　未熟種子　カーネル　冷凍',
     protein: 386,
     carbohydrate: 91,
@@ -5426,6 +6104,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.9,
   },
   {
+    id: 679,
     name: '（とうもろこし類）　スイートコーン　未熟種子　カーネル　冷凍　ゆで',
     protein: 387,
     carbohydrate: 92,
@@ -5434,6 +6113,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.8,
   },
   {
+    id: 680,
     name: '（とうもろこし類）　スイートコーン　未熟種子　カーネル　冷凍　油いため',
     protein: 523,
     carbohydrate: 125,
@@ -5442,6 +6122,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.9,
   },
   {
+    id: 681,
     name: '（とうもろこし類）　スイートコーン　缶詰　クリームスタイル',
     protein: 347,
     carbohydrate: 82,
@@ -5450,6 +6131,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.7,
   },
   {
+    id: 682,
     name: '（とうもろこし類）　スイートコーン　缶詰　ホールカーネルスタイル',
     protein: 330,
     carbohydrate: 78,
@@ -5458,6 +6140,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 683,
     name: '（とうもろこし類）　ヤングコーン　幼雌穂　生',
     protein: 124,
     carbohydrate: 29,
@@ -5466,6 +6149,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 684,
     name: '（トマト類）　赤色トマト　果実　生',
     protein: 83,
     carbohydrate: 20,
@@ -5474,6 +6158,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 685,
     name: '（トマト類）　赤色ミニトマト　果実　生',
     protein: 127,
     carbohydrate: 30,
@@ -5482,6 +6167,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 686,
     name: '（トマト類）　黄色トマト　果実　生',
     protein: 75,
     carbohydrate: 18,
@@ -5490,6 +6176,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 687,
     name: '（トマト類）　ドライトマト',
     protein: 1222,
     carbohydrate: 291,
@@ -5498,6 +6185,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 14.2,
   },
   {
+    id: 688,
     name: '（トマト類）　加工品　ホール　食塩無添加',
     protein: 88,
     carbohydrate: 21,
@@ -5506,6 +6194,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 689,
     name: '（トマト類）　加工品　トマトジュース　食塩添加',
     protein: 66,
     carbohydrate: 15,
@@ -5514,6 +6203,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 690,
     name: '（トマト類）　加工品　トマトジュース　食塩無添加',
     protein: 77,
     carbohydrate: 18,
@@ -5522,6 +6212,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 691,
     name: '（トマト類）　加工品　ミックスジュース　食塩添加',
     protein: 77,
     carbohydrate: 18,
@@ -5530,6 +6221,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 692,
     name: '（トマト類）　加工品　ミックスジュース　食塩無添加',
     protein: 77,
     carbohydrate: 18,
@@ -5538,6 +6230,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 693,
     name: 'トレビス　葉　生',
     protein: 72,
     carbohydrate: 17,
@@ -5546,6 +6239,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 694,
     name: 'とんぶり　ゆで',
     protein: 371,
     carbohydrate: 89,
@@ -5554,6 +6248,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.1,
   },
   {
+    id: 695,
     name: 'ながさきはくさい　葉　生',
     protein: 49,
     carbohydrate: 12,
@@ -5562,6 +6257,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.3,
   },
   {
+    id: 696,
     name: 'ながさきはくさい　葉　ゆで',
     protein: 76,
     carbohydrate: 18,
@@ -5570,6 +6266,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 697,
     name: '（なす類）　なす　果実　生',
     protein: 77,
     carbohydrate: 18,
@@ -5578,6 +6275,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 698,
     name: '（なす類）　なす　果実　ゆで',
     protein: 69,
     carbohydrate: 17,
@@ -5586,6 +6284,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 699,
     name: '（なす類）　なす　果実　油いため',
     protein: 300,
     carbohydrate: 73,
@@ -5594,6 +6293,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 700,
     name: '（なす類）　なす　果実　天ぷら',
     protein: 683,
     carbohydrate: 165,
@@ -5602,6 +6302,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 701,
     name: '（なす類）　べいなす　果実　生',
     protein: 83,
     carbohydrate: 20,
@@ -5610,6 +6311,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 702,
     name: '（なす類）　べいなす　果実　素揚げ',
     protein: 731,
     carbohydrate: 177,
@@ -5618,6 +6320,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 703,
     name: '（なす類）　漬物　塩漬',
     protein: 90,
     carbohydrate: 22,
@@ -5626,6 +6329,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 704,
     name: '（なす類）　漬物　ぬかみそ漬',
     protein: 112,
     carbohydrate: 27,
@@ -5634,6 +6338,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.7,
   },
   {
+    id: 705,
     name: '（なす類）　漬物　こうじ漬',
     protein: 369,
     carbohydrate: 87,
@@ -5642,6 +6347,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.5,
   },
   {
+    id: 706,
     name: '（なす類）　漬物　からし漬',
     protein: 536,
     carbohydrate: 127,
@@ -5650,6 +6356,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.6,
   },
   {
+    id: 707,
     name: '（なす類）　漬物　しば漬',
     protein: 111,
     carbohydrate: 27,
@@ -5658,6 +6365,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 708,
     name: 'なずな　葉　生',
     protein: 147,
     carbohydrate: 35,
@@ -5666,6 +6374,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.3,
   },
   {
+    id: 709,
     name: '（なばな類）　和種なばな　花らい・茎　生',
     protein: 141,
     carbohydrate: 34,
@@ -5674,6 +6383,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.4,
   },
   {
+    id: 710,
     name: '（なばな類）　和種なばな　花らい・茎　ゆで',
     protein: 117,
     carbohydrate: 28,
@@ -5682,6 +6392,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.7,
   },
   {
+    id: 711,
     name: '（なばな類）　洋種なばな　茎葉　生',
     protein: 149,
     carbohydrate: 36,
@@ -5690,6 +6401,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.1,
   },
   {
+    id: 712,
     name: '（なばな類）　洋種なばな　茎葉　ゆで',
     protein: 125,
     carbohydrate: 30,
@@ -5698,6 +6410,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.6,
   },
   {
+    id: 713,
     name: 'にがうり　果実　生',
     protein: 63,
     carbohydrate: 15,
@@ -5706,6 +6419,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 714,
     name: 'にがうり　果実　油いため',
     protein: 193,
     carbohydrate: 47,
@@ -5714,6 +6428,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.2,
   },
   {
+    id: 715,
     name: '（にら類）　にら　葉　生',
     protein: 75,
     carbohydrate: 18,
@@ -5722,6 +6437,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.7,
   },
   {
+    id: 716,
     name: '（にら類）　にら　葉　ゆで',
     protein: 112,
     carbohydrate: 27,
@@ -5730,6 +6446,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.6,
   },
   {
+    id: 717,
     name: '（にら類）　にら　葉　油いため',
     protein: 283,
     carbohydrate: 69,
@@ -5738,6 +6455,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 718,
     name: '（にら類）　花にら　花茎・花らい　生',
     protein: 113,
     carbohydrate: 27,
@@ -5746,6 +6464,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 719,
     name: '（にら類）　黄にら　葉　生',
     protein: 76,
     carbohydrate: 18,
@@ -5754,6 +6473,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.1,
   },
   {
+    id: 720,
     name: '（にんじん類）　葉にんじん　葉　生',
     protein: 65,
     carbohydrate: 16,
@@ -5762,6 +6482,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 721,
     name: '（にんじん類）　にんじん　根　皮つき　生',
     protein: 149,
     carbohydrate: 35,
@@ -5770,6 +6491,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 722,
     name: '（にんじん類）　にんじん　根　皮つき　ゆで',
     protein: 120,
     carbohydrate: 29,
@@ -5778,6 +6500,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 723,
     name: '（にんじん類）　にんじん　根　皮なし　生',
     protein: 134,
     carbohydrate: 32,
@@ -5786,6 +6509,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 724,
     name: '（にんじん類）　にんじん　根　皮なし　ゆで',
     protein: 119,
     carbohydrate: 28,
@@ -5794,6 +6518,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 725,
     name: '（にんじん類）　にんじん　根　皮なし　油いため',
     protein: 429,
     carbohydrate: 103,
@@ -5802,6 +6527,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 726,
     name: '（にんじん類）　にんじん　根　皮なし　素揚げ',
     protein: 365,
     carbohydrate: 87,
@@ -5810,6 +6536,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 727,
     name: '（にんじん類）　にんじん　根　皮なし　カット　常法洗浄',
     protein: 115,
     carbohydrate: 27,
@@ -5818,6 +6545,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.5,
   },
   {
+    id: 728,
     name: '（にんじん類）　にんじん　根　皮なし　カット　次亜塩素酸洗浄',
     protein: 112,
     carbohydrate: 27,
@@ -5826,6 +6554,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 729,
     name: '（にんじん類）　にんじん　根　皮　生',
     protein: 108,
     carbohydrate: 26,
@@ -5834,6 +6563,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 730,
     name: '（にんじん類）　にんじん　根　冷凍',
     protein: 126,
     carbohydrate: 30,
@@ -5842,6 +6572,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.8,
   },
   {
+    id: 731,
     name: '（にんじん類）　にんじん　根　冷凍　ゆで',
     protein: 101,
     carbohydrate: 24,
@@ -5850,6 +6581,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 732,
     name: '（にんじん類）　にんじん　根　冷凍　油いため',
     protein: 271,
     carbohydrate: 65,
@@ -5858,6 +6590,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 733,
     name: '（にんじん類）　にんじん　グラッセ',
     protein: 224,
     carbohydrate: 53,
@@ -5866,6 +6599,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 734,
     name: '（にんじん類）　にんじん　ジュース　缶詰',
     protein: 125,
     carbohydrate: 29,
@@ -5874,6 +6608,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 735,
     name: '（にんじん類）　きんとき　根　皮つき　生',
     protein: 163,
     carbohydrate: 39,
@@ -5882,6 +6617,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.8,
   },
   {
+    id: 736,
     name: '（にんじん類）　きんとき　根　皮つき　ゆで',
     protein: 155,
     carbohydrate: 37,
@@ -5890,6 +6626,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 737,
     name: '（にんじん類）　きんとき　根　皮なし　生',
     protein: 170,
     carbohydrate: 40,
@@ -5898,6 +6635,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.8,
   },
   {
+    id: 738,
     name: '（にんじん類）　きんとき　根　皮なし　ゆで',
     protein: 168,
     carbohydrate: 40,
@@ -5906,6 +6644,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 739,
     name: '（にんじん類）　島にんじん　根　皮なし　生',
     protein: 146,
     carbohydrate: 35,
@@ -5914,6 +6653,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 740,
     name: '（にんじん類）　ミニキャロット　根　生',
     protein: 109,
     carbohydrate: 26,
@@ -5922,6 +6662,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.7,
   },
   {
+    id: 741,
     name: '（にんにく類）　にんにく　りん茎　生',
     protein: 544,
     carbohydrate: 129,
@@ -5930,6 +6671,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.4,
   },
   {
+    id: 742,
     name: '（にんにく類）　にんにく　りん茎　油いため',
     protein: 803,
     carbohydrate: 191,
@@ -5938,6 +6680,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 8.2,
   },
   {
+    id: 743,
     name: '（にんにく類）　茎にんにく　花茎　生',
     protein: 186,
     carbohydrate: 44,
@@ -5946,6 +6689,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 744,
     name: '（にんにく類）　茎にんにく　花茎　ゆで',
     protein: 182,
     carbohydrate: 43,
@@ -5954,6 +6698,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.7,
   },
   {
+    id: 745,
     name: '（ねぎ類）　根深ねぎ　葉　軟白　生',
     protein: 146,
     carbohydrate: 35,
@@ -5962,6 +6707,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 746,
     name: '（ねぎ類）　根深ねぎ　葉　軟白　ゆで',
     protein: 118,
     carbohydrate: 28,
@@ -5970,6 +6716,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.3,
   },
   {
+    id: 747,
     name: '（ねぎ類）　根深ねぎ　葉　軟白　油いため',
     protein: 321,
     carbohydrate: 77,
@@ -5978,6 +6725,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 748,
     name: '（ねぎ類）　葉ねぎ　葉　生',
     protein: 121,
     carbohydrate: 29,
@@ -5986,6 +6734,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 749,
     name: '（ねぎ類）　葉ねぎ　葉　油いため',
     protein: 321,
     carbohydrate: 77,
@@ -5994,6 +6743,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.1,
   },
   {
+    id: 750,
     name: '（ねぎ類）　九条ねぎ　葉　生',
     protein: 135,
     carbohydrate: 32,
@@ -6002,6 +6752,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.7,
   },
   {
+    id: 751,
     name: '（ねぎ類）　こねぎ　葉　生',
     protein: 111,
     carbohydrate: 26,
@@ -6010,6 +6761,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.0,
   },
   {
+    id: 752,
     name: '（ねぎ類）　めねぎ　葉　生',
     protein: 62,
     carbohydrate: 15,
@@ -6018,6 +6770,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 753,
     name: 'のざわな　葉　生',
     protein: 60,
     carbohydrate: 14,
@@ -6026,6 +6779,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 754,
     name: 'のざわな　漬物　塩漬',
     protein: 70,
     carbohydrate: 17,
@@ -6034,6 +6788,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.2,
   },
   {
+    id: 755,
     name: 'のざわな　漬物　調味漬',
     protein: 93,
     carbohydrate: 22,
@@ -6042,6 +6797,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.7,
   },
   {
+    id: 756,
     name: 'のびる　りん茎葉　生',
     protein: 262,
     carbohydrate: 63,
@@ -6050,6 +6806,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.2,
   },
   {
+    id: 757,
     name: 'はくさい　結球葉　生',
     protein: 54,
     carbohydrate: 13,
@@ -6058,6 +6815,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.8,
   },
   {
+    id: 758,
     name: 'はくさい　結球葉　ゆで',
     protein: 54,
     carbohydrate: 13,
@@ -6066,6 +6824,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 759,
     name: 'はくさい　漬物　塩漬',
     protein: 70,
     carbohydrate: 17,
@@ -6074,6 +6833,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 760,
     name: 'はくさい　漬物　キムチ',
     protein: 112,
     carbohydrate: 27,
@@ -6082,6 +6842,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 761,
     name: 'パクチョイ　葉　生',
     protein: 63,
     carbohydrate: 15,
@@ -6090,6 +6851,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 762,
     name: 'バジル　葉　生',
     protein: 86,
     carbohydrate: 21,
@@ -6098,6 +6860,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.0,
   },
   {
+    id: 763,
     name: 'パセリ　葉　生',
     protein: 142,
     carbohydrate: 34,
@@ -6106,6 +6869,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.0,
   },
   {
+    id: 764,
     name: 'はつかだいこん　根　生',
     protein: 56,
     carbohydrate: 13,
@@ -6114,6 +6878,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.8,
   },
   {
+    id: 765,
     name: 'はなっこりー　生',
     protein: 144,
     carbohydrate: 34,
@@ -6122,6 +6887,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.6,
   },
   {
+    id: 766,
     name: 'はやとうり　果実　白色種　生',
     protein: 86,
     carbohydrate: 20,
@@ -6130,6 +6896,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 767,
     name: 'はやとうり　果実　白色種　塩漬',
     protein: 71,
     carbohydrate: 17,
@@ -6138,6 +6905,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 768,
     name: 'はやとうり　果実　緑色種　生',
     protein: 86,
     carbohydrate: 21,
@@ -6146,6 +6914,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.6,
   },
   {
+    id: 769,
     name: 'ビーツ　根　生',
     protein: 159,
     carbohydrate: 38,
@@ -6154,6 +6923,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 770,
     name: 'ビーツ　根　ゆで',
     protein: 176,
     carbohydrate: 42,
@@ -6162,6 +6932,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 771,
     name: '（ピーマン類）　青ピーマン　果実　生',
     protein: 85,
     carbohydrate: 20,
@@ -6170,6 +6941,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 772,
     name: '（ピーマン類）　青ピーマン　果実　油いため',
     protein: 221,
     carbohydrate: 54,
@@ -6178,6 +6950,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 773,
     name: '（ピーマン類）　赤ピーマン　果実　生',
     protein: 117,
     carbohydrate: 28,
@@ -6186,6 +6959,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 774,
     name: '（ピーマン類）　赤ピーマン　果実　油いため',
     protein: 286,
     carbohydrate: 69,
@@ -6194,6 +6968,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 775,
     name: '（ピーマン類）　オレンジピーマン　果実　生',
     protein: 81,
     carbohydrate: 19,
@@ -6202,6 +6977,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 776,
     name: '（ピーマン類）　オレンジピーマン　果実　油いため',
     protein: 337,
     carbohydrate: 81,
@@ -6210,6 +6986,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 777,
     name: '（ピーマン類）　黄ピーマン　果実　生',
     protein: 119,
     carbohydrate: 28,
@@ -6218,6 +6995,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.8,
   },
   {
+    id: 778,
     name: '（ピーマン類）　黄ピーマン　果実　油いため',
     protein: 252,
     carbohydrate: 61,
@@ -6226,6 +7004,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.8,
   },
   {
+    id: 779,
     name: '（ピーマン類）　トマピー　果実　生',
     protein: 138,
     carbohydrate: 33,
@@ -6234,6 +7013,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 780,
     name: 'ひのな　根・茎葉　生',
     protein: 70,
     carbohydrate: 17,
@@ -6242,6 +7022,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 781,
     name: 'ひのな　根・茎葉　甘酢漬',
     protein: 294,
     carbohydrate: 70,
@@ -6250,6 +7031,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.4,
   },
   {
+    id: 782,
     name: 'ひろしまな　葉　生',
     protein: 80,
     carbohydrate: 19,
@@ -6258,6 +7040,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.5,
   },
   {
+    id: 783,
     name: 'ひろしまな　塩漬',
     protein: 62,
     carbohydrate: 15,
@@ -6266,6 +7049,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.2,
   },
   {
+    id: 784,
     name: '（ふき類）　ふき　葉柄　生',
     protein: 44,
     carbohydrate: 11,
@@ -6274,6 +7058,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.3,
   },
   {
+    id: 785,
     name: '（ふき類）　ふき　葉柄　ゆで',
     protein: 27,
     carbohydrate: 7,
@@ -6282,6 +7067,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.3,
   },
   {
+    id: 786,
     name: '（ふき類）　ふきのとう　花序　生',
     protein: 159,
     carbohydrate: 38,
@@ -6290,6 +7076,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.5,
   },
   {
+    id: 787,
     name: '（ふき類）　ふきのとう　花序　ゆで',
     protein: 127,
     carbohydrate: 31,
@@ -6298,6 +7085,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.5,
   },
   {
+    id: 788,
     name: 'ふじまめ　若ざや　生',
     protein: 132,
     carbohydrate: 32,
@@ -6306,6 +7094,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.5,
   },
   {
+    id: 789,
     name: 'ふだんそう　葉　生',
     protein: 70,
     carbohydrate: 17,
@@ -6314,6 +7103,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.0,
   },
   {
+    id: 790,
     name: 'ふだんそう　葉　ゆで',
     protein: 108,
     carbohydrate: 26,
@@ -6322,6 +7112,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.8,
   },
   {
+    id: 791,
     name: 'ブロッコリー　花序　生',
     protein: 156,
     carbohydrate: 37,
@@ -6330,6 +7121,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.4,
   },
   {
+    id: 792,
     name: 'ブロッコリー　花序　ゆで',
     protein: 126,
     carbohydrate: 30,
@@ -6338,6 +7130,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.9,
   },
   {
+    id: 793,
     name: 'ブロッコリー　花序　電子レンジ調理',
     protein: 239,
     carbohydrate: 56,
@@ -6346,6 +7139,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.7,
   },
   {
+    id: 794,
     name: 'ブロッコリー　花序　焼き',
     protein: 353,
     carbohydrate: 83,
@@ -6354,6 +7148,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 9.9,
   },
   {
+    id: 795,
     name: 'ブロッコリー　花序　油いため',
     protein: 454,
     carbohydrate: 109,
@@ -6362,6 +7157,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 6.9,
   },
   {
+    id: 796,
     name: 'ブロッコリー　芽ばえ　生',
     protein: 75,
     carbohydrate: 18,
@@ -6370,6 +7166,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 797,
     name: 'へちま　果実　生',
     protein: 72,
     carbohydrate: 17,
@@ -6378,6 +7175,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.8,
   },
   {
+    id: 798,
     name: 'へちま　果実　ゆで',
     protein: 80,
     carbohydrate: 19,
@@ -6386,6 +7184,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 799,
     name: 'ほうれんそう　葉　通年平均　生',
     protein: 75,
     carbohydrate: 18,
@@ -6394,6 +7193,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 800,
     name: 'ほうれんそう　葉　通年平均　ゆで',
     protein: 94,
     carbohydrate: 23,
@@ -6402,6 +7202,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.6,
   },
   {
+    id: 801,
     name: 'ほうれんそう　葉　通年平均　油いため',
     protein: 375,
     carbohydrate: 91,
@@ -6410,6 +7211,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.8,
   },
   {
+    id: 802,
     name: 'ほうれんそう　葉　夏採り　生',
     protein: 75,
     carbohydrate: 18,
@@ -6418,6 +7220,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 803,
     name: 'ほうれんそう　葉　夏採り　ゆで',
     protein: 94,
     carbohydrate: 23,
@@ -6426,6 +7229,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.6,
   },
   {
+    id: 804,
     name: 'ほうれんそう　葉　冬採り　生',
     protein: 75,
     carbohydrate: 18,
@@ -6434,6 +7238,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 805,
     name: 'ほうれんそう　葉　冬採り　ゆで',
     protein: 94,
     carbohydrate: 23,
@@ -6442,6 +7247,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.6,
   },
   {
+    id: 806,
     name: 'ほうれんそう　葉　冷凍',
     protein: 90,
     carbohydrate: 22,
@@ -6450,6 +7256,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.9,
   },
   {
+    id: 807,
     name: 'ほうれんそう　葉　冷凍　ゆで',
     protein: 107,
     carbohydrate: 26,
@@ -6458,6 +7265,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.7,
   },
   {
+    id: 808,
     name: 'ほうれんそう　葉　冷凍　油いため',
     protein: 278,
     carbohydrate: 67,
@@ -6466,6 +7274,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.0,
   },
   {
+    id: 809,
     name: 'ホースラディシュ　根茎　生',
     protein: 290,
     carbohydrate: 69,
@@ -6474,6 +7283,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.1,
   },
   {
+    id: 810,
     name: 'まこも　茎　生',
     protein: 82,
     carbohydrate: 19,
@@ -6482,6 +7292,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.3,
   },
   {
+    id: 811,
     name: 'みずかけな　葉　生',
     protein: 107,
     carbohydrate: 25,
@@ -6490,6 +7301,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.9,
   },
   {
+    id: 812,
     name: 'みずかけな　塩漬',
     protein: 144,
     carbohydrate: 34,
@@ -6498,6 +7310,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 4.9,
   },
   {
+    id: 813,
     name: 'みずな　葉　生',
     protein: 96,
     carbohydrate: 23,
@@ -6506,6 +7319,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 814,
     name: 'みずな　葉　ゆで',
     protein: 85,
     carbohydrate: 21,
@@ -6514,6 +7328,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.0,
   },
   {
+    id: 815,
     name: 'みずな　塩漬',
     protein: 107,
     carbohydrate: 26,
@@ -6522,6 +7337,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.0,
   },
   {
+    id: 816,
     name: '（みつば類）　切りみつば　葉　生',
     protein: 66,
     carbohydrate: 16,
@@ -6530,6 +7346,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.0,
   },
   {
+    id: 817,
     name: '（みつば類）　切りみつば　葉　ゆで',
     protein: 51,
     carbohydrate: 12,
@@ -6538,6 +7355,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 818,
     name: '（みつば類）　根みつば　葉　生',
     protein: 80,
     carbohydrate: 19,
@@ -6546,6 +7364,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.9,
   },
   {
+    id: 819,
     name: '（みつば類）　根みつば　葉　ゆで',
     protein: 79,
     carbohydrate: 19,
@@ -6554,6 +7373,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.3,
   },
   {
+    id: 820,
     name: '（みつば類）　糸みつば　葉　生',
     protein: 48,
     carbohydrate: 12,
@@ -6562,6 +7382,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 821,
     name: '（みつば類）　糸みつば　葉　ゆで',
     protein: 60,
     carbohydrate: 14,
@@ -6570,6 +7391,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 822,
     name: 'みぶな　葉　生',
     protein: 58,
     carbohydrate: 14,
@@ -6578,6 +7400,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.1,
   },
   {
+    id: 823,
     name: '（みょうが類）　みょうが　花穂　生',
     protein: 44,
     carbohydrate: 11,
@@ -6586,6 +7409,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.9,
   },
   {
+    id: 824,
     name: '（みょうが類）　みょうがたけ　茎葉　生',
     protein: 26,
     carbohydrate: 6,
@@ -6594,6 +7418,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 0.4,
   },
   {
+    id: 825,
     name: 'むかご　肉芽　生',
     protein: 367,
     carbohydrate: 87,
@@ -6602,6 +7427,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.9,
   },
   {
+    id: 826,
     name: 'めキャベツ　結球葉　生',
     protein: 219,
     carbohydrate: 52,
@@ -6610,6 +7436,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.7,
   },
   {
+    id: 827,
     name: 'めキャベツ　結球葉　ゆで',
     protein: 213,
     carbohydrate: 51,
@@ -6618,6 +7445,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 5.3,
   },
   {
+    id: 828,
     name: 'めたで　芽ばえ　生',
     protein: 162,
     carbohydrate: 39,
@@ -6626,6 +7454,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.0,
   },
   {
+    id: 829,
     name: '（もやし類）　アルファルファもやし　生',
     protein: 47,
     carbohydrate: 11,
@@ -6634,6 +7463,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 1.6,
   },
   {
+    id: 830,
     name: '（もやし類）　だいずもやし　生',
     protein: 119,
     carbohydrate: 29,
@@ -6642,6 +7472,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.6,
   },
   {
+    id: 831,
     name: '（もやし類）　だいずもやし　ゆで',
     protein: 112,
     carbohydrate: 27,
@@ -6650,6 +7481,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.9,
   },
   {
+    id: 832,
     name: '（もやし類）　だいずもやし　油いため',
     protein: 259,
     carbohydrate: 62,
@@ -6658,6 +7490,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 3.8,
   },
   {
+    id: 833,
     name: '（もやし類）　ブラックマッペもやし　生',
     protein: 73,
     carbohydrate: 17,
@@ -6666,6 +7499,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: 2.2,
   },
   {
+    id: 834,
     name: '（もやし類）　ブラックマッペもやし　ゆで',
     protein: '53',
     carbohydrate: '13',
@@ -6674,6 +7508,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 835,
     name: '（もやし類）　ブラックマッペもやし　油いため',
     protein: '173',
     carbohydrate: '41',
@@ -6682,6 +7517,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.3',
   },
   {
+    id: 836,
     name: '（もやし類）　りょくとうもやし　生',
     protein: '65',
     carbohydrate: '15',
@@ -6690,6 +7526,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.8',
   },
   {
+    id: 837,
     name: '（もやし類）　りょくとうもやし　ゆで',
     protein: '49',
     carbohydrate: '12',
@@ -6698,6 +7535,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.6',
   },
   {
+    id: 838,
     name: '（もやし類）　りょくとうもやし　油いため',
     protein: '169',
     carbohydrate: '40',
@@ -6706,6 +7544,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.0 ',
   },
   {
+    id: 839,
     name: 'モロヘイヤ　茎葉　生',
     protein: '151',
     carbohydrate: '36',
@@ -6714,6 +7553,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.8',
   },
   {
+    id: 840,
     name: 'モロヘイヤ　茎葉　ゆで',
     protein: '100',
     carbohydrate: '24',
@@ -6722,6 +7562,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.0',
   },
   {
+    id: 841,
     name: 'やぶまめ　生',
     protein: '917',
     carbohydrate: '219',
@@ -6730,6 +7571,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.5',
   },
   {
+    id: 842,
     name: 'やまごぼう　みそ漬',
     protein: '276',
     carbohydrate: '66',
@@ -6738,6 +7580,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.1',
   },
   {
+    id: 843,
     name: 'ゆりね　りん茎　生',
     protein: '501',
     carbohydrate: '119',
@@ -6746,6 +7589,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 844,
     name: 'ゆりね　りん茎　ゆで',
     protein: '495',
     carbohydrate: '117',
@@ -6754,6 +7598,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 845,
     name: 'ようさい　茎葉　生',
     protein: '72',
     carbohydrate: '17',
@@ -6762,6 +7607,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.2',
   },
   {
+    id: 846,
     name: 'ようさい　茎葉　ゆで',
     protein: '76',
     carbohydrate: '18',
@@ -6770,6 +7616,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.2',
   },
   {
+    id: 847,
     name: 'よめな　葉　生',
     protein: '165',
     carbohydrate: '40',
@@ -6778,6 +7625,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 848,
     name: 'よもぎ　葉　生',
     protein: '177',
     carbohydrate: '43',
@@ -6786,6 +7634,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.2',
   },
   {
+    id: 849,
     name: 'よもぎ　葉　ゆで',
     protein: '155',
     carbohydrate: '37',
@@ -6794,6 +7643,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.8',
   },
   {
+    id: 850,
     name: 'らっかせい　未熟豆　生',
     protein: '1268',
     carbohydrate: '306',
@@ -6802,6 +7652,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.0',
   },
   {
+    id: 851,
     name: 'らっかせい　未熟豆　ゆで',
     protein: '1237',
     carbohydrate: '298',
@@ -6810,6 +7661,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.9',
   },
   {
+    id: 852,
     name: '（らっきょう類）　らっきょう　りん茎　生',
     protein: '342',
     carbohydrate: '83',
@@ -6818,6 +7670,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.4',
   },
   {
+    id: 853,
     name: '（らっきょう類）　らっきょう　甘酢漬',
     protein: '496',
     carbohydrate: '117',
@@ -6826,6 +7679,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 854,
     name: '（らっきょう類）　エシャレット　りん茎　生',
     protein: '245',
     carbohydrate: '59',
@@ -6834,6 +7688,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.3',
   },
   {
+    id: 855,
     name: 'リーキ　りん茎葉　生',
     protein: '125',
     carbohydrate: '30',
@@ -6842,6 +7697,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.6',
   },
   {
+    id: 856,
     name: 'リーキ　りん茎葉　ゆで',
     protein: '117',
     carbohydrate: '28',
@@ -6850,6 +7706,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 857,
     name: 'ルッコラ　葉　生',
     protein: '71',
     carbohydrate: '17',
@@ -6858,6 +7715,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.9',
   },
   {
+    id: 858,
     name: 'ルバーブ　葉柄　生',
     protein: '95',
     carbohydrate: '23',
@@ -6866,6 +7724,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 859,
     name: 'ルバーブ　葉柄　ゆで',
     protein: '58',
     carbohydrate: '14',
@@ -6874,6 +7733,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 860,
     name: '（レタス類）　レタス　土耕栽培　結球葉　生',
     protein: '46',
     carbohydrate: '11',
@@ -6882,6 +7742,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 861,
     name: '（レタス類）　レタス　水耕栽培　結球葉　生',
     protein: '54',
     carbohydrate: '13',
@@ -6890,6 +7751,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 862,
     name: '（レタス類）　サラダな　葉　生',
     protein: '43',
     carbohydrate: '10',
@@ -6898,6 +7760,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 863,
     name: '（レタス類）　リーフレタス　葉　生',
     protein: '66',
     carbohydrate: '16',
@@ -6906,6 +7769,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.4',
   },
   {
+    id: 864,
     name: '（レタス類）　サニーレタス　葉　生',
     protein: '63',
     carbohydrate: '15',
@@ -6914,6 +7778,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.2',
   },
   {
+    id: 865,
     name: '（レタス類）　サンチュ　葉　生',
     protein: '56',
     carbohydrate: '14',
@@ -6922,6 +7787,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.2',
   },
   {
+    id: 866,
     name: '（レタス類）　コスレタス　葉　生',
     protein: '66',
     carbohydrate: '16',
@@ -6930,6 +7796,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.2',
   },
   {
+    id: 867,
     name: 'れんこん　根茎　生',
     protein: '280',
     carbohydrate: '66',
@@ -6938,6 +7805,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.9',
   },
   {
+    id: 868,
     name: 'れんこん　根茎　ゆで',
     protein: '278',
     carbohydrate: '66',
@@ -6946,6 +7814,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 869,
     name: 'れんこん　甘酢れんこん',
     protein: '281',
     carbohydrate: '66',
@@ -6954,6 +7823,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 870,
     name: 'わけぎ　葉　生',
     protein: '128',
     carbohydrate: '30',
@@ -6962,6 +7832,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.6',
   },
   {
+    id: 871,
     name: 'わけぎ　葉　ゆで',
     protein: '122',
     carbohydrate: '29',
@@ -6970,6 +7841,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.9',
   },
   {
+    id: 872,
     name: 'わさび　根茎　生',
     protein: '376',
     carbohydrate: '89',
@@ -6978,6 +7850,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.6',
   },
   {
+    id: 873,
     name: 'わさび　わさび漬',
     protein: '591',
     carbohydrate: '140',
@@ -6986,6 +7859,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.1',
   },
   {
+    id: 874,
     name: 'わらび　生わらび　生',
     protein: '80',
     carbohydrate: '19',
@@ -6994,6 +7868,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.4',
   },
   {
+    id: 875,
     name: 'わらび　生わらび　ゆで',
     protein: '53',
     carbohydrate: '13',
@@ -7002,6 +7877,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 876,
     name: 'わらび　干しわらび　乾',
     protein: '888',
     carbohydrate: '216',
@@ -7010,6 +7886,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.0',
   },
   {
+    id: 877,
     name: '（その他）　ミックスベジタブル　冷凍',
     protein: '282',
     carbohydrate: '67',
@@ -7018,6 +7895,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.0',
   },
   {
+    id: 878,
     name: '（その他）　ミックスベジタブル　冷凍　ゆで',
     protein: '273',
     carbohydrate: '65',
@@ -7026,6 +7904,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.1',
   },
   {
+    id: 879,
     name: '（その他）　ミックスベジタブル　冷凍　油いため',
     protein: '450',
     carbohydrate: '108',
@@ -7034,6 +7913,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.3',
   },
   {
+    id: 880,
     name: '（その他）　野菜ミックスジュース　通常タイプ',
     protein: '89',
     carbohydrate: '21',
@@ -7042,6 +7922,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 881,
     name: '（その他）　野菜ミックスジュース　濃縮タイプ',
     protein: '152',
     carbohydrate: '36',
@@ -7050,6 +7931,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 882,
     name: 'あけび　果肉　生',
     protein: '376',
     carbohydrate: '89',
@@ -7058,6 +7940,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 883,
     name: 'あけび　果皮　生',
     protein: '135',
     carbohydrate: '32',
@@ -7066,6 +7949,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 884,
     name: 'アサイー　冷凍　無糖',
     protein: '255',
     carbohydrate: '62',
@@ -7074,6 +7958,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 885,
     name: 'アセロラ　酸味種　生',
     protein: '150',
     carbohydrate: '36',
@@ -7082,6 +7967,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 886,
     name: 'アセロラ　甘味種　生',
     protein: '152',
     carbohydrate: '36',
@@ -7090,6 +7976,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 887,
     name: 'アセロラ　果実飲料　10%果汁入り飲料',
     protein: '178',
     carbohydrate: '42',
@@ -7098,6 +7985,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 888,
     name: 'アテモヤ　生',
     protein: '343',
     carbohydrate: '81',
@@ -7106,6 +7994,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.8',
   },
   {
+    id: 889,
     name: 'アボカド　生',
     protein: '728',
     carbohydrate: '176',
@@ -7114,6 +8003,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.1',
   },
   {
+    id: 890,
     name: 'あんず　生',
     protein: '155',
     carbohydrate: '37',
@@ -7122,6 +8012,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 891,
     name: 'あんず　乾',
     protein: '1253',
     carbohydrate: '296',
@@ -7130,6 +8021,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.2',
   },
   {
+    id: 892,
     name: 'あんず　缶詰',
     protein: '335',
     carbohydrate: '79',
@@ -7138,6 +8030,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 893,
     name: 'あんず　ジャム　高糖度',
     protein: '1076',
     carbohydrate: '252',
@@ -7146,6 +8039,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 894,
     name: 'あんず　ジャム　低糖度',
     protein: '858',
     carbohydrate: '202',
@@ -7154,6 +8048,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 895,
     name: 'いちご　生',
     protein: '130',
     carbohydrate: '31',
@@ -7162,6 +8057,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 896,
     name: 'いちご　ジャム　高糖度',
     protein: '1064',
     carbohydrate: '250',
@@ -7170,6 +8066,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 897,
     name: 'いちご　ジャム　低糖度',
     protein: '825',
     carbohydrate: '194',
@@ -7178,6 +8075,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 898,
     name: 'いちご　乾',
     protein: '1398',
     carbohydrate: '329',
@@ -7186,6 +8084,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 899,
     name: 'いちじく　生',
     protein: '239',
     carbohydrate: '57',
@@ -7194,6 +8093,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 900,
     name: 'いちじく　乾',
     protein: '1152',
     carbohydrate: '272',
@@ -7202,6 +8102,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.0',
   },
   {
+    id: 901,
     name: 'いちじく　缶詰',
     protein: '331',
     carbohydrate: '78',
@@ -7210,6 +8111,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 902,
     name: 'うめ　生',
     protein: '139',
     carbohydrate: '33',
@@ -7218,6 +8120,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 903,
     name: 'うめ　梅漬　塩漬',
     protein: '114',
     carbohydrate: '27',
@@ -7226,6 +8129,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 904,
     name: 'うめ　梅漬　調味漬',
     protein: '189',
     carbohydrate: '45',
@@ -7234,6 +8138,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 905,
     name: 'うめ　梅干し　塩漬',
     protein: '118',
     carbohydrate: '29',
@@ -7242,6 +8147,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 906,
     name: 'うめ　梅干し　調味漬',
     protein: '381',
     carbohydrate: '90',
@@ -7250,6 +8156,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 907,
     name: 'うめ　梅びしお',
     protein: '834',
     carbohydrate: '196',
@@ -7258,6 +8165,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 908,
     name: 'うめ　果実飲料　20%果汁入り飲料',
     protein: '208',
     carbohydrate: '49',
@@ -7266,6 +8174,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 909,
     name: 'オリーブ　塩漬　グリーンオリーブ',
     protein: '611',
     carbohydrate: '148',
@@ -7274,6 +8183,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 910,
     name: 'オリーブ　塩漬　ブラックオリーブ',
     protein: '498',
     carbohydrate: '121',
@@ -7282,6 +8192,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 911,
     name: 'オリーブ　塩漬　スタッフドオリーブ',
     protein: '581',
     carbohydrate: '141',
@@ -7290,6 +8201,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 912,
     name: 'かき　甘がき　生',
     protein: '268',
     carbohydrate: '63',
@@ -7298,6 +8210,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 913,
     name: 'かき　渋抜きがき　生',
     protein: '250',
     carbohydrate: '59',
@@ -7306,6 +8219,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 914,
     name: 'かき　干しがき',
     protein: '1156',
     carbohydrate: '274',
@@ -7314,6 +8228,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 915,
     name: 'かりん　生',
     protein: '241',
     carbohydrate: '58',
@@ -7322,6 +8237,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 916,
     name: '（かんきつ類）　いよかん　砂じょう　生',
     protein: '210',
     carbohydrate: '50',
@@ -7330,6 +8246,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 917,
     name: '（かんきつ類）　うんしゅうみかん　じょうのう　早生　生',
     protein: '207',
     carbohydrate: '49',
@@ -7338,6 +8255,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 918,
     name: '（かんきつ類）　うんしゅうみかん　じょうのう　普通　生',
     protein: '209',
     carbohydrate: '49',
@@ -7346,6 +8264,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 919,
     name: '（かんきつ類）　うんしゅうみかん　砂じょう　早生　生',
     protein: '200',
     carbohydrate: '47',
@@ -7354,6 +8273,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 920,
     name: '（かんきつ類）　うんしゅうみかん　砂じょう　普通　生',
     protein: '206',
     carbohydrate: '49',
@@ -7362,6 +8282,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 921,
     name: '（かんきつ類）　うんしゅうみかん　果実飲料　ストレートジュース',
     protein: '191',
     carbohydrate: '45',
@@ -7370,6 +8291,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 922,
     name: '（かんきつ類）　うんしゅうみかん　果実飲料　濃縮還元ジュース',
     protein: '179',
     carbohydrate: '42',
@@ -7378,6 +8300,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 923,
     name: '（かんきつ類）　うんしゅうみかん　果実飲料　果粒入りジュース',
     protein: '224',
     carbohydrate: '53',
@@ -7386,6 +8309,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 924,
     name: '（かんきつ類）　うんしゅうみかん　果実飲料　50%果汁入り飲料',
     protein: '253',
     carbohydrate: '59',
@@ -7394,6 +8318,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 925,
     name: '（かんきつ類）　うんしゅうみかん　果実飲料　20%果汁入り飲料',
     protein: '213',
     carbohydrate: '50',
@@ -7402,6 +8327,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 926,
     name: '（かんきつ類）　うんしゅうみかん　缶詰　果肉',
     protein: '267',
     carbohydrate: '63',
@@ -7410,6 +8336,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 927,
     name: '（かんきつ類）　うんしゅうみかん　缶詰　液汁',
     protein: '268',
     carbohydrate: '63',
@@ -7418,6 +8345,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 928,
     name: '（かんきつ類）　オレンジ　ネーブル　砂じょう　生',
     protein: '204',
     carbohydrate: '48',
@@ -7426,6 +8354,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 929,
     name: '（かんきつ類）　オレンジ　バレンシア　米国産　砂じょう　生',
     protein: '179',
     carbohydrate: '42',
@@ -7434,6 +8363,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 930,
     name: '（かんきつ類）　オレンジ　バレンシア　果実飲料　ストレートジュース',
     protein: '191',
     carbohydrate: '45',
@@ -7442,6 +8372,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 931,
     name: '（かんきつ類）　オレンジ　バレンシア　果実飲料　濃縮還元ジュース',
     protein: '195',
     carbohydrate: '46',
@@ -7450,6 +8381,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 932,
     name: '（かんきつ類）　オレンジ　バレンシア　果実飲料　50%果汁入り飲料',
     protein: '195',
     carbohydrate: '46',
@@ -7458,6 +8390,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 933,
     name: '（かんきつ類）　オレンジ　バレンシア　果実飲料　30%果汁入り飲料',
     protein: '173',
     carbohydrate: '41',
@@ -7466,6 +8399,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 934,
     name: '（かんきつ類）　オレンジ　バレンシア　マーマレード　高糖度',
     protein: '992',
     carbohydrate: '233',
@@ -7474,6 +8408,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 935,
     name: '（かんきつ類）　オレンジ　バレンシア　マーマレード　低糖度',
     protein: '808',
     carbohydrate: '190',
@@ -7482,6 +8417,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 936,
     name: '（かんきつ類）　オレンジ　福原オレンジ　砂じょう　生',
     protein: '180',
     carbohydrate: '43',
@@ -7490,6 +8426,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 937,
     name: '（かんきつ類）　オロブランコ　砂じょう　生',
     protein: '181',
     carbohydrate: '43',
@@ -7498,6 +8435,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 938,
     name: '（かんきつ類）　かぼす　果汁　生',
     protein: '154',
     carbohydrate: '36',
@@ -7506,6 +8444,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 939,
     name: '（かんきつ類）　かわちばんかん　砂じょう　生',
     protein: '162',
     carbohydrate: '38',
@@ -7514,6 +8453,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 940,
     name: '（かんきつ類）　きよみ　砂じょう　生',
     protein: '190',
     carbohydrate: '45',
@@ -7522,6 +8462,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 941,
     name: '（かんきつ類）　きんかん　全果　生',
     protein: '283',
     carbohydrate: '67',
@@ -7530,6 +8471,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 942,
     name: '（かんきつ類）　グレープフルーツ　白肉種　砂じょう　生',
     protein: '168',
     carbohydrate: '40',
@@ -7538,6 +8480,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 943,
     name: '（かんきつ類）　グレープフルーツ　紅肉種　砂じょう　生',
     protein: '168',
     carbohydrate: '40',
@@ -7546,6 +8489,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 944,
     name: '（かんきつ類）　グレープフルーツ　果実飲料　ストレートジュース',
     protein: '187',
     carbohydrate: '44',
@@ -7554,6 +8498,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 945,
     name: '（かんきつ類）　グレープフルーツ　果実飲料　濃縮還元ジュース',
     protein: '163',
     carbohydrate: '38',
@@ -7562,6 +8507,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 946,
     name: '（かんきつ類）　グレープフルーツ　果実飲料　50%果汁入り飲料',
     protein: '193',
     carbohydrate: '45',
@@ -7570,6 +8516,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 947,
     name: '（かんきつ類）　グレープフルーツ　果実飲料　20%果汁入り飲料',
     protein: '167',
     carbohydrate: '39',
@@ -7578,6 +8525,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 948,
     name: '（かんきつ類）　グレープフルーツ　缶詰',
     protein: '257',
     carbohydrate: '60',
@@ -7586,6 +8534,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 949,
     name: '（かんきつ類）　さんぼうかん　砂じょう　生',
     protein: '200',
     carbohydrate: '47',
@@ -7594,6 +8543,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 950,
     name: '（かんきつ類）　シークヮーサー　果汁　生',
     protein: '149',
     carbohydrate: '35',
@@ -7602,6 +8552,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 951,
     name: '（かんきつ類）　シークヮーサー　果実飲料　10%果汁入り飲料',
     protein: '202',
     carbohydrate: '48',
@@ -7610,6 +8561,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 952,
     name: '（かんきつ類）　しらぬひ　砂じょう　生',
     protein: '236',
     carbohydrate: '56',
@@ -7618,6 +8570,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 953,
     name: '（かんきつ類）　すだち　果皮　生',
     protein: '230',
     carbohydrate: '55',
@@ -7626,6 +8579,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.8',
   },
   {
+    id: 954,
     name: '（かんきつ類）　すだち　果汁　生',
     protein: '124',
     carbohydrate: '29',
@@ -7634,6 +8588,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 955,
     name: '（かんきつ類）　せとか　砂じょう　生',
     protein: '214',
     carbohydrate: '50',
@@ -7642,6 +8597,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 956,
     name: '（かんきつ類）　セミノール　砂じょう　生',
     protein: '226',
     carbohydrate: '53',
@@ -7650,6 +8606,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 957,
     name: '（かんきつ類）　だいだい　果汁　生',
     protein: '149',
     carbohydrate: '35',
@@ -7658,6 +8615,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 958,
     name: '（かんきつ類）　なつみかん　砂じょう　生',
     protein: '178',
     carbohydrate: '42',
@@ -7666,6 +8624,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 959,
     name: '（かんきつ類）　なつみかん　缶詰',
     protein: '338',
     carbohydrate: '80',
@@ -7674,6 +8633,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 960,
     name: '（かんきつ類）　はっさく　砂じょう　生',
     protein: '199',
     carbohydrate: '47',
@@ -7682,6 +8642,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 961,
     name: '（かんきつ類）　はるみ　砂じょう　生',
     protein: '220',
     carbohydrate: '52',
@@ -7690,6 +8651,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 962,
     name: '（かんきつ類）　ひゅうがなつ　じょうのう及びアルベド　生',
     protein: '194',
     carbohydrate: '46',
@@ -7698,6 +8660,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 963,
     name: '（かんきつ類）　ひゅうがなつ　砂じょう　生',
     protein: '149',
     carbohydrate: '35',
@@ -7706,6 +8669,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 964,
     name: '（かんきつ類）　ぶんたん　砂じょう　生',
     protein: '174',
     carbohydrate: '41',
@@ -7714,6 +8678,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 965,
     name: '（かんきつ類）　ぶんたん　ざぼん漬',
     protein: '1436',
     carbohydrate: '338',
@@ -7722,6 +8687,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 966,
     name: '（かんきつ類）　ぽんかん　砂じょう　生',
     protein: '178',
     carbohydrate: '42',
@@ -7730,6 +8696,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 967,
     name: '（かんきつ類）　ゆず　果皮　生',
     protein: '210',
     carbohydrate: '50',
@@ -7738,6 +8705,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.2',
   },
   {
+    id: 968,
     name: '（かんきつ類）　ゆず　果汁　生',
     protein: '128',
     carbohydrate: '30',
@@ -7746,6 +8714,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 969,
     name: '（かんきつ類）　ライム　果汁　生',
     protein: '167',
     carbohydrate: '39',
@@ -7754,6 +8723,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 970,
     name: '（かんきつ類）　レモン　全果　生',
     protein: '178',
     carbohydrate: '43',
@@ -7762,6 +8732,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 971,
     name: '（かんきつ類）　レモン　果汁　生',
     protein: '101',
     carbohydrate: '24',
@@ -7770,6 +8741,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 972,
     name: 'キウイフルーツ　緑肉種　生',
     protein: '217',
     carbohydrate: '51',
@@ -7778,6 +8750,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 973,
     name: 'キウイフルーツ　黄肉種　生',
     protein: '267',
     carbohydrate: '63',
@@ -7786,6 +8759,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 974,
     name: 'きはだ　実　乾',
     protein: '1593',
     carbohydrate: '378',
@@ -7794,6 +8768,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.3',
   },
   {
+    id: 975,
     name: 'キワノ　生',
     protein: '171',
     carbohydrate: '41',
@@ -7802,6 +8777,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 976,
     name: 'グァバ　赤肉種　生',
     protein: '136',
     carbohydrate: '33',
@@ -7810,6 +8786,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 977,
     name: 'グァバ　白肉種　生',
     protein: '136',
     carbohydrate: '33',
@@ -7818,6 +8795,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 978,
     name: 'グァバ　果実飲料　20%果汁入り飲料　（ネクター）',
     protein: '207',
     carbohydrate: '49',
@@ -7826,6 +8804,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 979,
     name: 'グァバ　果実飲料　10%果汁入り飲料',
     protein: '213',
     carbohydrate: '50',
@@ -7834,6 +8813,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 980,
     name: 'くこ　実　乾',
     protein: '1640',
     carbohydrate: '387',
@@ -7842,6 +8822,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.3',
   },
   {
+    id: 981,
     name: 'ぐみ　生',
     protein: '304',
     carbohydrate: '72',
@@ -7850,6 +8831,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 982,
     name: 'ココナッツ　ココナッツウォーター',
     protein: '92',
     carbohydrate: '22',
@@ -7858,6 +8840,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 983,
     name: 'ココナッツ　ココナッツミルク',
     protein: '649',
     carbohydrate: '157',
@@ -7866,6 +8849,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.9',
   },
   {
+    id: 984,
     name: 'ココナッツ　ナタデココ',
     protein: '341',
     carbohydrate: '80',
@@ -7874,6 +8858,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 985,
     name: 'さくらんぼ　国産　生',
     protein: '271',
     carbohydrate: '64',
@@ -7882,6 +8867,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 986,
     name: 'さくらんぼ　米国産　生',
     protein: '273',
     carbohydrate: '64',
@@ -7890,6 +8876,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.2',
   },
   {
+    id: 987,
     name: 'さくらんぼ　米国産　缶詰',
     protein: '298',
     carbohydrate: '70',
@@ -7898,6 +8885,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 988,
     name: 'ざくろ　生',
     protein: '267',
     carbohydrate: '63',
@@ -7906,6 +8894,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 989,
     name: 'すいか　赤肉種　生',
     protein: '172',
     carbohydrate: '41',
@@ -7914,6 +8903,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 990,
     name: 'すいか　黄肉種　生',
     protein: '172',
     carbohydrate: '41',
@@ -7922,6 +8912,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 991,
     name: '（すぐり類）　赤すぐり　冷凍',
     protein: '182',
     carbohydrate: '43',
@@ -7930,6 +8921,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 992,
     name: '（すぐり類）　カシス　冷凍',
     protein: '257',
     carbohydrate: '62',
@@ -7938,6 +8930,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.6',
   },
   {
+    id: 993,
     name: '（すぐり類）　グーズベリー　生',
     protein: '215',
     carbohydrate: '51',
@@ -7946,6 +8939,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 994,
     name: 'スターフルーツ　生',
     protein: '126',
     carbohydrate: '30',
@@ -7954,6 +8948,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 995,
     name: '（すもも類）　にほんすもも　生',
     protein: '193',
     carbohydrate: '46',
@@ -7962,6 +8957,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 996,
     name: '（すもも類）　プルーン　生',
     protein: '207',
     carbohydrate: '49',
@@ -7970,6 +8966,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 997,
     name: '（すもも類）　プルーン　乾',
     protein: '894',
     carbohydrate: '211',
@@ -7978,6 +8975,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.4',
   },
   {
+    id: 998,
     name: 'チェリモヤ　生',
     protein: '348',
     carbohydrate: '82',
@@ -7986,6 +8984,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 999,
     name: 'ドラゴンフルーツ　生',
     protein: '218',
     carbohydrate: '52',
@@ -7994,6 +8993,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.4',
   },
   {
+    id: 1000,
     name: 'ドリアン　生',
     protein: '592',
     carbohydrate: '140',
@@ -8002,6 +9002,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.3',
   },
   {
+    id: 1001,
     name: '（なし類）　日本なし　生',
     protein: '161',
     carbohydrate: '38',
@@ -8010,6 +9011,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1002,
     name: '（なし類）　日本なし　缶詰',
     protein: '323',
     carbohydrate: '76',
@@ -8018,6 +9020,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 1003,
     name: '（なし類）　中国なし　生',
     protein: '209',
     carbohydrate: '49',
@@ -8026,6 +9029,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 1004,
     name: '（なし類）　西洋なし　生',
     protein: '203',
     carbohydrate: '48',
@@ -8034,6 +9038,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1005,
     name: '（なし類）　西洋なし　缶詰',
     protein: '333',
     carbohydrate: '79',
@@ -8042,6 +9047,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 1006,
     name: 'なつめ　乾',
     protein: '1242',
     carbohydrate: '294',
@@ -8050,6 +9056,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.9',
   },
   {
+    id: 1007,
     name: 'なつめやし　乾',
     protein: '1191',
     carbohydrate: '281',
@@ -8058,6 +9065,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.2',
   },
   {
+    id: 1008,
     name: 'パインアップル　生',
     protein: '231',
     carbohydrate: '54',
@@ -8066,6 +9074,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 1009,
     name: 'パインアップル　焼き',
     protein: '313',
     carbohydrate: '74',
@@ -8074,6 +9083,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 1010,
     name: 'パインアップル　果実飲料　ストレートジュース',
     protein: '195',
     carbohydrate: '46',
@@ -8082,6 +9092,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1011,
     name: 'パインアップル　果実飲料　濃縮還元ジュース',
     protein: '193',
     carbohydrate: '45',
@@ -8090,6 +9101,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 1012,
     name: 'パインアップル　果実飲料　50%果汁入り飲料',
     protein: '214',
     carbohydrate: '50',
@@ -8098,6 +9110,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1013,
     name: 'パインアップル　果実飲料　10%果汁入り飲料',
     protein: '211',
     carbohydrate: '50',
@@ -8106,6 +9119,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 1014,
     name: 'パインアップル　缶詰',
     protein: '326',
     carbohydrate: '76',
@@ -8114,6 +9128,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 1015,
     name: 'パインアップル　砂糖漬',
     protein: '1490',
     carbohydrate: '349',
@@ -8122,6 +9137,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 1016,
     name: 'ハスカップ　生',
     protein: '233',
     carbohydrate: '55',
@@ -8130,6 +9146,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 1017,
     name: 'パッションフルーツ　果汁　生',
     protein: '285',
     carbohydrate: '67',
@@ -8138,6 +9155,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 1018,
     name: 'バナナ　生',
     protein: '392',
     carbohydrate: '93',
@@ -8146,6 +9164,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 1019,
     name: 'バナナ　乾',
     protein: '1330',
     carbohydrate: '314',
@@ -8154,6 +9173,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 1020,
     name: 'パパイア　完熟　生',
     protein: '141',
     carbohydrate: '33',
@@ -8162,6 +9182,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 1021,
     name: 'パパイア　未熟　生',
     protein: '149',
     carbohydrate: '35',
@@ -8170,6 +9191,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 1022,
     name: 'びわ　生',
     protein: '174',
     carbohydrate: '41',
@@ -8178,6 +9200,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1023,
     name: 'びわ　缶詰',
     protein: '339',
     carbohydrate: '80',
@@ -8186,6 +9209,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1024,
     name: 'ぶどう　皮なし　生',
     protein: '247',
     carbohydrate: '58',
@@ -8194,6 +9218,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 1025,
     name: 'ぶどう　皮つき　生',
     protein: '296',
     carbohydrate: '69',
@@ -8202,6 +9227,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 1026,
     name: 'ぶどう　皮つき　シャインマスカット　生',
     protein: '260',
     carbohydrate: '61',
@@ -8210,6 +9236,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 1027,
     name: 'ぶどう　干しぶどう',
     protein: '1374',
     carbohydrate: '324',
@@ -8218,6 +9245,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.7',
   },
   {
+    id: 1028,
     name: 'ぶどう　果実飲料　ストレートジュース',
     protein: '231',
     carbohydrate: '54',
@@ -8226,6 +9254,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1029,
     name: 'ぶどう　果実飲料　濃縮還元ジュース',
     protein: '197',
     carbohydrate: '46',
@@ -8234,6 +9263,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1030,
     name: 'ぶどう　果実飲料　70%果汁入り飲料',
     protein: '222',
     carbohydrate: '52',
@@ -8242,6 +9272,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 1031,
     name: 'ぶどう　果実飲料　10%果汁入り飲料',
     protein: '223',
     carbohydrate: '52',
@@ -8250,6 +9281,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 1032,
     name: 'ぶどう　缶詰',
     protein: '354',
     carbohydrate: '83',
@@ -8258,6 +9290,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 1033,
     name: 'ぶどう　ジャム',
     protein: '803',
     carbohydrate: '189',
@@ -8266,6 +9299,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 1034,
     name: 'ブルーベリー　生',
     protein: '201',
     carbohydrate: '48',
@@ -8274,6 +9308,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 1035,
     name: 'ブルーベリー　ジャム',
     protein: '738',
     carbohydrate: '174',
@@ -8282,6 +9317,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 1036,
     name: 'ブルーベリー　乾',
     protein: '1181',
     carbohydrate: '280',
@@ -8290,6 +9326,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.7',
   },
   {
+    id: 1037,
     name: 'ホワイトサポテ　生',
     protein: '310',
     carbohydrate: '73',
@@ -8298,6 +9335,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 1038,
     name: 'まくわうり　黄肉種　生',
     protein: '142',
     carbohydrate: '34',
@@ -8306,6 +9344,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 1039,
     name: 'まくわうり　白肉種　生',
     protein: '142',
     carbohydrate: '34',
@@ -8314,6 +9353,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 1040,
     name: 'マルメロ　生',
     protein: '201',
     carbohydrate: '48',
@@ -8322,6 +9362,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1041,
     name: 'マンゴー　生',
     protein: '289',
     carbohydrate: '68',
@@ -8330,6 +9371,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 1042,
     name: 'マンゴー　ドライマンゴー',
     protein: '1436',
     carbohydrate: '339',
@@ -8338,6 +9380,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.1',
   },
   {
+    id: 1043,
     name: 'マンゴスチン　生',
     protein: '303',
     carbohydrate: '71',
@@ -8346,6 +9389,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 1044,
     name: 'メロン　温室メロン　生',
     protein: '172',
     carbohydrate: '40',
@@ -8354,6 +9398,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 1045,
     name: 'メロン　露地メロン　緑肉種　生',
     protein: '193',
     carbohydrate: '45',
@@ -8362,6 +9407,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 1046,
     name: 'メロン　露地メロン　赤肉種　生',
     protein: '193',
     carbohydrate: '45',
@@ -8370,6 +9416,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 1047,
     name: '（もも類）　もも　白肉種　生',
     protein: '161',
     carbohydrate: '38',
@@ -8378,6 +9425,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 1048,
     name: '（もも類）　もも　黄肉種　生',
     protein: '204',
     carbohydrate: '48',
@@ -8386,6 +9434,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 1049,
     name: '（もも類）　もも　果実飲料　30%果汁入り飲料　（ネクター）',
     protein: '196',
     carbohydrate: '46',
@@ -8394,6 +9443,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 1050,
     name: '（もも類）　もも　缶詰　白肉種　果肉',
     protein: '349',
     carbohydrate: '82',
@@ -8402,6 +9452,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 1051,
     name: '（もも類）　もも　缶詰　黄肉種　果肉',
     protein: '350',
     carbohydrate: '83',
@@ -8410,6 +9461,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 1052,
     name: '（もも類）　もも　缶詰　液汁',
     protein: '343',
     carbohydrate: '81',
@@ -8418,6 +9470,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1053,
     name: '（もも類）　ネクタリン　生',
     protein: '164',
     carbohydrate: '39',
@@ -8426,6 +9479,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 1054,
     name: 'やまもも　生',
     protein: '198',
     carbohydrate: '47',
@@ -8434,6 +9488,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 1055,
     name: 'ライチー　生',
     protein: '261',
     carbohydrate: '61',
@@ -8442,6 +9497,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 1056,
     name: 'ラズベリー　生',
     protein: '150',
     carbohydrate: '36',
@@ -8450,6 +9506,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 1057,
     name: 'りゅうがん　乾',
     protein: '1314',
     carbohydrate: '310',
@@ -8458,6 +9515,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.1',
   },
   {
+    id: 1058,
     name: 'りんご　皮なし　生',
     protein: '225',
     carbohydrate: '53',
@@ -8466,6 +9524,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 1059,
     name: 'りんご　皮つき　生',
     protein: '238',
     carbohydrate: '56',
@@ -8474,6 +9533,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 1060,
     name: 'りんご　皮つき　焼き',
     protein: '364',
     carbohydrate: '86',
@@ -8482,6 +9542,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 1061,
     name: 'りんご　果実飲料　ストレートジュース',
     protein: '182',
     carbohydrate: '43',
@@ -8490,6 +9551,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 1062,
     name: 'りんご　果実飲料　濃縮還元ジュース',
     protein: '200',
     carbohydrate: '47',
@@ -8498,6 +9560,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 1063,
     name: 'りんご　果実飲料　50%果汁入り飲料',
     protein: '197',
     carbohydrate: '46',
@@ -8506,6 +9569,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 1064,
     name: 'りんご　果実飲料　30%果汁入り飲料',
     protein: '194',
     carbohydrate: '46',
@@ -8514,6 +9578,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 1065,
     name: 'りんご　缶詰',
     protein: '346',
     carbohydrate: '81',
@@ -8522,6 +9587,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1066,
     name: 'りんご　ジャム',
     protein: '864',
     carbohydrate: '203',
@@ -8530,6 +9596,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 1067,
     name: 'えのきたけ　生',
     protein: '144',
     carbohydrate: '34',
@@ -8538,6 +9605,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.7',
   },
   {
+    id: 1068,
     name: 'えのきたけ　ゆで',
     protein: '141',
     carbohydrate: '34',
@@ -8546,6 +9614,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.8',
   },
   {
+    id: 1069,
     name: 'えのきたけ　油いため',
     protein: '296',
     carbohydrate: '71',
@@ -8554,6 +9623,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.0',
   },
   {
+    id: 1070,
     name: 'えのきたけ　味付け瓶詰',
     protein: '320',
     carbohydrate: '76',
@@ -8562,6 +9632,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.6',
   },
   {
+    id: 1071,
     name: '（きくらげ類）　あらげきくらげ　生',
     protein: '57',
     carbohydrate: '14',
@@ -8570,6 +9641,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 1072,
     name: '（きくらげ類）　あらげきくらげ　乾',
     protein: '743',
     carbohydrate: '184',
@@ -8578,6 +9650,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.9',
   },
   {
+    id: 1073,
     name: '（きくらげ類）　あらげきくらげ　ゆで',
     protein: '152',
     carbohydrate: '38',
@@ -8586,6 +9659,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.2',
   },
   {
+    id: 1074,
     name: '（きくらげ類）　あらげきくらげ　油いため',
     protein: '448',
     carbohydrate: '110',
@@ -8594,6 +9668,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.3',
   },
   {
+    id: 1075,
     name: '（きくらげ類）　きくらげ　乾',
     protein: '888',
     carbohydrate: '216',
@@ -8602,6 +9677,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.9',
   },
   {
+    id: 1076,
     name: '（きくらげ類）　きくらげ　ゆで',
     protein: '56',
     carbohydrate: '14',
@@ -8610,6 +9686,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 1077,
     name: '（きくらげ類）　しろきくらげ　乾',
     protein: '686',
     carbohydrate: '170',
@@ -8618,6 +9695,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.9',
   },
   {
+    id: 1078,
     name: '（きくらげ類）　しろきくらげ　ゆで',
     protein: '61',
     carbohydrate: '15',
@@ -8626,6 +9704,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 1079,
     name: 'くろあわびたけ　生',
     protein: '116',
     carbohydrate: '28',
@@ -8634,6 +9713,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.7',
   },
   {
+    id: 1080,
     name: 'しいたけ　生しいたけ　菌床栽培　生',
     protein: '102',
     carbohydrate: '25',
@@ -8642,6 +9722,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.1',
   },
   {
+    id: 1081,
     name: 'しいたけ　生しいたけ　菌床栽培　ゆで',
     protein: '89',
     carbohydrate: '22',
@@ -8650,6 +9731,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.5',
   },
   {
+    id: 1082,
     name: 'しいたけ　生しいたけ　菌床栽培　油いため',
     protein: '267',
     carbohydrate: '65',
@@ -8658,6 +9740,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.3',
   },
   {
+    id: 1083,
     name: 'しいたけ　生しいたけ　菌床栽培　天ぷら',
     protein: '837',
     carbohydrate: '201',
@@ -8666,6 +9749,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 1084,
     name: 'しいたけ　生しいたけ　原木栽培　生',
     protein: '141',
     carbohydrate: '34',
@@ -8674,6 +9758,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.1',
   },
   {
+    id: 1085,
     name: 'しいたけ　生しいたけ　原木栽培　ゆで',
     protein: '111',
     carbohydrate: '27',
@@ -8682,6 +9767,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.4',
   },
   {
+    id: 1086,
     name: 'しいたけ　生しいたけ　原木栽培　油いため',
     protein: '349',
     carbohydrate: '84',
@@ -8690,6 +9776,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 1087,
     name: 'しいたけ　乾しいたけ　乾',
     protein: '1072',
     carbohydrate: '258',
@@ -8698,6 +9785,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.2',
   },
   {
+    id: 1088,
     name: 'しいたけ　乾しいたけ　ゆで',
     protein: '168',
     carbohydrate: '40',
@@ -8706,6 +9794,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.1',
   },
   {
+    id: 1089,
     name: 'しいたけ　乾しいたけ　甘煮',
     protein: '490',
     carbohydrate: '116',
@@ -8714,6 +9803,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.3',
   },
   {
+    id: 1090,
     name: '（しめじ類）　はたけしめじ　生',
     protein: '105',
     carbohydrate: '25',
@@ -8722,6 +9812,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.6',
   },
   {
+    id: 1091,
     name: '（しめじ類）　はたけしめじ　ゆで',
     protein: '103',
     carbohydrate: '25',
@@ -8730,6 +9821,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.6',
   },
   {
+    id: 1092,
     name: '（しめじ類）　ぶなしめじ　生',
     protein: '108',
     carbohydrate: '26',
@@ -8738,6 +9830,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.7',
   },
   {
+    id: 1093,
     name: '（しめじ類）　ぶなしめじ　ゆで',
     protein: '92',
     carbohydrate: '22',
@@ -8746,6 +9839,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.7',
   },
   {
+    id: 1094,
     name: '（しめじ類）　ぶなしめじ　油いため',
     protein: '268',
     carbohydrate: '65',
@@ -8754,6 +9848,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.0',
   },
   {
+    id: 1095,
     name: '（しめじ類）　ぶなしめじ　素揚げ',
     protein: '693',
     carbohydrate: '168',
@@ -8762,6 +9857,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.9',
   },
   {
+    id: 1096,
     name: '（しめじ類）　ぶなしめじ　天ぷら',
     protein: '1034',
     carbohydrate: '248',
@@ -8770,6 +9866,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 1097,
     name: '（しめじ類）　ほんしめじ　生',
     protein: '88',
     carbohydrate: '21',
@@ -8778,6 +9875,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.5',
   },
   {
+    id: 1098,
     name: '（しめじ類）　ほんしめじ　ゆで',
     protein: '109',
     carbohydrate: '26',
@@ -8786,6 +9884,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.8',
   },
   {
+    id: 1099,
     name: 'たもぎたけ　生',
     protein: '97',
     carbohydrate: '23',
@@ -8794,6 +9893,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.6',
   },
   {
+    id: 1100,
     name: 'なめこ　株採り　生',
     protein: '89',
     carbohydrate: '21',
@@ -8802,6 +9902,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.8',
   },
   {
+    id: 1101,
     name: 'なめこ　株採り　ゆで',
     protein: '92',
     carbohydrate: '22',
@@ -8810,6 +9911,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.6',
   },
   {
+    id: 1102,
     name: 'なめこ　カットなめこ　生',
     protein: '60',
     carbohydrate: '14',
@@ -8818,6 +9920,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 1103,
     name: 'なめこ　水煮缶詰',
     protein: '55',
     carbohydrate: '13',
@@ -8826,6 +9929,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 1104,
     name: 'ぬめりすぎたけ　生',
     protein: '97',
     carbohydrate: '23',
@@ -8834,6 +9938,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.3',
   },
   {
+    id: 1105,
     name: '（ひらたけ類）　うすひらたけ　生',
     protein: '156',
     carbohydrate: '37',
@@ -8842,6 +9947,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.1',
   },
   {
+    id: 1106,
     name: '（ひらたけ類）　エリンギ　生',
     protein: '128',
     carbohydrate: '31',
@@ -8850,6 +9956,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.8',
   },
   {
+    id: 1107,
     name: '（ひらたけ類）　エリンギ　ゆで',
     protein: '134',
     carbohydrate: '32',
@@ -8858,6 +9965,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.2',
   },
   {
+    id: 1108,
     name: '（ひらたけ類）　エリンギ　焼き',
     protein: '170',
     carbohydrate: '41',
@@ -8866,6 +9974,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.2',
   },
   {
+    id: 1109,
     name: '（ひらたけ類）　エリンギ　油いため',
     protein: '286',
     carbohydrate: '69',
@@ -8874,6 +9983,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.2',
   },
   {
+    id: 1110,
     name: '（ひらたけ類）　ひらたけ　生',
     protein: '143',
     carbohydrate: '34',
@@ -8882,6 +9992,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.3',
   },
   {
+    id: 1111,
     name: '（ひらたけ類）　ひらたけ　ゆで',
     protein: '139',
     carbohydrate: '33',
@@ -8890,6 +10001,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 1112,
     name: 'まいたけ　生',
     protein: '89',
     carbohydrate: '22',
@@ -8898,6 +10010,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.0',
   },
   {
+    id: 1113,
     name: 'まいたけ　ゆで',
     protein: '113',
     carbohydrate: '27',
@@ -8906,6 +10019,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.6',
   },
   {
+    id: 1114,
     name: 'まいたけ　油いため',
     protein: '276',
     carbohydrate: '67',
@@ -8914,6 +10028,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.6',
   },
   {
+    id: 1115,
     name: 'まいたけ　乾',
     protein: '1137',
     carbohydrate: '273',
@@ -8922,6 +10037,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.9',
   },
   {
+    id: 1116,
     name: 'マッシュルーム　生',
     protein: '62',
     carbohydrate: '15',
@@ -8930,6 +10046,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.9',
   },
   {
+    id: 1117,
     name: 'マッシュルーム　ゆで',
     protein: '82',
     carbohydrate: '20',
@@ -8938,6 +10055,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 1118,
     name: 'マッシュルーム　油いため',
     protein: '236',
     carbohydrate: '57',
@@ -8946,6 +10064,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.6',
   },
   {
+    id: 1119,
     name: 'マッシュルーム　ブラウン種　生',
     protein: '73',
     carbohydrate: '18',
@@ -8954,6 +10073,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.2',
   },
   {
+    id: 1120,
     name: 'マッシュルーム　水煮缶詰',
     protein: '76',
     carbohydrate: '18',
@@ -8962,6 +10082,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 1121,
     name: 'まつたけ　生',
     protein: '132',
     carbohydrate: '32',
@@ -8970,6 +10091,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.0',
   },
   {
+    id: 1122,
     name: 'やなぎまつたけ　生',
     protein: '84',
     carbohydrate: '20',
@@ -8978,6 +10100,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.4',
   },
   {
+    id: 1123,
     name: 'あおさ　素干し',
     protein: '840',
     carbohydrate: '201',
@@ -8986,6 +10109,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.1',
   },
   {
+    id: 1124,
     name: 'あおのり　素干し',
     protein: '1035',
     carbohydrate: '249',
@@ -8994,6 +10118,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '29.4',
   },
   {
+    id: 1125,
     name: 'あまのり　ほしのり',
     protein: '1154',
     carbohydrate: '276',
@@ -9002,6 +10127,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '39.4',
   },
   {
+    id: 1126,
     name: 'あまのり　焼きのり',
     protein: '1240',
     carbohydrate: '297',
@@ -9010,6 +10136,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '41.4',
   },
   {
+    id: 1127,
     name: 'あまのり　味付けのり',
     protein: '1271',
     carbohydrate: '303',
@@ -9018,6 +10145,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '40.0',
   },
   {
+    id: 1128,
     name: 'あらめ　蒸し干し',
     protein: '757',
     carbohydrate: '184',
@@ -9026,6 +10154,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.4',
   },
   {
+    id: 1129,
     name: 'いわのり　素干し',
     protein: '952',
     carbohydrate: '228',
@@ -9034,6 +10163,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '34.8',
   },
   {
+    id: 1130,
     name: 'うみぶどう　生',
     protein: '24',
     carbohydrate: '6',
@@ -9042,6 +10172,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 1131,
     name: 'えごのり　素干し',
     protein: '734',
     carbohydrate: '179',
@@ -9050,6 +10181,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.0',
   },
   {
+    id: 1132,
     name: 'えごのり　おきうと',
     protein: '29',
     carbohydrate: '7',
@@ -9058,6 +10190,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1133,
     name: 'おごのり　塩蔵　塩抜き',
     protein: '108',
     carbohydrate: '26',
@@ -9066,6 +10199,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 1134,
     name: 'かわのり　素干し',
     protein: '1028',
     carbohydrate: '247',
@@ -9074,6 +10208,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '38.1',
   },
   {
+    id: 1135,
     name: '（こんぶ類）　えながおにこんぶ　素干し',
     protein: '940',
     carbohydrate: '224',
@@ -9082,6 +10217,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.0',
   },
   {
+    id: 1136,
     name: '（こんぶ類）　がごめこんぶ　素干し',
     protein: '898',
     carbohydrate: '216',
@@ -9090,6 +10226,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.9',
   },
   {
+    id: 1137,
     name: '（こんぶ類）　ながこんぶ　素干し',
     protein: '853',
     carbohydrate: '205',
@@ -9098,6 +10235,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.3',
   },
   {
+    id: 1138,
     name: '（こんぶ類）　ほそめこんぶ　素干し',
     protein: '945',
     carbohydrate: '227',
@@ -9106,6 +10244,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.9',
   },
   {
+    id: 1139,
     name: '（こんぶ類）　まこんぶ　素干し　乾',
     protein: '703',
     carbohydrate: '170',
@@ -9114,6 +10253,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.8',
   },
   {
+    id: 1140,
     name: '（こんぶ類）　まこんぶ　素干し　水煮',
     protein: '114',
     carbohydrate: '28',
@@ -9122,6 +10262,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 1141,
     name: '（こんぶ類）　みついしこんぶ　素干し',
     protein: '979',
     carbohydrate: '235',
@@ -9130,6 +10271,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.7',
   },
   {
+    id: 1142,
     name: '（こんぶ類）　りしりこんぶ　素干し',
     protein: '878',
     carbohydrate: '211',
@@ -9138,6 +10280,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.0',
   },
   {
+    id: 1143,
     name: '（こんぶ類）　刻み昆布',
     protein: '486',
     carbohydrate: '119',
@@ -9146,6 +10289,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.4',
   },
   {
+    id: 1144,
     name: '（こんぶ類）　削り昆布',
     protein: '738',
     carbohydrate: '177',
@@ -9154,6 +10298,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.5',
   },
   {
+    id: 1145,
     name: '（こんぶ類）　塩昆布',
     protein: '813',
     carbohydrate: '193',
@@ -9162,6 +10307,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.9',
   },
   {
+    id: 1146,
     name: '（こんぶ類）　つくだ煮',
     protein: '634',
     carbohydrate: '150',
@@ -9170,6 +10316,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.0',
   },
   {
+    id: 1147,
     name: 'すいぜんじのり　素干し　水戻し',
     protein: '42',
     carbohydrate: '10',
@@ -9178,6 +10325,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 1148,
     name: 'てんぐさ　素干し',
     protein: '800',
     carbohydrate: '194',
@@ -9186,6 +10334,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.1',
   },
   {
+    id: 1149,
     name: 'てんぐさ　ところてん',
     protein: '8',
     carbohydrate: '2',
@@ -9194,6 +10343,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 1150,
     name: 'てんぐさ　角寒天',
     protein: '640',
     carbohydrate: '159',
@@ -9202,6 +10352,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.4',
   },
   {
+    id: 1151,
     name: 'てんぐさ　寒天',
     protein: '12',
     carbohydrate: '3',
@@ -9210,6 +10361,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 1152,
     name: 'てんぐさ　粉寒天',
     protein: '641',
     carbohydrate: '160',
@@ -9218,6 +10370,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 1153,
     name: 'とさかのり　赤とさか　塩蔵　塩抜き',
     protein: '80',
     carbohydrate: '19',
@@ -9226,6 +10379,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 1154,
     name: 'とさかのり　青とさか　塩蔵　塩抜き',
     protein: '69',
     carbohydrate: '17',
@@ -9234,6 +10388,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 1155,
     name: 'ひじき　ほしひじき　ステンレス釜　乾',
     protein: '739',
     carbohydrate: '180',
@@ -9242,6 +10397,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.2',
   },
   {
+    id: 1156,
     name: 'ひじき　ほしひじき　ステンレス釜　ゆで',
     protein: '45',
     carbohydrate: '11',
@@ -9250,6 +10406,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 1157,
     name: 'ひじき　ほしひじき　ステンレス釜　油いため',
     protein: '208',
     carbohydrate: '51',
@@ -9258,6 +10415,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 1158,
     name: 'ひじき　ほしひじき　鉄釜　乾',
     protein: '759',
     carbohydrate: '186',
@@ -9266,6 +10424,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.2',
   },
   {
+    id: 1159,
     name: 'ひじき　ほしひじき　鉄釜　ゆで',
     protein: '53',
     carbohydrate: '13',
@@ -9274,6 +10433,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 1160,
     name: 'ひじき　ほしひじき　鉄釜　油いため',
     protein: '221',
     carbohydrate: '54',
@@ -9282,6 +10442,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 1161,
     name: 'ひとえぐさ　素干し',
     protein: '709',
     carbohydrate: '172',
@@ -9290,6 +10451,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.6',
   },
   {
+    id: 1162,
     name: 'ひとえぐさ　つくだ煮',
     protein: '626',
     carbohydrate: '148',
@@ -9298,6 +10460,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.4',
   },
   {
+    id: 1163,
     name: 'ふのり　素干し',
     protein: '858',
     carbohydrate: '207',
@@ -9306,6 +10469,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.8',
   },
   {
+    id: 1164,
     name: 'まつも　素干し',
     protein: '1054',
     carbohydrate: '252',
@@ -9314,6 +10478,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '27.9',
   },
   {
+    id: 1165,
     name: 'むかでのり　塩蔵　塩抜き',
     protein: '47',
     carbohydrate: '12',
@@ -9322,6 +10487,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 1166,
     name: '（もずく類）　おきなわもずく　塩蔵　塩抜き',
     protein: '27',
     carbohydrate: '7',
@@ -9330,6 +10496,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 1167,
     name: '（もずく類）　もずく　塩蔵　塩抜き',
     protein: '18',
     carbohydrate: '4',
@@ -9338,6 +10505,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 1168,
     name: 'わかめ　原藻　生',
     protein: '100',
     carbohydrate: '24',
@@ -9346,6 +10514,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.9',
   },
   {
+    id: 1169,
     name: 'わかめ　乾燥わかめ　素干し',
     protein: '716',
     carbohydrate: '172',
@@ -9354,6 +10523,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.4',
   },
   {
+    id: 1170,
     name: 'わかめ　乾燥わかめ　素干し　水戻し',
     protein: '81',
     carbohydrate: '20',
@@ -9362,6 +10532,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.6',
   },
   {
+    id: 1171,
     name: 'わかめ　乾燥わかめ　素干し　水戻し　水煮',
     protein: '43',
     carbohydrate: '10',
@@ -9370,6 +10541,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0 ',
   },
   {
+    id: 1172,
     name: 'わかめ　乾燥わかめ　板わかめ',
     protein: '835',
     carbohydrate: '200',
@@ -9378,6 +10550,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.7',
   },
   {
+    id: 1173,
     name: 'わかめ　乾燥わかめ　灰干し　水戻し',
     protein: '39',
     carbohydrate: '9',
@@ -9386,6 +10559,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 1174,
     name: 'わかめ　カットわかめ　乾',
     protein: '770',
     carbohydrate: '186',
@@ -9394,6 +10568,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.9',
   },
   {
+    id: 1175,
     name: 'わかめ　カットわかめ　水煮　（沸騰水で短時間加熱したもの）',
     protein: '69',
     carbohydrate: '17',
@@ -9402,6 +10577,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 1176,
     name: 'わかめ　カットわかめ　水煮の汁',
     protein: '1',
     carbohydrate: '0',
@@ -9410,6 +10586,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '-',
   },
   {
+    id: 1177,
     name: 'わかめ　湯通し塩蔵わかめ　塩抜き　生',
     protein: '68',
     carbohydrate: '16',
@@ -9418,6 +10595,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 1178,
     name: 'わかめ　湯通し塩蔵わかめ　塩抜き　ゆで',
     protein: '29',
     carbohydrate: '7',
@@ -9426,6 +10604,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 1179,
     name: 'わかめ　くきわかめ　湯通し塩蔵　塩抜き',
     protein: '74',
     carbohydrate: '18',
@@ -9434,6 +10613,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 1180,
     name: 'わかめ　めかぶわかめ　生',
     protein: '59',
     carbohydrate: '14',
@@ -9442,6 +10622,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 1181,
     name: '＜魚類＞　あいなめ　生',
     protein: '443',
     carbohydrate: '105',
@@ -9450,6 +10631,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.1',
   },
   {
+    id: 1182,
     name: '＜魚類＞　あこうだい　生',
     protein: '362',
     carbohydrate: '86',
@@ -9458,6 +10640,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.8',
   },
   {
+    id: 1183,
     name: '＜魚類＞　（あじ類）　まあじ　皮つき　生',
     protein: '471',
     carbohydrate: '112',
@@ -9466,6 +10649,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.7',
   },
   {
+    id: 1184,
     name: '＜魚類＞　（あじ類）　まあじ　皮なし　生',
     protein: '454',
     carbohydrate: '108',
@@ -9474,6 +10658,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.7',
   },
   {
+    id: 1185,
     name: '＜魚類＞　（あじ類）　まあじ　皮つき　水煮',
     protein: '574',
     carbohydrate: '136',
@@ -9482,6 +10667,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.4',
   },
   {
+    id: 1186,
     name: '＜魚類＞　（あじ類）　まあじ　皮つき　焼き',
     protein: '661',
     carbohydrate: '157',
@@ -9490,6 +10676,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.9',
   },
   {
+    id: 1187,
     name: '＜魚類＞　（あじ類）　まあじ　皮つき　フライ',
     protein: '1126',
     carbohydrate: '270',
@@ -9498,6 +10685,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.1',
   },
   {
+    id: 1188,
     name: '＜魚類＞　（あじ類）　まあじ　開き干し　生',
     protein: '628',
     carbohydrate: '150',
@@ -9506,6 +10694,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.2',
   },
   {
+    id: 1189,
     name: '＜魚類＞　（あじ類）　まあじ　開き干し　焼き',
     protein: '813',
     carbohydrate: '194',
@@ -9514,6 +10703,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.6',
   },
   {
+    id: 1190,
     name: '＜魚類＞　（あじ類）　まあじ　小型　骨付き　生',
     protein: '479',
     carbohydrate: '114',
@@ -9522,6 +10712,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.8',
   },
   {
+    id: 1191,
     name: '＜魚類＞　（あじ類）　まあじ　小型　骨付き　から揚げ',
     protein: '1119',
     carbohydrate: '268',
@@ -9530,6 +10721,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.0',
   },
   {
+    id: 1192,
     name: '＜魚類＞　（あじ類）　まるあじ　生',
     protein: '559',
     carbohydrate: '133',
@@ -9538,6 +10730,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.1',
   },
   {
+    id: 1193,
     name: '＜魚類＞　（あじ類）　まるあじ　焼き',
     protein: '734',
     carbohydrate: '175',
@@ -9546,6 +10739,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.7',
   },
   {
+    id: 1194,
     name: '＜魚類＞　（あじ類）　にしまあじ　生',
     protein: '651',
     carbohydrate: '156',
@@ -9554,6 +10748,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1195,
     name: '＜魚類＞　（あじ類）　にしまあじ　水煮',
     protein: '672',
     carbohydrate: '160',
@@ -9562,6 +10757,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.7',
   },
   {
+    id: 1196,
     name: '＜魚類＞　（あじ類）　にしまあじ　焼き',
     protein: '781',
     carbohydrate: '186',
@@ -9570,6 +10766,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.7',
   },
   {
+    id: 1197,
     name: '＜魚類＞　（あじ類）　にしまあじ　開き干し　生',
     protein: '681',
     carbohydrate: '163',
@@ -9578,6 +10775,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.0 ',
   },
   {
+    id: 1198,
     name: '＜魚類＞　（あじ類）　にしまあじ　開き干し　焼き',
     protein: '849',
     carbohydrate: '203',
@@ -9586,6 +10784,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.2',
   },
   {
+    id: 1199,
     name: '＜魚類＞　（あじ類）　むろあじ　生',
     protein: '621',
     carbohydrate: '147',
@@ -9594,6 +10793,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.6',
   },
   {
+    id: 1200,
     name: '＜魚類＞　（あじ類）　むろあじ　焼き',
     protein: '703',
     carbohydrate: '167',
@@ -9602,6 +10802,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '29.7',
   },
   {
+    id: 1201,
     name: '＜魚類＞　（あじ類）　むろあじ　開き干し',
     protein: '590',
     carbohydrate: '140',
@@ -9610,6 +10811,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.9',
   },
   {
+    id: 1202,
     name: '＜魚類＞　（あじ類）　むろあじ　くさや',
     protein: '945',
     carbohydrate: '223',
@@ -9618,6 +10820,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '49.9',
   },
   {
+    id: 1203,
     name: '＜魚類＞　あなご　生',
     protein: '611',
     carbohydrate: '146',
@@ -9626,6 +10829,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.3',
   },
   {
+    id: 1204,
     name: '＜魚類＞　あなご　蒸し',
     protein: '723',
     carbohydrate: '173',
@@ -9634,6 +10838,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.6',
   },
   {
+    id: 1205,
     name: '＜魚類＞　あまご　養殖　生',
     protein: '429',
     carbohydrate: '102',
@@ -9642,6 +10847,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.3',
   },
   {
+    id: 1206,
     name: '＜魚類＞　あまだい　生',
     protein: '432',
     carbohydrate: '102',
@@ -9650,6 +10856,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.8',
   },
   {
+    id: 1207,
     name: '＜魚類＞　あまだい　水煮',
     protein: '476',
     carbohydrate: '113',
@@ -9658,6 +10865,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.7',
   },
   {
+    id: 1208,
     name: '＜魚類＞　あまだい　焼き',
     protein: '464',
     carbohydrate: '110',
@@ -9666,6 +10874,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.5',
   },
   {
+    id: 1209,
     name: '＜魚類＞　あゆ　天然　生',
     protein: '391',
     carbohydrate: '93',
@@ -9674,6 +10883,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.3',
   },
   {
+    id: 1210,
     name: '＜魚類＞　あゆ　天然　焼き',
     protein: '629',
     carbohydrate: '149',
@@ -9682,6 +10892,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.6',
   },
   {
+    id: 1211,
     name: '＜魚類＞　あゆ　天然　内臓　生',
     protein: '747',
     carbohydrate: '180',
@@ -9690,6 +10901,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.5',
   },
   {
+    id: 1212,
     name: '＜魚類＞　あゆ　天然　内臓　焼き',
     protein: '674',
     carbohydrate: '161',
@@ -9698,6 +10910,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.0',
   },
   {
+    id: 1213,
     name: '＜魚類＞　あゆ　養殖　生',
     protein: '579',
     carbohydrate: '138',
@@ -9706,6 +10919,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.8',
   },
   {
+    id: 1214,
     name: '＜魚類＞　あゆ　養殖　焼き',
     protein: '847',
     carbohydrate: '202',
@@ -9714,6 +10928,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.6',
   },
   {
+    id: 1215,
     name: '＜魚類＞　あゆ　養殖　内臓　生',
     protein: '2002',
     carbohydrate: '485',
@@ -9722,6 +10937,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.4',
   },
   {
+    id: 1216,
     name: '＜魚類＞　あゆ　養殖　内臓　焼き',
     protein: '2067',
     carbohydrate: '500',
@@ -9730,6 +10946,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.2',
   },
   {
+    id: 1217,
     name: '＜魚類＞　あゆ　うるか',
     protein: '654',
     carbohydrate: '157',
@@ -9738,6 +10955,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.4',
   },
   {
+    id: 1218,
     name: '＜魚類＞　アラスカめぬけ　生',
     protein: '405',
     carbohydrate: '96',
@@ -9746,6 +10964,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.2',
   },
   {
+    id: 1219,
     name: '＜魚類＞　あんこう　生',
     protein: '231',
     carbohydrate: '54',
@@ -9754,6 +10973,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.0',
   },
   {
+    id: 1220,
     name: '＜魚類＞　あんこう　きも　生',
     protein: '1657',
     carbohydrate: '401',
@@ -9762,6 +10982,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.0',
   },
   {
+    id: 1221,
     name: '＜魚類＞　いかなご　生',
     protein: '466',
     carbohydrate: '111',
@@ -9770,6 +10991,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.2',
   },
   {
+    id: 1222,
     name: '＜魚類＞　いかなご　煮干し',
     protein: '924',
     carbohydrate: '218',
@@ -9778,6 +11000,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '43.1',
   },
   {
+    id: 1223,
     name: '＜魚類＞　いかなご　つくだ煮',
     protein: '1149',
     carbohydrate: '271',
@@ -9786,6 +11009,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '29.4',
   },
   {
+    id: 1224,
     name: '＜魚類＞　いかなご　あめ煮',
     protein: '1138',
     carbohydrate: '268',
@@ -9794,6 +11018,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.6',
   },
   {
+    id: 1225,
     name: '＜魚類＞　いさき　生',
     protein: '487',
     carbohydrate: '116',
@@ -9802,6 +11027,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.2',
   },
   {
+    id: 1226,
     name: '＜魚類＞　いしだい　生',
     protein: '578',
     carbohydrate: '138',
@@ -9810,6 +11036,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.5',
   },
   {
+    id: 1227,
     name: '＜魚類＞　いとよりだい　生',
     protein: '359',
     carbohydrate: '85',
@@ -9818,6 +11045,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.1',
   },
   {
+    id: 1228,
     name: '＜魚類＞　いとよりだい　すり身',
     protein: '383',
     carbohydrate: '90',
@@ -9826,6 +11054,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.7',
   },
   {
+    id: 1229,
     name: '＜魚類＞　いぼだい　生',
     protein: '552',
     carbohydrate: '132',
@@ -9834,6 +11063,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.4',
   },
   {
+    id: 1230,
     name: '＜魚類＞　（いわし類）　うるめいわし　生',
     protein: '521',
     carbohydrate: '124',
@@ -9842,6 +11072,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.3',
   },
   {
+    id: 1231,
     name: '＜魚類＞　（いわし類）　うるめいわし　丸干し',
     protein: '928',
     carbohydrate: '219',
@@ -9850,6 +11081,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '45.0',
   },
   {
+    id: 1232,
     name: '＜魚類＞　（いわし類）　かたくちいわし　生',
     protein: '713',
     carbohydrate: '171',
@@ -9858,6 +11090,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.2',
   },
   {
+    id: 1233,
     name: '＜魚類＞　（いわし類）　かたくちいわし　煮干し',
     protein: '1264',
     carbohydrate: '298',
@@ -9866,6 +11099,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '64.5',
   },
   {
+    id: 1234,
     name: '＜魚類＞　（いわし類）　かたくちいわし　田作り',
     protein: '1290',
     carbohydrate: '304',
@@ -9874,6 +11108,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '66.6',
   },
   {
+    id: 1235,
     name: '＜魚類＞　（いわし類）　まいわし　生',
     protein: '653',
     carbohydrate: '156',
@@ -9882,6 +11117,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.2',
   },
   {
+    id: 1236,
     name: '＜魚類＞　（いわし類）　まいわし　水煮',
     protein: '766',
     carbohydrate: '182',
@@ -9890,6 +11126,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.4',
   },
   {
+    id: 1237,
     name: '＜魚類＞　（いわし類）　まいわし　焼き',
     protein: '837',
     carbohydrate: '199',
@@ -9898,6 +11135,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.3',
   },
   {
+    id: 1238,
     name: '＜魚類＞　（いわし類）　まいわし　フライ',
     protein: '1596',
     carbohydrate: '384',
@@ -9906,6 +11144,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.0',
   },
   {
+    id: 1239,
     name: '＜魚類＞　（いわし類）　まいわし　塩いわし',
     protein: '599',
     carbohydrate: '143',
@@ -9914,6 +11153,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.8',
   },
   {
+    id: 1240,
     name: '＜魚類＞　（いわし類）　まいわし　生干し',
     protein: '904',
     carbohydrate: '217',
@@ -9922,6 +11162,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.6',
   },
   {
+    id: 1241,
     name: '＜魚類＞　（いわし類）　まいわし　丸干し',
     protein: '749',
     carbohydrate: '177',
@@ -9930,6 +11171,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '32.8',
   },
   {
+    id: 1242,
     name: '＜魚類＞　（いわし類）　めざし　生',
     protein: '860',
     carbohydrate: '206',
@@ -9938,6 +11180,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.2',
   },
   {
+    id: 1243,
     name: '＜魚類＞　（いわし類）　めざし　焼き',
     protein: '838',
     carbohydrate: '200',
@@ -9946,6 +11189,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.7',
   },
   {
+    id: 1244,
     name: '＜魚類＞　（いわし類）　しらす　生',
     protein: '285',
     carbohydrate: '67',
@@ -9954,6 +11198,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.0',
   },
   {
+    id: 1245,
     name: '＜魚類＞　（いわし類）　しらす　釜揚げしらす',
     protein: '356',
     carbohydrate: '84',
@@ -9962,6 +11207,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.6',
   },
   {
+    id: 1246,
     name: '＜魚類＞　（いわし類）　しらす干し　微乾燥品',
     protein: '480',
     carbohydrate: '113',
@@ -9970,6 +11216,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.5',
   },
   {
+    id: 1247,
     name: '＜魚類＞　（いわし類）　しらす干し　半乾燥品',
     protein: '792',
     carbohydrate: '187',
@@ -9978,6 +11225,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '40.5',
   },
   {
+    id: 1248,
     name: '＜魚類＞　（いわし類）　たたみいわし',
     protein: '1473',
     carbohydrate: '348',
@@ -9986,6 +11234,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '75.1',
   },
   {
+    id: 1249,
     name: '＜魚類＞　（いわし類）　みりん干し　かたくちいわし',
     protein: '1397',
     carbohydrate: '330',
@@ -9994,6 +11243,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '44.3',
   },
   {
+    id: 1250,
     name: '＜魚類＞　（いわし類）　みりん干し　まいわし',
     protein: '1319',
     carbohydrate: '314',
@@ -10002,6 +11252,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '31.4',
   },
   {
+    id: 1251,
     name: '＜魚類＞　（いわし類）　缶詰　水煮',
     protein: '703',
     carbohydrate: '168',
@@ -10010,6 +11261,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.7',
   },
   {
+    id: 1252,
     name: '＜魚類＞　（いわし類）　缶詰　味付け',
     protein: '851',
     carbohydrate: '203',
@@ -10018,6 +11270,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.4',
   },
   {
+    id: 1253,
     name: '＜魚類＞　（いわし類）　缶詰　トマト漬',
     protein: '696',
     carbohydrate: '167',
@@ -10026,6 +11279,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.5',
   },
   {
+    id: 1254,
     name: '＜魚類＞　（いわし類）　缶詰　油漬',
     protein: '1454',
     carbohydrate: '351',
@@ -10034,6 +11288,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.3',
   },
   {
+    id: 1255,
     name: '＜魚類＞　（いわし類）　缶詰　かば焼',
     protein: '978',
     carbohydrate: '234',
@@ -10042,6 +11297,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.2',
   },
   {
+    id: 1256,
     name: '＜魚類＞　（いわし類）　缶詰　アンチョビ',
     protein: '660',
     carbohydrate: '157',
@@ -10050,6 +11306,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.2',
   },
   {
+    id: 1257,
     name: '＜魚類＞　いわな　養殖　生',
     protein: '427',
     carbohydrate: '101',
@@ -10058,6 +11315,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.0',
   },
   {
+    id: 1258,
     name: '＜魚類＞　うぐい　生',
     protein: '394',
     carbohydrate: '93',
@@ -10066,6 +11324,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.1',
   },
   {
+    id: 1259,
     name: '＜魚類＞　うなぎ　養殖　生',
     protein: '947',
     carbohydrate: '228',
@@ -10074,6 +11333,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.1',
   },
   {
+    id: 1260,
     name: '＜魚類＞　うなぎ　きも　生',
     protein: '429',
     carbohydrate: '102',
@@ -10082,6 +11342,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.0',
   },
   {
+    id: 1261,
     name: '＜魚類＞　うなぎ　白焼き',
     protein: '1245',
     carbohydrate: '300',
@@ -10090,6 +11351,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.7',
   },
   {
+    id: 1262,
     name: '＜魚類＞　うなぎ　かば焼',
     protein: '1189',
     carbohydrate: '285',
@@ -10098,6 +11360,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.0',
   },
   {
+    id: 1263,
     name: '＜魚類＞　うまづらはぎ　生',
     protein: '318',
     carbohydrate: '75',
@@ -10106,6 +11369,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.2',
   },
   {
+    id: 1264,
     name: '＜魚類＞　うまづらはぎ　味付け開き干し',
     protein: '1228',
     carbohydrate: '289',
@@ -10114,6 +11378,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '58.9',
   },
   {
+    id: 1265,
     name: '＜魚類＞　えい　生',
     protein: '334',
     carbohydrate: '79',
@@ -10122,6 +11387,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.1',
   },
   {
+    id: 1266,
     name: '＜魚類＞　えそ　生',
     protein: '368',
     carbohydrate: '87',
@@ -10130,6 +11396,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.1',
   },
   {
+    id: 1267,
     name: '＜魚類＞　おいかわ　生',
     protein: '521',
     carbohydrate: '124',
@@ -10138,6 +11405,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.2',
   },
   {
+    id: 1268,
     name: '＜魚類＞　おおさが　生',
     protein: '547',
     carbohydrate: '131',
@@ -10146,6 +11414,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.3',
   },
   {
+    id: 1269,
     name: '＜魚類＞　おこぜ　生',
     protein: '342',
     carbohydrate: '81',
@@ -10154,6 +11423,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1270,
     name: '＜魚類＞　おひょう　生',
     protein: '394',
     carbohydrate: '93',
@@ -10162,6 +11432,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.9',
   },
   {
+    id: 1271,
     name: '＜魚類＞　かさご　生',
     protein: '353',
     carbohydrate: '83',
@@ -10170,6 +11441,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.3',
   },
   {
+    id: 1272,
     name: '＜魚類＞　かじか　生',
     protein: '412',
     carbohydrate: '98',
@@ -10178,6 +11450,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.0',
   },
   {
+    id: 1273,
     name: '＜魚類＞　かじか　水煮',
     protein: '452',
     carbohydrate: '108',
@@ -10186,6 +11459,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.8',
   },
   {
+    id: 1274,
     name: '＜魚類＞　かじか　つくだ煮',
     protein: '1240',
     carbohydrate: '293',
@@ -10194,6 +11468,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '29.4',
   },
   {
+    id: 1275,
     name: '＜魚類＞　（かじき類）　くろかじき　生',
     protein: '397',
     carbohydrate: '93',
@@ -10202,6 +11477,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.9',
   },
   {
+    id: 1276,
     name: '＜魚類＞　（かじき類）　まかじき　生',
     protein: '453',
     carbohydrate: '107',
@@ -10210,6 +11486,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.1',
   },
   {
+    id: 1277,
     name: '＜魚類＞　（かじき類）　めかじき　生',
     protein: '581',
     carbohydrate: '139',
@@ -10218,6 +11495,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.2',
   },
   {
+    id: 1278,
     name: '＜魚類＞　（かじき類）　めかじき　焼き',
     protein: '845',
     carbohydrate: '202',
@@ -10226,6 +11504,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '27.5',
   },
   {
+    id: 1279,
     name: '＜魚類＞　（かつお類）　かつお　春獲り　生',
     protein: '457',
     carbohydrate: '108',
@@ -10234,6 +11513,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.8',
   },
   {
+    id: 1280,
     name: '＜魚類＞　（かつお類）　かつお　秋獲り　生',
     protein: '631',
     carbohydrate: '150',
@@ -10242,6 +11522,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.0',
   },
   {
+    id: 1281,
     name: '＜魚類＞　（かつお類）　そうだがつお　生',
     protein: '533',
     carbohydrate: '126',
@@ -10250,6 +11531,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.7',
   },
   {
+    id: 1282,
     name: '＜魚類＞　（かつお類）　加工品　なまり',
     protein: '534',
     carbohydrate: '126',
@@ -10258,6 +11540,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '29.8',
   },
   {
+    id: 1283,
     name: '＜魚類＞　（かつお類）　加工品　なまり節',
     protein: '687',
     carbohydrate: '162',
@@ -10266,6 +11549,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '38.0',
   },
   {
+    id: 1284,
     name: '＜魚類＞　（かつお類）　加工品　裸節',
     protein: '1310',
     carbohydrate: '309',
@@ -10274,6 +11558,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '71.6',
   },
   {
+    id: 1285,
     name: '＜魚類＞　（かつお類）　加工品　かつお節',
     protein: '1410',
     carbohydrate: '332',
@@ -10282,6 +11567,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '77.1',
   },
   {
+    id: 1286,
     name: '＜魚類＞　（かつお類）　加工品　削り節',
     protein: '1387',
     carbohydrate: '327',
@@ -10290,6 +11576,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '75.7',
   },
   {
+    id: 1287,
     name: '＜魚類＞　（かつお類）　加工品　削り節つくだ煮',
     protein: '989',
     carbohydrate: '233',
@@ -10298,6 +11585,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.5',
   },
   {
+    id: 1288,
     name: '＜魚類＞　（かつお類）　加工品　角煮',
     protein: '939',
     carbohydrate: '221',
@@ -10306,6 +11594,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '31.0',
   },
   {
+    id: 1289,
     name: '＜魚類＞　（かつお類）　加工品　塩辛',
     protein: '244',
     carbohydrate: '58',
@@ -10314,6 +11603,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.0',
   },
   {
+    id: 1290,
     name: '＜魚類＞　（かつお類）　缶詰　味付け　フレーク',
     protein: '589',
     carbohydrate: '139',
@@ -10322,6 +11612,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.4',
   },
   {
+    id: 1291,
     name: '＜魚類＞　（かつお類）　缶詰　油漬　フレーク',
     protein: '1200',
     carbohydrate: '289',
@@ -10330,6 +11621,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.8',
   },
   {
+    id: 1292,
     name: '＜魚類＞　かます　生',
     protein: '573',
     carbohydrate: '137',
@@ -10338,6 +11630,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.9',
   },
   {
+    id: 1293,
     name: '＜魚類＞　かます　焼き',
     protein: '563',
     carbohydrate: '134',
@@ -10346,6 +11639,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.3',
   },
   {
+    id: 1294,
     name: '＜魚類＞　（かれい類）　まがれい　生',
     protein: '377',
     carbohydrate: '89',
@@ -10354,6 +11648,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1295,
     name: '＜魚類＞　（かれい類）　まがれい　水煮',
     protein: '412',
     carbohydrate: '97',
@@ -10362,6 +11657,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.4',
   },
   {
+    id: 1296,
     name: '＜魚類＞　（かれい類）　まがれい　焼き',
     protein: '440',
     carbohydrate: '104',
@@ -10370,6 +11666,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.4',
   },
   {
+    id: 1297,
     name: '＜魚類＞　（かれい類）　まこがれい　生',
     protein: '363',
     carbohydrate: '86',
@@ -10378,6 +11675,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.0',
   },
   {
+    id: 1298,
     name: '＜魚類＞　（かれい類）　まこがれい　焼き',
     protein: '585',
     carbohydrate: '138',
@@ -10386,6 +11684,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.5',
   },
   {
+    id: 1299,
     name: '＜魚類＞　（かれい類）　子持ちがれい　生',
     protein: '516',
     carbohydrate: '123',
@@ -10394,6 +11693,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.9',
   },
   {
+    id: 1300,
     name: '＜魚類＞　（かれい類）　子持ちがれい　水煮',
     protein: '575',
     carbohydrate: '137',
@@ -10402,6 +11702,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.3',
   },
   {
+    id: 1301,
     name: '＜魚類＞　（かれい類）　干しかれい',
     protein: '437',
     carbohydrate: '104',
@@ -10410,6 +11711,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.2',
   },
   {
+    id: 1302,
     name: '＜魚類＞　かわはぎ　生',
     protein: '327',
     carbohydrate: '77',
@@ -10418,6 +11720,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.8',
   },
   {
+    id: 1303,
     name: '＜魚類＞　かんぱち　三枚おろし　生',
     protein: '501',
     carbohydrate: '119',
@@ -10426,6 +11729,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.0',
   },
   {
+    id: 1304,
     name: '＜魚類＞　かんぱち　背側　生',
     protein: '402',
     carbohydrate: '95',
@@ -10434,6 +11738,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.2',
   },
   {
+    id: 1305,
     name: '＜魚類＞　きす　生',
     protein: '308',
     carbohydrate: '73',
@@ -10442,6 +11747,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.5',
   },
   {
+    id: 1306,
     name: '＜魚類＞　きす　天ぷら',
     protein: '978',
     carbohydrate: '234',
@@ -10450,6 +11756,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.4',
   },
   {
+    id: 1307,
     name: '＜魚類＞　きちじ　生',
     protein: '989',
     carbohydrate: '238',
@@ -10458,6 +11765,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.6',
   },
   {
+    id: 1308,
     name: '＜魚類＞　きびなご　生',
     protein: '361',
     carbohydrate: '85',
@@ -10466,6 +11774,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.8',
   },
   {
+    id: 1309,
     name: '＜魚類＞　きびなご　調味干し',
     protein: '1021',
     carbohydrate: '241',
@@ -10474,6 +11783,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '47.9',
   },
   {
+    id: 1310,
     name: '＜魚類＞　キャビア　塩蔵品',
     protein: '1014',
     carbohydrate: '242',
@@ -10482,6 +11792,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.2',
   },
   {
+    id: 1311,
     name: '＜魚類＞　キングクリップ　生',
     protein: '312',
     carbohydrate: '73',
@@ -10490,6 +11801,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.2',
   },
   {
+    id: 1312,
     name: '＜魚類＞　ぎんだら　生',
     protein: '874',
     carbohydrate: '210',
@@ -10498,6 +11810,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.6',
   },
   {
+    id: 1313,
     name: '＜魚類＞　ぎんだら　水煮',
     protein: '1048',
     carbohydrate: '253',
@@ -10506,6 +11819,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.9',
   },
   {
+    id: 1314,
     name: '＜魚類＞　きんめだい　生',
     protein: '615',
     carbohydrate: '147',
@@ -10514,6 +11828,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.8',
   },
   {
+    id: 1315,
     name: '＜魚類＞　ぐち　生',
     protein: '331',
     carbohydrate: '78',
@@ -10522,6 +11837,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.0',
   },
   {
+    id: 1316,
     name: '＜魚類＞　ぐち　焼き',
     protein: '423',
     carbohydrate: '100',
@@ -10530,6 +11846,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.4',
   },
   {
+    id: 1317,
     name: '＜魚類＞　こい　養殖　生',
     protein: '657',
     carbohydrate: '157',
@@ -10538,6 +11855,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.7',
   },
   {
+    id: 1318,
     name: '＜魚類＞　こい　養殖　水煮',
     protein: '793',
     carbohydrate: '190',
@@ -10546,6 +11864,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.2',
   },
   {
+    id: 1319,
     name: '＜魚類＞　こい　養殖　内臓　生',
     protein: '1067',
     carbohydrate: '258',
@@ -10554,6 +11873,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.0',
   },
   {
+    id: 1320,
     name: '＜魚類＞　（こち類）　まごち　生',
     protein: '401',
     carbohydrate: '94',
@@ -10562,6 +11882,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.5',
   },
   {
+    id: 1321,
     name: '＜魚類＞　（こち類）　めごち　生',
     protein: '310',
     carbohydrate: '73',
@@ -10570,6 +11891,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.1',
   },
   {
+    id: 1322,
     name: '＜魚類＞　このしろ　生',
     protein: '612',
     carbohydrate: '146',
@@ -10578,6 +11900,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.0',
   },
   {
+    id: 1323,
     name: '＜魚類＞　このしろ　甘酢漬',
     protein: '770',
     carbohydrate: '184',
@@ -10586,6 +11909,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.1',
   },
   {
+    id: 1324,
     name: '＜魚類＞　（さけ・ます類）　からふとます　生',
     protein: '586',
     carbohydrate: '139',
@@ -10594,6 +11918,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.7',
   },
   {
+    id: 1325,
     name: '＜魚類＞　（さけ・ます類）　からふとます　焼き',
     protein: '735',
     carbohydrate: '175',
@@ -10602,6 +11927,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.1',
   },
   {
+    id: 1326,
     name: '＜魚類＞　（さけ・ます類）　からふとます　塩ます',
     protein: '614',
     carbohydrate: '146',
@@ -10610,6 +11936,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.9',
   },
   {
+    id: 1327,
     name: '＜魚類＞　（さけ・ます類）　からふとます　水煮缶詰',
     protein: '607',
     carbohydrate: '145',
@@ -10618,6 +11945,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.7',
   },
   {
+    id: 1328,
     name: '＜魚類＞　（さけ・ます類）　ぎんざけ　養殖　生',
     protein: '784',
     carbohydrate: '188',
@@ -10626,6 +11954,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1329,
     name: '＜魚類＞　（さけ・ます類）　ぎんざけ　養殖　焼き',
     protein: '987',
     carbohydrate: '236',
@@ -10634,6 +11963,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.2',
   },
   {
+    id: 1330,
     name: '＜魚類＞　（さけ・ます類）　さくらます　生',
     protein: '611',
     carbohydrate: '146',
@@ -10642,6 +11972,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.9',
   },
   {
+    id: 1331,
     name: '＜魚類＞　（さけ・ます類）　さくらます　焼き',
     protein: '871',
     carbohydrate: '208',
@@ -10650,6 +11981,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.4',
   },
   {
+    id: 1332,
     name: '＜魚類＞　（さけ・ます類）　しろさけ　生',
     protein: '524',
     carbohydrate: '124',
@@ -10658,6 +11990,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.3',
   },
   {
+    id: 1333,
     name: '＜魚類＞　（さけ・ます類）　しろさけ　水煮',
     protein: '597',
     carbohydrate: '142',
@@ -10666,6 +11999,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.5',
   },
   {
+    id: 1334,
     name: '＜魚類＞　（さけ・ます類）　しろさけ　焼き',
     protein: '675',
     carbohydrate: '160',
@@ -10674,6 +12008,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '29.1',
   },
   {
+    id: 1335,
     name: '＜魚類＞　（さけ・ます類）　しろさけ　新巻き　生',
     protein: '581',
     carbohydrate: '138',
@@ -10682,6 +12017,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.8',
   },
   {
+    id: 1336,
     name: '＜魚類＞　（さけ・ます類）　しろさけ　新巻き　焼き',
     protein: '744',
     carbohydrate: '177',
@@ -10690,6 +12026,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '29.3',
   },
   {
+    id: 1337,
     name: '＜魚類＞　（さけ・ます類）　しろさけ　塩ざけ',
     protein: '766',
     carbohydrate: '183',
@@ -10698,6 +12035,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.4',
   },
   {
+    id: 1338,
     name: '＜魚類＞　（さけ・ます類）　しろさけ　イクラ',
     protein: '1057',
     carbohydrate: '252',
@@ -10706,6 +12044,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '32.6',
   },
   {
+    id: 1339,
     name: '＜魚類＞　（さけ・ます類）　しろさけ　すじこ',
     protein: '1099',
     carbohydrate: '263',
@@ -10714,6 +12053,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '30.5',
   },
   {
+    id: 1340,
     name: '＜魚類＞　（さけ・ます類）　しろさけ　めふん',
     protein: '312',
     carbohydrate: '74',
@@ -10722,6 +12062,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.9',
   },
   {
+    id: 1341,
     name: '＜魚類＞　（さけ・ます類）　しろさけ　水煮缶詰',
     protein: '656',
     carbohydrate: '156',
@@ -10730,6 +12071,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.2',
   },
   {
+    id: 1342,
     name: '＜魚類＞　（さけ・ます類）　しろさけ　サケ節　削り節',
     protein: '1469',
     carbohydrate: '346',
@@ -10738,6 +12080,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '77.4',
   },
   {
+    id: 1343,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮つき　生',
     protein: '908',
     carbohydrate: '218',
@@ -10746,6 +12089,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.1',
   },
   {
+    id: 1344,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮つき　水煮',
     protein: '980',
     carbohydrate: '236',
@@ -10754,6 +12098,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.5',
   },
   {
+    id: 1345,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮つき　蒸し',
     protein: '958',
     carbohydrate: '230',
@@ -10762,6 +12107,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.8',
   },
   {
+    id: 1346,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮つき　電子レンジ調理',
     protein: '930',
     carbohydrate: '223',
@@ -10770,6 +12116,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.9',
   },
   {
+    id: 1347,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮つき　焼き',
     protein: '1125',
     carbohydrate: '270',
@@ -10778,6 +12125,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.5',
   },
   {
+    id: 1348,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮つき　ソテー',
     protein: '1104',
     carbohydrate: '266',
@@ -10786,6 +12134,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.2',
   },
   {
+    id: 1349,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮つき　天ぷら',
     protein: '1175',
     carbohydrate: '282',
@@ -10794,6 +12143,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.0',
   },
   {
+    id: 1350,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮なし　生',
     protein: '928',
     carbohydrate: '223',
@@ -10802,6 +12152,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1351,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮なし　水煮',
     protein: '1016',
     carbohydrate: '244',
@@ -10810,6 +12161,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.7',
   },
   {
+    id: 1352,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮なし　蒸し',
     protein: '951',
     carbohydrate: '228',
@@ -10818,6 +12170,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.2',
   },
   {
+    id: 1353,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮なし　電子レンジ調理',
     protein: '963',
     carbohydrate: '231',
@@ -10826,6 +12179,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.7',
   },
   {
+    id: 1354,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮なし　焼き',
     protein: '953',
     carbohydrate: '229',
@@ -10834,6 +12188,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.9',
   },
   {
+    id: 1355,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮なし　ソテー',
     protein: '1119',
     carbohydrate: '269',
@@ -10842,6 +12197,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.8',
   },
   {
+    id: 1356,
     name: '＜魚類＞　（さけ・ます類）　たいせいようさけ　養殖　皮なし　天ぷら',
     protein: '1107',
     carbohydrate: '266',
@@ -10850,6 +12206,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.0',
   },
   {
+    id: 1357,
     name: '＜魚類＞　（さけ・ます類）　にじます　海面養殖　皮つき　生',
     protein: '841',
     carbohydrate: '201',
@@ -10858,6 +12215,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.4',
   },
   {
+    id: 1358,
     name: '＜魚類＞　（さけ・ます類）　にじます　海面養殖　皮なし　生',
     protein: '734',
     carbohydrate: '176',
@@ -10866,6 +12224,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.5',
   },
   {
+    id: 1359,
     name: '＜魚類＞　（さけ・ます類）　にじます　海面養殖　皮つき　焼き',
     protein: '994',
     carbohydrate: '238',
@@ -10874,6 +12233,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '27.2',
   },
   {
+    id: 1360,
     name: '＜魚類＞　（さけ・ます類）　にじます　淡水養殖　皮つき　生',
     protein: '489',
     carbohydrate: '116',
@@ -10882,6 +12242,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.7',
   },
   {
+    id: 1361,
     name: '＜魚類＞　（さけ・ます類）　べにざけ　生',
     protein: '536',
     carbohydrate: '127',
@@ -10890,6 +12251,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.5',
   },
   {
+    id: 1362,
     name: '＜魚類＞　（さけ・ます類）　べにざけ　焼き',
     protein: '685',
     carbohydrate: '163',
@@ -10898,6 +12260,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.5',
   },
   {
+    id: 1363,
     name: '＜魚類＞　（さけ・ます類）　べにざけ　くん製',
     protein: '602',
     carbohydrate: '143',
@@ -10906,6 +12269,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.7',
   },
   {
+    id: 1364,
     name: '＜魚類＞　（さけ・ます類）　ますのすけ　生',
     protein: '737',
     carbohydrate: '176',
@@ -10914,6 +12278,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.5',
   },
   {
+    id: 1365,
     name: '＜魚類＞　（さけ・ます類）　ますのすけ　焼き',
     protein: '995',
     carbohydrate: '238',
@@ -10922,6 +12287,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.4',
   },
   {
+    id: 1366,
     name: '＜魚類＞　（さば類）　まさば　生',
     protein: '883',
     carbohydrate: '211',
@@ -10930,6 +12296,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.6',
   },
   {
+    id: 1367,
     name: '＜魚類＞　（さば類）　まさば　水煮',
     protein: '1054',
     carbohydrate: '253',
@@ -10938,6 +12305,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.6',
   },
   {
+    id: 1368,
     name: '＜魚類＞　（さば類）　まさば　焼き',
     protein: '1100',
     carbohydrate: '264',
@@ -10946,6 +12314,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.2',
   },
   {
+    id: 1369,
     name: '＜魚類＞　（さば類）　まさば　フライ',
     protein: '1317',
     carbohydrate: '316',
@@ -10954,6 +12323,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.0',
   },
   {
+    id: 1370,
     name: '＜魚類＞　（さば類）　ごまさば　生',
     protein: '551',
     carbohydrate: '131',
@@ -10962,6 +12332,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.0',
   },
   {
+    id: 1371,
     name: '＜魚類＞　（さば類）　ごまさば　水煮',
     protein: '585',
     carbohydrate: '139',
@@ -10970,6 +12341,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.8',
   },
   {
+    id: 1372,
     name: '＜魚類＞　（さば類）　ごまさば　焼き',
     protein: '734',
     carbohydrate: '174',
@@ -10978,6 +12350,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '31.1',
   },
   {
+    id: 1373,
     name: '＜魚類＞　（さば類）　ごまさば　さば節',
     protein: '1399',
     carbohydrate: '330',
@@ -10986,6 +12359,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '73.9',
   },
   {
+    id: 1374,
     name: '＜魚類＞　（さば類）　たいせいようさば　生',
     protein: '1223',
     carbohydrate: '295',
@@ -10994,6 +12368,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.2',
   },
   {
+    id: 1375,
     name: '＜魚類＞　（さば類）　たいせいようさば　水煮',
     protein: '1287',
     carbohydrate: '310',
@@ -11002,6 +12377,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.6',
   },
   {
+    id: 1376,
     name: '＜魚類＞　（さば類）　たいせいようさば　焼き',
     protein: '1354',
     carbohydrate: '326',
@@ -11010,6 +12386,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.8',
   },
   {
+    id: 1377,
     name: '＜魚類＞　（さば類）　加工品　塩さば',
     protein: '1099',
     carbohydrate: '263',
@@ -11018,6 +12395,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.2',
   },
   {
+    id: 1378,
     name: '＜魚類＞　（さば類）　加工品　開き干し',
     protein: '1260',
     carbohydrate: '303',
@@ -11026,6 +12404,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.7',
   },
   {
+    id: 1379,
     name: '＜魚類＞　（さば類）　加工品　しめさば',
     protein: '1215',
     carbohydrate: '292',
@@ -11034,6 +12413,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.6',
   },
   {
+    id: 1380,
     name: '＜魚類＞　（さば類）　缶詰　水煮',
     protein: '727',
     carbohydrate: '174',
@@ -11042,6 +12422,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.9',
   },
   {
+    id: 1381,
     name: '＜魚類＞　（さば類）　缶詰　みそ煮',
     protein: '876',
     carbohydrate: '210',
@@ -11050,6 +12431,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.3',
   },
   {
+    id: 1382,
     name: '＜魚類＞　（さば類）　缶詰　味付け',
     protein: '871',
     carbohydrate: '208',
@@ -11058,6 +12440,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.4',
   },
   {
+    id: 1383,
     name: '＜魚類＞　（さめ類）　あぶらつのざめ　生',
     protein: '578',
     carbohydrate: '138',
@@ -11066,6 +12449,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.8',
   },
   {
+    id: 1384,
     name: '＜魚類＞　（さめ類）　よしきりざめ　生',
     protein: '336',
     carbohydrate: '79',
@@ -11074,6 +12458,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.9',
   },
   {
+    id: 1385,
     name: '＜魚類＞　（さめ類）　ふかひれ',
     protein: '1463',
     carbohydrate: '344',
@@ -11082,6 +12467,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '83.9',
   },
   {
+    id: 1386,
     name: '＜魚類＞　さより　生',
     protein: '374',
     carbohydrate: '88',
@@ -11090,6 +12476,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1387,
     name: '＜魚類＞　さわら　生',
     protein: '676',
     carbohydrate: '161',
@@ -11098,6 +12485,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.1',
   },
   {
+    id: 1388,
     name: '＜魚類＞　さわら　焼き',
     protein: '771',
     carbohydrate: '184',
@@ -11106,6 +12494,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.6',
   },
   {
+    id: 1389,
     name: '＜魚類＞　さんま　皮つき　生',
     protein: '1193',
     carbohydrate: '287',
@@ -11114,6 +12503,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.1',
   },
   {
+    id: 1390,
     name: '＜魚類＞　さんま　皮なし　生',
     protein: '1151',
     carbohydrate: '277',
@@ -11122,6 +12512,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.8',
   },
   {
+    id: 1391,
     name: '＜魚類＞　さんま　皮つき　焼き',
     protein: '1171',
     carbohydrate: '281',
@@ -11130,6 +12521,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.3',
   },
   {
+    id: 1392,
     name: '＜魚類＞　さんま　開き干し',
     protein: '968',
     carbohydrate: '232',
@@ -11138,6 +12530,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.3',
   },
   {
+    id: 1393,
     name: '＜魚類＞　さんま　みりん干し',
     protein: '1598',
     carbohydrate: '382',
@@ -11146,6 +12539,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.9',
   },
   {
+    id: 1394,
     name: '＜魚類＞　さんま　缶詰　味付け',
     protein: '1081',
     carbohydrate: '259',
@@ -11154,6 +12548,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.9',
   },
   {
+    id: 1395,
     name: '＜魚類＞　さんま　缶詰　かば焼',
     protein: '916',
     carbohydrate: '219',
@@ -11162,6 +12557,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.4',
   },
   {
+    id: 1396,
     name: '＜魚類＞　しいら　生',
     protein: '423',
     carbohydrate: '100',
@@ -11170,6 +12566,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.3',
   },
   {
+    id: 1397,
     name: '＜魚類＞　（ししゃも類）　ししゃも　生干し　生',
     protein: '639',
     carbohydrate: '152',
@@ -11178,6 +12575,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.0',
   },
   {
+    id: 1398,
     name: '＜魚類＞　（ししゃも類）　ししゃも　生干し　焼き',
     protein: '680',
     carbohydrate: '162',
@@ -11186,6 +12584,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.3',
   },
   {
+    id: 1399,
     name: '＜魚類＞　（ししゃも類）　からふとししゃも　生干し　生',
     protein: '669',
     carbohydrate: '160',
@@ -11194,6 +12593,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.6',
   },
   {
+    id: 1400,
     name: '＜魚類＞　（ししゃも類）　からふとししゃも　生干し　焼き',
     protein: '710',
     carbohydrate: '170',
@@ -11202,6 +12602,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.2',
   },
   {
+    id: 1401,
     name: '＜魚類＞　したびらめ　生',
     protein: '377',
     carbohydrate: '89',
@@ -11210,6 +12611,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.2',
   },
   {
+    id: 1402,
     name: '＜魚類＞　しまあじ　養殖　生',
     protein: '641',
     carbohydrate: '153',
@@ -11218,6 +12620,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.9',
   },
   {
+    id: 1403,
     name: '＜魚類＞　しらうお　生',
     protein: '295',
     carbohydrate: '70',
@@ -11226,6 +12629,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.6',
   },
   {
+    id: 1404,
     name: '＜魚類＞　シルバー　生',
     protein: '580',
     carbohydrate: '138',
@@ -11234,6 +12638,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.6',
   },
   {
+    id: 1405,
     name: '＜魚類＞　すずき　生',
     protein: '477',
     carbohydrate: '113',
@@ -11242,6 +12647,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.8',
   },
   {
+    id: 1406,
     name: '＜魚類＞　（たい類）　きだい　生',
     protein: '422',
     carbohydrate: '100',
@@ -11250,6 +12656,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.6',
   },
   {
+    id: 1407,
     name: '＜魚類＞　（たい類）　くろだい　生',
     protein: '574',
     carbohydrate: '137',
@@ -11258,6 +12665,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.4',
   },
   {
+    id: 1408,
     name: '＜魚類＞　（たい類）　ちだい　生',
     protein: '411',
     carbohydrate: '97',
@@ -11266,6 +12674,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.4',
   },
   {
+    id: 1409,
     name: '＜魚類＞　（たい類）　まだい　天然　生',
     protein: '543',
     carbohydrate: '129',
@@ -11274,6 +12683,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.6',
   },
   {
+    id: 1410,
     name: '＜魚類＞　（たい類）　まだい　養殖　皮つき　生',
     protein: '669',
     carbohydrate: '160',
@@ -11282,6 +12692,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.9',
   },
   {
+    id: 1411,
     name: '＜魚類＞　（たい類）　まだい　養殖　皮つき　水煮',
     protein: '761',
     carbohydrate: '182',
@@ -11290,6 +12701,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.2',
   },
   {
+    id: 1412,
     name: '＜魚類＞　（たい類）　まだい　養殖　皮つき　焼き',
     protein: '779',
     carbohydrate: '186',
@@ -11298,6 +12710,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.7',
   },
   {
+    id: 1413,
     name: '＜魚類＞　（たい類）　まだい　養殖　皮なし　生',
     protein: '551',
     carbohydrate: '131',
@@ -11306,6 +12719,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.2',
   },
   {
+    id: 1414,
     name: '＜魚類＞　たかさご　生',
     protein: '392',
     carbohydrate: '93',
@@ -11314,6 +12728,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.2',
   },
   {
+    id: 1415,
     name: '＜魚類＞　たかべ　生',
     protein: '618',
     carbohydrate: '148',
@@ -11322,6 +12737,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.7',
   },
   {
+    id: 1416,
     name: '＜魚類＞　たちうお　生',
     protein: '991',
     carbohydrate: '238',
@@ -11330,6 +12746,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.5',
   },
   {
+    id: 1417,
     name: '＜魚類＞　（たら類）　すけとうだら　生',
     protein: '304',
     carbohydrate: '72',
@@ -11338,6 +12755,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.4',
   },
   {
+    id: 1418,
     name: '＜魚類＞　（たら類）　すけとうだら　フライ',
     protein: '813',
     carbohydrate: '195',
@@ -11346,6 +12764,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.2',
   },
   {
+    id: 1419,
     name: '＜魚類＞　（たら類）　すけとうだら　すり身',
     protein: '416',
     carbohydrate: '98',
@@ -11354,6 +12773,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.5',
   },
   {
+    id: 1420,
     name: '＜魚類＞　（たら類）　すけとうだら　すきみだら',
     protein: '700',
     carbohydrate: '165',
@@ -11362,6 +12782,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '40.5',
   },
   {
+    id: 1421,
     name: '＜魚類＞　（たら類）　すけとうだら　たらこ　生',
     protein: '553',
     carbohydrate: '131',
@@ -11370,6 +12791,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.0',
   },
   {
+    id: 1422,
     name: '＜魚類＞　（たら類）　すけとうだら　たらこ　焼き',
     protein: '668',
     carbohydrate: '158',
@@ -11378,6 +12800,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.3',
   },
   {
+    id: 1423,
     name: '＜魚類＞　（たら類）　すけとうだら　からしめんたいこ',
     protein: '511',
     carbohydrate: '121',
@@ -11386,6 +12809,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.0',
   },
   {
+    id: 1424,
     name: '＜魚類＞　（たら類）　まだら　生',
     protein: '307',
     carbohydrate: '72',
@@ -11394,6 +12818,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.6',
   },
   {
+    id: 1425,
     name: '＜魚類＞　（たら類）　まだら　焼き',
     protein: '439',
     carbohydrate: '103',
@@ -11402,6 +12827,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.2',
   },
   {
+    id: 1426,
     name: '＜魚類＞　（たら類）　まだら　しらこ　生',
     protein: '253',
     carbohydrate: '60',
@@ -11410,6 +12836,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.4',
   },
   {
+    id: 1427,
     name: '＜魚類＞　（たら類）　まだら　塩だら',
     protein: '261',
     carbohydrate: '61',
@@ -11418,6 +12845,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.2',
   },
   {
+    id: 1428,
     name: '＜魚類＞　（たら類）　まだら　干しだら',
     protein: '1271',
     carbohydrate: '299',
@@ -11426,6 +12854,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '73.2',
   },
   {
+    id: 1429,
     name: '＜魚類＞　（たら類）　加工品　でんぶ',
     protein: '1170',
     carbohydrate: '276',
@@ -11434,6 +12863,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.5',
   },
   {
+    id: 1430,
     name: '＜魚類＞　（たら類）　加工品　桜でんぶ',
     protein: '1496',
     carbohydrate: '351',
@@ -11442,6 +12872,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.6',
   },
   {
+    id: 1431,
     name: '＜魚類＞　ちか　生',
     protein: '349',
     carbohydrate: '82',
@@ -11450,6 +12881,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.5',
   },
   {
+    id: 1432,
     name: '＜魚類＞　どじょう　生',
     protein: '306',
     carbohydrate: '72',
@@ -11458,6 +12890,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.1',
   },
   {
+    id: 1433,
     name: '＜魚類＞　どじょう　水煮',
     protein: '322',
     carbohydrate: '76',
@@ -11466,6 +12899,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.1',
   },
   {
+    id: 1434,
     name: '＜魚類＞　とびうお　生',
     protein: '380',
     carbohydrate: '89',
@@ -11474,6 +12908,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.0',
   },
   {
+    id: 1435,
     name: '＜魚類＞　とびうお　煮干し',
     protein: '1382',
     carbohydrate: '325',
@@ -11482,6 +12917,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '80.0',
   },
   {
+    id: 1436,
     name: '＜魚類＞　とびうお　焼き干し',
     protein: '1312',
     carbohydrate: '309',
@@ -11490,6 +12926,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '73.4',
   },
   {
+    id: 1437,
     name: '＜魚類＞　ナイルティラピア　生',
     protein: '521',
     carbohydrate: '124',
@@ -11498,6 +12935,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.8',
   },
   {
+    id: 1438,
     name: '＜魚類＞　なまず　生',
     protein: '605',
     carbohydrate: '145',
@@ -11506,6 +12944,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.4',
   },
   {
+    id: 1439,
     name: '＜魚類＞　にぎす　生',
     protein: '358',
     carbohydrate: '84',
@@ -11514,6 +12953,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.7',
   },
   {
+    id: 1440,
     name: '＜魚類＞　にしん　生',
     protein: '816',
     carbohydrate: '196',
@@ -11522,6 +12962,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.4',
   },
   {
+    id: 1441,
     name: '＜魚類＞　にしん　身欠きにしん',
     protein: '935',
     carbohydrate: '224',
@@ -11530,6 +12971,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.9',
   },
   {
+    id: 1442,
     name: '＜魚類＞　にしん　開き干し',
     protein: '996',
     carbohydrate: '239',
@@ -11538,6 +12980,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.5',
   },
   {
+    id: 1443,
     name: '＜魚類＞　にしん　くん製',
     protein: '1167',
     carbohydrate: '280',
@@ -11546,6 +12989,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.1',
   },
   {
+    id: 1444,
     name: '＜魚類＞　にしん　かずのこ　生',
     protein: '588',
     carbohydrate: '139',
@@ -11554,6 +12998,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.2',
   },
   {
+    id: 1445,
     name: '＜魚類＞　にしん　かずのこ　乾',
     protein: '1510',
     carbohydrate: '358',
@@ -11562,6 +13007,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '65.2',
   },
   {
+    id: 1446,
     name: '＜魚類＞　にしん　かずのこ　塩蔵　水戻し',
     protein: '340',
     carbohydrate: '80',
@@ -11570,6 +13016,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.0',
   },
   {
+    id: 1447,
     name: '＜魚類＞　はぜ　生',
     protein: '332',
     carbohydrate: '78',
@@ -11578,6 +13025,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.1',
   },
   {
+    id: 1448,
     name: '＜魚類＞　はぜ　つくだ煮',
     protein: '1174',
     carbohydrate: '277',
@@ -11586,6 +13034,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.3',
   },
   {
+    id: 1449,
     name: '＜魚類＞　はぜ　甘露煮',
     protein: '1103',
     carbohydrate: '260',
@@ -11594,6 +13043,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.1',
   },
   {
+    id: 1450,
     name: '＜魚類＞　はたはた　生',
     protein: '425',
     carbohydrate: '101',
@@ -11602,6 +13052,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.1',
   },
   {
+    id: 1451,
     name: '＜魚類＞　はたはた　生干し',
     protein: '644',
     carbohydrate: '154',
@@ -11610,6 +13061,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.7',
   },
   {
+    id: 1452,
     name: '＜魚類＞　はまふえふき　生',
     protein: '359',
     carbohydrate: '85',
@@ -11618,6 +13070,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.5',
   },
   {
+    id: 1453,
     name: '＜魚類＞　はも　生',
     protein: '555',
     carbohydrate: '132',
@@ -11626,6 +13079,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.3',
   },
   {
+    id: 1454,
     name: '＜魚類＞　ひらまさ　生',
     protein: '541',
     carbohydrate: '128',
@@ -11634,6 +13088,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.6',
   },
   {
+    id: 1455,
     name: '＜魚類＞　ひらめ　天然　生',
     protein: '406',
     carbohydrate: '96',
@@ -11642,6 +13097,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.0',
   },
   {
+    id: 1456,
     name: '＜魚類＞　ひらめ　養殖　皮つき　生',
     protein: '486',
     carbohydrate: '115',
@@ -11650,6 +13106,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.6',
   },
   {
+    id: 1457,
     name: '＜魚類＞　ひらめ　養殖　皮なし　生',
     protein: '424',
     carbohydrate: '100',
@@ -11658,6 +13115,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.2',
   },
   {
+    id: 1458,
     name: '＜魚類＞　（ふぐ類）　とらふぐ　養殖　生',
     protein: '341',
     carbohydrate: '80',
@@ -11666,6 +13124,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.3',
   },
   {
+    id: 1459,
     name: '＜魚類＞　（ふぐ類）　まふぐ　生',
     protein: '333',
     carbohydrate: '78',
@@ -11674,6 +13133,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.9',
   },
   {
+    id: 1460,
     name: '＜魚類＞　ふな　生',
     protein: '394',
     carbohydrate: '93',
@@ -11682,6 +13142,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.2',
   },
   {
+    id: 1461,
     name: '＜魚類＞　ふな　水煮',
     protein: '439',
     carbohydrate: '104',
@@ -11690,6 +13151,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.3',
   },
   {
+    id: 1462,
     name: '＜魚類＞　ふな　甘露煮',
     protein: '1127',
     carbohydrate: '266',
@@ -11698,6 +13160,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.5',
   },
   {
+    id: 1463,
     name: '＜魚類＞　ふな　ふなずし',
     protein: '763',
     carbohydrate: '181',
@@ -11706,6 +13169,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.3',
   },
   {
+    id: 1464,
     name: '＜魚類＞　ぶり　成魚　生',
     protein: '929',
     carbohydrate: '222',
@@ -11714,6 +13178,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.4',
   },
   {
+    id: 1465,
     name: '＜魚類＞　ぶり　成魚　焼き',
     protein: '1087',
     carbohydrate: '260',
@@ -11722,6 +13187,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.2',
   },
   {
+    id: 1466,
     name: '＜魚類＞　ぶり　はまち　養殖　皮つき　生',
     protein: '904',
     carbohydrate: '217',
@@ -11730,6 +13196,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.7',
   },
   {
+    id: 1467,
     name: '＜魚類＞　ぶり　はまち　養殖　皮なし　生',
     protein: '751',
     carbohydrate: '180',
@@ -11738,6 +13205,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.0',
   },
   {
+    id: 1468,
     name: '＜魚類＞　ほうぼう　生',
     protein: '464',
     carbohydrate: '110',
@@ -11746,6 +13214,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1469,
     name: '＜魚類＞　ホキ　生',
     protein: '331',
     carbohydrate: '78',
@@ -11754,6 +13223,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.0',
   },
   {
+    id: 1470,
     name: '＜魚類＞　ほっけ　生',
     protein: '435',
     carbohydrate: '103',
@@ -11762,6 +13232,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.3',
   },
   {
+    id: 1471,
     name: '＜魚類＞　ほっけ　塩ほっけ',
     protein: '475',
     carbohydrate: '113',
@@ -11770,6 +13241,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.1',
   },
   {
+    id: 1472,
     name: '＜魚類＞　ほっけ　開き干し　生',
     protein: '676',
     carbohydrate: '161',
@@ -11778,6 +13250,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.6',
   },
   {
+    id: 1473,
     name: '＜魚類＞　ほっけ　開き干し　焼き',
     protein: '749',
     carbohydrate: '179',
@@ -11786,6 +13259,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.1',
   },
   {
+    id: 1474,
     name: '＜魚類＞　ぼら　生',
     protein: '500',
     carbohydrate: '119',
@@ -11794,6 +13268,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.2',
   },
   {
+    id: 1475,
     name: '＜魚類＞　ぼら　からすみ',
     protein: '1481',
     carbohydrate: '353',
@@ -11802,6 +13277,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '40.4',
   },
   {
+    id: 1476,
     name: '＜魚類＞　ほんもろこ　生',
     protein: '434',
     carbohydrate: '103',
@@ -11810,6 +13286,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.5',
   },
   {
+    id: 1477,
     name: '＜魚類＞　（まぐろ類）　きはだ　生',
     protein: '432',
     carbohydrate: '102',
@@ -11818,6 +13295,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.3',
   },
   {
+    id: 1478,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　天然　赤身　生',
     protein: '490',
     carbohydrate: '115',
@@ -11826,6 +13304,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.4',
   },
   {
+    id: 1479,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　天然　脂身　生',
     protein: '1281',
     carbohydrate: '308',
@@ -11834,6 +13313,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.1',
   },
   {
+    id: 1480,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　赤身　生',
     protein: '643',
     carbohydrate: '153',
@@ -11842,6 +13322,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.8',
   },
   {
+    id: 1481,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　赤身　水煮',
     protein: '727',
     carbohydrate: '173',
@@ -11850,6 +13331,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '27.2',
   },
   {
+    id: 1482,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　赤身　蒸し',
     protein: '786',
     carbohydrate: '187',
@@ -11858,6 +13340,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.0',
   },
   {
+    id: 1483,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　赤身　電子レンジ調理',
     protein: '802',
     carbohydrate: '191',
@@ -11866,6 +13349,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '30.4',
   },
   {
+    id: 1484,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　赤身　焼き',
     protein: '848',
     carbohydrate: '202',
@@ -11874,6 +13358,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '29.0',
   },
   {
+    id: 1485,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　赤身　ソテー',
     protein: '812',
     carbohydrate: '194',
@@ -11882,6 +13367,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.0',
   },
   {
+    id: 1486,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　赤身　天ぷら',
     protein: '927',
     carbohydrate: '222',
@@ -11890,6 +13376,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.1',
   },
   {
+    id: 1487,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　脂身　生',
     protein: '1330',
     carbohydrate: '321',
@@ -11898,6 +13385,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.6',
   },
   {
+    id: 1488,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　脂身　水煮',
     protein: '1370',
     carbohydrate: '330',
@@ -11906,6 +13394,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.4',
   },
   {
+    id: 1489,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　脂身　蒸し',
     protein: '1299',
     carbohydrate: '313',
@@ -11914,6 +13403,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.8',
   },
   {
+    id: 1490,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　脂身　電子レンジ調理',
     protein: '1278',
     carbohydrate: '307',
@@ -11922,6 +13412,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.1',
   },
   {
+    id: 1491,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　脂身　焼き',
     protein: '1422',
     carbohydrate: '342',
@@ -11930,6 +13421,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.0 ',
   },
   {
+    id: 1492,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　脂身　ソテー',
     protein: '1410',
     carbohydrate: '339',
@@ -11938,6 +13430,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.3',
   },
   {
+    id: 1493,
     name: '＜魚類＞　（まぐろ類）　くろまぐろ　養殖　脂身　天ぷら',
     protein: '1438',
     carbohydrate: '345',
@@ -11946,6 +13439,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.0 ',
   },
   {
+    id: 1494,
     name: '＜魚類＞　（まぐろ類）　びんなが　生',
     protein: '469',
     carbohydrate: '111',
@@ -11954,6 +13448,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.0',
   },
   {
+    id: 1495,
     name: '＜魚類＞　（まぐろ類）　みなみまぐろ　赤身　生',
     protein: '375',
     carbohydrate: '88',
@@ -11962,6 +13457,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.6',
   },
   {
+    id: 1496,
     name: '＜魚類＞　（まぐろ類）　みなみまぐろ　脂身　生',
     protein: '1337',
     carbohydrate: '322',
@@ -11970,6 +13466,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.3',
   },
   {
+    id: 1497,
     name: '＜魚類＞　（まぐろ類）　めじまぐろ　生',
     protein: '587',
     carbohydrate: '139',
@@ -11978,6 +13475,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.2',
   },
   {
+    id: 1498,
     name: '＜魚類＞　（まぐろ類） めばち　赤身　生',
     protein: '485',
     carbohydrate: '115',
@@ -11986,6 +13484,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.4',
   },
   {
+    id: 1499,
     name: '＜魚類＞　（まぐろ類） めばち　脂身　生',
     protein: '662',
     carbohydrate: '158',
@@ -11994,6 +13493,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.9',
   },
   {
+    id: 1500,
     name: '＜魚類＞　（まぐろ類）　缶詰　水煮　フレーク　ライト',
     protein: '297',
     carbohydrate: '70',
@@ -12002,6 +13502,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.0',
   },
   {
+    id: 1501,
     name: '＜魚類＞　（まぐろ類）　缶詰　水煮　フレーク　ホワイト',
     protein: '404',
     carbohydrate: '96',
@@ -12010,6 +13511,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.3',
   },
   {
+    id: 1502,
     name: '＜魚類＞　（まぐろ類）　缶詰　味付け　フレーク',
     protein: '567',
     carbohydrate: '134',
@@ -12018,6 +13520,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.0',
   },
   {
+    id: 1503,
     name: '＜魚類＞　（まぐろ類）　缶詰　油漬　フレーク　ライト',
     protein: '1098',
     carbohydrate: '265',
@@ -12026,6 +13529,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.7',
   },
   {
+    id: 1504,
     name: '＜魚類＞　（まぐろ類）　缶詰　油漬　フレーク　ホワイト',
     protein: '1158',
     carbohydrate: '279',
@@ -12034,6 +13538,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.8',
   },
   {
+    id: 1505,
     name: '＜魚類＞　マジェランあいなめ　生',
     protein: '1010',
     carbohydrate: '243',
@@ -12042,6 +13547,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.3',
   },
   {
+    id: 1506,
     name: '＜魚類＞　まながつお　生',
     protein: '671',
     carbohydrate: '161',
@@ -12050,6 +13556,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.1',
   },
   {
+    id: 1507,
     name: '＜魚類＞　みなみくろたち　生',
     protein: '473',
     carbohydrate: '112',
@@ -12058,6 +13565,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.7',
   },
   {
+    id: 1508,
     name: '＜魚類＞　みなみだら　生',
     protein: '288',
     carbohydrate: '68',
@@ -12066,6 +13574,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.4',
   },
   {
+    id: 1509,
     name: '＜魚類＞　むつ　生',
     protein: '729',
     carbohydrate: '175',
@@ -12074,6 +13583,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.7',
   },
   {
+    id: 1510,
     name: '＜魚類＞　むつ　水煮',
     protein: '673',
     carbohydrate: '161',
@@ -12082,6 +13592,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.2',
   },
   {
+    id: 1511,
     name: '＜魚類＞　めじな　生',
     protein: '476',
     carbohydrate: '113',
@@ -12090,6 +13601,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.4',
   },
   {
+    id: 1512,
     name: '＜魚類＞　めばる　生',
     protein: '423',
     carbohydrate: '100',
@@ -12098,6 +13610,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.1',
   },
   {
+    id: 1513,
     name: '＜魚類＞　メルルーサ　生',
     protein: '309',
     carbohydrate: '73',
@@ -12106,6 +13619,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.0',
   },
   {
+    id: 1514,
     name: '＜魚類＞　やつめうなぎ　生',
     protein: '1018',
     carbohydrate: '245',
@@ -12114,6 +13628,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.8',
   },
   {
+    id: 1515,
     name: '＜魚類＞　やつめうなぎ　干しやつめ',
     protein: '1880',
     carbohydrate: '449',
@@ -12122,6 +13637,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '50.3',
   },
   {
+    id: 1516,
     name: '＜魚類＞　やまめ　養殖　生',
     protein: '464',
     carbohydrate: '110',
@@ -12130,6 +13646,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.4',
   },
   {
+    id: 1517,
     name: '＜魚類＞　わかさぎ　生',
     protein: '300',
     carbohydrate: '71',
@@ -12138,6 +13655,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.4',
   },
   {
+    id: 1518,
     name: '＜魚類＞　わかさぎ　つくだ煮',
     protein: '1302',
     carbohydrate: '308',
@@ -12146,6 +13664,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.7',
   },
   {
+    id: 1519,
     name: '＜魚類＞　わかさぎ　あめ煮',
     protein: '1276',
     carbohydrate: '301',
@@ -12154,6 +13673,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.3',
   },
   {
+    id: 1520,
     name: '＜貝類＞　あかがい　生',
     protein: '296',
     carbohydrate: '70',
@@ -12162,6 +13682,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.5',
   },
   {
+    id: 1521,
     name: '＜貝類＞　あげまき　生',
     protein: '189',
     carbohydrate: '44',
@@ -12170,6 +13691,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.1',
   },
   {
+    id: 1522,
     name: '＜貝類＞　あさり　生',
     protein: '123',
     carbohydrate: '29',
@@ -12178,6 +13700,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.7',
   },
   {
+    id: 1523,
     name: '＜貝類＞　あさり　蒸し',
     protein: '137',
     carbohydrate: '32',
@@ -12186,6 +13709,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.9',
   },
   {
+    id: 1524,
     name: '＜貝類＞　あさり　つくだ煮',
     protein: '927',
     carbohydrate: '218',
@@ -12194,6 +13718,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.8',
   },
   {
+    id: 1525,
     name: '＜貝類＞　あさり　缶詰　水煮',
     protein: '433',
     carbohydrate: '102',
@@ -12202,6 +13727,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.3',
   },
   {
+    id: 1526,
     name: '＜貝類＞　あさり　缶詰　味付け',
     protein: '528',
     carbohydrate: '124',
@@ -12210,6 +13736,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.6',
   },
   {
+    id: 1527,
     name: '＜貝類＞　あわび　くろあわび　生',
     protein: '324',
     carbohydrate: '76',
@@ -12218,6 +13745,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.3',
   },
   {
+    id: 1528,
     name: '＜貝類＞　あわび　まだかあわび　生',
     protein: '316',
     carbohydrate: '74',
@@ -12226,6 +13754,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.6',
   },
   {
+    id: 1529,
     name: '＜貝類＞　あわび　めがいあわび　生',
     protein: '315',
     carbohydrate: '74',
@@ -12234,6 +13763,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.2',
   },
   {
+    id: 1530,
     name: '＜貝類＞　あわび　干し',
     protein: '1090',
     carbohydrate: '257',
@@ -12242,6 +13772,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '38.0',
   },
   {
+    id: 1531,
     name: '＜貝類＞　あわび　塩辛',
     protein: '393',
     carbohydrate: '93',
@@ -12250,6 +13781,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.8',
   },
   {
+    id: 1532,
     name: '＜貝類＞　あわび　水煮缶詰',
     protein: '359',
     carbohydrate: '85',
@@ -12258,6 +13790,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.4',
   },
   {
+    id: 1533,
     name: '＜貝類＞　いがい　生',
     protein: '269',
     carbohydrate: '63',
@@ -12266,6 +13799,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.3',
   },
   {
+    id: 1534,
     name: '＜貝類＞　いたやがい　養殖　生',
     protein: '231',
     carbohydrate: '55',
@@ -12274,6 +13808,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.8',
   },
   {
+    id: 1535,
     name: '＜貝類＞　エスカルゴ　水煮缶詰',
     protein: '318',
     carbohydrate: '75',
@@ -12282,6 +13817,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.5',
   },
   {
+    id: 1536,
     name: '＜貝類＞　かき　養殖　生',
     protein: '245',
     carbohydrate: '58',
@@ -12290,6 +13826,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.9',
   },
   {
+    id: 1537,
     name: '＜貝類＞　かき　養殖　水煮',
     protein: '378',
     carbohydrate: '90',
@@ -12298,6 +13835,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.9',
   },
   {
+    id: 1538,
     name: '＜貝類＞　かき　養殖　フライ',
     protein: '1076',
     carbohydrate: '256',
@@ -12306,6 +13844,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.6',
   },
   {
+    id: 1539,
     name: '＜貝類＞　かき　くん製油漬缶詰',
     protein: '1222',
     carbohydrate: '294',
@@ -12314,6 +13853,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.5',
   },
   {
+    id: 1540,
     name: '＜貝類＞　さざえ　生',
     protein: '353',
     carbohydrate: '83',
@@ -12322,6 +13862,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.4',
   },
   {
+    id: 1541,
     name: '＜貝類＞　さざえ　焼き',
     protein: '387',
     carbohydrate: '91',
@@ -12330,6 +13871,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.3',
   },
   {
+    id: 1542,
     name: '＜貝類＞　さるぼう　味付け缶詰',
     protein: '554',
     carbohydrate: '131',
@@ -12338,6 +13880,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.9',
   },
   {
+    id: 1543,
     name: '＜貝類＞　しじみ　生',
     protein: '230',
     carbohydrate: '54',
@@ -12346,6 +13889,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.5',
   },
   {
+    id: 1544,
     name: '＜貝類＞　しじみ　水煮',
     protein: '403',
     carbohydrate: '95',
@@ -12354,6 +13898,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.4',
   },
   {
+    id: 1545,
     name: '＜貝類＞　たいらがい　貝柱　生',
     protein: '401',
     carbohydrate: '94',
@@ -12362,6 +13907,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.8',
   },
   {
+    id: 1546,
     name: '＜貝類＞　たにし　生',
     protein: '308',
     carbohydrate: '73',
@@ -12370,6 +13916,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.0',
   },
   {
+    id: 1547,
     name: '＜貝類＞　つぶ　生',
     protein: '347',
     carbohydrate: '82',
@@ -12378,6 +13925,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.8',
   },
   {
+    id: 1548,
     name: '＜貝類＞　とこぶし　生',
     protein: '332',
     carbohydrate: '78',
@@ -12386,6 +13934,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.0',
   },
   {
+    id: 1549,
     name: '＜貝類＞　とりがい　斧足　生',
     protein: '343',
     carbohydrate: '81',
@@ -12394,6 +13943,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.9',
   },
   {
+    id: 1550,
     name: '＜貝類＞　ばい　生',
     protein: '345',
     carbohydrate: '81',
@@ -12402,6 +13952,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.3',
   },
   {
+    id: 1551,
     name: '＜貝類＞　ばかがい　生',
     protein: '238',
     carbohydrate: '56',
@@ -12410,6 +13961,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.9',
   },
   {
+    id: 1552,
     name: '＜貝類＞　（はまぐり類）　はまぐり　生',
     protein: '149',
     carbohydrate: '35',
@@ -12418,6 +13970,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.1',
   },
   {
+    id: 1553,
     name: '＜貝類＞　（はまぐり類）　はまぐり　水煮',
     protein: '337',
     carbohydrate: '79',
@@ -12426,6 +13979,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.9',
   },
   {
+    id: 1554,
     name: '＜貝類＞　（はまぐり類）　はまぐり　焼き',
     protein: '299',
     carbohydrate: '70',
@@ -12434,6 +13988,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.3',
   },
   {
+    id: 1555,
     name: '＜貝類＞　（はまぐり類）　はまぐり　つくだ煮',
     protein: '895',
     carbohydrate: '211',
@@ -12442,6 +13997,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '27.0',
   },
   {
+    id: 1556,
     name: '＜貝類＞　（はまぐり類）　ちょうせんはまぐり　生',
     protein: '174',
     carbohydrate: '41',
@@ -12450,6 +14006,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.5',
   },
   {
+    id: 1557,
     name: '＜貝類＞　ほたてがい　生',
     protein: '279',
     carbohydrate: '66',
@@ -12458,6 +14015,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.5',
   },
   {
+    id: 1558,
     name: '＜貝類＞　ほたてがい　水煮',
     protein: '379',
     carbohydrate: '89',
@@ -12466,6 +14024,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.6',
   },
   {
+    id: 1559,
     name: '＜貝類＞　ほたてがい　貝柱　生',
     protein: '347',
     carbohydrate: '82',
@@ -12474,6 +14033,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.9',
   },
   {
+    id: 1560,
     name: '＜貝類＞　ほたてがい　貝柱　焼き',
     protein: '521',
     carbohydrate: '123',
@@ -12482,6 +14042,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.8',
   },
   {
+    id: 1561,
     name: '＜貝類＞　ほたてがい　貝柱　煮干し',
     protein: '1279',
     carbohydrate: '301',
@@ -12490,6 +14051,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '65.7',
   },
   {
+    id: 1562,
     name: '＜貝類＞　ほたてがい　貝柱　水煮缶詰',
     protein: '371',
     carbohydrate: '87',
@@ -12498,6 +14060,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.5',
   },
   {
+    id: 1563,
     name: '＜貝類＞　ほっきがい　生',
     protein: '278',
     carbohydrate: '66',
@@ -12506,6 +14069,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.1',
   },
   {
+    id: 1564,
     name: '＜貝類＞　みるがい　水管　生',
     protein: '325',
     carbohydrate: '77',
@@ -12514,6 +14078,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.3',
   },
   {
+    id: 1565,
     name: '＜えび・かに類＞　（えび類）　あまえび　生',
     protein: '358',
     carbohydrate: '85',
@@ -12522,6 +14087,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.8',
   },
   {
+    id: 1566,
     name: '＜えび・かに類＞　（えび類）　アルゼンチンあかえび　生',
     protein: '312',
     carbohydrate: '73',
@@ -12530,6 +14096,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.1',
   },
   {
+    id: 1567,
     name: '＜えび・かに類＞　（えび類）　アルゼンチンあかえび　ゆで',
     protein: '403',
     carbohydrate: '95',
@@ -12538,6 +14105,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.5',
   },
   {
+    id: 1568,
     name: '＜えび・かに類＞　（えび類）　アルゼンチンあかえび　焼き',
     protein: '346',
     carbohydrate: '82',
@@ -12546,6 +14114,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.0 ',
   },
   {
+    id: 1569,
     name: '＜えび・かに類＞　（えび類）　いせえび　生',
     protein: '365',
     carbohydrate: '86',
@@ -12554,6 +14123,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.9',
   },
   {
+    id: 1570,
     name: '＜えび・かに類＞　（えび類）　くるまえび　養殖　生',
     protein: '383',
     carbohydrate: '90',
@@ -12562,6 +14132,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.6',
   },
   {
+    id: 1571,
     name: '＜えび・かに類＞　（えび類）　くるまえび　養殖　ゆで',
     protein: '492',
     carbohydrate: '116',
@@ -12570,6 +14141,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.2',
   },
   {
+    id: 1572,
     name: '＜えび・かに類＞　（えび類）　くるまえび　養殖　焼き',
     protein: '410',
     carbohydrate: '97',
@@ -12578,6 +14150,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.5',
   },
   {
+    id: 1573,
     name: '＜えび・かに類＞　（えび類）　さくらえび　生',
     protein: '331',
     carbohydrate: '78',
@@ -12586,6 +14159,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.6',
   },
   {
+    id: 1574,
     name: '＜えび・かに類＞　（えび類）　さくらえび　ゆで',
     protein: '349',
     carbohydrate: '82',
@@ -12594,6 +14168,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.2',
   },
   {
+    id: 1575,
     name: '＜えび・かに類＞　（えび類）　さくらえび　素干し',
     protein: '1214',
     carbohydrate: '286',
@@ -12602,6 +14177,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '64.9',
   },
   {
+    id: 1576,
     name: '＜えび・かに類＞　（えび類）　さくらえび　煮干し',
     protein: '1071',
     carbohydrate: '252',
@@ -12610,6 +14186,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '59.1',
   },
   {
+    id: 1577,
     name: '＜えび・かに類＞　（えび類）　大正えび　生',
     protein: '379',
     carbohydrate: '89',
@@ -12618,6 +14195,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.7',
   },
   {
+    id: 1578,
     name: '＜えび・かに類＞　（えび類）　しばえび　生',
     protein: '330',
     carbohydrate: '78',
@@ -12626,6 +14204,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.7',
   },
   {
+    id: 1579,
     name: '＜えび・かに類＞　（えび類）　バナメイえび　養殖　生',
     protein: '348',
     carbohydrate: '82',
@@ -12634,6 +14213,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1580,
     name: '＜えび・かに類＞　（えび類）　バナメイえび　養殖　天ぷら',
     protein: '810',
     carbohydrate: '194',
@@ -12642,6 +14222,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.0',
   },
   {
+    id: 1581,
     name: '＜えび・かに類＞　（えび類）　ブラックタイガー　養殖　生',
     protein: '326',
     carbohydrate: '77',
@@ -12650,6 +14231,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.4',
   },
   {
+    id: 1582,
     name: '＜えび・かに類＞　（えび類）　加工品　干しえび',
     protein: '903',
     carbohydrate: '213',
@@ -12658,6 +14240,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '48.6',
   },
   {
+    id: 1583,
     name: '＜えび・かに類＞　（えび類）　加工品　つくだ煮',
     protein: '1015',
     carbohydrate: '239',
@@ -12666,6 +14249,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.9',
   },
   {
+    id: 1584,
     name: '＜えび・かに類＞　（かに類）　がざみ　生',
     protein: '258',
     carbohydrate: '61',
@@ -12674,6 +14258,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.4',
   },
   {
+    id: 1585,
     name: '＜えび・かに類＞　（かに類）　毛がに　生',
     protein: '286',
     carbohydrate: '67',
@@ -12682,6 +14267,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.8',
   },
   {
+    id: 1586,
     name: '＜えび・かに類＞　（かに類）　毛がに　ゆで',
     protein: '330',
     carbohydrate: '78',
@@ -12690,6 +14276,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.4',
   },
   {
+    id: 1587,
     name: '＜えび・かに類＞　（かに類）　ずわいがに　生',
     protein: '249',
     carbohydrate: '59',
@@ -12698,6 +14285,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.9',
   },
   {
+    id: 1588,
     name: '＜えび・かに類＞　（かに類）　ずわいがに　ゆで',
     protein: '274',
     carbohydrate: '65',
@@ -12706,6 +14294,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.0',
   },
   {
+    id: 1589,
     name: '＜えび・かに類＞　（かに類）　ずわいがに　水煮缶詰',
     protein: '291',
     carbohydrate: '69',
@@ -12714,6 +14303,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.3',
   },
   {
+    id: 1590,
     name: '＜えび・かに類＞　（かに類）　たらばがに　生',
     protein: '239',
     carbohydrate: '56',
@@ -12722,6 +14312,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.0',
   },
   {
+    id: 1591,
     name: '＜えび・かに類＞　（かに類）　たらばがに　ゆで',
     protein: '328',
     carbohydrate: '77',
@@ -12730,6 +14321,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.5',
   },
   {
+    id: 1592,
     name: '＜えび・かに類＞　（かに類）　たらばがに　水煮缶詰',
     protein: '360',
     carbohydrate: '85',
@@ -12738,6 +14330,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.6',
   },
   {
+    id: 1593,
     name: '＜えび・かに類＞　（かに類）　加工品　がん漬',
     protein: '246',
     carbohydrate: '58',
@@ -12746,6 +14339,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.4',
   },
   {
+    id: 1594,
     name: '＜いか・たこ類＞　（いか類）　あかいか　生',
     protein: '343',
     carbohydrate: '81',
@@ -12754,6 +14348,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.9',
   },
   {
+    id: 1595,
     name: '＜いか・たこ類＞　（いか類）　けんさきいか　生',
     protein: '325',
     carbohydrate: '77',
@@ -12762,6 +14357,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.5',
   },
   {
+    id: 1596,
     name: '＜いか・たこ類＞　（いか類）　こういか　生',
     protein: '272',
     carbohydrate: '64',
@@ -12770,6 +14366,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.9',
   },
   {
+    id: 1597,
     name: '＜いか・たこ類＞　（いか類）　するめいか　生',
     protein: '321',
     carbohydrate: '76',
@@ -12778,6 +14375,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.9',
   },
   {
+    id: 1598,
     name: '＜いか・たこ類＞　（いか類）　するめいか　水煮',
     protein: '415',
     carbohydrate: '98',
@@ -12786,6 +14384,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.9',
   },
   {
+    id: 1599,
     name: '＜いか・たこ類＞　（いか類）　するめいか　焼き',
     protein: '460',
     carbohydrate: '108',
@@ -12794,6 +14393,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.6',
   },
   {
+    id: 1600,
     name: '＜いか・たこ類＞　（いか類）　するめいか　胴　皮つき　生',
     protein: '329',
     carbohydrate: '78',
@@ -12802,6 +14402,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.6',
   },
   {
+    id: 1601,
     name: '＜いか・たこ類＞　（いか類）　するめいか　胴　皮なし　生',
     protein: '339',
     carbohydrate: '80',
@@ -12810,6 +14411,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.6',
   },
   {
+    id: 1602,
     name: '＜いか・たこ類＞　（いか類）　するめいか　胴　皮なし　天ぷら',
     protein: '734',
     carbohydrate: '175',
@@ -12818,6 +14420,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.7',
   },
   {
+    id: 1603,
     name: '＜いか・たこ類＞　（いか類）　するめいか　胴　皮なし　フライ',
     protein: '1466',
     carbohydrate: '352',
@@ -12826,6 +14429,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.8',
   },
   {
+    id: 1604,
     name: '＜いか・たこ類＞　（いか類）　するめいか　耳・足　生',
     protein: '317',
     carbohydrate: '75',
@@ -12834,6 +14438,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.9',
   },
   {
+    id: 1605,
     name: '＜いか・たこ類＞　（いか類）　ほたるいか　生',
     protein: '310',
     carbohydrate: '74',
@@ -12842,6 +14447,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.8',
   },
   {
+    id: 1606,
     name: '＜いか・たこ類＞　（いか類）　ほたるいか　ゆで',
     protein: '386',
     carbohydrate: '91',
@@ -12850,6 +14456,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.7',
   },
   {
+    id: 1607,
     name: '＜いか・たこ類＞　（いか類）　ほたるいか　くん製',
     protein: '1291',
     carbohydrate: '305',
@@ -12858,6 +14465,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '43.1',
   },
   {
+    id: 1608,
     name: '＜いか・たこ類＞　（いか類）　ほたるいか　つくだ煮',
     protein: '1037',
     carbohydrate: '245',
@@ -12866,6 +14474,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '27.0',
   },
   {
+    id: 1609,
     name: '＜いか・たこ類＞　（いか類）　やりいか　生',
     protein: '333',
     carbohydrate: '79',
@@ -12874,6 +14483,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.6',
   },
   {
+    id: 1610,
     name: '＜いか・たこ類＞　（いか類）　加工品　するめ',
     protein: '1290',
     carbohydrate: '304',
@@ -12882,6 +14492,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '69.2',
   },
   {
+    id: 1611,
     name: '＜いか・たこ類＞　（いか類）　加工品　さきいか',
     protein: '1136',
     carbohydrate: '268',
@@ -12890,6 +14501,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '45.5',
   },
   {
+    id: 1612,
     name: '＜いか・たこ類＞　（いか類）　加工品　くん製',
     protein: '856',
     carbohydrate: '202',
@@ -12898,6 +14510,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '35.2',
   },
   {
+    id: 1613,
     name: '＜いか・たこ類＞　（いか類）　加工品　切りいかあめ煮',
     protein: '1312',
     carbohydrate: '310',
@@ -12906,6 +14519,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.7',
   },
   {
+    id: 1614,
     name: '＜いか・たこ類＞　（いか類）　加工品　いかあられ',
     protein: '1225',
     carbohydrate: '289',
@@ -12914,6 +14528,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.0',
   },
   {
+    id: 1615,
     name: '＜いか・たこ類＞　（いか類）　加工品　塩辛',
     protein: '480',
     carbohydrate: '114',
@@ -12922,6 +14537,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.2',
   },
   {
+    id: 1616,
     name: '＜いか・たこ類＞　（いか類）　加工品　味付け缶詰',
     protein: '540',
     carbohydrate: '127',
@@ -12930,6 +14546,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.4',
   },
   {
+    id: 1617,
     name: '＜いか・たこ類＞　（たこ類）　いいだこ　生',
     protein: '271',
     carbohydrate: '64',
@@ -12938,6 +14555,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.6',
   },
   {
+    id: 1618,
     name: '＜いか・たこ類＞　（たこ類）　まだこ　皮つき　生',
     protein: '297',
     carbohydrate: '70',
@@ -12946,6 +14564,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.1',
   },
   {
+    id: 1619,
     name: '＜いか・たこ類＞　（たこ類）　まだこ　皮なし　生',
     protein: '372',
     carbohydrate: '88',
@@ -12954,6 +14573,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.0 ',
   },
   {
+    id: 1620,
     name: '＜いか・たこ類＞　（たこ類）　まだこ　ゆで',
     protein: '387',
     carbohydrate: '91',
@@ -12962,6 +14582,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.7',
   },
   {
+    id: 1621,
     name: '＜いか・たこ類＞　（たこ類）　まだこ　蒸しだこ',
     protein: '317',
     carbohydrate: '75',
@@ -12970,6 +14591,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.8',
   },
   {
+    id: 1622,
     name: '＜いか・たこ類＞　（たこ類）　まだこ　蒸しだこ　油いため',
     protein: '473',
     carbohydrate: '112',
@@ -12978,6 +14600,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.4',
   },
   {
+    id: 1623,
     name: '＜いか・たこ類＞　（たこ類）　まだこ　蒸しだこ　素揚げ',
     protein: '553',
     carbohydrate: '131',
@@ -12986,6 +14609,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.0 ',
   },
   {
+    id: 1624,
     name: '＜いか・たこ類＞　（たこ類）　みずだこ　生',
     protein: '258',
     carbohydrate: '61',
@@ -12994,6 +14618,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.4',
   },
   {
+    id: 1625,
     name: '＜その他＞　あみ　つくだ煮',
     protein: '975',
     carbohydrate: '230',
@@ -13002,6 +14627,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.1',
   },
   {
+    id: 1626,
     name: '＜その他＞　あみ　塩辛',
     protein: '264',
     carbohydrate: '62',
@@ -13010,6 +14636,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.9',
   },
   {
+    id: 1627,
     name: '＜その他＞　うに　生うに',
     protein: '460',
     carbohydrate: '109',
@@ -13018,6 +14645,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.0',
   },
   {
+    id: 1628,
     name: '＜その他＞　うに　粒うに',
     protein: '726',
     carbohydrate: '172',
@@ -13026,6 +14654,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.2',
   },
   {
+    id: 1629,
     name: '＜その他＞　うに　練りうに',
     protein: '701',
     carbohydrate: '166',
@@ -13034,6 +14663,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.5',
   },
   {
+    id: 1630,
     name: '＜その他＞　おきあみ　生',
     protein: '356',
     carbohydrate: '84',
@@ -13042,6 +14672,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.0',
   },
   {
+    id: 1631,
     name: '＜その他＞　おきあみ　ゆで',
     protein: '327',
     carbohydrate: '78',
@@ -13050,6 +14681,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.8',
   },
   {
+    id: 1632,
     name: '＜その他＞　くらげ　塩蔵　塩抜き',
     protein: '90',
     carbohydrate: '21',
@@ -13058,6 +14690,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.2',
   },
   {
+    id: 1633,
     name: '＜その他＞　しゃこ　ゆで',
     protein: '375',
     carbohydrate: '89',
@@ -13066,6 +14699,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.2',
   },
   {
+    id: 1634,
     name: '＜その他＞　なまこ　生',
     protein: '94',
     carbohydrate: '22',
@@ -13074,6 +14708,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.6',
   },
   {
+    id: 1635,
     name: '＜その他＞　なまこ　このわた',
     protein: '227',
     carbohydrate: '54',
@@ -13082,6 +14717,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.4',
   },
   {
+    id: 1636,
     name: '＜その他＞　ほや　生',
     protein: '116',
     carbohydrate: '27',
@@ -13090,6 +14726,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.0',
   },
   {
+    id: 1637,
     name: '＜その他＞　ほや　塩辛',
     protein: '293',
     carbohydrate: '69',
@@ -13098,6 +14735,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.6',
   },
   {
+    id: 1638,
     name: '＜水産練り製品＞　かに風味かまぼこ',
     protein: '378',
     carbohydrate: '89',
@@ -13106,6 +14744,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.1',
   },
   {
+    id: 1639,
     name: '＜水産練り製品＞　黒はんぺん',
     protein: '501',
     carbohydrate: '119',
@@ -13114,6 +14753,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.2',
   },
   {
+    id: 1640,
     name: '＜水産練り製品＞　昆布巻きかまぼこ',
     protein: '353',
     carbohydrate: '83',
@@ -13122,6 +14762,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.9',
   },
   {
+    id: 1641,
     name: '＜水産練り製品＞　す巻きかまぼこ',
     protein: '378',
     carbohydrate: '89',
@@ -13130,6 +14771,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.0',
   },
   {
+    id: 1642,
     name: '＜水産練り製品＞　蒸しかまぼこ',
     protein: '394',
     carbohydrate: '93',
@@ -13138,6 +14780,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.0',
   },
   {
+    id: 1643,
     name: '＜水産練り製品＞　焼き抜きかまぼこ',
     protein: '434',
     carbohydrate: '102',
@@ -13146,6 +14789,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.2',
   },
   {
+    id: 1644,
     name: '＜水産練り製品＞　焼き竹輪',
     protein: '453',
     carbohydrate: '107',
@@ -13154,6 +14798,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.2',
   },
   {
+    id: 1645,
     name: '＜水産練り製品＞　だて巻',
     protein: '800',
     carbohydrate: '190',
@@ -13162,6 +14807,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.6',
   },
   {
+    id: 1646,
     name: '＜水産練り製品＞　つみれ',
     protein: '440',
     carbohydrate: '104',
@@ -13170,6 +14816,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.0',
   },
   {
+    id: 1647,
     name: '＜水産練り製品＞　なると',
     protein: '339',
     carbohydrate: '80',
@@ -13178,6 +14825,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.6',
   },
   {
+    id: 1648,
     name: '＜水産練り製品＞　はんぺん',
     protein: '396',
     carbohydrate: '93',
@@ -13186,6 +14834,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.9',
   },
   {
+    id: 1649,
     name: '＜水産練り製品＞　さつま揚げ',
     protein: '491',
     carbohydrate: '116',
@@ -13194,6 +14843,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.3',
   },
   {
+    id: 1650,
     name: '＜水産練り製品＞　魚肉ハム',
     protein: '653',
     carbohydrate: '155',
@@ -13202,6 +14852,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.4',
   },
   {
+    id: 1651,
     name: '＜水産練り製品＞　魚肉ソーセージ',
     protein: '662',
     carbohydrate: '158',
@@ -13210,6 +14861,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.5',
   },
   {
+    id: 1652,
     name: '＜畜肉類＞　いのしし　肉　脂身つき　生',
     protein: '1036',
     carbohydrate: '249',
@@ -13218,6 +14870,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.8',
   },
   {
+    id: 1653,
     name: '＜畜肉類＞　いのぶた　肉　脂身つき　生',
     protein: '1138',
     carbohydrate: '275',
@@ -13226,6 +14879,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.1',
   },
   {
+    id: 1654,
     name: '＜畜肉類＞　うさぎ　肉　赤肉　生',
     protein: '550',
     carbohydrate: '131',
@@ -13234,6 +14888,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.5',
   },
   {
+    id: 1655,
     name: '＜畜肉類＞　うし　［和牛肉］　かた　脂身つき　生',
     protein: '1069',
     carbohydrate: '258',
@@ -13242,6 +14897,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.7',
   },
   {
+    id: 1656,
     name: '＜畜肉類＞　うし　［和牛肉］　かた　皮下脂肪なし　生',
     protein: '993',
     carbohydrate: '239',
@@ -13250,6 +14906,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.3',
   },
   {
+    id: 1657,
     name: '＜畜肉類＞　うし　［和牛肉］　かた　赤肉　生',
     protein: '762',
     carbohydrate: '183',
@@ -13258,6 +14915,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.2',
   },
   {
+    id: 1658,
     name: '＜畜肉類＞　うし　［和牛肉］　かた　脂身　生',
     protein: '2850',
     carbohydrate: '692',
@@ -13266,6 +14924,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.0',
   },
   {
+    id: 1659,
     name: '＜畜肉類＞　うし　［和牛肉］　かたロース　脂身つき　生',
     protein: '1573',
     carbohydrate: '380',
@@ -13274,6 +14933,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.8',
   },
   {
+    id: 1660,
     name: '＜畜肉類＞　うし　［和牛肉］　かたロース　皮下脂肪なし　生',
     protein: '1544',
     carbohydrate: '373',
@@ -13282,6 +14942,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.0',
   },
   {
+    id: 1661,
     name: '＜畜肉類＞　うし　［和牛肉］　かたロース　赤肉　生',
     protein: '1215',
     carbohydrate: '293',
@@ -13290,6 +14951,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.5',
   },
   {
+    id: 1662,
     name: '＜畜肉類＞　うし　［和牛肉］　リブロース　脂身つき　生',
     protein: '2119',
     carbohydrate: '514',
@@ -13298,6 +14960,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.7',
   },
   {
+    id: 1663,
     name: '＜畜肉類＞　うし　［和牛肉］　リブロース　脂身つき　ゆで',
     protein: '2223',
     carbohydrate: '539',
@@ -13306,6 +14969,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.6',
   },
   {
+    id: 1664,
     name: '＜畜肉類＞　うし　［和牛肉］　リブロース　脂身つき　焼き',
     protein: '2232',
     carbohydrate: '541',
@@ -13314,6 +14978,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.6',
   },
   {
+    id: 1665,
     name: '＜畜肉類＞　うし　［和牛肉］　リブロース　皮下脂肪なし　生',
     protein: '2069',
     carbohydrate: '502',
@@ -13322,6 +14987,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.3',
   },
   {
+    id: 1666,
     name: '＜畜肉類＞　うし　［和牛肉］　リブロース　赤肉　生',
     protein: '1632',
     carbohydrate: '395',
@@ -13330,6 +14996,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.0',
   },
   {
+    id: 1667,
     name: '＜畜肉類＞　うし　［和牛肉］　リブロース　脂身　生',
     protein: '2775',
     carbohydrate: '674',
@@ -13338,6 +15005,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.2',
   },
   {
+    id: 1668,
     name: '＜畜肉類＞　うし　［和牛肉］　サーロイン　脂身つき　生',
     protein: '1900',
     carbohydrate: '460',
@@ -13346,6 +15014,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.7',
   },
   {
+    id: 1669,
     name: '＜畜肉類＞　うし　［和牛肉］　サーロイン　皮下脂肪なし　生',
     protein: '1742',
     carbohydrate: '422',
@@ -13354,6 +15023,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.9',
   },
   {
+    id: 1670,
     name: '＜畜肉類＞　うし　［和牛肉］　サーロイン　赤肉　生',
     protein: '1219',
     carbohydrate: '294',
@@ -13362,6 +15032,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.1',
   },
   {
+    id: 1671,
     name: '＜畜肉類＞　うし　［和牛肉］　ばら　脂身つき　生',
     protein: '1950',
     carbohydrate: '472',
@@ -13370,6 +15041,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.0',
   },
   {
+    id: 1672,
     name: '＜畜肉類＞　うし　［和牛肉］　もも　脂身つき　生',
     protein: '979',
     carbohydrate: '235',
@@ -13378,6 +15050,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.2',
   },
   {
+    id: 1673,
     name: '＜畜肉類＞　うし　［和牛肉］　もも　皮下脂肪なし　生',
     protein: '882',
     carbohydrate: '212',
@@ -13386,6 +15059,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.2',
   },
   {
+    id: 1674,
     name: '＜畜肉類＞　うし　［和牛肉］　もも　皮下脂肪なし　ゆで',
     protein: '1257',
     carbohydrate: '302',
@@ -13394,6 +15068,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.7',
   },
   {
+    id: 1675,
     name: '＜畜肉類＞　うし　［和牛肉］　もも　皮下脂肪なし　焼き',
     protein: '1249',
     carbohydrate: '300',
@@ -13402,6 +15077,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '27.7',
   },
   {
+    id: 1676,
     name: '＜畜肉類＞　うし　［和牛肉］　もも　赤肉　生',
     protein: '736',
     carbohydrate: '176',
@@ -13410,6 +15086,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.3',
   },
   {
+    id: 1677,
     name: '＜畜肉類＞　うし　［和牛肉］　もも　脂身　生',
     protein: '2735',
     carbohydrate: '664',
@@ -13418,6 +15095,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.4',
   },
   {
+    id: 1678,
     name: '＜畜肉類＞　うし　［和牛肉］　そともも　脂身つき　生',
     protein: '1015',
     carbohydrate: '244',
@@ -13426,6 +15104,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.8',
   },
   {
+    id: 1679,
     name: '＜畜肉類＞　うし　［和牛肉］　そともも　皮下脂肪なし　生',
     protein: '910',
     carbohydrate: '219',
@@ -13434,6 +15113,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.7',
   },
   {
+    id: 1680,
     name: '＜畜肉類＞　うし　［和牛肉］　そともも　赤肉　生',
     protein: '666',
     carbohydrate: '159',
@@ -13442,6 +15122,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.7',
   },
   {
+    id: 1681,
     name: '＜畜肉類＞　うし　［和牛肉］　ランプ　脂身つき　生',
     protein: '1321',
     carbohydrate: '319',
@@ -13450,6 +15131,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.1',
   },
   {
+    id: 1682,
     name: '＜畜肉類＞　うし　［和牛肉］　ランプ　皮下脂肪なし　生',
     protein: '1213',
     carbohydrate: '293',
@@ -13458,6 +15140,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.0',
   },
   {
+    id: 1683,
     name: '＜畜肉類＞　うし　［和牛肉］　ランプ　赤肉　生',
     protein: '817',
     carbohydrate: '196',
@@ -13466,6 +15149,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.2',
   },
   {
+    id: 1684,
     name: '＜畜肉類＞　うし　［和牛肉］　ヒレ　赤肉　生',
     protein: '861',
     carbohydrate: '207',
@@ -13474,6 +15158,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.1',
   },
   {
+    id: 1685,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　かた　脂身つき　生',
     protein: '961',
     carbohydrate: '231',
@@ -13482,6 +15167,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.1',
   },
   {
+    id: 1686,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　かた　脂身つき　ゆで',
     protein: '1236',
     carbohydrate: '298',
@@ -13490,6 +15176,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.8',
   },
   {
+    id: 1687,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　かた　脂身つき　焼き',
     protein: '1337',
     carbohydrate: '322',
@@ -13498,6 +15185,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.0',
   },
   {
+    id: 1688,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　かた　皮下脂肪なし　生',
     protein: '805',
     carbohydrate: '193',
@@ -13506,6 +15194,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.9',
   },
   {
+    id: 1689,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　かた　赤肉　生',
     protein: '577',
     carbohydrate: '138',
@@ -13514,6 +15203,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.4',
   },
   {
+    id: 1690,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　かた　赤肉　ゆで',
     protein: '733',
     carbohydrate: '174',
@@ -13522,6 +15212,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '27.9',
   },
   {
+    id: 1691,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　かた　赤肉　焼き',
     protein: '737',
     carbohydrate: '175',
@@ -13530,6 +15221,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.9',
   },
   {
+    id: 1692,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　かた　脂身　生',
     protein: '2676',
     carbohydrate: '650',
@@ -13538,6 +15230,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.5',
   },
   {
+    id: 1693,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　かたロース　脂身つき　生',
     protein: '1222',
     carbohydrate: '295',
@@ -13546,6 +15239,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.2',
   },
   {
+    id: 1694,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　かたロース　皮下脂肪なし　生',
     protein: '1183',
     carbohydrate: '285',
@@ -13554,6 +15248,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.5',
   },
   {
+    id: 1695,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　かたロース　赤肉　生',
     protein: '818',
     carbohydrate: '196',
@@ -13562,6 +15257,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.1',
   },
   {
+    id: 1696,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　リブロース　脂身つき　生',
     protein: '1573',
     carbohydrate: '380',
@@ -13570,6 +15266,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.1',
   },
   {
+    id: 1697,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　リブロース　脂身つき　ゆで',
     protein: '1771',
     carbohydrate: '428',
@@ -13578,6 +15275,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.2',
   },
   {
+    id: 1698,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　リブロース　脂身つき　焼き',
     protein: '1891',
     carbohydrate: '457',
@@ -13586,6 +15284,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.4',
   },
   {
+    id: 1699,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　リブロース　皮下脂肪なし　生',
     protein: '1454',
     carbohydrate: '351',
@@ -13594,6 +15293,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.0',
   },
   {
+    id: 1700,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　リブロース　赤肉　生',
     protein: '955',
     carbohydrate: '230',
@@ -13602,6 +15302,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.8',
   },
   {
+    id: 1701,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　リブロース　脂身　生',
     protein: '2893',
     carbohydrate: '703',
@@ -13610,6 +15311,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.7',
   },
   {
+    id: 1702,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　サーロイン　脂身つき　生',
     protein: '1295',
     carbohydrate: '313',
@@ -13618,6 +15320,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.5',
   },
   {
+    id: 1703,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　サーロイン　皮下脂肪なし　生',
     protein: '1051',
     carbohydrate: '253',
@@ -13626,6 +15329,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.4',
   },
   {
+    id: 1704,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　サーロイン　赤肉　生',
     protein: '699',
     carbohydrate: '167',
@@ -13634,6 +15338,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.1',
   },
   {
+    id: 1705,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　ばら　脂身つき　生',
     protein: '1574',
     carbohydrate: '381',
@@ -13642,6 +15347,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.8',
   },
   {
+    id: 1706,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　ばら　脂身つき　焼き',
     protein: '1865',
     carbohydrate: '451',
@@ -13650,6 +15356,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.9',
   },
   {
+    id: 1707,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　もも　脂身つき　生',
     protein: '817',
     carbohydrate: '196',
@@ -13658,6 +15365,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.5',
   },
   {
+    id: 1708,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　もも　皮下脂肪なし　生',
     protein: '708',
     carbohydrate: '169',
@@ -13666,6 +15374,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.5',
   },
   {
+    id: 1709,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　もも　皮下脂肪なし　ゆで',
     protein: '983',
     carbohydrate: '235',
@@ -13674,6 +15383,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.4',
   },
   {
+    id: 1710,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　もも　皮下脂肪なし　焼き',
     protein: '951',
     carbohydrate: '227',
@@ -13682,6 +15392,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.0',
   },
   {
+    id: 1711,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　もも　赤肉　生',
     protein: '546',
     carbohydrate: '130',
@@ -13690,6 +15401,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.9',
   },
   {
+    id: 1712,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　もも　脂身　生',
     protein: '2446',
     carbohydrate: '594',
@@ -13698,6 +15410,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.1',
   },
   {
+    id: 1713,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　そともも　脂身つき　生',
     protein: '915',
     carbohydrate: '220',
@@ -13706,6 +15419,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.2',
   },
   {
+    id: 1714,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　そともも　皮下脂肪なし　生',
     protein: '747',
     carbohydrate: '179',
@@ -13714,6 +15428,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1715,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　そともも　赤肉　生',
     protein: '551',
     carbohydrate: '131',
@@ -13722,6 +15437,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.3',
   },
   {
+    id: 1716,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　ランプ　脂身つき　生',
     protein: '971',
     carbohydrate: '234',
@@ -13730,6 +15446,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.6',
   },
   {
+    id: 1717,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　ランプ　皮下脂肪なし　生',
     protein: '845',
     carbohydrate: '203',
@@ -13738,6 +15455,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.7',
   },
   {
+    id: 1718,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　ランプ　赤肉　生',
     protein: '596',
     carbohydrate: '142',
@@ -13746,6 +15464,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.0',
   },
   {
+    id: 1719,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　ヒレ　赤肉　生',
     protein: '740',
     carbohydrate: '177',
@@ -13754,6 +15473,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.8',
   },
   {
+    id: 1720,
     name: '＜畜肉類＞　うし　［乳用肥育牛肉］　ヒレ　赤肉　焼き',
     protein: '993',
     carbohydrate: '238',
@@ -13762,6 +15482,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '27.2',
   },
   {
+    id: 1721,
     name: '＜畜肉類＞　うし　［交雑牛肉］　リブロース　脂身つき　生',
     protein: '2016',
     carbohydrate: '489',
@@ -13770,6 +15491,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.0',
   },
   {
+    id: 1722,
     name: '＜畜肉類＞　うし　［交雑牛肉］　リブロース　脂身つき　ゆで',
     protein: '2228',
     carbohydrate: '540',
@@ -13778,6 +15500,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.2',
   },
   {
+    id: 1723,
     name: '＜畜肉類＞　うし　［交雑牛肉］　リブロース　脂身つき　焼き',
     protein: '2371',
     carbohydrate: '575',
@@ -13786,6 +15509,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.5',
   },
   {
+    id: 1724,
     name: '＜畜肉類＞　うし　［交雑牛肉］　リブロース　皮下脂肪なし　生',
     protein: '1808',
     carbohydrate: '438',
@@ -13794,6 +15518,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.6',
   },
   {
+    id: 1725,
     name: '＜畜肉類＞　うし　［交雑牛肉］　リブロース　赤肉　生',
     protein: '1400',
     carbohydrate: '338',
@@ -13802,6 +15527,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.7',
   },
   {
+    id: 1726,
     name: '＜畜肉類＞　うし　［交雑牛肉］　リブロース　脂身　生',
     protein: '3121',
     carbohydrate: '759',
@@ -13810,6 +15536,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.6',
   },
   {
+    id: 1727,
     name: '＜畜肉類＞　うし　［交雑牛肉］　ばら　脂身つき　生',
     protein: '1839',
     carbohydrate: '445',
@@ -13818,6 +15545,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.2',
   },
   {
+    id: 1728,
     name: '＜畜肉類＞　うし　［交雑牛肉］　もも　脂身つき　生',
     protein: '1291',
     carbohydrate: '312',
@@ -13826,6 +15554,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.4',
   },
   {
+    id: 1729,
     name: '＜畜肉類＞　うし　［交雑牛肉］　もも　皮下脂肪なし　生',
     protein: '1037',
     carbohydrate: '250',
@@ -13834,6 +15563,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.3',
   },
   {
+    id: 1730,
     name: '＜畜肉類＞　うし　［交雑牛肉］　もも　皮下脂肪なし　ゆで',
     protein: '1374',
     carbohydrate: '331',
@@ -13842,6 +15572,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.7',
   },
   {
+    id: 1731,
     name: '＜畜肉類＞　うし　［交雑牛肉］　もも　皮下脂肪なし　焼き',
     protein: '1298',
     carbohydrate: '313',
@@ -13850,6 +15581,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.0',
   },
   {
+    id: 1732,
     name: '＜畜肉類＞　うし　［交雑牛肉］　もも　赤肉　生',
     protein: '922',
     carbohydrate: '222',
@@ -13858,6 +15590,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.3',
   },
   {
+    id: 1733,
     name: '＜畜肉類＞　うし　［交雑牛肉］　もも　脂身　生',
     protein: '2807',
     carbohydrate: '682',
@@ -13866,6 +15599,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.8',
   },
   {
+    id: 1734,
     name: '＜畜肉類＞　うし　［交雑牛肉］　ヒレ　赤肉　生',
     protein: '954',
     carbohydrate: '229',
@@ -13874,6 +15608,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.0',
   },
   {
+    id: 1735,
     name: '＜畜肉類＞　うし　［輸入牛肉］　かた　脂身つき　生',
     protein: '667',
     carbohydrate: '160',
@@ -13882,6 +15617,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.0',
   },
   {
+    id: 1736,
     name: '＜畜肉類＞　うし　［輸入牛肉］　かた　皮下脂肪なし　生',
     protein: '580',
     carbohydrate: '138',
@@ -13890,6 +15626,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1737,
     name: '＜畜肉類＞　うし　［輸入牛肉］　かた　赤肉　生',
     protein: '481',
     carbohydrate: '114',
@@ -13898,6 +15635,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.4',
   },
   {
+    id: 1738,
     name: '＜畜肉類＞　うし　［輸入牛肉］　かた　脂身　生',
     protein: '2210',
     carbohydrate: '537',
@@ -13906,6 +15644,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.1',
   },
   {
+    id: 1739,
     name: '＜畜肉類＞　うし　［輸入牛肉］　かたロース　脂身つき　生',
     protein: '918',
     carbohydrate: '221',
@@ -13914,6 +15653,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.9',
   },
   {
+    id: 1740,
     name: '＜畜肉類＞　うし　［輸入牛肉］　かたロース　皮下脂肪なし　生',
     protein: '909',
     carbohydrate: '219',
@@ -13922,6 +15662,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.0',
   },
   {
+    id: 1741,
     name: '＜畜肉類＞　うし　［輸入牛肉］　かたロース　赤肉　生',
     protein: '670',
     carbohydrate: '160',
@@ -13930,6 +15671,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.7',
   },
   {
+    id: 1742,
     name: '＜畜肉類＞　うし　［輸入牛肉］　リブロース　脂身つき　生',
     protein: '883',
     carbohydrate: '212',
@@ -13938,6 +15680,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.1',
   },
   {
+    id: 1743,
     name: '＜畜肉類＞　うし　［輸入牛肉］　リブロース　脂身つき　ゆで',
     protein: '1276',
     carbohydrate: '307',
@@ -13946,6 +15689,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.8',
   },
   {
+    id: 1744,
     name: '＜畜肉類＞　うし　［輸入牛肉］　リブロース　脂身つき　焼き',
     protein: '1275',
     carbohydrate: '306',
@@ -13954,6 +15698,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.0',
   },
   {
+    id: 1745,
     name: '＜畜肉類＞　うし　［輸入牛肉］　リブロース　皮下脂肪なし　生',
     protein: '848',
     carbohydrate: '203',
@@ -13962,6 +15707,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.3',
   },
   {
+    id: 1746,
     name: '＜畜肉類＞　うし　［輸入牛肉］　リブロース　赤肉　生',
     protein: '681',
     carbohydrate: '163',
@@ -13970,6 +15716,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.7',
   },
   {
+    id: 1747,
     name: '＜畜肉類＞　うし　［輸入牛肉］　リブロース　脂身　生',
     protein: '2690',
     carbohydrate: '653',
@@ -13978,6 +15725,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.7',
   },
   {
+    id: 1748,
     name: '＜畜肉類＞　うし　［輸入牛肉］　サーロイン　脂身つき　生',
     protein: '1135',
     carbohydrate: '273',
@@ -13986,6 +15734,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.4',
   },
   {
+    id: 1749,
     name: '＜畜肉類＞　うし　［輸入牛肉］　サーロイン　皮下脂肪なし　生',
     protein: '910',
     carbohydrate: '218',
@@ -13994,6 +15743,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.1',
   },
   {
+    id: 1750,
     name: '＜畜肉類＞　うし　［輸入牛肉］　サーロイン　赤肉　生',
     protein: '534',
     carbohydrate: '127',
@@ -14002,6 +15752,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.0',
   },
   {
+    id: 1751,
     name: '＜畜肉類＞　うし　［輸入牛肉］　ばら　脂身つき　生',
     protein: '1396',
     carbohydrate: '338',
@@ -14010,6 +15761,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.4',
   },
   {
+    id: 1752,
     name: '＜畜肉類＞　うし　［輸入牛肉］　もも　脂身つき　生',
     protein: '620',
     carbohydrate: '148',
@@ -14018,6 +15770,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1753,
     name: '＜畜肉類＞　うし　［輸入牛肉］　もも　皮下脂肪なし　生',
     protein: '558',
     carbohydrate: '133',
@@ -14026,6 +15779,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.0',
   },
   {
+    id: 1754,
     name: '＜畜肉類＞　うし　［輸入牛肉］　もも　皮下脂肪なし　ゆで',
     protein: '854',
     carbohydrate: '204',
@@ -14034,6 +15788,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '30.0',
   },
   {
+    id: 1755,
     name: '＜畜肉類＞　うし　［輸入牛肉］　もも　皮下脂肪なし　焼き',
     protein: '858',
     carbohydrate: '205',
@@ -14042,6 +15797,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.0',
   },
   {
+    id: 1756,
     name: '＜畜肉類＞　うし　［輸入牛肉］　もも　赤肉　生',
     protein: '493',
     carbohydrate: '117',
@@ -14050,6 +15806,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.2',
   },
   {
+    id: 1757,
     name: '＜畜肉類＞　うし　［輸入牛肉］　もも　脂身　生',
     protein: '2391',
     carbohydrate: '580',
@@ -14058,6 +15815,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.3',
   },
   {
+    id: 1758,
     name: '＜畜肉類＞　うし　［輸入牛肉］　そともも　脂身つき　生',
     protein: '820',
     carbohydrate: '197',
@@ -14066,6 +15824,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.7',
   },
   {
+    id: 1759,
     name: '＜畜肉類＞　うし　［輸入牛肉］　そともも　皮下脂肪なし　生',
     protein: '745',
     carbohydrate: '178',
@@ -14074,6 +15833,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.3',
   },
   {
+    id: 1760,
     name: '＜畜肉類＞　うし　［輸入牛肉］　そともも　赤肉　生',
     protein: '494',
     carbohydrate: '117',
@@ -14082,6 +15842,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.2',
   },
   {
+    id: 1761,
     name: '＜畜肉類＞　うし　［輸入牛肉］　ランプ　脂身つき　生',
     protein: '892',
     carbohydrate: '214',
@@ -14090,6 +15851,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.4',
   },
   {
+    id: 1762,
     name: '＜畜肉類＞　うし　［輸入牛肉］　ランプ　皮下脂肪なし　生',
     protein: '729',
     carbohydrate: '174',
@@ -14098,6 +15860,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.7',
   },
   {
+    id: 1763,
     name: '＜畜肉類＞　うし　［輸入牛肉］　ランプ　赤肉　生',
     protein: '475',
     carbohydrate: '112',
@@ -14106,6 +15869,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.6',
   },
   {
+    id: 1764,
     name: '＜畜肉類＞　うし　［輸入牛肉］　ヒレ　赤肉　生',
     protein: '519',
     carbohydrate: '123',
@@ -14114,6 +15878,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.5',
   },
   {
+    id: 1765,
     name: '＜畜肉類＞　うし　［子牛肉］　リブロース　皮下脂肪なし　生',
     protein: '399',
     carbohydrate: '94',
@@ -14122,6 +15887,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.7',
   },
   {
+    id: 1766,
     name: '＜畜肉類＞　うし　［子牛肉］　ばら　皮下脂肪なし　生',
     protein: '475',
     carbohydrate: '113',
@@ -14130,6 +15896,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.9',
   },
   {
+    id: 1767,
     name: '＜畜肉類＞　うし　［子牛肉］　もも　皮下脂肪なし　生',
     protein: '452',
     carbohydrate: '107',
@@ -14138,6 +15905,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.2',
   },
   {
+    id: 1768,
     name: '＜畜肉類＞　うし　［ひき肉］　生',
     protein: '1040',
     carbohydrate: '251',
@@ -14146,6 +15914,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.1',
   },
   {
+    id: 1769,
     name: '＜畜肉類＞　うし　［ひき肉］　焼き',
     protein: '1168',
     carbohydrate: '280',
@@ -14154,6 +15923,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.9',
   },
   {
+    id: 1770,
     name: '＜畜肉類＞　うし　［副生物］　舌　生',
     protein: '1313',
     carbohydrate: '318',
@@ -14162,6 +15932,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.3',
   },
   {
+    id: 1771,
     name: '＜畜肉類＞　うし　［副生物］　舌　焼き',
     protein: '1662',
     carbohydrate: '401',
@@ -14170,6 +15941,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.2',
   },
   {
+    id: 1772,
     name: '＜畜肉類＞　うし　［副生物］　心臓　生',
     protein: '535',
     carbohydrate: '128',
@@ -14178,6 +15950,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.5',
   },
   {
+    id: 1773,
     name: '＜畜肉類＞　うし　［副生物］　肝臓　生',
     protein: '502',
     carbohydrate: '119',
@@ -14186,6 +15959,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1774,
     name: '＜畜肉類＞　うし　［副生物］　じん臓　生',
     protein: '497',
     carbohydrate: '118',
@@ -14194,6 +15968,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.7',
   },
   {
+    id: 1775,
     name: '＜畜肉類＞　うし　［副生物］　第一胃　ゆで',
     protein: '697',
     carbohydrate: '166',
@@ -14202,6 +15977,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.5',
   },
   {
+    id: 1776,
     name: '＜畜肉類＞　うし　［副生物］　第二胃　ゆで',
     protein: '772',
     carbohydrate: '186',
@@ -14210,6 +15986,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.4',
   },
   {
+    id: 1777,
     name: '＜畜肉類＞　うし　［副生物］　第三胃　生',
     protein: '240',
     carbohydrate: '57',
@@ -14218,6 +15995,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.7',
   },
   {
+    id: 1778,
     name: '＜畜肉類＞　うし　［副生物］　第四胃　ゆで',
     protein: '1272',
     carbohydrate: '308',
@@ -14226,6 +16004,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.1',
   },
   {
+    id: 1779,
     name: '＜畜肉類＞　うし　［副生物］　小腸　生',
     protein: '1106',
     carbohydrate: '268',
@@ -14234,6 +16013,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.9',
   },
   {
+    id: 1780,
     name: '＜畜肉類＞　うし　［副生物］　大腸　生',
     protein: '624',
     carbohydrate: '150',
@@ -14242,6 +16022,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.3',
   },
   {
+    id: 1781,
     name: '＜畜肉類＞　うし　［副生物］　直腸　生',
     protein: '444',
     carbohydrate: '106',
@@ -14250,6 +16031,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.6',
   },
   {
+    id: 1782,
     name: '＜畜肉類＞　うし　［副生物］　腱　ゆで',
     protein: '662',
     carbohydrate: '157',
@@ -14258,6 +16040,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '31.0 ',
   },
   {
+    id: 1783,
     name: '＜畜肉類＞　うし　［副生物］　子宮　ゆで',
     protein: '402',
     carbohydrate: '95',
@@ -14266,6 +16049,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.4',
   },
   {
+    id: 1784,
     name: '＜畜肉類＞　うし　［副生物］　尾　生',
     protein: '1814',
     carbohydrate: '440',
@@ -14274,6 +16058,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.6',
   },
   {
+    id: 1785,
     name: '＜畜肉類＞　うし　［副生物］　横隔膜　生',
     protein: '1194',
     carbohydrate: '288',
@@ -14282,6 +16067,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.8',
   },
   {
+    id: 1786,
     name: '＜畜肉類＞　うし　［副生物］　横隔膜　ゆで',
     protein: '1717',
     carbohydrate: '414',
@@ -14290,6 +16076,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.3',
   },
   {
+    id: 1787,
     name: '＜畜肉類＞　うし　［副生物］　横隔膜　焼き',
     protein: '1661',
     carbohydrate: '401',
@@ -14298,6 +16085,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.1',
   },
   {
+    id: 1788,
     name: '＜畜肉類＞　うし　［加工品］　ローストビーフ',
     protein: '795',
     carbohydrate: '190',
@@ -14306,6 +16094,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.7',
   },
   {
+    id: 1789,
     name: '＜畜肉類＞　うし　［加工品］　コンビーフ缶詰',
     protein: '795',
     carbohydrate: '191',
@@ -14314,6 +16103,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.8',
   },
   {
+    id: 1790,
     name: '＜畜肉類＞　うし　［加工品］　味付け缶詰',
     protein: '659',
     carbohydrate: '156',
@@ -14322,6 +16112,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.2',
   },
   {
+    id: 1791,
     name: '＜畜肉類＞　うし　［加工品］　ビーフジャーキー',
     protein: '1285',
     carbohydrate: '304',
@@ -14330,6 +16121,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '54.8',
   },
   {
+    id: 1792,
     name: '＜畜肉類＞　うし　［加工品］　スモークタン',
     protein: '1134',
     carbohydrate: '273',
@@ -14338,6 +16130,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.1',
   },
   {
+    id: 1793,
     name: '＜畜肉類＞　うま　肉　赤肉　生',
     protein: '433',
     carbohydrate: '102',
@@ -14346,6 +16139,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.1',
   },
   {
+    id: 1794,
     name: '＜畜肉類＞　くじら　肉　赤肉　生',
     protein: '425',
     carbohydrate: '100',
@@ -14354,6 +16148,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.1',
   },
   {
+    id: 1795,
     name: '＜畜肉類＞　くじら　うねす　生',
     protein: '1361',
     carbohydrate: '328',
@@ -14362,6 +16157,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.8',
   },
   {
+    id: 1796,
     name: '＜畜肉類＞　くじら　本皮　生',
     protein: '2386',
     carbohydrate: '577',
@@ -14370,6 +16166,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.7',
   },
   {
+    id: 1797,
     name: '＜畜肉類＞　くじら　さらしくじら',
     protein: '120',
     carbohydrate: '28',
@@ -14378,6 +16175,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.3',
   },
   {
+    id: 1798,
     name: '＜畜肉類＞　しか　あかしか　赤肉　生',
     protein: '432',
     carbohydrate: '102',
@@ -14386,6 +16184,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.3',
   },
   {
+    id: 1799,
     name: '＜畜肉類＞　しか　にほんじか　赤肉　生',
     protein: '501',
     carbohydrate: '119',
@@ -14394,6 +16193,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.9',
   },
   {
+    id: 1800,
     name: '＜畜肉類＞　しか　にほんじか　えぞしか　赤肉　生',
     protein: '528',
     carbohydrate: '126',
@@ -14402,6 +16202,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.6',
   },
   {
+    id: 1801,
     name: '＜畜肉類＞　しか　にほんじか　きゅうしゅうじか　赤肉　生',
     protein: '452',
     carbohydrate: '107',
@@ -14410,6 +16211,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.6',
   },
   {
+    id: 1802,
     name: '＜畜肉類＞　しか　にほんじか　ほんしゅうじか　赤肉　生',
     protein: '382',
     carbohydrate: '90',
@@ -14418,6 +16220,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.4',
   },
   {
+    id: 1803,
     name: '＜畜肉類＞　ぶた　［大型種肉］　かた　脂身つき　生',
     protein: '836',
     carbohydrate: '201',
@@ -14426,6 +16229,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.5',
   },
   {
+    id: 1804,
     name: '＜畜肉類＞　ぶた　［大型種肉］　かた　皮下脂肪なし　生',
     protein: '663',
     carbohydrate: '158',
@@ -14434,6 +16238,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.7',
   },
   {
+    id: 1805,
     name: '＜畜肉類＞　ぶた　［大型種肉］　かた　赤肉　生',
     protein: '481',
     carbohydrate: '114',
@@ -14442,6 +16247,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.9',
   },
   {
+    id: 1806,
     name: '＜畜肉類＞　ぶた　［大型種肉］　かた　脂身　生',
     protein: '2727',
     carbohydrate: '663',
@@ -14450,6 +16256,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.3',
   },
   {
+    id: 1807,
     name: '＜畜肉類＞　ぶた　［大型種肉］　かたロース　脂身つき　生',
     protein: '986',
     carbohydrate: '237',
@@ -14458,6 +16265,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.1',
   },
   {
+    id: 1808,
     name: '＜畜肉類＞　ぶた　［大型種肉］　かたロース　皮下脂肪なし　生',
     protein: '880',
     carbohydrate: '212',
@@ -14466,6 +16274,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.8',
   },
   {
+    id: 1809,
     name: '＜畜肉類＞　ぶた　［大型種肉］　かたロース　赤肉　生',
     protein: '611',
     carbohydrate: '146',
@@ -14474,6 +16283,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.7',
   },
   {
+    id: 1810,
     name: '＜畜肉類＞　ぶた　［大型種肉］　かたロース　脂身　生',
     protein: '2650',
     carbohydrate: '644',
@@ -14482,6 +16292,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.4',
   },
   {
+    id: 1811,
     name: '＜畜肉類＞　ぶた　［大型種肉］　ロース　脂身つき　生',
     protein: '1029',
     carbohydrate: '248',
@@ -14490,6 +16301,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.3',
   },
   {
+    id: 1812,
     name: '＜畜肉類＞　ぶた　［大型種肉］　ロース　脂身つき　ゆで',
     protein: '1241',
     carbohydrate: '299',
@@ -14498,6 +16310,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.9',
   },
   {
+    id: 1813,
     name: '＜畜肉類＞　ぶた　［大型種肉］　ロース　脂身つき　焼き',
     protein: '1288',
     carbohydrate: '310',
@@ -14506,6 +16319,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.7',
   },
   {
+    id: 1814,
     name: '＜畜肉類＞　ぶた　［大型種肉］　ロース　脂身つき　とんかつ',
     protein: '1780',
     carbohydrate: '429',
@@ -14514,6 +16328,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.0',
   },
   {
+    id: 1815,
     name: '＜畜肉類＞　ぶた　［大型種肉］　ロース　皮下脂肪なし　生',
     protein: '793',
     carbohydrate: '190',
@@ -14522,6 +16337,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.1',
   },
   {
+    id: 1816,
     name: '＜畜肉類＞　ぶた　［大型種肉］　ロース　赤肉　生',
     protein: '589',
     carbohydrate: '140',
@@ -14530,6 +16346,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.7',
   },
   {
+    id: 1817,
     name: '＜畜肉類＞　ぶた　［大型種肉］　ロース　脂身　生',
     protein: '2860',
     carbohydrate: '695',
@@ -14538,6 +16355,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.1',
   },
   {
+    id: 1818,
     name: '＜畜肉類＞　ぶた　［大型種肉］　ばら　脂身つき　生',
     protein: '1511',
     carbohydrate: '366',
@@ -14546,6 +16364,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.4',
   },
   {
+    id: 1819,
     name: '＜畜肉類＞　ぶた　［大型種肉］　ばら　脂身つき　焼き',
     protein: '1833',
     carbohydrate: '444',
@@ -14554,6 +16373,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.6',
   },
   {
+    id: 1820,
     name: '＜畜肉類＞　ぶた　［大型種肉］　もも　脂身つき　生',
     protein: '715',
     carbohydrate: '171',
@@ -14562,6 +16382,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.5',
   },
   {
+    id: 1821,
     name: '＜畜肉類＞　ぶた　［大型種肉］　もも　皮下脂肪なし　生',
     protein: '579',
     carbohydrate: '138',
@@ -14570,6 +16391,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.5',
   },
   {
+    id: 1822,
     name: '＜畜肉類＞　ぶた　［大型種肉］　もも　皮下脂肪なし　ゆで',
     protein: '777',
     carbohydrate: '185',
@@ -14578,6 +16400,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.9',
   },
   {
+    id: 1823,
     name: '＜畜肉類＞　ぶた　［大型種肉］　もも　皮下脂肪なし　焼き',
     protein: '781',
     carbohydrate: '186',
@@ -14586,6 +16409,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '30.2',
   },
   {
+    id: 1824,
     name: '＜畜肉類＞　ぶた　［大型種肉］　もも　赤肉　生',
     protein: '502',
     carbohydrate: '119',
@@ -14594,6 +16418,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.1',
   },
   {
+    id: 1825,
     name: '＜畜肉類＞　ぶた　［大型種肉］　もも　脂身　生',
     protein: '2517',
     carbohydrate: '611',
@@ -14602,6 +16427,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.5',
   },
   {
+    id: 1826,
     name: '＜畜肉類＞　ぶた　［大型種肉］　そともも　脂身つき　生',
     protein: '921',
     carbohydrate: '221',
@@ -14610,6 +16436,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.8',
   },
   {
+    id: 1827,
     name: '＜畜肉類＞　ぶた　［大型種肉］　そともも　皮下脂肪なし　生',
     protein: '731',
     carbohydrate: '175',
@@ -14618,6 +16445,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.2',
   },
   {
+    id: 1828,
     name: '＜畜肉類＞　ぶた　［大型種肉］　そともも　赤肉　生',
     protein: '560',
     carbohydrate: '133',
@@ -14626,6 +16454,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.4',
   },
   {
+    id: 1829,
     name: '＜畜肉類＞　ぶた　［大型種肉］　そともも　脂身　生',
     protein: '2599',
     carbohydrate: '631',
@@ -14634,6 +16463,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.6',
   },
   {
+    id: 1830,
     name: '＜畜肉類＞　ぶた　［大型種肉］　ヒレ　赤肉　生',
     protein: '498',
     carbohydrate: '118',
@@ -14642,6 +16472,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.2',
   },
   {
+    id: 1831,
     name: '＜畜肉類＞　ぶた　［大型種肉］　ヒレ　赤肉　焼き',
     protein: '851',
     carbohydrate: '202',
@@ -14650,6 +16481,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '39.3',
   },
   {
+    id: 1832,
     name: '＜畜肉類＞　ぶた　［大型種肉］　ヒレ　赤肉　とんかつ',
     protein: '1582',
     carbohydrate: '379',
@@ -14658,6 +16490,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.1',
   },
   {
+    id: 1833,
     name: '＜畜肉類＞　ぶた　［中型種肉］　かた　脂身つき　生',
     protein: '932',
     carbohydrate: '224',
@@ -14666,6 +16499,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.3',
   },
   {
+    id: 1834,
     name: '＜畜肉類＞　ぶた　［中型種肉］　かた　皮下脂肪なし　生',
     protein: '719',
     carbohydrate: '172',
@@ -14674,6 +16508,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.7',
   },
   {
+    id: 1835,
     name: '＜畜肉類＞　ぶた　［中型種肉］　かた　赤肉　生',
     protein: '477',
     carbohydrate: '113',
@@ -14682,6 +16517,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.4',
   },
   {
+    id: 1836,
     name: '＜畜肉類＞　ぶた　［中型種肉］　かた　脂身　生',
     protein: '2872',
     carbohydrate: '698',
@@ -14690,6 +16526,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.9',
   },
   {
+    id: 1837,
     name: '＜畜肉類＞　ぶた　［中型種肉］　かたロース　脂身つき　生',
     protein: '1002',
     carbohydrate: '241',
@@ -14698,6 +16535,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.7',
   },
   {
+    id: 1838,
     name: '＜畜肉類＞　ぶた　［中型種肉］　かたロース　皮下脂肪なし　生',
     protein: '882',
     carbohydrate: '212',
@@ -14706,6 +16544,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.5',
   },
   {
+    id: 1839,
     name: '＜畜肉類＞　ぶた　［中型種肉］　かたロース　赤肉　生',
     protein: '588',
     carbohydrate: '140',
@@ -14714,6 +16553,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.6',
   },
   {
+    id: 1840,
     name: '＜畜肉類＞　ぶた　［中型種肉］　かたロース　脂身　生',
     protein: '2730',
     carbohydrate: '663',
@@ -14722,6 +16562,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.4',
   },
   {
+    id: 1841,
     name: '＜畜肉類＞　ぶた　［中型種肉］　ロース　脂身つき　生',
     protein: '1140',
     carbohydrate: '275',
@@ -14730,6 +16571,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.3',
   },
   {
+    id: 1842,
     name: '＜畜肉類＞　ぶた　［中型種肉］　ロース　皮下脂肪なし　生',
     protein: '846',
     carbohydrate: '203',
@@ -14738,6 +16580,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.6',
   },
   {
+    id: 1843,
     name: '＜畜肉類＞　ぶた　［中型種肉］　ロース　赤肉　生',
     protein: '553',
     carbohydrate: '131',
@@ -14746,6 +16589,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.9',
   },
   {
+    id: 1844,
     name: '＜畜肉類＞　ぶた　［中型種肉］　ロース　脂身　生',
     protein: '2944',
     carbohydrate: '716',
@@ -14754,6 +16598,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.1',
   },
   {
+    id: 1845,
     name: '＜畜肉類＞　ぶた　［中型種肉］　ばら　脂身つき　生',
     protein: '1643',
     carbohydrate: '398',
@@ -14762,6 +16607,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.4',
   },
   {
+    id: 1846,
     name: '＜畜肉類＞　ぶた　［中型種肉］　もも　脂身つき　生',
     protein: '878',
     carbohydrate: '211',
@@ -14770,6 +16616,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.5',
   },
   {
+    id: 1847,
     name: '＜畜肉類＞　ぶた　［中型種肉］　もも　皮下脂肪なし　生',
     protein: '641',
     carbohydrate: '153',
@@ -14778,6 +16625,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.3',
   },
   {
+    id: 1848,
     name: '＜畜肉類＞　ぶた　［中型種肉］　もも　赤肉　生',
     protein: '559',
     carbohydrate: '133',
@@ -14786,6 +16634,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.9',
   },
   {
+    id: 1849,
     name: '＜畜肉類＞　ぶた　［中型種肉］　もも　脂身　生',
     protein: '2765',
     carbohydrate: '672',
@@ -14794,6 +16643,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.2',
   },
   {
+    id: 1850,
     name: '＜畜肉類＞　ぶた　［中型種肉］　そともも　脂身つき　生',
     protein: '1047',
     carbohydrate: '252',
@@ -14802,6 +16652,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.0',
   },
   {
+    id: 1851,
     name: '＜畜肉類＞　ぶた　［中型種肉］　そともも　皮下脂肪なし　生',
     protein: '664',
     carbohydrate: '159',
@@ -14810,6 +16661,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.0',
   },
   {
+    id: 1852,
     name: '＜畜肉類＞　ぶた　［中型種肉］　そともも　赤肉　生',
     protein: '544',
     carbohydrate: '129',
@@ -14818,6 +16670,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.9',
   },
   {
+    id: 1853,
     name: '＜畜肉類＞　ぶた　［中型種肉］　そともも　脂身　生',
     protein: '2714',
     carbohydrate: '660',
@@ -14826,6 +16679,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.9',
   },
   {
+    id: 1854,
     name: '＜畜肉類＞　ぶた　［中型種肉］　ヒレ　赤肉　生',
     protein: '443',
     carbohydrate: '105',
@@ -14834,6 +16688,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.7',
   },
   {
+    id: 1855,
     name: '＜畜肉類＞　ぶた　［ひき肉］　生',
     protein: '868',
     carbohydrate: '209',
@@ -14842,6 +16697,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.7',
   },
   {
+    id: 1856,
     name: '＜畜肉類＞　ぶた　［ひき肉］　焼き',
     protein: '1202',
     carbohydrate: '289',
@@ -14850,6 +16706,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.7',
   },
   {
+    id: 1857,
     name: '＜畜肉類＞　ぶた　［副生物］　頭部　ジョウルミート　生',
     protein: '1060',
     carbohydrate: '256',
@@ -14858,6 +16715,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.4',
   },
   {
+    id: 1858,
     name: '＜畜肉類＞　ぶた　［副生物］　頭部　ジョウルミート　焼き',
     protein: '1459',
     carbohydrate: '351',
@@ -14866,6 +16724,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.0 ',
   },
   {
+    id: 1859,
     name: '＜畜肉類＞　ぶた　［副生物］　舌　生',
     protein: '853',
     carbohydrate: '205',
@@ -14874,6 +16733,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.9',
   },
   {
+    id: 1860,
     name: '＜畜肉類＞　ぶた　［副生物］　心臓　生',
     protein: '497',
     carbohydrate: '118',
@@ -14882,6 +16742,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.2',
   },
   {
+    id: 1861,
     name: '＜畜肉類＞　ぶた　［副生物］　肝臓　生',
     protein: '484',
     carbohydrate: '114',
@@ -14890,6 +16751,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.4',
   },
   {
+    id: 1862,
     name: '＜畜肉類＞　ぶた　［副生物］　じん臓　生',
     protein: '404',
     carbohydrate: '96',
@@ -14898,6 +16760,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.1',
   },
   {
+    id: 1863,
     name: '＜畜肉類＞　ぶた　［副生物］　胃　ゆで',
     protein: '465',
     carbohydrate: '111',
@@ -14906,6 +16769,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.4',
   },
   {
+    id: 1864,
     name: '＜畜肉類＞　ぶた　［副生物］　小腸　ゆで',
     protein: '663',
     carbohydrate: '159',
@@ -14914,6 +16778,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.0',
   },
   {
+    id: 1865,
     name: '＜畜肉類＞　ぶた　［副生物］　大腸　ゆで',
     protein: '691',
     carbohydrate: '166',
@@ -14922,6 +16787,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.7',
   },
   {
+    id: 1866,
     name: '＜畜肉類＞　ぶた　［副生物］　子宮　生',
     protein: '273',
     carbohydrate: '64',
@@ -14930,6 +16796,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.6',
   },
   {
+    id: 1867,
     name: '＜畜肉類＞　ぶた　［副生物］　豚足　ゆで',
     protein: '944',
     carbohydrate: '227',
@@ -14938,6 +16805,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.1',
   },
   {
+    id: 1868,
     name: '＜畜肉類＞　ぶた　［副生物］　軟骨　ゆで',
     protein: '952',
     carbohydrate: '229',
@@ -14946,6 +16814,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.8',
   },
   {
+    id: 1869,
     name: '＜畜肉類＞　ぶた　［ハム類］　骨付きハム',
     protein: '866',
     carbohydrate: '208',
@@ -14954,6 +16823,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.7',
   },
   {
+    id: 1870,
     name: '＜畜肉類＞　ぶた　［ハム類］　ボンレスハム',
     protein: '483',
     carbohydrate: '115',
@@ -14962,6 +16832,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.7',
   },
   {
+    id: 1871,
     name: '＜畜肉類＞　ぶた　［ハム類］　ロースハム　ロースハム',
     protein: '881',
     carbohydrate: '211',
@@ -14970,6 +16841,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.6',
   },
   {
+    id: 1872,
     name: '＜畜肉類＞　ぶた　［ハム類］　ロースハム　ゆで',
     protein: '971',
     carbohydrate: '233',
@@ -14978,6 +16850,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.7',
   },
   {
+    id: 1873,
     name: '＜畜肉類＞　ぶた　［ハム類］　ロースハム　焼き',
     protein: '1001',
     carbohydrate: '240',
@@ -14986,6 +16859,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.6',
   },
   {
+    id: 1874,
     name: '＜畜肉類＞　ぶた　［ハム類］　ロースハム　フライ',
     protein: '1796',
     carbohydrate: '432',
@@ -14994,6 +16868,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.3',
   },
   {
+    id: 1875,
     name: '＜畜肉類＞　ぶた　［ハム類］　ショルダーハム',
     protein: '917',
     carbohydrate: '221',
@@ -15002,6 +16877,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.1',
   },
   {
+    id: 1876,
     name: '＜畜肉類＞　ぶた　［ハム類］　生ハム　促成',
     protein: '1014',
     carbohydrate: '243',
@@ -15010,6 +16886,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.0',
   },
   {
+    id: 1877,
     name: '＜畜肉類＞　ぶた　［ハム類］　生ハム　長期熟成',
     protein: '1051',
     carbohydrate: '253',
@@ -15018,6 +16895,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.7',
   },
   {
+    id: 1878,
     name: '＜畜肉類＞　ぶた　［プレスハム類］　プレスハム',
     protein: '477',
     carbohydrate: '113',
@@ -15026,6 +16904,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.4',
   },
   {
+    id: 1879,
     name: '＜畜肉類＞　ぶた　［プレスハム類］　チョップドハム',
     protein: '558',
     carbohydrate: '132',
@@ -15034,6 +16913,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.7',
   },
   {
+    id: 1880,
     name: '＜畜肉類＞　ぶた　［ベーコン類］　ばらベーコン　ばらベーコン　',
     protein: '1014',
     carbohydrate: '244',
@@ -15042,6 +16922,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.4',
   },
   {
+    id: 1881,
     name: '＜畜肉類＞　ぶた　［ベーコン類］　ばらベーコン　ゆで',
     protein: '966',
     carbohydrate: '232',
@@ -15050,6 +16931,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.6',
   },
   {
+    id: 1882,
     name: '＜畜肉類＞　ぶた　［ベーコン類］　ばらベーコン　焼き',
     protein: '1203',
     carbohydrate: '288',
@@ -15058,6 +16940,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.3',
   },
   {
+    id: 1883,
     name: '＜畜肉類＞　ぶた　［ベーコン類］　ばらベーコン　油いため',
     protein: '1128',
     carbohydrate: '271',
@@ -15066,6 +16949,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.6',
   },
   {
+    id: 1884,
     name: '＜畜肉類＞　ぶた　［ベーコン類］　ロースベーコン',
     protein: '843',
     carbohydrate: '202',
@@ -15074,6 +16958,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.8',
   },
   {
+    id: 1885,
     name: '＜畜肉類＞　ぶた　［ベーコン類］　ショルダーベーコン',
     protein: '744',
     carbohydrate: '178',
@@ -15082,6 +16967,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.2',
   },
   {
+    id: 1886,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　ウインナーソーセージ　ウインナーソーセージ',
     protein: '1319',
     carbohydrate: '319',
@@ -15090,6 +16976,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.5',
   },
   {
+    id: 1887,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　ウインナーソーセージ　ゆで',
     protein: '1356',
     carbohydrate: '328',
@@ -15098,6 +16985,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.1',
   },
   {
+    id: 1888,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　ウインナーソーセージ　焼き',
     protein: '1426',
     carbohydrate: '345',
@@ -15106,6 +16994,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.0',
   },
   {
+    id: 1889,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　ウインナーソーセージ　フライ',
     protein: '1557',
     carbohydrate: '376',
@@ -15114,6 +17003,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.8',
   },
   {
+    id: 1890,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　セミドライソーセージ',
     protein: '1387',
     carbohydrate: '335',
@@ -15122,6 +17012,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.9',
   },
   {
+    id: 1891,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　ドライソーセージ',
     protein: '1935',
     carbohydrate: '467',
@@ -15130,6 +17021,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.7',
   },
   {
+    id: 1892,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　フランクフルトソーセージ',
     protein: '1224',
     carbohydrate: '295',
@@ -15138,6 +17030,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.7',
   },
   {
+    id: 1893,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　ボロニアソーセージ',
     protein: '1002',
     carbohydrate: '242',
@@ -15146,6 +17039,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.5',
   },
   {
+    id: 1894,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　リオナソーセージ',
     protein: '786',
     carbohydrate: '188',
@@ -15154,6 +17048,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.9',
   },
   {
+    id: 1895,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　レバーソーセージ',
     protein: '1346',
     carbohydrate: '324',
@@ -15162,6 +17057,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.7',
   },
   {
+    id: 1896,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　混合ソーセージ',
     protein: '961',
     carbohydrate: '231',
@@ -15170,6 +17066,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.8',
   },
   {
+    id: 1897,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　生ソーセージ',
     protein: '1111',
     carbohydrate: '269',
@@ -15178,6 +17075,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.0',
   },
   {
+    id: 1898,
     name: '＜畜肉類＞　ぶた　［ソーセージ類］　ランチョンミート',
     protein: '1159',
     carbohydrate: '279',
@@ -15186,6 +17084,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.0 ',
   },
   {
+    id: 1899,
     name: '＜畜肉類＞　ぶた　［その他］　焼き豚',
     protein: '696',
     carbohydrate: '166',
@@ -15194,6 +17093,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.4',
   },
   {
+    id: 1900,
     name: '＜畜肉類＞　ぶた　［その他］　レバーペースト',
     protein: '1532',
     carbohydrate: '370',
@@ -15202,6 +17102,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.9',
   },
   {
+    id: 1901,
     name: '＜畜肉類＞　ぶた　［その他］　スモークレバー',
     protein: '768',
     carbohydrate: '182',
@@ -15210,6 +17111,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '29.6',
   },
   {
+    id: 1902,
     name: '＜畜肉類＞　ぶた　［その他］　ゼラチン',
     protein: '1474',
     carbohydrate: '347',
@@ -15218,6 +17120,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '87.6',
   },
   {
+    id: 1903,
     name: '＜畜肉類＞　めんよう　［マトン］　ロース　脂身つき　生',
     protein: '800',
     carbohydrate: '192',
@@ -15226,6 +17129,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.3',
   },
   {
+    id: 1904,
     name: '＜畜肉類＞　めんよう　［マトン］　ロース　脂身つき　焼き',
     protein: '1269',
     carbohydrate: '305',
@@ -15234,6 +17138,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.8',
   },
   {
+    id: 1905,
     name: '＜畜肉類＞　めんよう　［マトン］　ロース　皮下脂肪なし　生',
     protein: '581',
     carbohydrate: '139',
@@ -15242,6 +17147,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.2',
   },
   {
+    id: 1906,
     name: '＜畜肉類＞　めんよう　［マトン］　もも　脂身つき　生',
     protein: '853',
     carbohydrate: '205',
@@ -15250,6 +17156,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.8',
   },
   {
+    id: 1907,
     name: '＜畜肉類＞　めんよう　［ラム］　かた　脂身つき　生',
     protein: '888',
     carbohydrate: '214',
@@ -15258,6 +17165,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.1',
   },
   {
+    id: 1908,
     name: '＜畜肉類＞　めんよう　［ラム］　ロース　脂身つき　生',
     protein: '1189',
     carbohydrate: '287',
@@ -15266,6 +17174,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.6',
   },
   {
+    id: 1909,
     name: '＜畜肉類＞　めんよう　［ラム］　ロース　脂身つき　焼き',
     protein: '1488',
     carbohydrate: '358',
@@ -15274,6 +17183,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.8',
   },
   {
+    id: 1910,
     name: '＜畜肉類＞　めんよう　［ラム］　ロース　皮下脂肪なし　生',
     protein: '539',
     carbohydrate: '128',
@@ -15282,6 +17192,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.3',
   },
   {
+    id: 1911,
     name: '＜畜肉類＞　めんよう　［ラム］　もも　脂身つき　生',
     protein: '684',
     carbohydrate: '164',
@@ -15290,6 +17201,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.0',
   },
   {
+    id: 1912,
     name: '＜畜肉類＞　めんよう　［ラム］　もも　脂身つき　焼き',
     protein: '1111',
     carbohydrate: '267',
@@ -15298,6 +17210,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.6',
   },
   {
+    id: 1913,
     name: '＜畜肉類＞　めんよう　混合プレスハム',
     protein: '420',
     carbohydrate: '100',
@@ -15306,6 +17219,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.4',
   },
   {
+    id: 1914,
     name: '＜畜肉類＞　やぎ　肉　赤肉　生',
     protein: '420',
     carbohydrate: '99',
@@ -15314,6 +17228,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.9',
   },
   {
+    id: 1915,
     name: '＜鳥肉類＞　うずら　肉　皮つき　生',
     protein: '808',
     carbohydrate: '194',
@@ -15322,6 +17237,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.5',
   },
   {
+    id: 1916,
     name: '＜鳥肉類＞　がちょう　フォアグラ　ゆで',
     protein: '1938',
     carbohydrate: '470',
@@ -15330,6 +17246,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.3',
   },
   {
+    id: 1917,
     name: '＜鳥肉類＞　かも　まがも　肉　皮なし　生',
     protein: '498',
     carbohydrate: '118',
@@ -15338,6 +17255,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.6',
   },
   {
+    id: 1918,
     name: '＜鳥肉類＞　かも　あいがも　肉　皮つき　生',
     protein: '1257',
     carbohydrate: '304',
@@ -15346,6 +17264,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.2',
   },
   {
+    id: 1919,
     name: '＜鳥肉類＞　かも　あひる　肉　皮つき　生',
     protein: '985',
     carbohydrate: '237',
@@ -15354,6 +17273,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.9',
   },
   {
+    id: 1920,
     name: '＜鳥肉類＞　かも　あひる　肉　皮なし　生',
     protein: '398',
     carbohydrate: '94',
@@ -15362,6 +17282,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.1',
   },
   {
+    id: 1921,
     name: '＜鳥肉類＞　かも　あひる　皮　生',
     protein: '1852',
     carbohydrate: '448',
@@ -15370,6 +17291,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.3',
   },
   {
+    id: 1922,
     name: '＜鳥肉類＞　きじ　肉　皮なし　生',
     protein: '427',
     carbohydrate: '101',
@@ -15378,6 +17300,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.0',
   },
   {
+    id: 1923,
     name: '＜鳥肉類＞　しちめんちょう　肉　皮なし　生',
     protein: '422',
     carbohydrate: '99',
@@ -15386,6 +17309,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.5',
   },
   {
+    id: 1924,
     name: '＜鳥肉類＞　すずめ　肉　骨・皮つき　生',
     protein: '479',
     carbohydrate: '114',
@@ -15394,6 +17318,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.1',
   },
   {
+    id: 1925,
     name: '＜鳥肉類＞　にわとり　［親・主品目］　手羽　皮つき　生',
     protein: '760',
     carbohydrate: '182',
@@ -15402,6 +17327,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.0',
   },
   {
+    id: 1926,
     name: '＜鳥肉類＞　にわとり　［親・主品目］　むね　皮つき　生',
     protein: '954',
     carbohydrate: '229',
@@ -15410,6 +17336,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.5',
   },
   {
+    id: 1927,
     name: '＜鳥肉類＞　にわとり　［親・主品目］　むね　皮なし　生',
     protein: '477',
     carbohydrate: '113',
@@ -15418,6 +17345,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.4',
   },
   {
+    id: 1928,
     name: '＜鳥肉類＞　にわとり　［親・主品目］　もも　皮つき　生',
     protein: '971',
     carbohydrate: '234',
@@ -15426,6 +17354,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.3',
   },
   {
+    id: 1929,
     name: '＜鳥肉類＞　にわとり　［親・主品目］　もも　皮なし　生',
     protein: '539',
     carbohydrate: '128',
@@ -15434,6 +17363,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.0',
   },
   {
+    id: 1930,
     name: '＜鳥肉類＞　にわとり　［親・副品目］　ささみ　生',
     protein: '452',
     carbohydrate: '107',
@@ -15442,6 +17372,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.6',
   },
   {
+    id: 1931,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　手羽　皮つき　生',
     protein: '788',
     carbohydrate: '189',
@@ -15450,6 +17381,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.8',
   },
   {
+    id: 1932,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　手羽さき　皮つき　生',
     protein: '859',
     carbohydrate: '207',
@@ -15458,6 +17390,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.4',
   },
   {
+    id: 1933,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　手羽もと　皮つき　生',
     protein: '730',
     carbohydrate: '175',
@@ -15466,6 +17399,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.2',
   },
   {
+    id: 1934,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　むね　皮つき　生',
     protein: '558',
     carbohydrate: '133',
@@ -15474,6 +17408,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.3',
   },
   {
+    id: 1935,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　むね　皮つき　焼き',
     protein: '904',
     carbohydrate: '215',
@@ -15482,6 +17417,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '34.7',
   },
   {
+    id: 1936,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　むね　皮なし　生',
     protein: '445',
     carbohydrate: '105',
@@ -15490,6 +17426,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.3',
   },
   {
+    id: 1937,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　むね　皮なし　焼き',
     protein: '747',
     carbohydrate: '177',
@@ -15498,6 +17435,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '38.8',
   },
   {
+    id: 1938,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　もも　皮つき　生',
     protein: '790',
     carbohydrate: '190',
@@ -15506,6 +17444,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.6',
   },
   {
+    id: 1939,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　もも　皮つき　ゆで',
     protein: '902',
     carbohydrate: '216',
@@ -15514,6 +17453,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.0',
   },
   {
+    id: 1940,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　もも　皮つき　焼き',
     protein: '920',
     carbohydrate: '220',
@@ -15522,6 +17462,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.3',
   },
   {
+    id: 1941,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　もも　皮つき　から揚げ',
     protein: '1282',
     carbohydrate: '307',
@@ -15530,6 +17471,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.2',
   },
   {
+    id: 1942,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　もも　皮なし　生',
     protein: '477',
     carbohydrate: '113',
@@ -15538,6 +17480,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.0',
   },
   {
+    id: 1943,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　もも　皮なし　ゆで',
     protein: '593',
     carbohydrate: '141',
@@ -15546,6 +17489,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.1',
   },
   {
+    id: 1944,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　もも　皮なし　焼き',
     protein: '612',
     carbohydrate: '145',
@@ -15554,6 +17498,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.5',
   },
   {
+    id: 1945,
     name: '＜鳥肉類＞　にわとり　［若どり・主品目］　もも　皮なし　から揚げ',
     protein: '1045',
     carbohydrate: '249',
@@ -15562,6 +17507,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.4',
   },
   {
+    id: 1946,
     name: '＜鳥肉類＞　にわとり　［若どり・副品目］　ささみ　生',
     protein: '414',
     carbohydrate: '98',
@@ -15570,6 +17516,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.9',
   },
   {
+    id: 1947,
     name: '＜鳥肉類＞　にわとり　［若どり・副品目］　ささみ　ゆで',
     protein: '515',
     carbohydrate: '121',
@@ -15578,6 +17525,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '29.6',
   },
   {
+    id: 1948,
     name: '＜鳥肉類＞　にわとり　［若どり・副品目］　ささみ　焼き',
     protein: '562',
     carbohydrate: '132',
@@ -15586,6 +17534,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '31.7',
   },
   {
+    id: 1949,
     name: '＜鳥肉類＞　にわとり　［若どり・副品目］　ささみ　ソテー',
     protein: '786',
     carbohydrate: '186',
@@ -15594,6 +17543,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '36.1',
   },
   {
+    id: 1950,
     name: '＜鳥肉類＞　にわとり　［若どり・副品目］　ささみ　フライ',
     protein: '1030',
     carbohydrate: '246',
@@ -15602,6 +17552,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.8',
   },
   {
+    id: 1951,
     name: '＜鳥肉類＞　にわとり　［若どり・副品目］　ささみ　天ぷら',
     protein: '806',
     carbohydrate: '192',
@@ -15610,6 +17561,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.7',
   },
   {
+    id: 1952,
     name: '＜鳥肉類＞　にわとり　［二次品目］　ひき肉　生',
     protein: '712',
     carbohydrate: '171',
@@ -15618,6 +17570,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.5',
   },
   {
+    id: 1953,
     name: '＜鳥肉類＞　にわとり　［二次品目］　ひき肉　焼き',
     protein: '981',
     carbohydrate: '235',
@@ -15626,6 +17579,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '27.5',
   },
   {
+    id: 1954,
     name: '＜鳥肉類＞　にわとり　［副品目］　心臓　生',
     protein: '773',
     carbohydrate: '186',
@@ -15634,6 +17588,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.5',
   },
   {
+    id: 1955,
     name: '＜鳥肉類＞　にわとり　［副品目］　肝臓　生',
     protein: '422',
     carbohydrate: '100',
@@ -15642,6 +17597,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.9',
   },
   {
+    id: 1956,
     name: '＜鳥肉類＞　にわとり　［副品目］　すなぎも　生',
     protein: '365',
     carbohydrate: '86',
@@ -15650,6 +17606,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.3',
   },
   {
+    id: 1957,
     name: '＜鳥肉類＞　にわとり　［副品目］　皮　むね　生',
     protein: '1922',
     carbohydrate: '466',
@@ -15658,6 +17615,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.4',
   },
   {
+    id: 1958,
     name: '＜鳥肉類＞　にわとり　［副品目］　皮　もも　生',
     protein: '1951',
     carbohydrate: '474',
@@ -15666,6 +17624,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.6',
   },
   {
+    id: 1959,
     name: '＜鳥肉類＞　にわとり　［副品目］　なんこつ（胸肉）　生',
     protein: '228',
     carbohydrate: '54',
@@ -15674,6 +17633,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.5',
   },
   {
+    id: 1960,
     name: '＜鳥肉類＞　にわとり　［その他］　焼き鳥缶詰',
     protein: '726',
     carbohydrate: '173',
@@ -15682,6 +17642,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.4',
   },
   {
+    id: 1961,
     name: '＜鳥肉類＞　にわとり　［その他］　チキンナゲット',
     protein: '982',
     carbohydrate: '235',
@@ -15690,6 +17651,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.5',
   },
   {
+    id: 1962,
     name: '＜鳥肉類＞　にわとり　［その他］　つくね',
     protein: '979',
     carbohydrate: '235',
@@ -15698,6 +17660,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.2',
   },
   {
+    id: 1963,
     name: '＜鳥肉類＞　はと　肉　皮なし　生',
     protein: '551',
     carbohydrate: '131',
@@ -15706,6 +17669,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.8',
   },
   {
+    id: 1964,
     name: '＜鳥肉類＞　ほろほろちょう　肉　皮なし　生',
     protein: '417',
     carbohydrate: '98',
@@ -15714,6 +17678,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.5',
   },
   {
+    id: 1965,
     name: '＜その他＞　いなご　つくだ煮',
     protein: '1031',
     carbohydrate: '243',
@@ -15722,6 +17687,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '26.3',
   },
   {
+    id: 1966,
     name: '＜その他＞　かえる　肉　生',
     protein: '392',
     carbohydrate: '92',
@@ -15730,6 +17696,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.3',
   },
   {
+    id: 1967,
     name: '＜その他＞　すっぽん　肉　生',
     protein: '729',
     carbohydrate: '175',
@@ -15738,6 +17705,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.4',
   },
   {
+    id: 1968,
     name: '＜その他＞　はち　はちの子缶詰',
     protein: '1008',
     carbohydrate: '239',
@@ -15746,6 +17714,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.2',
   },
   {
+    id: 1969,
     name: 'あひる卵　ピータン',
     protein: '783',
     carbohydrate: '188',
@@ -15754,6 +17723,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.7',
   },
   {
+    id: 1970,
     name: 'うこっけい卵　全卵　生',
     protein: '642',
     carbohydrate: '154',
@@ -15762,6 +17732,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.0',
   },
   {
+    id: 1971,
     name: 'うずら卵　全卵　生',
     protein: '655',
     carbohydrate: '157',
@@ -15770,6 +17741,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.6',
   },
   {
+    id: 1972,
     name: 'うずら卵　水煮缶詰',
     protein: '675',
     carbohydrate: '162',
@@ -15778,6 +17750,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.0',
   },
   {
+    id: 1973,
     name: '鶏卵　全卵　生',
     protein: '594',
     carbohydrate: '142',
@@ -15786,6 +17759,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.2',
   },
   {
+    id: 1974,
     name: '鶏卵　全卵　ゆで',
     protein: '559',
     carbohydrate: '134',
@@ -15794,6 +17768,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.5',
   },
   {
+    id: 1975,
     name: '鶏卵　全卵　ポーチドエッグ',
     protein: '605',
     carbohydrate: '145',
@@ -15802,6 +17777,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.3',
   },
   {
+    id: 1976,
     name: '鶏卵　全卵　目玉焼き',
     protein: '853',
     carbohydrate: '205',
@@ -15810,6 +17786,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.8',
   },
   {
+    id: 1977,
     name: '鶏卵　全卵　いり',
     protein: '787',
     carbohydrate: '190',
@@ -15818,6 +17795,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.3',
   },
   {
+    id: 1978,
     name: '鶏卵　全卵　素揚げ',
     protein: '1326',
     carbohydrate: '321',
@@ -15826,6 +17804,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.3',
   },
   {
+    id: 1979,
     name: '鶏卵　全卵　水煮缶詰',
     protein: '546',
     carbohydrate: '131',
@@ -15834,6 +17813,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.8',
   },
   {
+    id: 1980,
     name: '鶏卵　全卵　加糖全卵',
     protein: '838',
     carbohydrate: '199',
@@ -15842,6 +17822,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.8',
   },
   {
+    id: 1981,
     name: '鶏卵　全卵　乾燥全卵',
     protein: '2258',
     carbohydrate: '542',
@@ -15850,6 +17831,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '49.1',
   },
   {
+    id: 1982,
     name: '鶏卵　卵黄　生',
     protein: '1392',
     carbohydrate: '336',
@@ -15858,6 +17840,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.5',
   },
   {
+    id: 1983,
     name: '鶏卵　卵黄　ゆで',
     protein: '1367',
     carbohydrate: '330',
@@ -15866,6 +17849,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.1',
   },
   {
+    id: 1984,
     name: '鶏卵　卵黄　加糖卵黄',
     protein: '1365',
     carbohydrate: '327',
@@ -15874,6 +17858,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.1',
   },
   {
+    id: 1985,
     name: '鶏卵　卵黄　乾燥卵黄',
     protein: '2645',
     carbohydrate: '638',
@@ -15882,6 +17867,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '30.3',
   },
   {
+    id: 1986,
     name: '鶏卵　卵白　生',
     protein: '188',
     carbohydrate: '44',
@@ -15890,6 +17876,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.1',
   },
   {
+    id: 1987,
     name: '鶏卵　卵白　ゆで',
     protein: '195',
     carbohydrate: '46',
@@ -15898,6 +17885,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.5',
   },
   {
+    id: 1988,
     name: '鶏卵　卵白　乾燥卵白',
     protein: '1487',
     carbohydrate: '350',
@@ -15906,6 +17894,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '86.5',
   },
   {
+    id: 1989,
     name: '鶏卵　たまご豆腐',
     protein: '318',
     carbohydrate: '76',
@@ -15914,6 +17903,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.5',
   },
   {
+    id: 1990,
     name: '鶏卵　たまご焼　厚焼きたまご',
     protein: '609',
     carbohydrate: '146',
@@ -15922,6 +17912,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.5',
   },
   {
+    id: 1991,
     name: '鶏卵　たまご焼　だし巻きたまご',
     protein: '511',
     carbohydrate: '123',
@@ -15930,6 +17921,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.0',
   },
   {
+    id: 1992,
     name: '＜牛乳及び乳製品＞　（液状乳類）　生乳　ジャージー種',
     protein: '322',
     carbohydrate: '77',
@@ -15938,6 +17930,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.9',
   },
   {
+    id: 1993,
     name: '＜牛乳及び乳製品＞　（液状乳類）　生乳　ホルスタイン種',
     protein: '263',
     carbohydrate: '63',
@@ -15946,6 +17939,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.2',
   },
   {
+    id: 1994,
     name: '＜牛乳及び乳製品＞　（液状乳類）　普通牛乳',
     protein: '256',
     carbohydrate: '61',
@@ -15954,6 +17948,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.3',
   },
   {
+    id: 1995,
     name: '＜牛乳及び乳製品＞　（液状乳類）　脱脂乳',
     protein: '134',
     carbohydrate: '31',
@@ -15962,6 +17957,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 1996,
     name: '＜牛乳及び乳製品＞　（液状乳類）　加工乳　濃厚',
     protein: '291',
     carbohydrate: '70',
@@ -15970,6 +17966,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 1997,
     name: '＜牛乳及び乳製品＞　（液状乳類）　加工乳　低脂肪',
     protein: '178',
     carbohydrate: '42',
@@ -15978,6 +17975,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 1998,
     name: '＜牛乳及び乳製品＞　（液状乳類）　乳児用液体ミルク',
     protein: '278',
     carbohydrate: '66',
@@ -15986,6 +17984,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 1999,
     name: '＜牛乳及び乳製品＞　（液状乳類）　乳飲料　コーヒー',
     protein: '234',
     carbohydrate: '56',
@@ -15994,6 +17993,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.2',
   },
   {
+    id: 2000,
     name: '＜牛乳及び乳製品＞　（液状乳類）　乳飲料　フルーツ',
     protein: '196',
     carbohydrate: '46',
@@ -16002,6 +18002,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.2',
   },
   {
+    id: 2001,
     name: '＜牛乳及び乳製品＞　（粉乳類）　全粉乳',
     protein: '2049',
     carbohydrate: '490',
@@ -16010,6 +18011,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.5',
   },
   {
+    id: 2002,
     name: '＜牛乳及び乳製品＞　（粉乳類）　脱脂粉乳',
     protein: '1503',
     carbohydrate: '354',
@@ -16018,6 +18020,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '34.0',
   },
   {
+    id: 2003,
     name: '＜牛乳及び乳製品＞　（粉乳類）　乳児用調製粉乳',
     protein: '2135',
     carbohydrate: '510',
@@ -16026,6 +18029,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.4',
   },
   {
+    id: 2004,
     name: '＜牛乳及び乳製品＞　（練乳類）　無糖練乳',
     protein: '563',
     carbohydrate: '135',
@@ -16034,6 +18038,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.8',
   },
   {
+    id: 2005,
     name: '＜牛乳及び乳製品＞　（練乳類）　加糖練乳',
     protein: '1329',
     carbohydrate: '314',
@@ -16042,6 +18047,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.7',
   },
   {
+    id: 2006,
     name: '＜牛乳及び乳製品＞　（クリーム類）　クリーム　乳脂肪',
     protein: '1665',
     carbohydrate: '404',
@@ -16050,6 +18056,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.9',
   },
   {
+    id: 2007,
     name: '＜牛乳及び乳製品＞　（クリーム類）　クリーム　乳脂肪・植物性脂肪',
     protein: '1600',
     carbohydrate: '388',
@@ -16058,6 +18065,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.4',
   },
   {
+    id: 2008,
     name: '＜牛乳及び乳製品＞　（クリーム類）　クリーム　植物性脂肪',
     protein: '1455',
     carbohydrate: '353',
@@ -16066,6 +18074,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 2009,
     name: '＜牛乳及び乳製品＞　（クリーム類）　ホイップクリーム　乳脂肪',
     protein: '1691',
     carbohydrate: '409',
@@ -16074,6 +18083,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.8',
   },
   {
+    id: 2010,
     name: '＜牛乳及び乳製品＞　（クリーム類）　ホイップクリーム　乳脂肪・植物性脂肪',
     protein: '1630',
     carbohydrate: '394',
@@ -16082,6 +18092,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.0',
   },
   {
+    id: 2011,
     name: '＜牛乳及び乳製品＞　（クリーム類）　ホイップクリーム　植物性脂肪',
     protein: '1651',
     carbohydrate: '399',
@@ -16090,6 +18101,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.3',
   },
   {
+    id: 2012,
     name: '＜牛乳及び乳製品＞　（クリーム類）　コーヒーホワイトナー　液状　乳脂肪',
     protein: '849',
     carbohydrate: '205',
@@ -16098,6 +18110,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.2',
   },
   {
+    id: 2013,
     name: '＜牛乳及び乳製品＞　（クリーム類）　コーヒーホワイトナー　液状　乳脂肪・植物性脂肪',
     protein: '936',
     carbohydrate: '227',
@@ -16106,6 +18119,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.8',
   },
   {
+    id: 2014,
     name: '＜牛乳及び乳製品＞　（クリーム類）　コーヒーホワイトナー　液状　植物性脂肪',
     protein: '1005',
     carbohydrate: '244',
@@ -16114,6 +18128,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.3',
   },
   {
+    id: 2015,
     name: '＜牛乳及び乳製品＞　（クリーム類）　コーヒーホワイトナー　粉末状　乳脂肪',
     protein: '2110',
     carbohydrate: '504',
@@ -16122,6 +18137,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.6',
   },
   {
+    id: 2016,
     name: '＜牛乳及び乳製品＞　（クリーム類）　コーヒーホワイトナー　粉末状　植物性脂肪',
     protein: '2261',
     carbohydrate: '542',
@@ -16130,6 +18146,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.1',
   },
   {
+    id: 2017,
     name: '＜牛乳及び乳製品＞　（発酵乳・乳酸菌飲料）　ヨーグルト　全脂無糖',
     protein: '233',
     carbohydrate: '56',
@@ -16138,6 +18155,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.6',
   },
   {
+    id: 2018,
     name: '＜牛乳及び乳製品＞　（発酵乳・乳酸菌飲料）　ヨーグルト　低脂肪無糖',
     protein: '168',
     carbohydrate: '40',
@@ -16146,6 +18164,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.7',
   },
   {
+    id: 2019,
     name: '＜牛乳及び乳製品＞　（発酵乳・乳酸菌飲料）　ヨーグルト　無脂肪無糖',
     protein: '158',
     carbohydrate: '37',
@@ -16154,6 +18173,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.0',
   },
   {
+    id: 2020,
     name: '＜牛乳及び乳製品＞　（発酵乳・乳酸菌飲料）　ヨーグルト　脱脂加糖',
     protein: '275',
     carbohydrate: '65',
@@ -16162,6 +18182,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.3',
   },
   {
+    id: 2021,
     name: '＜牛乳及び乳製品＞　（発酵乳・乳酸菌飲料）　ヨーグルト　ドリンクタイプ　加糖',
     protein: '272',
     carbohydrate: '64',
@@ -16170,6 +18191,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.9',
   },
   {
+    id: 2022,
     name: '＜牛乳及び乳製品＞　（発酵乳・乳酸菌飲料）　乳酸菌飲料　乳製品',
     protein: '273',
     carbohydrate: '64',
@@ -16178,6 +18200,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 2023,
     name: '＜牛乳及び乳製品＞　（発酵乳・乳酸菌飲料）　乳酸菌飲料　殺菌乳製品',
     protein: '921',
     carbohydrate: '217',
@@ -16186,6 +18209,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 2024,
     name: '＜牛乳及び乳製品＞　（発酵乳・乳酸菌飲料）　乳酸菌飲料　非乳製品',
     protein: '166',
     carbohydrate: '39',
@@ -16194,6 +18218,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 2025,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　エダム',
     protein: '1338',
     carbohydrate: '321',
@@ -16202,6 +18227,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.9',
   },
   {
+    id: 2026,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　エメンタール',
     protein: '1653',
     carbohydrate: '398',
@@ -16210,6 +18236,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '27.3',
   },
   {
+    id: 2027,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　カテージ',
     protein: '416',
     carbohydrate: '99',
@@ -16218,6 +18245,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.3',
   },
   {
+    id: 2028,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　カマンベール',
     protein: '1208',
     carbohydrate: '291',
@@ -16226,6 +18254,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.1',
   },
   {
+    id: 2029,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　クリーム',
     protein: '1291',
     carbohydrate: '313',
@@ -16234,6 +18263,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.2',
   },
   {
+    id: 2030,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　ゴーダ',
     protein: '1479',
     carbohydrate: '356',
@@ -16242,6 +18272,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.8',
   },
   {
+    id: 2031,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　チェダー',
     protein: '1618',
     carbohydrate: '390',
@@ -16250,6 +18281,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '25.7',
   },
   {
+    id: 2032,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　パルメザン',
     protein: '1856',
     carbohydrate: '445',
@@ -16258,6 +18290,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '44.0',
   },
   {
+    id: 2033,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　ブルー',
     protein: '1351',
     carbohydrate: '326',
@@ -16266,6 +18299,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.8',
   },
   {
+    id: 2034,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　マスカルポーネ',
     protein: '1130',
     carbohydrate: '273',
@@ -16274,6 +18308,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.4',
   },
   {
+    id: 2035,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　モッツァレラ',
     protein: '1119',
     carbohydrate: '269',
@@ -16282,6 +18317,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.4',
   },
   {
+    id: 2036,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　やぎ',
     protein: '1165',
     carbohydrate: '280',
@@ -16290,6 +18326,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.6',
   },
   {
+    id: 2037,
     name: '＜牛乳及び乳製品＞　（チーズ類）　ナチュラルチーズ　リコッタ',
     protein: '662',
     carbohydrate: '159',
@@ -16298,6 +18335,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.1',
   },
   {
+    id: 2038,
     name: '＜牛乳及び乳製品＞　（チーズ類）　プロセスチーズ',
     protein: '1300',
     carbohydrate: '313',
@@ -16306,6 +18344,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '22.7',
   },
   {
+    id: 2039,
     name: '＜牛乳及び乳製品＞　（チーズ類）　チーズスプレッド',
     protein: '1180',
     carbohydrate: '284',
@@ -16314,6 +18353,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.9',
   },
   {
+    id: 2040,
     name: '＜牛乳及び乳製品＞　（アイスクリーム類）　アイスクリーム　高脂肪',
     protein: '858',
     carbohydrate: '205',
@@ -16322,6 +18362,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.5',
   },
   {
+    id: 2041,
     name: '＜牛乳及び乳製品＞　（アイスクリーム類）　アイスクリーム　普通脂肪',
     protein: '749',
     carbohydrate: '178',
@@ -16330,6 +18371,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.9',
   },
   {
+    id: 2042,
     name: '＜牛乳及び乳製品＞　（アイスクリーム類）　アイスミルク',
     protein: '703',
     carbohydrate: '167',
@@ -16338,6 +18380,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 2043,
     name: '＜牛乳及び乳製品＞　（アイスクリーム類）　ラクトアイス　普通脂肪',
     protein: '906',
     carbohydrate: '217',
@@ -16346,6 +18389,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.1',
   },
   {
+    id: 2044,
     name: '＜牛乳及び乳製品＞　（アイスクリーム類）　ラクトアイス　低脂肪',
     protein: '456',
     carbohydrate: '108',
@@ -16354,6 +18398,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.8',
   },
   {
+    id: 2045,
     name: '＜牛乳及び乳製品＞　（アイスクリーム類）　ソフトクリーム',
     protein: '614',
     carbohydrate: '146',
@@ -16362,6 +18407,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 2046,
     name: '＜牛乳及び乳製品＞　（その他）　カゼイン',
     protein: '1520',
     carbohydrate: '358',
@@ -16370,6 +18416,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '86.2',
   },
   {
+    id: 2047,
     name: '＜牛乳及び乳製品＞　（その他）　シャーベット',
     protein: '541',
     carbohydrate: '128',
@@ -16378,6 +18425,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 2048,
     name: '＜牛乳及び乳製品＞　（その他）　チーズホエーパウダー',
     protein: '1444',
     carbohydrate: '339',
@@ -16386,6 +18434,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.5',
   },
   {
+    id: 2049,
     name: '＜その他＞　人乳',
     protein: '255',
     carbohydrate: '61',
@@ -16394,6 +18443,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 2050,
     name: '＜その他＞　やぎ乳',
     protein: '240',
     carbohydrate: '57',
@@ -16402,6 +18452,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.1',
   },
   {
+    id: 2051,
     name: '（植物油脂類）　あまに油',
     protein: '3688',
     carbohydrate: '897',
@@ -16410,6 +18461,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2052,
     name: '（植物油脂類）　えごま油',
     protein: '3690',
     carbohydrate: '897',
@@ -16418,6 +18470,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2053,
     name: '（植物油脂類）　オリーブ油',
     protein: '3677',
     carbohydrate: '894',
@@ -16426,6 +18479,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2054,
     name: '（植物油脂類）　ごま油',
     protein: '3662',
     carbohydrate: '890',
@@ -16434,6 +18488,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2055,
     name: '（植物油脂類）　米ぬか油',
     protein: '3621',
     carbohydrate: '880',
@@ -16442,6 +18497,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2056,
     name: '（植物油脂類）　サフラワー油　ハイオレイック',
     protein: '3669',
     carbohydrate: '892',
@@ -16450,6 +18506,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2057,
     name: '（植物油脂類）　サフラワー油　ハイリノール',
     protein: '3632',
     carbohydrate: '883',
@@ -16458,6 +18515,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2058,
     name: '（植物油脂類）　大豆油',
     protein: '3640',
     carbohydrate: '885',
@@ -16466,6 +18524,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2059,
     name: '（植物油脂類）　調合油',
     protein: '3644',
     carbohydrate: '886',
@@ -16474,6 +18533,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2060,
     name: '（植物油脂類）　とうもろこし油',
     protein: '3636',
     carbohydrate: '884',
@@ -16482,6 +18542,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2061,
     name: '（植物油脂類）　なたね油',
     protein: '3649',
     carbohydrate: '887',
@@ -16490,6 +18551,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2062,
     name: '（植物油脂類）　パーム油',
     protein: '3646',
     carbohydrate: '887',
@@ -16498,6 +18560,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2063,
     name: '（植物油脂類）　パーム核油',
     protein: '3672',
     carbohydrate: '893',
@@ -16506,6 +18569,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2064,
     name: '（植物油脂類）　ひまわり油　ハイリノール',
     protein: '3697',
     carbohydrate: '899',
@@ -16514,6 +18578,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2065,
     name: '（植物油脂類）　ひまわり油　ミッドオレイック',
     protein: '3668',
     carbohydrate: '892',
@@ -16522,6 +18587,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2066,
     name: '（植物油脂類）　ひまわり油　ハイオレイック',
     protein: '3695',
     carbohydrate: '899',
@@ -16530,6 +18596,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2067,
     name: '（植物油脂類）　ぶどう油',
     protein: '3629',
     carbohydrate: '882',
@@ -16538,6 +18605,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2068,
     name: '（植物油脂類）　綿実油',
     protein: '3632',
     carbohydrate: '883',
@@ -16546,6 +18614,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2069,
     name: '（植物油脂類）　やし油',
     protein: '3655',
     carbohydrate: '889',
@@ -16554,6 +18623,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2070,
     name: '（植物油脂類）　落花生油',
     protein: '3628',
     carbohydrate: '882',
@@ -16562,6 +18632,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2071,
     name: '（動物油脂類）　牛脂',
     protein: '3577',
     carbohydrate: '869',
@@ -16570,6 +18641,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 2072,
     name: '（動物油脂類）　たらのあぶら',
     protein: '3511',
     carbohydrate: '853',
@@ -16578,6 +18650,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2073,
     name: '（動物油脂類）　ラード',
     protein: '3639',
     carbohydrate: '885',
@@ -16586,6 +18659,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2074,
     name: '（バター類）　無発酵バター　有塩バター',
     protein: '2880',
     carbohydrate: '700',
@@ -16594,6 +18668,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 2075,
     name: '（バター類）　無発酵バター　食塩不使用バター',
     protein: '2964',
     carbohydrate: '720',
@@ -16602,6 +18677,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 2076,
     name: '（バター類）　発酵バター　有塩バター',
     protein: '2938',
     carbohydrate: '713',
@@ -16610,6 +18686,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 2077,
     name: '（マーガリン類）　マーガリン　家庭用　有塩',
     protein: '2939',
     carbohydrate: '715',
@@ -16618,6 +18695,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 2078,
     name: '（マーガリン類）　マーガリン　家庭用　無塩',
     protein: '2939',
     carbohydrate: '715',
@@ -16626,6 +18704,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 2079,
     name: '（マーガリン類）　マーガリン　業務用　有塩',
     protein: '3046',
     carbohydrate: '740',
@@ -16634,6 +18713,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 2080,
     name: '（マーガリン類）　マーガリン　業務用　無塩',
     protein: '3046',
     carbohydrate: '740',
@@ -16642,6 +18722,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 2081,
     name: '（マーガリン類）　ファットスプレッド',
     protein: '2383',
     carbohydrate: '579',
@@ -16650,6 +18731,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 2082,
     name: '（その他）　ショートニング　家庭用',
     protein: '3654',
     carbohydrate: '889',
@@ -16658,6 +18740,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2083,
     name: '（その他）　ショートニング　業務用　製菓',
     protein: '3625',
     carbohydrate: '881',
@@ -16666,6 +18749,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2084,
     name: '（その他）　ショートニング　業務用　フライ',
     protein: '3645',
     carbohydrate: '886',
@@ -16674,6 +18758,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2085,
     name: '＜和生菓子・和半生菓子類＞　甘納豆　あずき',
     protein: '1206',
     carbohydrate: '283',
@@ -16682,6 +18767,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 2086,
     name: '＜和生菓子・和半生菓子類＞　甘納豆　いんげんまめ',
     protein: '1226',
     carbohydrate: '288',
@@ -16690,6 +18776,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 2087,
     name: '＜和生菓子・和半生菓子類＞　甘納豆　えんどう',
     protein: '1246',
     carbohydrate: '293',
@@ -16698,6 +18785,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 2088,
     name: '＜和生菓子・和半生菓子類＞　今川焼　こしあん入り',
     protein: '924',
     carbohydrate: '217',
@@ -16706,6 +18794,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.5',
   },
   {
+    id: 2089,
     name: '＜和生菓子・和半生菓子類＞　今川焼　つぶしあん入り',
     protein: '935',
     carbohydrate: '220',
@@ -16714,6 +18803,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.5',
   },
   {
+    id: 2090,
     name: '＜和生菓子・和半生菓子類＞　今川焼　カスタードクリーム入り',
     protein: '952',
     carbohydrate: '224',
@@ -16722,6 +18812,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.7',
   },
   {
+    id: 2091,
     name: '＜和生菓子・和半生菓子類＞　ういろう　白',
     protein: '770',
     carbohydrate: '181',
@@ -16730,6 +18821,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 2092,
     name: '＜和生菓子・和半生菓子類＞　ういろう　黒',
     protein: '742',
     carbohydrate: '174',
@@ -16738,6 +18830,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 2093,
     name: '＜和生菓子・和半生菓子類＞　うぐいすもち　こしあん入り',
     protein: '1005',
     carbohydrate: '236',
@@ -16746,6 +18839,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.5',
   },
   {
+    id: 2094,
     name: '＜和生菓子・和半生菓子類＞　うぐいすもち　つぶしあん入り',
     protein: '1009',
     carbohydrate: '237',
@@ -16754,6 +18848,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.7',
   },
   {
+    id: 2095,
     name: '＜和生菓子・和半生菓子類＞　かしわもち　こしあん入り',
     protein: '866',
     carbohydrate: '203',
@@ -16762,6 +18857,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.0',
   },
   {
+    id: 2096,
     name: '＜和生菓子・和半生菓子類＞　かしわもち　つぶしあん入り',
     protein: '870',
     carbohydrate: '204',
@@ -16770,6 +18866,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.9',
   },
   {
+    id: 2097,
     name: '＜和生菓子・和半生菓子類＞　カステラ',
     protein: '1328',
     carbohydrate: '313',
@@ -16778,6 +18875,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.1',
   },
   {
+    id: 2098,
     name: '＜和生菓子・和半生菓子類＞　かのこ',
     protein: '1105',
     carbohydrate: '260',
@@ -16786,6 +18884,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.8',
   },
   {
+    id: 2099,
     name: '＜和生菓子・和半生菓子類＞　かるかん',
     protein: '965',
     carbohydrate: '226',
@@ -16794,6 +18893,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.1',
   },
   {
+    id: 2100,
     name: '＜和生菓子・和半生菓子類＞　きび団子',
     protein: '1273',
     carbohydrate: '298',
@@ -16802,6 +18902,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.6',
   },
   {
+    id: 2101,
     name: '＜和生菓子・和半生菓子類＞　ぎゅうひ',
     protein: '1078',
     carbohydrate: '253',
@@ -16810,6 +18911,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 2102,
     name: '＜和生菓子・和半生菓子類＞　きりざんしょ',
     protein: '1045',
     carbohydrate: '245',
@@ -16818,6 +18920,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.1',
   },
   {
+    id: 2103,
     name: '＜和生菓子・和半生菓子類＞　きんぎょく糖',
     protein: '1203',
     carbohydrate: '282',
@@ -16826,6 +18929,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2104,
     name: '＜和生菓子・和半生菓子類＞　きんつば',
     protein: '1105',
     carbohydrate: '260',
@@ -16834,6 +18938,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.0',
   },
   {
+    id: 2105,
     name: '＜和生菓子・和半生菓子類＞　草もち　こしあん入り',
     protein: '956',
     carbohydrate: '224',
@@ -16842,6 +18947,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.2',
   },
   {
+    id: 2106,
     name: '＜和生菓子・和半生菓子類＞　草もち　つぶしあん入り',
     protein: '967',
     carbohydrate: '227',
@@ -16850,6 +18956,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.8',
   },
   {
+    id: 2107,
     name: '＜和生菓子・和半生菓子類＞　くし団子　あん　こしあん入り',
     protein: '845',
     carbohydrate: '198',
@@ -16858,6 +18965,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 2108,
     name: '＜和生菓子・和半生菓子類＞　くし団子　あん　つぶしあん入り',
     protein: '847',
     carbohydrate: '199',
@@ -16866,6 +18974,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 2109,
     name: '＜和生菓子・和半生菓子類＞　くし団子　みたらし',
     protein: '827',
     carbohydrate: '194',
@@ -16874,6 +18983,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.2',
   },
   {
+    id: 2110,
     name: '＜和生菓子・和半生菓子類＞　くずもち　関西風　くずでん粉製品',
     protein: '399',
     carbohydrate: '93',
@@ -16882,6 +18992,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2111,
     name: '＜和生菓子・和半生菓子類＞　くずもち　関東風　小麦でん粉製品',
     protein: '400',
     carbohydrate: '94',
@@ -16890,6 +19001,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2112,
     name: '＜和生菓子・和半生菓子類＞　げっぺい',
     protein: '1471',
     carbohydrate: '348',
@@ -16898,6 +19010,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.7',
   },
   {
+    id: 2113,
     name: '＜和生菓子・和半生菓子類＞　五平もち',
     protein: '755',
     carbohydrate: '178',
@@ -16906,6 +19019,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.0',
   },
   {
+    id: 2114,
     name: '＜和生菓子・和半生菓子類＞　桜もち　関西風　こしあん入り',
     protein: '836',
     carbohydrate: '196',
@@ -16914,6 +19028,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.5',
   },
   {
+    id: 2115,
     name: '＜和生菓子・和半生菓子類＞　桜もち　関西風　つぶしあん入り',
     protein: '839',
     carbohydrate: '197',
@@ -16922,6 +19037,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.0',
   },
   {
+    id: 2116,
     name: '＜和生菓子・和半生菓子類＞　桜もち　関東風　こしあん入り',
     protein: '1000',
     carbohydrate: '235',
@@ -16930,6 +19046,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.5',
   },
   {
+    id: 2117,
     name: '＜和生菓子・和半生菓子類＞　桜もち　関東風　つぶしあん入り',
     protein: '1007',
     carbohydrate: '237',
@@ -16938,6 +19055,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.2',
   },
   {
+    id: 2118,
     name: '＜和生菓子・和半生菓子類＞　笹だんご　こしあん入り',
     protein: '965',
     carbohydrate: '227',
@@ -16946,6 +19064,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.0',
   },
   {
+    id: 2119,
     name: '＜和生菓子・和半生菓子類＞　笹だんご　つぶしあん入り',
     protein: '970',
     carbohydrate: '228',
@@ -16954,6 +19073,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.7',
   },
   {
+    id: 2120,
     name: '＜和生菓子・和半生菓子類＞　ずんだあん',
     protein: '805',
     carbohydrate: '190',
@@ -16962,6 +19082,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.3',
   },
   {
+    id: 2121,
     name: '＜和生菓子・和半生菓子類＞　ずんだもち',
     protein: '899',
     carbohydrate: '212',
@@ -16970,6 +19091,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.9',
   },
   {
+    id: 2122,
     name: '＜和生菓子・和半生菓子類＞　大福もち　こしあん入り',
     protein: '950',
     carbohydrate: '223',
@@ -16978,6 +19100,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.6',
   },
   {
+    id: 2123,
     name: '＜和生菓子・和半生菓子類＞　大福もち　つぶしあん入り',
     protein: '950',
     carbohydrate: '223',
@@ -16986,6 +19109,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.7',
   },
   {
+    id: 2124,
     name: '＜和生菓子・和半生菓子類＞　タルト　（和菓子）',
     protein: '1222',
     carbohydrate: '288',
@@ -16994,6 +19118,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.9',
   },
   {
+    id: 2125,
     name: '＜和生菓子・和半生菓子類＞　ちまき',
     protein: '642',
     carbohydrate: '150',
@@ -17002,6 +19127,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 2126,
     name: '＜和生菓子・和半生菓子類＞　ちゃつう',
     protein: '1359',
     carbohydrate: '320',
@@ -17010,6 +19136,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.2',
   },
   {
+    id: 2127,
     name: '＜和生菓子・和半生菓子類＞　どら焼　こしあん入り',
     protein: '1197',
     carbohydrate: '282',
@@ -17018,6 +19145,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.6',
   },
   {
+    id: 2128,
     name: '＜和生菓子・和半生菓子類＞　どら焼　つぶしあん入り',
     protein: '1242',
     carbohydrate: '292',
@@ -17026,6 +19154,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.6',
   },
   {
+    id: 2129,
     name: '＜和生菓子・和半生菓子類＞　生八つ橋　あん入り　こしあん入り',
     protein: '1169',
     carbohydrate: '274',
@@ -17034,6 +19163,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.6',
   },
   {
+    id: 2130,
     name: '＜和生菓子・和半生菓子類＞　生八つ橋　あん入り　こしあん・つぶしあん混合',
     protein: '1166',
     carbohydrate: '274',
@@ -17042,6 +19172,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.5',
   },
   {
+    id: 2131,
     name: '＜和生菓子・和半生菓子類＞　生八つ橋　あん入り　つぶしあん入り',
     protein: '1170',
     carbohydrate: '275',
@@ -17050,6 +19181,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.7',
   },
   {
+    id: 2132,
     name: '＜和生菓子・和半生菓子類＞　ねりきり',
     protein: '1102',
     carbohydrate: '259',
@@ -17058,6 +19190,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.3',
   },
   {
+    id: 2133,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　カステラまんじゅう　こしあん入り',
     protein: '1241',
     carbohydrate: '292',
@@ -17066,6 +19199,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.7',
   },
   {
+    id: 2134,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　カステラまんじゅう　つぶしあん入り',
     protein: '1239',
     carbohydrate: '292',
@@ -17074,6 +19208,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.9',
   },
   {
+    id: 2135,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　かるかんまんじゅう　こしあん入り',
     protein: '961',
     carbohydrate: '226',
@@ -17082,6 +19217,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.0',
   },
   {
+    id: 2136,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　かるかんまんじゅう　つぶしあん入り',
     protein: '962',
     carbohydrate: '226',
@@ -17090,6 +19226,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.1',
   },
   {
+    id: 2137,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　くずまんじゅう　こしあん入り',
     protein: '922',
     carbohydrate: '216',
@@ -17098,6 +19235,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.1',
   },
   {
+    id: 2138,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　くずまんじゅう　つぶしあん入り',
     protein: '930',
     carbohydrate: '218',
@@ -17106,6 +19244,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 2139,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　くりまんじゅう　こしあん入り',
     protein: '1261',
     carbohydrate: '296',
@@ -17114,6 +19253,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.5',
   },
   {
+    id: 2140,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　くりまんじゅう　つぶしあん入り',
     protein: '1255',
     carbohydrate: '295',
@@ -17122,6 +19262,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.7',
   },
   {
+    id: 2141,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　とうまんじゅう　こしあん入り',
     protein: '1269',
     carbohydrate: '299',
@@ -17130,6 +19271,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.8',
   },
   {
+    id: 2142,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　とうまんじゅう　つぶしあん入り',
     protein: '1249',
     carbohydrate: '294',
@@ -17138,6 +19280,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.9',
   },
   {
+    id: 2143,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　蒸しまんじゅう　こしあん入り',
     protein: '1083',
     carbohydrate: '254',
@@ -17146,6 +19289,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.6',
   },
   {
+    id: 2144,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　蒸しまんじゅう　つぶしあん入り',
     protein: '1096',
     carbohydrate: '257',
@@ -17154,6 +19298,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.7',
   },
   {
+    id: 2145,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　中華まんじゅう　あんまん　こしあん入り',
     protein: '1158',
     carbohydrate: '273',
@@ -17162,6 +19307,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.1',
   },
   {
+    id: 2146,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　中華まんじゅう　あんまん　つぶしあん入り',
     protein: '1180',
     carbohydrate: '279',
@@ -17170,6 +19316,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.2',
   },
   {
+    id: 2147,
     name: '＜和生菓子・和半生菓子類＞　まんじゅう　中華まんじゅう　肉まん',
     protein: '1025',
     carbohydrate: '242',
@@ -17178,6 +19325,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.0',
   },
   {
+    id: 2148,
     name: '＜和生菓子・和半生菓子類＞　もなか　こしあん入り',
     protein: '1180',
     carbohydrate: '277',
@@ -17186,6 +19334,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.9',
   },
   {
+    id: 2149,
     name: '＜和生菓子・和半生菓子類＞　もなか　つぶしあん入り',
     protein: '1181',
     carbohydrate: '278',
@@ -17194,6 +19343,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.4',
   },
   {
+    id: 2150,
     name: '＜和生菓子・和半生菓子類＞　ゆべし',
     protein: '1363',
     carbohydrate: '321',
@@ -17202,6 +19352,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.4',
   },
   {
+    id: 2151,
     name: '＜和生菓子・和半生菓子類＞　ようかん　練りようかん',
     protein: '1232',
     carbohydrate: '289',
@@ -17210,6 +19361,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.6',
   },
   {
+    id: 2152,
     name: '＜和生菓子・和半生菓子類＞　ようかん　水ようかん',
     protein: '713',
     carbohydrate: '168',
@@ -17218,6 +19370,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.6',
   },
   {
+    id: 2153,
     name: '＜和生菓子・和半生菓子類＞　ようかん　蒸しようかん',
     protein: '1010',
     carbohydrate: '237',
@@ -17226,6 +19379,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.4',
   },
   {
+    id: 2154,
     name: '＜和干菓子類＞　あめ玉',
     protein: '1643',
     carbohydrate: '385',
@@ -17234,6 +19388,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2155,
     name: '＜和干菓子類＞　芋かりんとう',
     protein: '1957',
     carbohydrate: '465',
@@ -17242,6 +19397,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.4',
   },
   {
+    id: 2156,
     name: '＜和干菓子類＞　おこし',
     protein: '1604',
     carbohydrate: '376',
@@ -17250,6 +19406,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 2157,
     name: '＜和干菓子類＞　おのろけ豆',
     protein: '1849',
     carbohydrate: '438',
@@ -17258,6 +19415,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.3',
   },
   {
+    id: 2158,
     name: '＜和干菓子類＞　かりんとう　黒',
     protein: '1776',
     carbohydrate: '420',
@@ -17266,6 +19424,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.5',
   },
   {
+    id: 2159,
     name: '＜和干菓子類＞　かりんとう　白',
     protein: '1789',
     carbohydrate: '423',
@@ -17274,6 +19433,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.7',
   },
   {
+    id: 2160,
     name: '＜和干菓子類＞　ごかぼう',
     protein: '1555',
     carbohydrate: '367',
@@ -17282,6 +19442,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.6',
   },
   {
+    id: 2161,
     name: '＜和干菓子類＞　小麦粉せんべい　磯部せんべい',
     protein: '1608',
     carbohydrate: '377',
@@ -17290,6 +19451,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.3',
   },
   {
+    id: 2162,
     name: '＜和干菓子類＞　小麦粉せんべい　かわらせんべい',
     protein: '1661',
     carbohydrate: '390',
@@ -17298,6 +19460,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.0',
   },
   {
+    id: 2163,
     name: '＜和干菓子類＞　小麦粉せんべい　巻きせんべい',
     protein: '1645',
     carbohydrate: '386',
@@ -17306,6 +19469,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.3',
   },
   {
+    id: 2164,
     name: '＜和干菓子類＞　小麦粉せんべい　南部せんべい　ごま入り',
     protein: '1786',
     carbohydrate: '423',
@@ -17314,6 +19478,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.2',
   },
   {
+    id: 2165,
     name: '＜和干菓子類＞　小麦粉せんべい　南部せんべい　落花生入り',
     protein: '1781',
     carbohydrate: '421',
@@ -17322,6 +19487,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.7',
   },
   {
+    id: 2166,
     name: '＜和干菓子類＞　しおがま',
     protein: '1483',
     carbohydrate: '348',
@@ -17330,6 +19496,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.6',
   },
   {
+    id: 2167,
     name: '＜和干菓子類＞　ひなあられ　関西風',
     protein: '1634',
     carbohydrate: '385',
@@ -17338,6 +19505,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.0',
   },
   {
+    id: 2168,
     name: '＜和干菓子類＞　ひなあられ　関東風',
     protein: '1612',
     carbohydrate: '380',
@@ -17346,6 +19514,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.6',
   },
   {
+    id: 2169,
     name: '＜和干菓子類＞　米菓　揚げせんべい',
     protein: '1928',
     carbohydrate: '458',
@@ -17354,6 +19523,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.6',
   },
   {
+    id: 2170,
     name: '＜和干菓子類＞　米菓　甘辛せんべい',
     protein: '1595',
     carbohydrate: '374',
@@ -17362,6 +19532,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.7',
   },
   {
+    id: 2171,
     name: '＜和干菓子類＞　米菓　あられ',
     protein: '1603',
     carbohydrate: '378',
@@ -17370,6 +19541,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.5',
   },
   {
+    id: 2172,
     name: '＜和干菓子類＞　米菓　しょうゆせんべい',
     protein: '1566',
     carbohydrate: '368',
@@ -17378,6 +19550,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.3',
   },
   {
+    id: 2173,
     name: '＜和干菓子類＞　ボーロ　小粒',
     protein: '1663',
     carbohydrate: '391',
@@ -17386,6 +19559,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.5',
   },
   {
+    id: 2174,
     name: '＜和干菓子類＞　ボーロ　そばボーロ',
     protein: '1692',
     carbohydrate: '398',
@@ -17394,6 +19568,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.7',
   },
   {
+    id: 2175,
     name: '＜和干菓子類＞　松風',
     protein: '1612',
     carbohydrate: '378',
@@ -17402,6 +19577,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.0',
   },
   {
+    id: 2176,
     name: '＜和干菓子類＞　みしま豆',
     protein: '1700',
     carbohydrate: '402',
@@ -17410,6 +19586,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.3',
   },
   {
+    id: 2177,
     name: '＜和干菓子類＞　八つ橋',
     protein: '1663',
     carbohydrate: '390',
@@ -17418,6 +19595,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.3',
   },
   {
+    id: 2178,
     name: '＜和干菓子類＞　らくがん　らくがん',
     protein: '1636',
     carbohydrate: '384',
@@ -17426,6 +19604,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.4',
   },
   {
+    id: 2179,
     name: '＜和干菓子類＞　らくがん　麦らくがん',
     protein: '1685',
     carbohydrate: '396',
@@ -17434,6 +19613,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.8',
   },
   {
+    id: 2180,
     name: '＜和干菓子類＞　らくがん　もろこしらくがん',
     protein: '1591',
     carbohydrate: '374',
@@ -17442,6 +19622,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.6',
   },
   {
+    id: 2181,
     name: '＜菓子パン類＞　揚げパン',
     protein: '1543',
     carbohydrate: '369',
@@ -17450,6 +19631,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.7',
   },
   {
+    id: 2182,
     name: '＜菓子パン類＞　あんパン　こしあん入り',
     protein: '1131',
     carbohydrate: '267',
@@ -17458,6 +19640,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.8',
   },
   {
+    id: 2183,
     name: '＜菓子パン類＞　あんパン　つぶしあん入り',
     protein: '1126',
     carbohydrate: '266',
@@ -17466,6 +19649,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.0',
   },
   {
+    id: 2184,
     name: '＜菓子パン類＞　あんパン　薄皮タイプ　こしあん入り',
     protein: '1084',
     carbohydrate: '256',
@@ -17474,6 +19658,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.6',
   },
   {
+    id: 2185,
     name: '＜菓子パン類＞　あんパン　薄皮タイプ　つぶしあん入り',
     protein: '1095',
     carbohydrate: '258',
@@ -17482,6 +19667,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.8',
   },
   {
+    id: 2186,
     name: '＜菓子パン類＞　カレーパン　皮及び具',
     protein: '1264',
     carbohydrate: '302',
@@ -17490,6 +19676,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.6',
   },
   {
+    id: 2187,
     name: '＜菓子パン類＞　カレーパン　皮のみ',
     protein: '1516',
     carbohydrate: '363',
@@ -17498,6 +19685,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.2',
   },
   {
+    id: 2188,
     name: '＜菓子パン類＞　カレーパン　具のみ',
     protein: '703',
     carbohydrate: '168',
@@ -17506,6 +19694,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.3',
   },
   {
+    id: 2189,
     name: '＜菓子パン類＞　クリームパン',
     protein: '1206',
     carbohydrate: '286',
@@ -17514,6 +19703,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.9',
   },
   {
+    id: 2190,
     name: '＜菓子パン類＞　クリームパン　薄皮タイプ',
     protein: '919',
     carbohydrate: '218',
@@ -17522,6 +19712,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.0',
   },
   {
+    id: 2191,
     name: '＜菓子パン類＞　ジャムパン',
     protein: '1205',
     carbohydrate: '285',
@@ -17530,6 +19721,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.3',
   },
   {
+    id: 2192,
     name: '＜菓子パン類＞　チョココロネ',
     protein: '1343',
     carbohydrate: '320',
@@ -17538,6 +19730,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.8',
   },
   {
+    id: 2193,
     name: '＜菓子パン類＞　チョコパン　薄皮タイプ',
     protein: '1423',
     carbohydrate: '340',
@@ -17546,6 +19739,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.7',
   },
   {
+    id: 2194,
     name: '＜菓子パン類＞　メロンパン',
     protein: '1475',
     carbohydrate: '349',
@@ -17554,6 +19748,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.0',
   },
   {
+    id: 2195,
     name: '＜菓子パン類＞　菓子パン　あんなし',
     protein: '1246',
     carbohydrate: '294',
@@ -17562,6 +19757,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.2',
   },
   {
+    id: 2196,
     name: '＜ケーキ・ペストリー類＞　シュークリーム',
     protein: '887',
     carbohydrate: '211',
@@ -17570,6 +19766,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.0',
   },
   {
+    id: 2197,
     name: '＜ケーキ・ペストリー類＞　スポンジケーキ',
     protein: '1197',
     carbohydrate: '283',
@@ -17578,6 +19775,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.9',
   },
   {
+    id: 2198,
     name: '＜ケーキ・ペストリー類＞　ショートケーキ　果実なし',
     protein: '1338',
     carbohydrate: '318',
@@ -17586,6 +19784,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.9',
   },
   {
+    id: 2199,
     name: '＜ケーキ・ペストリー類＞　ショートケーキ　いちご',
     protein: '1320',
     carbohydrate: '314',
@@ -17594,6 +19793,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.9',
   },
   {
+    id: 2200,
     name: '＜ケーキ・ペストリー類＞　タルト　（洋菓子）',
     protein: '1035',
     carbohydrate: '247',
@@ -17602,6 +19802,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.7',
   },
   {
+    id: 2201,
     name: '＜ケーキ・ペストリー類＞　チーズケーキ　ベイクドチーズケーキ',
     protein: '1248',
     carbohydrate: '299',
@@ -17610,6 +19811,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.5',
   },
   {
+    id: 2202,
     name: '＜ケーキ・ペストリー類＞　チーズケーキ　レアチーズケーキ',
     protein: '1450',
     carbohydrate: '349',
@@ -17618,6 +19820,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.8',
   },
   {
+    id: 2203,
     name: '＜ケーキ・ペストリー類＞　デニッシュペストリー　アメリカンタイプ　プレーン',
     protein: '1595',
     carbohydrate: '382',
@@ -17626,6 +19829,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.2',
   },
   {
+    id: 2204,
     name: '＜ケーキ・ペストリー類＞　デニッシュペストリー　デンマークタイプ　プレーン　',
     protein: '1832',
     carbohydrate: '440',
@@ -17634,6 +19838,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.5',
   },
   {
+    id: 2205,
     name: '＜ケーキ・ペストリー類＞　デニッシュペストリー　アメリカンタイプ　あん入り　こしあん',
     protein: '1385',
     carbohydrate: '330',
@@ -17642,6 +19847,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.0',
   },
   {
+    id: 2206,
     name: '＜ケーキ・ペストリー類＞　デニッシュペストリー　アメリカンタイプ　あん入り　つぶしあん',
     protein: '1356',
     carbohydrate: '323',
@@ -17650,6 +19856,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.0',
   },
   {
+    id: 2207,
     name: '＜ケーキ・ペストリー類＞　デニッシュペストリー　デンマークタイプ　あん入り　こしあん',
     protein: '1609',
     carbohydrate: '384',
@@ -17658,6 +19865,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.5',
   },
   {
+    id: 2208,
     name: '＜ケーキ・ペストリー類＞　デニッシュペストリー　デンマークタイプ　あん入り　つぶしあん',
     protein: '1619',
     carbohydrate: '387',
@@ -17666,6 +19874,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.6',
   },
   {
+    id: 2209,
     name: '＜ケーキ・ペストリー類＞　デニッシュペストリー　アメリカンタイプ　あん入り　カスタードクリーム',
     protein: '1273',
     carbohydrate: '304',
@@ -17674,6 +19883,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.8',
   },
   {
+    id: 2210,
     name: '＜ケーキ・ペストリー類＞　デニッシュペストリー　デンマークタイプ　あん入り　カスタードクリーム',
     protein: '1740',
     carbohydrate: '417',
@@ -17682,6 +19892,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.3',
   },
   {
+    id: 2211,
     name: '＜ケーキ・ペストリー類＞　ドーナッツ　イーストドーナッツ　プレーン',
     protein: '1586',
     carbohydrate: '379',
@@ -17690,6 +19901,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.2',
   },
   {
+    id: 2212,
     name: '＜ケーキ・ペストリー類＞　ドーナッツ　イーストドーナッツ　あん入り　こしあん',
     protein: '1434',
     carbohydrate: '341',
@@ -17698,6 +19910,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.8',
   },
   {
+    id: 2213,
     name: '＜ケーキ・ペストリー類＞　ドーナッツ　イーストドーナッツ　あん入り　つぶしあん',
     protein: '1431',
     carbohydrate: '341',
@@ -17706,6 +19919,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.0',
   },
   {
+    id: 2214,
     name: '＜ケーキ・ペストリー類＞　ドーナッツ　イーストドーナッツ　あん入り　カスタードクリーム',
     protein: '1554',
     carbohydrate: '371',
@@ -17714,6 +19928,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.7',
   },
   {
+    id: 2215,
     name: '＜ケーキ・ペストリー類＞　ドーナッツ　ケーキドーナッツ　プレーン',
     protein: '1549',
     carbohydrate: '367',
@@ -17722,6 +19937,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.2',
   },
   {
+    id: 2216,
     name: '＜ケーキ・ペストリー類＞　ドーナッツ　ケーキドーナッツ　あん入り　こしあん',
     protein: '1495',
     carbohydrate: '353',
@@ -17730,6 +19946,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.3',
   },
   {
+    id: 2217,
     name: '＜ケーキ・ペストリー類＞　ドーナッツ　ケーキドーナッツ　あん入り　つぶしあん',
     protein: '1500',
     carbohydrate: '355',
@@ -17738,6 +19955,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.6',
   },
   {
+    id: 2218,
     name: '＜ケーキ・ペストリー類＞　ドーナッツ　ケーキドーナッツ　あん入り　カスタードクリーム',
     protein: '1581',
     carbohydrate: '375',
@@ -17746,6 +19964,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.6',
   },
   {
+    id: 2219,
     name: '＜ケーキ・ペストリー類＞　パイ　パイ皮',
     protein: '1559',
     carbohydrate: '373',
@@ -17754,6 +19973,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.0',
   },
   {
+    id: 2220,
     name: '＜ケーキ・ペストリー類＞　パイ　アップルパイ',
     protein: '1230',
     carbohydrate: '294',
@@ -17762,6 +19982,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.0',
   },
   {
+    id: 2221,
     name: '＜ケーキ・ペストリー類＞　パイ　ミートパイ',
     protein: '1583',
     carbohydrate: '381',
@@ -17770,6 +19991,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.7',
   },
   {
+    id: 2222,
     name: '＜ケーキ・ペストリー類＞　バターケーキ',
     protein: '1767',
     carbohydrate: '422',
@@ -17778,6 +20000,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.8',
   },
   {
+    id: 2223,
     name: '＜ケーキ・ペストリー類＞　ホットケーキ',
     protein: '1070',
     carbohydrate: '253',
@@ -17786,6 +20009,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.7',
   },
   {
+    id: 2224,
     name: '＜ケーキ・ペストリー類＞　ワッフル　カスタードクリーム入り',
     protein: '1019',
     carbohydrate: '241',
@@ -17794,6 +20018,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.3',
   },
   {
+    id: 2225,
     name: '＜ケーキ・ペストリー類＞　ワッフル　ジャム入り',
     protein: '1184',
     carbohydrate: '279',
@@ -17802,6 +20027,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.9',
   },
   {
+    id: 2226,
     name: '＜デザート菓子類＞　カスタードプリン',
     protein: '488',
     carbohydrate: '116',
@@ -17810,6 +20036,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.7',
   },
   {
+    id: 2227,
     name: '＜デザート菓子類＞　牛乳寒天',
     protein: '259',
     carbohydrate: '61',
@@ -17818,6 +20045,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 2228,
     name: '＜デザート菓子類＞　こんにゃくゼリー',
     protein: '275',
     carbohydrate: '65',
@@ -17826,6 +20054,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2229,
     name: '＜デザート菓子類＞　ゼリー　オレンジ',
     protein: '342',
     carbohydrate: '80',
@@ -17834,6 +20063,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.1',
   },
   {
+    id: 2230,
     name: '＜デザート菓子類＞　ゼリー　コーヒー',
     protein: '185',
     carbohydrate: '43',
@@ -17842,6 +20072,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.6',
   },
   {
+    id: 2231,
     name: '＜デザート菓子類＞　ゼリー　ミルク',
     protein: '432',
     carbohydrate: '103',
@@ -17850,6 +20081,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.3',
   },
   {
+    id: 2232,
     name: '＜デザート菓子類＞　ゼリー　ワイン',
     protein: '275',
     carbohydrate: '65',
@@ -17858,6 +20090,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.7',
   },
   {
+    id: 2233,
     name: '＜デザート菓子類＞　ババロア',
     protein: '854',
     carbohydrate: '204',
@@ -17866,6 +20099,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.6',
   },
   {
+    id: 2234,
     name: '＜ビスケット類＞　ウエハース',
     protein: '1855',
     carbohydrate: '439',
@@ -17874,6 +20108,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.6',
   },
   {
+    id: 2235,
     name: '＜ビスケット類＞　ウエハース　クリーム入り',
     protein: '2068',
     carbohydrate: '492',
@@ -17882,6 +20117,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.5',
   },
   {
+    id: 2236,
     name: '＜ビスケット類＞　クラッカー　オイルスプレークラッカー',
     protein: '2016',
     carbohydrate: '481',
@@ -17890,6 +20126,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.5',
   },
   {
+    id: 2237,
     name: '＜ビスケット類＞　クラッカー　ソーダクラッカー',
     protein: '1775',
     carbohydrate: '421',
@@ -17898,6 +20135,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.4',
   },
   {
+    id: 2238,
     name: '＜ビスケット類＞　サブレ',
     protein: '1936',
     carbohydrate: '459',
@@ -17906,6 +20144,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.1',
   },
   {
+    id: 2239,
     name: '＜ビスケット類＞　中華風クッキー',
     protein: '2151',
     carbohydrate: '513',
@@ -17914,6 +20153,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.1',
   },
   {
+    id: 2240,
     name: '＜ビスケット類＞　ビスケット　ハードビスケット',
     protein: '1780',
     carbohydrate: '422',
@@ -17922,6 +20162,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.6',
   },
   {
+    id: 2241,
     name: '＜ビスケット類＞　ビスケット　ソフトビスケット',
     protein: '2149',
     carbohydrate: '512',
@@ -17930,6 +20171,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.7',
   },
   {
+    id: 2242,
     name: '＜ビスケット類＞　プレッツェル',
     protein: '1956',
     carbohydrate: '465',
@@ -17938,6 +20180,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.9',
   },
   {
+    id: 2243,
     name: '＜ビスケット類＞　リーフパイ',
     protein: '2331',
     carbohydrate: '558',
@@ -17946,6 +20189,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.8',
   },
   {
+    id: 2244,
     name: '＜ビスケット類＞　ロシアケーキ',
     protein: '2038',
     carbohydrate: '486',
@@ -17954,6 +20198,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.8',
   },
   {
+    id: 2245,
     name: '＜スナック類＞　小麦粉あられ',
     protein: '1985',
     carbohydrate: '472',
@@ -17962,6 +20207,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.6',
   },
   {
+    id: 2246,
     name: '＜スナック類＞　コーンスナック',
     protein: '2159',
     carbohydrate: '516',
@@ -17970,6 +20216,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.2',
   },
   {
+    id: 2247,
     name: '＜スナック類＞　ポテトチップス　ポテトチップス',
     protein: '2255',
     carbohydrate: '541',
@@ -17978,6 +20225,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.7',
   },
   {
+    id: 2248,
     name: '＜スナック類＞　ポテトチップス　成形ポテトチップス',
     protein: '2149',
     carbohydrate: '515',
@@ -17986,6 +20234,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.8',
   },
   {
+    id: 2249,
     name: '＜キャンデー類＞　かわり玉',
     protein: '1671',
     carbohydrate: '392',
@@ -17994,6 +20243,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2250,
     name: '＜キャンデー類＞　キャラメル',
     protein: '1799',
     carbohydrate: '426',
@@ -18002,6 +20252,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.0',
   },
   {
+    id: 2251,
     name: '＜キャンデー類＞　ゼリーキャンデー',
     protein: '1426',
     carbohydrate: '334',
@@ -18010,6 +20261,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2252,
     name: '＜キャンデー類＞　ゼリービーンズ',
     protein: '1527',
     carbohydrate: '358',
@@ -18018,6 +20270,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2253,
     name: '＜キャンデー類＞　ドロップ',
     protein: '1662',
     carbohydrate: '389',
@@ -18026,6 +20279,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2254,
     name: '＜キャンデー類＞　バタースコッチ',
     protein: '1758',
     carbohydrate: '414',
@@ -18034,6 +20288,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2255,
     name: '＜キャンデー類＞　ブリットル',
     protein: '2118',
     carbohydrate: '506',
@@ -18042,6 +20297,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.6',
   },
   {
+    id: 2256,
     name: '＜キャンデー類＞　マシュマロ',
     protein: '1382',
     carbohydrate: '324',
@@ -18050,6 +20306,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.1',
   },
   {
+    id: 2257,
     name: '＜キャンデー類＞　ラムネ',
     protein: '1586',
     carbohydrate: '373',
@@ -18058,6 +20315,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2258,
     name: '＜チョコレート類＞　アーモンドチョコレート',
     protein: '2338',
     carbohydrate: '562',
@@ -18066,6 +20324,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.4',
   },
   {
+    id: 2259,
     name: '＜チョコレート類＞　カバーリングチョコレート',
     protein: '2047',
     carbohydrate: '488',
@@ -18074,6 +20333,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.1',
   },
   {
+    id: 2260,
     name: '＜チョコレート類＞　スイートチョコレート',
     protein: '2207',
     carbohydrate: '530',
@@ -18082,6 +20342,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.8',
   },
   {
+    id: 2261,
     name: '＜チョコレート類＞　スイートチョコレート　カカオ増量',
     protein: '2237',
     carbohydrate: '539',
@@ -18090,6 +20351,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.9',
   },
   {
+    id: 2262,
     name: '＜チョコレート類＞　ホワイトチョコレート',
     protein: '2457',
     carbohydrate: '588',
@@ -18098,6 +20360,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.2',
   },
   {
+    id: 2263,
     name: '＜チョコレート類＞　ミルクチョコレート',
     protein: '2298',
     carbohydrate: '550',
@@ -18106,6 +20369,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.9',
   },
   {
+    id: 2264,
     name: '＜果実菓子類＞　マロングラッセ',
     protein: '1291',
     carbohydrate: '303',
@@ -18114,6 +20378,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.1',
   },
   {
+    id: 2265,
     name: '＜チューインガム類＞　板ガム',
     protein: '1647',
     carbohydrate: '388',
@@ -18122,6 +20387,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2266,
     name: '＜チューインガム類＞　糖衣ガム',
     protein: '1659',
     carbohydrate: '390',
@@ -18130,6 +20396,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2267,
     name: '＜チューインガム類＞　風船ガム',
     protein: '1644',
     carbohydrate: '387',
@@ -18138,6 +20405,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2268,
     name: '＜その他＞　カスタードクリーム',
     protein: '735',
     carbohydrate: '174',
@@ -18146,6 +20414,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.1',
   },
   {
+    id: 2269,
     name: '＜その他＞　しるこ　こしあん',
     protein: '899',
     carbohydrate: '211',
@@ -18154,6 +20423,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.7',
   },
   {
+    id: 2270,
     name: '＜その他＞　しるこ　つぶしあん',
     protein: '760',
     carbohydrate: '179',
@@ -18162,6 +20432,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.2',
   },
   {
+    id: 2271,
     name: '＜その他＞　チョコレートクリーム',
     protein: '2007',
     carbohydrate: '481',
@@ -18170,6 +20441,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.6',
   },
   {
+    id: 2272,
     name: '＜アルコール飲料類＞　（醸造酒類）　清酒　普通酒',
     protein: '447',
     carbohydrate: '107',
@@ -18178,6 +20450,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 2273,
     name: '＜アルコール飲料類＞　（醸造酒類）　清酒　純米酒',
     protein: '425',
     carbohydrate: '102',
@@ -18186,6 +20459,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 2274,
     name: '＜アルコール飲料類＞　（醸造酒類）　清酒　本醸造酒',
     protein: '440',
     carbohydrate: '106',
@@ -18194,6 +20468,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 2275,
     name: '＜アルコール飲料類＞　（醸造酒類）　清酒　吟醸酒',
     protein: '429',
     carbohydrate: '103',
@@ -18202,6 +20477,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 2276,
     name: '＜アルコール飲料類＞　（醸造酒類）　清酒　純米吟醸酒',
     protein: '425',
     carbohydrate: '102',
@@ -18210,6 +20486,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 2277,
     name: '＜アルコール飲料類＞　（醸造酒類）　ビール　淡色',
     protein: '165',
     carbohydrate: '39',
@@ -18218,6 +20495,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 2278,
     name: '＜アルコール飲料類＞　（醸造酒類）　ビール　黒',
     protein: '188',
     carbohydrate: '45',
@@ -18226,6 +20504,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 2279,
     name: '＜アルコール飲料類＞　（醸造酒類）　ビール　スタウト',
     protein: '260',
     carbohydrate: '62',
@@ -18234,6 +20513,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 2280,
     name: '＜アルコール飲料類＞　（醸造酒類）　発泡酒',
     protein: '185',
     carbohydrate: '44',
@@ -18242,6 +20522,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2281,
     name: '＜アルコール飲料類＞　（醸造酒類）　ぶどう酒　白',
     protein: '313',
     carbohydrate: '75',
@@ -18250,6 +20531,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2282,
     name: '＜アルコール飲料類＞　（醸造酒類）　ぶどう酒　赤',
     protein: '282',
     carbohydrate: '68',
@@ -18258,6 +20540,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 2283,
     name: '＜アルコール飲料類＞　（醸造酒類）　ぶどう酒　ロゼ',
     protein: '296',
     carbohydrate: '71',
@@ -18266,6 +20549,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2284,
     name: '＜アルコール飲料類＞　（醸造酒類）　紹興酒',
     protein: '525',
     carbohydrate: '126',
@@ -18274,6 +20558,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.7',
   },
   {
+    id: 2285,
     name: '＜アルコール飲料類＞　（蒸留酒類）　しょうちゅう　連続式蒸留しょうちゅう',
     protein: '841',
     carbohydrate: '203',
@@ -18282,6 +20567,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2286,
     name: '＜アルコール飲料類＞　（蒸留酒類）　しょうちゅう　単式蒸留しょうちゅう',
     protein: '595',
     carbohydrate: '144',
@@ -18290,6 +20576,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2287,
     name: '＜アルコール飲料類＞　（蒸留酒類）　しょうちゅう　泡盛',
     protein: '852',
     carbohydrate: '206',
@@ -18298,6 +20585,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2288,
     name: '＜アルコール飲料類＞　（蒸留酒類）　ウイスキー',
     protein: '969',
     carbohydrate: '234',
@@ -18306,6 +20594,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2289,
     name: '＜アルコール飲料類＞　（蒸留酒類）　ブランデー',
     protein: '969',
     carbohydrate: '234',
@@ -18314,6 +20603,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2290,
     name: '＜アルコール飲料類＞　（蒸留酒類）　ウオッカ',
     protein: '980',
     carbohydrate: '237',
@@ -18322,6 +20612,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2291,
     name: '＜アルコール飲料類＞　（蒸留酒類）　ジン',
     protein: '1162',
     carbohydrate: '280',
@@ -18330,6 +20621,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2292,
     name: '＜アルコール飲料類＞　（蒸留酒類）　ラム',
     protein: '982',
     carbohydrate: '237',
@@ -18338,6 +20630,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2293,
     name: '＜アルコール飲料類＞　（蒸留酒類）　マオタイ酒',
     protein: '1314',
     carbohydrate: '317',
@@ -18346,6 +20639,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2294,
     name: '＜アルコール飲料類＞　（混成酒類）　梅酒',
     protein: '649',
     carbohydrate: '155',
@@ -18354,6 +20648,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2295,
     name: '＜アルコール飲料類＞　（混成酒類）　合成清酒',
     protein: '449',
     carbohydrate: '108',
@@ -18362,6 +20657,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2296,
     name: '＜アルコール飲料類＞　（混成酒類）　白酒',
     protein: '999',
     carbohydrate: '236',
@@ -18370,6 +20666,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.9',
   },
   {
+    id: 2297,
     name: '＜アルコール飲料類＞　（混成酒類）　みりん　本みりん',
     protein: '1015',
     carbohydrate: '241',
@@ -18378,6 +20675,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 2298,
     name: '＜アルコール飲料類＞　（混成酒類）　みりん　本直し',
     protein: '748',
     carbohydrate: '179',
@@ -18386,6 +20684,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2299,
     name: '＜アルコール飲料類＞　（混成酒類）　薬味酒',
     protein: '763',
     carbohydrate: '181',
@@ -18394,6 +20693,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2300,
     name: '＜アルコール飲料類＞　（混成酒類）　キュラソー',
     protein: '1333',
     carbohydrate: '319',
@@ -18402,6 +20702,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2301,
     name: '＜アルコール飲料類＞　（混成酒類）　スイートワイン',
     protein: '523',
     carbohydrate: '125',
@@ -18410,6 +20711,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2302,
     name: '＜アルコール飲料類＞　（混成酒類）　ペパーミント',
     protein: '1260',
     carbohydrate: '300',
@@ -18418,6 +20720,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2303,
     name: '＜アルコール飲料類＞　（混成酒類）　ベルモット　甘口タイプ',
     protein: '631',
     carbohydrate: '151',
@@ -18426,6 +20729,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2304,
     name: '＜アルコール飲料類＞　（混成酒類）　ベルモット　辛口タイプ',
     protein: '468',
     carbohydrate: '113',
@@ -18434,6 +20738,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2305,
     name: '＜アルコール飲料類＞　（混成酒類）　缶チューハイ　レモン風味',
     protein: '211',
     carbohydrate: '51',
@@ -18442,6 +20747,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2306,
     name: '＜茶類＞　（緑茶類）　玉露　茶',
     protein: '998',
     carbohydrate: '241',
@@ -18450,6 +20756,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '29.1',
   },
   {
+    id: 2307,
     name: '＜茶類＞　（緑茶類）　玉露　浸出液',
     protein: '22',
     carbohydrate: '5',
@@ -18458,6 +20765,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 2308,
     name: '＜茶類＞　（緑茶類）　抹茶　茶',
     protein: '984',
     carbohydrate: '237',
@@ -18466,6 +20774,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '29.6',
   },
   {
+    id: 2309,
     name: '＜茶類＞　（緑茶類）　せん茶　茶',
     protein: '948',
     carbohydrate: '229',
@@ -18474,6 +20783,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.5',
   },
   {
+    id: 2310,
     name: '＜茶類＞　（緑茶類）　せん茶　浸出液',
     protein: '7',
     carbohydrate: '2',
@@ -18482,6 +20792,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 2311,
     name: '＜茶類＞　（緑茶類）　かまいり茶　浸出液',
     protein: '2',
     carbohydrate: '1',
@@ -18490,6 +20801,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2312,
     name: '＜茶類＞　（緑茶類）　番茶　茶',
     protein: '1105',
     carbohydrate: '266',
@@ -18498,6 +20810,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.8',
   },
   {
+    id: 2313,
     name: '＜茶類＞　（緑茶類）　番茶　浸出液',
     protein: '1',
     carbohydrate: '0',
@@ -18506,6 +20819,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2314,
     name: '＜茶類＞　（緑茶類）　ほうじ茶　茶',
     protein: '1063',
     carbohydrate: '257',
@@ -18514,6 +20828,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.4',
   },
   {
+    id: 2315,
     name: '＜茶類＞　（緑茶類）　ほうじ茶　浸出液',
     protein: '1',
     carbohydrate: '0',
@@ -18522,6 +20837,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2316,
     name: '＜茶類＞　（緑茶類）　玄米茶　浸出液',
     protein: '0',
     carbohydrate: '0',
@@ -18530,6 +20846,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2317,
     name: '＜茶類＞　（発酵茶類）　ウーロン茶　浸出液',
     protein: '1',
     carbohydrate: '0',
@@ -18538,6 +20855,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2318,
     name: '＜茶類＞　（発酵茶類）　紅茶　茶',
     protein: '974',
     carbohydrate: '234',
@@ -18546,6 +20864,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.3',
   },
   {
+    id: 2319,
     name: '＜茶類＞　（発酵茶類）　紅茶　浸出液',
     protein: '3',
     carbohydrate: '1',
@@ -18554,6 +20873,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2320,
     name: '＜コーヒー・ココア類＞　コーヒー　浸出液',
     protein: '16',
     carbohydrate: '4',
@@ -18562,6 +20882,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 2321,
     name: '＜コーヒー・ココア類＞　コーヒー　インスタントコーヒー',
     protein: '1220',
     carbohydrate: '287',
@@ -18570,6 +20891,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.7',
   },
   {
+    id: 2322,
     name: '＜コーヒー・ココア類＞　コーヒー　缶コーヒー　無糖',
     protein: '12',
     carbohydrate: '3',
@@ -18578,6 +20900,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2323,
     name: '＜コーヒー・ココア類＞　コーヒー　コーヒー飲料　乳成分入り　加糖',
     protein: '161',
     carbohydrate: '38',
@@ -18586,6 +20909,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 2324,
     name: '＜コーヒー・ココア類＞　ココア　ピュアココア',
     protein: '1603',
     carbohydrate: '386',
@@ -18594,6 +20918,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.5',
   },
   {
+    id: 2325,
     name: '＜コーヒー・ココア類＞　ココア　ミルクココア',
     protein: '1690',
     carbohydrate: '400',
@@ -18602,6 +20927,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.4',
   },
   {
+    id: 2326,
     name: '＜その他＞　青汁　ケール',
     protein: '1307',
     carbohydrate: '312',
@@ -18610,6 +20936,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.8',
   },
   {
+    id: 2327,
     name: '＜その他＞　甘酒',
     protein: '322',
     carbohydrate: '76',
@@ -18618,6 +20945,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.7',
   },
   {
+    id: 2328,
     name: '＜その他＞　昆布茶',
     protein: '734',
     carbohydrate: '173',
@@ -18626,6 +20954,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.2',
   },
   {
+    id: 2329,
     name: '＜その他＞　スポーツドリンク',
     protein: '88',
     carbohydrate: '21',
@@ -18634,6 +20963,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2330,
     name: '＜その他＞　（炭酸飲料類）　果実色飲料',
     protein: '218',
     carbohydrate: '51',
@@ -18642,6 +20972,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2331,
     name: '＜その他＞　（炭酸飲料類）　コーラ',
     protein: '196',
     carbohydrate: '46',
@@ -18650,6 +20981,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2332,
     name: '＜その他＞　（炭酸飲料類）　サイダー',
     protein: '173',
     carbohydrate: '41',
@@ -18658,6 +20990,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2333,
     name: '＜その他＞　（炭酸飲料類）　ビール風味炭酸飲料',
     protein: '23',
     carbohydrate: '5',
@@ -18666,6 +20999,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2334,
     name: '＜その他＞　なぎなたこうじゅ　浸出液',
     protein: '1',
     carbohydrate: '0',
@@ -18674,6 +21008,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2335,
     name: '＜その他＞　麦茶　浸出液',
     protein: '5',
     carbohydrate: '1',
@@ -18682,6 +21017,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2336,
     name: '＜調味料類＞　（ウスターソース類）　ウスターソース',
     protein: '497',
     carbohydrate: '117',
@@ -18690,6 +21026,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 2337,
     name: '＜調味料類＞　（ウスターソース類）　中濃ソース',
     protein: '546',
     carbohydrate: '129',
@@ -18698,6 +21035,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 2338,
     name: '＜調味料類＞　（ウスターソース類）　濃厚ソース',
     protein: '552',
     carbohydrate: '130',
@@ -18706,6 +21044,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 2339,
     name: '＜調味料類＞　（ウスターソース類）　お好み焼きソース',
     protein: '610',
     carbohydrate: '144',
@@ -18714,6 +21053,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.6',
   },
   {
+    id: 2340,
     name: '＜調味料類＞　（辛味調味料類）　トウバンジャン',
     protein: '205',
     carbohydrate: '49',
@@ -18722,6 +21062,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.0',
   },
   {
+    id: 2341,
     name: '＜調味料類＞　（辛味調味料類）　チリペッパーソース',
     protein: '246',
     carbohydrate: '58',
@@ -18730,6 +21071,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 2342,
     name: '＜調味料類＞　（辛味調味料類）　ラー油',
     protein: '3648',
     carbohydrate: '887',
@@ -18738,6 +21080,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2343,
     name: '＜調味料類＞　（しょうゆ類）　こいくちしょうゆ',
     protein: '323',
     carbohydrate: '76',
@@ -18746,6 +21089,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.7',
   },
   {
+    id: 2344,
     name: '＜調味料類＞　（しょうゆ類）　こいくちしょうゆ　減塩',
     protein: '289',
     carbohydrate: '68',
@@ -18754,6 +21098,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.1',
   },
   {
+    id: 2345,
     name: '＜調味料類＞　（しょうゆ類）　うすくちしょうゆ',
     protein: '252',
     carbohydrate: '60',
@@ -18762,6 +21107,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.7',
   },
   {
+    id: 2346,
     name: '＜調味料類＞　（しょうゆ類）　うすくちしょうゆ　低塩',
     protein: '323',
     carbohydrate: '77',
@@ -18770,6 +21116,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.4',
   },
   {
+    id: 2347,
     name: '＜調味料類＞　（しょうゆ類）　たまりしょうゆ',
     protein: '471',
     carbohydrate: '111',
@@ -18778,6 +21125,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.8',
   },
   {
+    id: 2348,
     name: '＜調味料類＞　（しょうゆ類）　さいしこみしょうゆ',
     protein: '430',
     carbohydrate: '101',
@@ -18786,6 +21134,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.6',
   },
   {
+    id: 2349,
     name: '＜調味料類＞　（しょうゆ類）　しろしょうゆ',
     protein: '365',
     carbohydrate: '86',
@@ -18794,6 +21143,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.5',
   },
   {
+    id: 2350,
     name: '＜調味料類＞　（しょうゆ類）　だししょうゆ',
     protein: '167',
     carbohydrate: '39',
@@ -18802,6 +21152,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.0',
   },
   {
+    id: 2351,
     name: '＜調味料類＞　（しょうゆ類）　照りしょうゆ',
     protein: '727',
     carbohydrate: '172',
@@ -18810,6 +21161,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.4',
   },
   {
+    id: 2352,
     name: '＜調味料類＞　（食塩類）　食塩',
     protein: '0',
     carbohydrate: '0',
@@ -18818,6 +21170,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2353,
     name: '＜調味料類＞　（食塩類）　並塩',
     protein: '0',
     carbohydrate: '0',
@@ -18826,6 +21179,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2354,
     name: '＜調味料類＞　（食塩類）　減塩タイプ食塩　調味料含む',
     protein: '217',
     carbohydrate: '50',
@@ -18834,6 +21188,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2355,
     name: '＜調味料類＞　（食塩類）　減塩タイプ食塩　調味料不使用',
     protein: '0',
     carbohydrate: '0',
@@ -18842,6 +21197,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2356,
     name: '＜調味料類＞　（食塩類）　精製塩　家庭用',
     protein: '0',
     carbohydrate: '0',
@@ -18850,6 +21206,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2357,
     name: '＜調味料類＞　（食塩類）　精製塩　業務用',
     protein: '0',
     carbohydrate: '0',
@@ -18858,6 +21215,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2358,
     name: '＜調味料類＞　（食酢類）　黒酢',
     protein: '230',
     carbohydrate: '54',
@@ -18866,6 +21224,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 2359,
     name: '＜調味料類＞　（食酢類）　穀物酢',
     protein: '104',
     carbohydrate: '25',
@@ -18874,6 +21233,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2360,
     name: '＜調味料類＞　（食酢類）　米酢',
     protein: '193',
     carbohydrate: '46',
@@ -18882,6 +21242,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 2361,
     name: '＜調味料類＞　（食酢類）　果実酢　バルサミコ酢',
     protein: '419',
     carbohydrate: '99',
@@ -18890,6 +21251,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 2362,
     name: '＜調味料類＞　（食酢類）　果実酢　ぶどう酢',
     protein: '92',
     carbohydrate: '22',
@@ -18898,6 +21260,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2363,
     name: '＜調味料類＞　（食酢類）　果実酢　りんご酢',
     protein: '111',
     carbohydrate: '26',
@@ -18906,6 +21269,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2364,
     name: '＜調味料類＞　（だし類）　あごだし',
     protein: '2',
     carbohydrate: '0',
@@ -18914,6 +21278,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2365,
     name: '＜調味料類＞　（だし類）　かつおだし　荒節',
     protein: '8',
     carbohydrate: '2',
@@ -18922,6 +21287,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.4',
   },
   {
+    id: 2366,
     name: '＜調味料類＞　（だし類）　かつおだし　本枯れ節',
     protein: '9',
     carbohydrate: '2',
@@ -18930,6 +21296,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.5',
   },
   {
+    id: 2367,
     name: '＜調味料類＞　（だし類）　昆布だし　水出し',
     protein: '17',
     carbohydrate: '4',
@@ -18938,6 +21305,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2368,
     name: '＜調味料類＞　（だし類）　昆布だし　煮出し',
     protein: '23',
     carbohydrate: '5',
@@ -18946,6 +21314,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2369,
     name: '＜調味料類＞　（だし類）　かつお・昆布だし　荒節・昆布だし',
     protein: '10',
     carbohydrate: '2',
@@ -18954,6 +21323,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 2370,
     name: '＜調味料類＞　（だし類）　かつお・昆布だし　本枯れ節・昆布だし',
     protein: '10',
     carbohydrate: '2',
@@ -18962,6 +21332,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 2371,
     name: '＜調味料類＞　（だし類）　しいたけだし',
     protein: '17',
     carbohydrate: '4',
@@ -18970,6 +21341,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2372,
     name: '＜調味料類＞　（だし類）　煮干しだし',
     protein: '5',
     carbohydrate: '1',
@@ -18978,6 +21350,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2373,
     name: '＜調味料類＞　（だし類）　鶏がらだし',
     protein: '28',
     carbohydrate: '7',
@@ -18986,6 +21359,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 2374,
     name: '＜調味料類＞　（だし類）　中華だし',
     protein: '14',
     carbohydrate: '3',
@@ -18994,6 +21368,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.8',
   },
   {
+    id: 2375,
     name: '＜調味料類＞　（だし類）　洋風だし',
     protein: '27',
     carbohydrate: '6',
@@ -19002,6 +21377,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 2376,
     name: '＜調味料類＞　（だし類）　固形ブイヨン',
     protein: '987',
     carbohydrate: '233',
@@ -19010,6 +21386,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.0',
   },
   {
+    id: 2377,
     name: '＜調味料類＞　（だし類）　顆粒おでん用',
     protein: '705',
     carbohydrate: '166',
@@ -19018,6 +21395,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.6',
   },
   {
+    id: 2378,
     name: '＜調味料類＞　（だし類）　顆粒中華だし',
     protein: '892',
     carbohydrate: '210',
@@ -19026,6 +21404,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.6',
   },
   {
+    id: 2379,
     name: '＜調味料類＞　（だし類）　顆粒和風だし',
     protein: '949',
     carbohydrate: '223',
@@ -19034,6 +21413,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '24.2',
   },
   {
+    id: 2380,
     name: '＜調味料類＞　（だし類）　なべつゆ　ストレート　しょうゆ味',
     protein: '87',
     carbohydrate: '20',
@@ -19042,6 +21422,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.0',
   },
   {
+    id: 2381,
     name: '＜調味料類＞　（だし類）　めんつゆ　ストレート',
     protein: '185',
     carbohydrate: '44',
@@ -19050,6 +21431,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.2',
   },
   {
+    id: 2382,
     name: '＜調味料類＞　（だし類）　めんつゆ　二倍濃縮',
     protein: '301',
     carbohydrate: '71',
@@ -19058,6 +21440,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 2383,
     name: '＜調味料類＞　（だし類）　めんつゆ　三倍濃縮',
     protein: '417',
     carbohydrate: '98',
@@ -19066,6 +21449,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.5',
   },
   {
+    id: 2384,
     name: '＜調味料類＞　（だし類）　ラーメンスープ　濃縮　しょうゆ味　ストレートしょうゆ味',
     protein: '652',
     carbohydrate: '157',
@@ -19074,6 +21458,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.3',
   },
   {
+    id: 2385,
     name: '＜調味料類＞　（だし類）　ラーメンスープ　濃縮　みそ味　ストレートみそ味',
     protein: '782',
     carbohydrate: '187',
@@ -19082,6 +21467,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.4',
   },
   {
+    id: 2386,
     name: '＜調味料類＞　（調味ソース類）　甘酢',
     protein: '494',
     carbohydrate: '116',
@@ -19090,6 +21476,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2387,
     name: '＜調味料類＞　（調味ソース類）　エビチリの素',
     protein: '227',
     carbohydrate: '54',
@@ -19098,6 +21485,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.2',
   },
   {
+    id: 2388,
     name: '＜調味料類＞　（調味ソース類）　オイスターソース',
     protein: '448',
     carbohydrate: '105',
@@ -19106,6 +21494,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.7',
   },
   {
+    id: 2389,
     name: '＜調味料類＞　（調味ソース類）　黄身酢',
     protein: '917',
     carbohydrate: '219',
@@ -19114,6 +21503,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.3',
   },
   {
+    id: 2390,
     name: '＜調味料類＞　（調味ソース類）　魚醤油　いかなごしょうゆ',
     protein: '272',
     carbohydrate: '64',
@@ -19122,6 +21512,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.9',
   },
   {
+    id: 2391,
     name: '＜調味料類＞　（調味ソース類）　魚醤油　いしる　（いしり）',
     protein: '285',
     carbohydrate: '67',
@@ -19130,6 +21521,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.8',
   },
   {
+    id: 2392,
     name: '＜調味料類＞　（調味ソース類）　魚醤油　しょっつる',
     protein: '121',
     carbohydrate: '29',
@@ -19138,6 +21530,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.1',
   },
   {
+    id: 2393,
     name: '＜調味料類＞　（調味ソース類）　魚醤油　ナンプラー',
     protein: '201',
     carbohydrate: '47',
@@ -19146,6 +21539,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.1',
   },
   {
+    id: 2394,
     name: '＜調味料類＞　（調味ソース類）　ごま酢',
     protein: '889',
     carbohydrate: '212',
@@ -19154,6 +21548,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.0',
   },
   {
+    id: 2395,
     name: '＜調味料類＞　（調味ソース類）　ごまだれ',
     protein: '1178',
     carbohydrate: '282',
@@ -19162,6 +21557,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.2',
   },
   {
+    id: 2396,
     name: '＜調味料類＞　（調味ソース類）　三杯酢',
     protein: '361',
     carbohydrate: '85',
@@ -19170,6 +21566,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 2397,
     name: '＜調味料類＞　（調味ソース類）　二杯酢',
     protein: '251',
     carbohydrate: '59',
@@ -19178,6 +21575,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.5',
   },
   {
+    id: 2398,
     name: '＜調味料類＞　（調味ソース類）　すし酢　ちらし・稲荷用',
     protein: '638',
     carbohydrate: '150',
@@ -19186,6 +21584,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2399,
     name: '＜調味料類＞　（調味ソース類）　すし酢　にぎり用',
     protein: '299',
     carbohydrate: '70',
@@ -19194,6 +21593,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 2400,
     name: '＜調味料類＞　（調味ソース類）　すし酢　巻き寿司・箱寿司用',
     protein: '454',
     carbohydrate: '107',
@@ -19202,6 +21602,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2401,
     name: '＜調味料類＞　（調味ソース類）　中華風合わせ酢',
     protein: '643',
     carbohydrate: '153',
@@ -19210,6 +21611,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.0',
   },
   {
+    id: 2402,
     name: '＜調味料類＞　（調味ソース類）　デミグラスソース',
     protein: '347',
     carbohydrate: '82',
@@ -19218,6 +21620,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.9',
   },
   {
+    id: 2403,
     name: '＜調味料類＞　（調味ソース類）　テンメンジャン',
     protein: '1049',
     carbohydrate: '249',
@@ -19226,6 +21629,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.5',
   },
   {
+    id: 2404,
     name: '＜調味料類＞　（調味ソース類）　冷やし中華のたれ',
     protein: '484',
     carbohydrate: '114',
@@ -19234,6 +21638,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.1',
   },
   {
+    id: 2405,
     name: '＜調味料類＞　（調味ソース類）　ホワイトソース',
     protein: '411',
     carbohydrate: '99',
@@ -19242,6 +21647,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.8',
   },
   {
+    id: 2406,
     name: '＜調味料類＞　（調味ソース類）　ぽん酢しょうゆ',
     protein: '207',
     carbohydrate: '49',
@@ -19250,6 +21656,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 2407,
     name: '＜調味料類＞　（調味ソース類）　ぽん酢しょうゆ　市販品',
     protein: '250',
     carbohydrate: '59',
@@ -19258,6 +21665,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.7',
   },
   {
+    id: 2408,
     name: '＜調味料類＞　（調味ソース類）　マーボー豆腐の素',
     protein: '481',
     carbohydrate: '115',
@@ -19266,6 +21674,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.2',
   },
   {
+    id: 2409,
     name: '＜調味料類＞　（調味ソース類）　マリネ液',
     protein: '278',
     carbohydrate: '66',
@@ -19274,6 +21683,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2410,
     name: '＜調味料類＞　（調味ソース類）　ミートソース',
     protein: '404',
     carbohydrate: '96',
@@ -19282,6 +21692,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 2411,
     name: '＜調味料類＞　（調味ソース類）　焼きそば粉末ソース',
     protein: '1055',
     carbohydrate: '248',
@@ -19290,6 +21701,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.6',
   },
   {
+    id: 2412,
     name: '＜調味料類＞　（調味ソース類）　焼き鳥のたれ',
     protein: '558',
     carbohydrate: '131',
@@ -19298,6 +21710,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.3',
   },
   {
+    id: 2413,
     name: '＜調味料類＞　（調味ソース類）　焼き肉のたれ',
     protein: '696',
     carbohydrate: '164',
@@ -19306,6 +21719,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.3',
   },
   {
+    id: 2414,
     name: '＜調味料類＞　（調味ソース類）　みたらしのたれ',
     protein: '540',
     carbohydrate: '127',
@@ -19314,6 +21728,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.9',
   },
   {
+    id: 2415,
     name: '＜調味料類＞　（調味ソース類）　ゆずこしょう',
     protein: '153',
     carbohydrate: '37',
@@ -19322,6 +21737,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.3',
   },
   {
+    id: 2416,
     name: '＜調味料類＞　（トマト加工品類）　トマトピューレー',
     protein: '187',
     carbohydrate: '44',
@@ -19330,6 +21746,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.9',
   },
   {
+    id: 2417,
     name: '＜調味料類＞　（トマト加工品類）　トマトペースト',
     protein: '399',
     carbohydrate: '94',
@@ -19338,6 +21755,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 2418,
     name: '＜調味料類＞　（トマト加工品類）　トマトケチャップ',
     protein: '441',
     carbohydrate: '104',
@@ -19346,6 +21764,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.6',
   },
   {
+    id: 2419,
     name: '＜調味料類＞　（トマト加工品類）　トマトソース',
     protein: '174',
     carbohydrate: '41',
@@ -19354,6 +21773,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.0',
   },
   {
+    id: 2420,
     name: '＜調味料類＞　（トマト加工品類）　チリソース',
     protein: '474',
     carbohydrate: '112',
@@ -19362,6 +21782,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.8',
   },
   {
+    id: 2421,
     name: '＜調味料類＞　（ドレッシング類）　半固形状ドレッシング　マヨネーズ　全卵型',
     protein: '2747',
     carbohydrate: '668',
@@ -19370,6 +21791,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.4',
   },
   {
+    id: 2422,
     name: '＜調味料類＞　（ドレッシング類）　半固形状ドレッシング　マヨネーズ　卵黄型',
     protein: '2746',
     carbohydrate: '668',
@@ -19378,6 +21800,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.5',
   },
   {
+    id: 2423,
     name: '＜調味料類＞　（ドレッシング類）　半固形状ドレッシング　マヨネーズタイプ調味料　低カロリータイプ',
     protein: '1081',
     carbohydrate: '262',
@@ -19386,6 +21809,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.9',
   },
   {
+    id: 2424,
     name: '＜調味料類＞　（ドレッシング類）　分離液状ドレッシング　フレンチドレッシング　分離液状',
     protein: '1344',
     carbohydrate: '325',
@@ -19394,6 +21818,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2425,
     name: '＜調味料類＞　（ドレッシング類）　分離液状ドレッシング　和風ドレッシング　分離液状',
     protein: '743',
     carbohydrate: '179',
@@ -19402,6 +21827,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.9',
   },
   {
+    id: 2426,
     name: '＜調味料類＞　（ドレッシング類）　分離液状ドレッシング　和風ドレッシングタイプ調味料　ノンオイルタイプ',
     protein: '350',
     carbohydrate: '83',
@@ -19410,6 +21836,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.1',
   },
   {
+    id: 2427,
     name: '＜調味料類＞　（ドレッシング類）　乳化液状ドレッシング　ごまドレッシング',
     protein: '1650',
     carbohydrate: '399',
@@ -19418,6 +21845,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.7',
   },
   {
+    id: 2428,
     name: '＜調味料類＞　（ドレッシング類）　乳化液状ドレッシング　サウザンアイランドドレッシング',
     protein: '1619',
     carbohydrate: '392',
@@ -19426,6 +21854,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.3',
   },
   {
+    id: 2429,
     name: '＜調味料類＞　（ドレッシング類）　乳化液状ドレッシング　フレンチドレッシング　乳化液状',
     protein: '1552',
     carbohydrate: '376',
@@ -19434,6 +21863,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2430,
     name: '＜調味料類＞　（みそ類）　米みそ　甘みそ',
     protein: '869',
     carbohydrate: '206',
@@ -19442,6 +21872,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.7',
   },
   {
+    id: 2431,
     name: '＜調味料類＞　（みそ類）　米みそ　淡色辛みそ',
     protein: '762',
     carbohydrate: '182',
@@ -19450,6 +21881,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.5',
   },
   {
+    id: 2432,
     name: '＜調味料類＞　（みそ類）　米みそ　赤色辛みそ',
     protein: '746',
     carbohydrate: '178',
@@ -19458,6 +21890,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.1',
   },
   {
+    id: 2433,
     name: '＜調味料類＞　（みそ類）　米みそ　だし入りみそ',
     protein: '700',
     carbohydrate: '167',
@@ -19466,6 +21899,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.0',
   },
   {
+    id: 2434,
     name: '＜調味料類＞　（みそ類）　米みそ　だし入りみそ　減塩',
     protein: '689',
     carbohydrate: '164',
@@ -19474,6 +21908,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.3',
   },
   {
+    id: 2435,
     name: '＜調味料類＞　（みそ類）　麦みそ',
     protein: '775',
     carbohydrate: '184',
@@ -19482,6 +21917,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.7',
   },
   {
+    id: 2436,
     name: '＜調味料類＞　（みそ類）　豆みそ',
     protein: '864',
     carbohydrate: '207',
@@ -19490,6 +21926,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.2',
   },
   {
+    id: 2437,
     name: '＜調味料類＞　（みそ類）　減塩みそ',
     protein: '800',
     carbohydrate: '190',
@@ -19498,6 +21935,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.0',
   },
   {
+    id: 2438,
     name: '＜調味料類＞　（みそ類）　即席みそ　粉末タイプ',
     protein: '1350',
     carbohydrate: '321',
@@ -19506,6 +21944,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.9',
   },
   {
+    id: 2439,
     name: '＜調味料類＞　（みそ類）　即席みそ　ペーストタイプ',
     protein: '513',
     carbohydrate: '122',
@@ -19514,6 +21953,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.9',
   },
   {
+    id: 2440,
     name: '＜調味料類＞　（みそ類）　辛子酢みそ',
     protein: '912',
     carbohydrate: '216',
@@ -19522,6 +21962,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.0',
   },
   {
+    id: 2441,
     name: '＜調味料類＞　（みそ類）　ごまみそ',
     protein: '1026',
     carbohydrate: '245',
@@ -19530,6 +21971,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.4',
   },
   {
+    id: 2442,
     name: '＜調味料類＞　（みそ類）　酢みそ',
     protein: '892',
     carbohydrate: '211',
@@ -19538,6 +21980,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.9',
   },
   {
+    id: 2443,
     name: '＜調味料類＞　（みそ類）　練りみそ',
     protein: '1131',
     carbohydrate: '267',
@@ -19546,6 +21989,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.5',
   },
   {
+    id: 2444,
     name: '＜調味料類＞　（ルウ類）　カレールウ',
     protein: '1974',
     carbohydrate: '474',
@@ -19554,6 +21998,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.5',
   },
   {
+    id: 2445,
     name: '＜調味料類＞　（ルウ類）　ハヤシルウ',
     protein: '2086',
     carbohydrate: '501',
@@ -19562,6 +22007,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.8',
   },
   {
+    id: 2446,
     name: '＜調味料類＞　（その他）　お茶漬けの素　さけ',
     protein: '1060',
     carbohydrate: '251',
@@ -19570,6 +22016,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '20.2',
   },
   {
+    id: 2447,
     name: '＜調味料類＞　（その他）　キムチの素',
     protein: '529',
     carbohydrate: '125',
@@ -19578,6 +22025,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.3',
   },
   {
+    id: 2448,
     name: '＜調味料類＞　（その他）　酒かす',
     protein: '904',
     carbohydrate: '215',
@@ -19586,6 +22034,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '14.9',
   },
   {
+    id: 2449,
     name: '＜調味料類＞　（その他）　即席すまし汁',
     protein: '823',
     carbohydrate: '194',
@@ -19594,6 +22043,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '18.3',
   },
   {
+    id: 2450,
     name: '＜調味料類＞　（その他）　ふりかけ　たまご',
     protein: '1791',
     carbohydrate: '428',
@@ -19602,6 +22052,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '23.4',
   },
   {
+    id: 2451,
     name: '＜調味料類＞　（その他）　みりん風調味料',
     protein: '958',
     carbohydrate: '225',
@@ -19610,6 +22061,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.1',
   },
   {
+    id: 2452,
     name: '＜調味料類＞　（その他）　料理酒',
     protein: '368',
     carbohydrate: '88',
@@ -19618,6 +22070,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.2',
   },
   {
+    id: 2453,
     name: '＜香辛料類＞　オールスパイス　粉',
     protein: '1543',
     carbohydrate: '364',
@@ -19626,6 +22079,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.6',
   },
   {
+    id: 2454,
     name: '＜香辛料類＞　オニオンパウダー',
     protein: '1541',
     carbohydrate: '363',
@@ -19634,6 +22088,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.8',
   },
   {
+    id: 2455,
     name: '＜香辛料類＞　からし　粉',
     protein: '1831',
     carbohydrate: '435',
@@ -19642,6 +22097,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '33.0',
   },
   {
+    id: 2456,
     name: '＜香辛料類＞　からし　練り',
     protein: '1316',
     carbohydrate: '314',
@@ -19650,6 +22106,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.9',
   },
   {
+    id: 2457,
     name: '＜香辛料類＞　からし　練りマスタード',
     protein: '729',
     carbohydrate: '175',
@@ -19658,6 +22115,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.8',
   },
   {
+    id: 2458,
     name: '＜香辛料類＞　からし　粒入りマスタード',
     protein: '955',
     carbohydrate: '229',
@@ -19666,6 +22124,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.6',
   },
   {
+    id: 2459,
     name: '＜香辛料類＞　カレー粉',
     protein: '1405',
     carbohydrate: '338',
@@ -19674,6 +22133,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.0',
   },
   {
+    id: 2460,
     name: '＜香辛料類＞　クローブ　粉',
     protein: '1679',
     carbohydrate: '398',
@@ -19682,6 +22142,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.2',
   },
   {
+    id: 2461,
     name: '＜香辛料類＞　こしょう　黒　粉',
     protein: '1532',
     carbohydrate: '362',
@@ -19690,6 +22151,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.0',
   },
   {
+    id: 2462,
     name: '＜香辛料類＞　こしょう　白　粉',
     protein: '1590',
     carbohydrate: '376',
@@ -19698,6 +22160,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.1',
   },
   {
+    id: 2463,
     name: '＜香辛料類＞　こしょう　混合　粉',
     protein: '1561',
     carbohydrate: '369',
@@ -19706,6 +22169,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.6',
   },
   {
+    id: 2464,
     name: '＜香辛料類＞　さんしょう　粉',
     protein: '1588',
     carbohydrate: '375',
@@ -19714,6 +22178,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.3',
   },
   {
+    id: 2465,
     name: '＜香辛料類＞　シナモン　粉',
     protein: '1512',
     carbohydrate: '356',
@@ -19722,6 +22187,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.6',
   },
   {
+    id: 2466,
     name: '＜香辛料類＞　しょうが　粉',
     protein: '1546',
     carbohydrate: '365',
@@ -19730,6 +22196,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.8',
   },
   {
+    id: 2467,
     name: '＜香辛料類＞　しょうが　おろし',
     protein: '176',
     carbohydrate: '41',
@@ -19738,6 +22205,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.7',
   },
   {
+    id: 2468,
     name: '＜香辛料類＞　セージ　粉',
     protein: '1593',
     carbohydrate: '377',
@@ -19746,6 +22214,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.4',
   },
   {
+    id: 2469,
     name: '＜香辛料類＞　タイム　粉',
     protein: '1450',
     carbohydrate: '342',
@@ -19754,6 +22223,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.5',
   },
   {
+    id: 2470,
     name: '＜香辛料類＞　チリパウダー',
     protein: '1580',
     carbohydrate: '374',
@@ -19762,6 +22232,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.0',
   },
   {
+    id: 2471,
     name: '＜香辛料類＞　とうがらし　粉',
     protein: '1742',
     carbohydrate: '412',
@@ -19770,6 +22241,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.2',
   },
   {
+    id: 2472,
     name: '＜香辛料類＞　ナツメグ　粉',
     protein: '2172',
     carbohydrate: '520',
@@ -19778,6 +22250,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.7',
   },
   {
+    id: 2473,
     name: '＜香辛料類＞　にんにく　ガーリックパウダー　食塩無添加',
     protein: '1614',
     carbohydrate: '380',
@@ -19786,6 +22259,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.9',
   },
   {
+    id: 2474,
     name: '＜香辛料類＞　にんにく　ガーリックパウダー　食塩添加',
     protein: '1623',
     carbohydrate: '382',
@@ -19794,6 +22268,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '19.9',
   },
   {
+    id: 2475,
     name: '＜香辛料類＞　にんにく　おろし',
     protein: '722',
     carbohydrate: '170',
@@ -19802,6 +22277,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.7',
   },
   {
+    id: 2476,
     name: '＜香辛料類＞　バジル　粉',
     protein: '1300',
     carbohydrate: '307',
@@ -19810,6 +22286,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '21.1',
   },
   {
+    id: 2477,
     name: '＜香辛料類＞　パセリ　乾',
     protein: '1447',
     carbohydrate: '341',
@@ -19818,6 +22295,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '28.7',
   },
   {
+    id: 2478,
     name: '＜香辛料類＞　パプリカ　粉',
     protein: '1624',
     carbohydrate: '385',
@@ -19826,6 +22304,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.5',
   },
   {
+    id: 2479,
     name: '＜香辛料類＞　わさび　粉　からし粉入り',
     protein: '1628',
     carbohydrate: '384',
@@ -19834,6 +22313,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.5',
   },
   {
+    id: 2480,
     name: '＜香辛料類＞　わさび　練り',
     protein: '1114',
     carbohydrate: '265',
@@ -19842,6 +22322,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.3',
   },
   {
+    id: 2481,
     name: '＜その他＞　酵母　パン酵母　圧搾',
     protein: '441',
     carbohydrate: '105',
@@ -19850,6 +22331,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '16.5',
   },
   {
+    id: 2482,
     name: '＜その他＞　酵母　パン酵母　乾燥',
     protein: '1281',
     carbohydrate: '307',
@@ -19858,6 +22340,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '37.1',
   },
   {
+    id: 2483,
     name: '＜その他＞　ベーキングパウダー',
     protein: '639',
     carbohydrate: '150',
@@ -19866,6 +22349,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0',
   },
   {
+    id: 2484,
     name: '和風料理　和え物類　青菜の白和え',
     protein: '342',
     carbohydrate: '81',
@@ -19874,6 +22358,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.2',
   },
   {
+    id: 2485,
     name: '和風料理　和え物類　いんげんのごま和え',
     protein: '320',
     carbohydrate: '77',
@@ -19882,6 +22367,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.7',
   },
   {
+    id: 2486,
     name: '和風料理　和え物類　わかめとねぎの酢みそ和え',
     protein: '358',
     carbohydrate: '85',
@@ -19890,6 +22376,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.8',
   },
   {
+    id: 2487,
     name: '和風料理　汁物類　とん汁',
     protein: '107',
     carbohydrate: '26',
@@ -19898,6 +22385,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 2488,
     name: '和風料理　酢の物類　紅白なます',
     protein: '143',
     carbohydrate: '34',
@@ -19906,6 +22394,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '0.6',
   },
   {
+    id: 2489,
     name: '和風料理　煮物類　卯の花いり',
     protein: '350',
     carbohydrate: '84',
@@ -19914,6 +22403,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.4',
   },
   {
+    id: 2490,
     name: '和風料理　煮物類　親子丼の具',
     protein: '424',
     carbohydrate: '101',
@@ -19922,6 +22412,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.4',
   },
   {
+    id: 2491,
     name: '和風料理　煮物類　牛飯の具',
     protein: '505',
     carbohydrate: '122',
@@ -19930,6 +22421,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.1',
   },
   {
+    id: 2492,
     name: '和風料理　煮物類　切り干し大根の煮物',
     protein: '199',
     carbohydrate: '48',
@@ -19938,6 +22430,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.3',
   },
   {
+    id: 2493,
     name: '和風料理　煮物類　きんぴらごぼう',
     protein: '348',
     carbohydrate: '84',
@@ -19946,6 +22439,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.4',
   },
   {
+    id: 2494,
     name: '和風料理　煮物類　ぜんまいのいため煮',
     protein: '334',
     carbohydrate: '80',
@@ -19954,6 +22448,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.4',
   },
   {
+    id: 2495,
     name: '和風料理　煮物類　筑前煮',
     protein: '357',
     carbohydrate: '85',
@@ -19962,6 +22457,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.4',
   },
   {
+    id: 2496,
     name: '和風料理　煮物類　肉じゃが',
     protein: '327',
     carbohydrate: '78',
@@ -19970,6 +22466,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.3',
   },
   {
+    id: 2497,
     name: '和風料理　煮物類　ひじきのいため煮',
     protein: '314',
     carbohydrate: '75',
@@ -19978,6 +22475,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.1',
   },
   {
+    id: 2498,
     name: '和風料理　その他　アジの南蛮漬け',
     protein: '456',
     carbohydrate: '109',
@@ -19986,6 +22484,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.1',
   },
   {
+    id: 2499,
     name: '和風料理　その他　お好み焼き',
     protein: '570',
     carbohydrate: '136',
@@ -19994,6 +22493,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.2',
   },
   {
+    id: 2500,
     name: '和風料理　その他　とりから揚げ',
     protein: '853',
     carbohydrate: '204',
@@ -20002,6 +22502,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.6',
   },
   {
+    id: 2501,
     name: '和風料理　その他　松前漬け　しょうゆ漬',
     protein: '701',
     carbohydrate: '166',
@@ -20010,6 +22511,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '17.0',
   },
   {
+    id: 2502,
     name: '洋風料理　カレー類　チキンカレー',
     protein: '545',
     carbohydrate: '131',
@@ -20018,6 +22520,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.6',
   },
   {
+    id: 2503,
     name: '洋風料理　カレー類　ビーフカレー',
     protein: '495',
     carbohydrate: '119',
@@ -20026,6 +22529,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.4',
   },
   {
+    id: 2504,
     name: '洋風料理　カレー類　ポークカレー',
     protein: '480',
     carbohydrate: '116',
@@ -20034,6 +22538,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '2.8',
   },
   {
+    id: 2505,
     name: '洋風料理　コロッケ類　カニクリームコロッケ',
     protein: '1063',
     carbohydrate: '255',
@@ -20042,6 +22547,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.1',
   },
   {
+    id: 2506,
     name: '洋風料理　コロッケ類　コーンクリームコロッケ',
     protein: '1025',
     carbohydrate: '245',
@@ -20050,6 +22556,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.1',
   },
   {
+    id: 2507,
     name: '洋風料理　コロッケ類　ポテトコロッケ',
     protein: '945',
     carbohydrate: '226',
@@ -20058,6 +22565,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.3',
   },
   {
+    id: 2508,
     name: '洋風料理　シチュー類　チキンシチュー',
     protein: '517',
     carbohydrate: '124',
@@ -20066,6 +22574,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.2',
   },
   {
+    id: 2509,
     name: '洋風料理　シチュー類　ビーフシチュー',
     protein: '636',
     carbohydrate: '153',
@@ -20074,6 +22583,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.1',
   },
   {
+    id: 2510,
     name: '洋風料理　素揚げ類　ミートボール',
     protein: '829',
     carbohydrate: '199',
@@ -20082,6 +22592,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.2',
   },
   {
+    id: 2511,
     name: '洋風料理　スープ類　かぼちゃのクリームスープ',
     protein: '304',
     carbohydrate: '73',
@@ -20090,6 +22601,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.5',
   },
   {
+    id: 2512,
     name: '洋風料理　スープ類　コーンクリームスープ　コーンクリームスープ',
     protein: '261',
     carbohydrate: '62',
@@ -20098,6 +22610,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '1.7',
   },
   {
+    id: 2513,
     name: '洋風料理　スープ類　コーンクリームスープ　粉末タイプ',
     protein: '1790',
     carbohydrate: '425',
@@ -20106,6 +22619,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.1',
   },
   {
+    id: 2514,
     name: '洋風料理　ハンバーグステーキ類　合いびきハンバーグ',
     protein: '821',
     carbohydrate: '197',
@@ -20114,6 +22628,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.4',
   },
   {
+    id: 2515,
     name: '洋風料理　ハンバーグステーキ類　チキンハンバーグ',
     protein: '712',
     carbohydrate: '171',
@@ -20122,6 +22637,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '12.6',
   },
   {
+    id: 2516,
     name: '洋風料理　ハンバーグステーキ類　豆腐ハンバーグ',
     protein: '595',
     carbohydrate: '142',
@@ -20130,6 +22646,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.9',
   },
   {
+    id: 2517,
     name: '洋風料理　フライ類　いかフライ',
     protein: '953',
     carbohydrate: '227',
@@ -20138,6 +22655,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '13.3',
   },
   {
+    id: 2518,
     name: '洋風料理　フライ類　えびフライ',
     protein: '992',
     carbohydrate: '236',
@@ -20146,6 +22664,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '15.9',
   },
   {
+    id: 2519,
     name: '洋風料理　フライ類　かきフライ',
     protein: '1205',
     carbohydrate: '289',
@@ -20154,6 +22673,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '8.9',
   },
   {
+    id: 2520,
     name: '洋風料理　フライ類　白身フライ',
     protein: '1242',
     carbohydrate: '299',
@@ -20162,6 +22682,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.7',
   },
   {
+    id: 2521,
     name: '洋風料理　フライ類　メンチカツ',
     protein: '1138',
     carbohydrate: '273',
@@ -20170,6 +22691,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.7',
   },
   {
+    id: 2522,
     name: '洋風料理　フライ用冷凍食品　いかフライ　冷凍',
     protein: '618',
     carbohydrate: '146',
@@ -20178,6 +22700,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.6',
   },
   {
+    id: 2523,
     name: '洋風料理　フライ用冷凍食品　えびフライ　冷凍',
     protein: '589',
     carbohydrate: '139',
@@ -20186,6 +22709,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '10.2',
   },
   {
+    id: 2524,
     name: '洋風料理　フライ用冷凍食品　コロッケ　クリームコロッケ　冷凍',
     protein: '668',
     carbohydrate: '159',
@@ -20194,6 +22718,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.7',
   },
   {
+    id: 2525,
     name: '洋風料理　フライ用冷凍食品　コロッケ　ポテトコロッケ　冷凍',
     protein: '662',
     carbohydrate: '157',
@@ -20202,6 +22727,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.6',
   },
   {
+    id: 2526,
     name: '洋風料理　フライ用冷凍食品　白身フライ　冷凍',
     protein: '625',
     carbohydrate: '148',
@@ -20210,6 +22736,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '11.6',
   },
   {
+    id: 2527,
     name: '洋風料理　フライ用冷凍食品　メンチカツ　冷凍',
     protein: '826',
     carbohydrate: '196',
@@ -20218,6 +22745,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.9',
   },
   {
+    id: 2528,
     name: '洋風料理　その他　えびグラタン',
     protein: '535',
     carbohydrate: '128',
@@ -20226,6 +22754,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.5',
   },
   {
+    id: 2529,
     name: '洋風料理　その他　えびピラフ',
     protein: '620',
     carbohydrate: '146',
@@ -20234,6 +22763,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '3.3',
   },
   {
+    id: 2530,
     name: '中国料理　点心類　ぎょうざ',
     protein: '874',
     carbohydrate: '209',
@@ -20242,6 +22772,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.9',
   },
   {
+    id: 2531,
     name: '中国料理　点心類　しゅうまい',
     protein: '801',
     carbohydrate: '191',
@@ -20250,6 +22781,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '9.1',
   },
   {
+    id: 2532,
     name: '中国料理　点心類　中華ちまき',
     protein: '733',
     carbohydrate: '174',
@@ -20258,6 +22790,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.9',
   },
   {
+    id: 2533,
     name: '中国料理　点心類　春巻き',
     protein: '913',
     carbohydrate: '221',
@@ -20266,6 +22799,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '6.0 ',
   },
   {
+    id: 2534,
     name: '中国料理　菜類　酢豚',
     protein: '321',
     carbohydrate: '77',
@@ -20274,6 +22808,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '4.6',
   },
   {
+    id: 2535,
     name: '中国料理　菜類　チャーハン',
     protein: '868',
     carbohydrate: '206',
@@ -20282,6 +22817,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.0 ',
   },
   {
+    id: 2536,
     name: '中国料理　菜類　八宝菜',
     protein: '267',
     carbohydrate: '64',
@@ -20290,6 +22826,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '5.8',
   },
   {
+    id: 2537,
     name: '中国料理　菜類　麻婆豆腐',
     protein: '434',
     carbohydrate: '104',
@@ -20298,6 +22835,7 @@ export const dammyIngredients: Ingredient[] = [
     mineral: '7.8',
   },
   {
+    id: 2538,
     name: '韓国料理　和え物類　もやしのナムル',
     protein: '291',
     carbohydrate: '70',

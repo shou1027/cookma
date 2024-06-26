@@ -1,3 +1,5 @@
+import { useMemo } from 'react';
+import { useWatch } from 'react-hook-form';
 import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from 'recharts';
 
 type RefData = {
@@ -33,6 +35,9 @@ export const WatchedRadarChart = ({
 
     return _refDataObj;
   }, [refData]);
+  console.log(111);
+  console.log(refData);
+  console.log(refDataObj);
 
   return (
     <RadarChart
@@ -40,14 +45,15 @@ export const WatchedRadarChart = ({
       width={500}
       data={subjects.map((subject, index) => ({
         subject: subject,
-        A: watchData.reduce(
-          (prevValue, currValue) =>
-            prevValue +
-            refDataObj[currValue[watchDataKey.ref]][index] *
-              currValue[watchDataKey.data] *
-              0.01,
-          0,
-        ),
+        // A: watchData.reduce(
+        //   (prevValue, currValue) =>
+        //     prevValue +
+        //     refDataObj[currValue[watchDataKey.ref]][index] *
+        //       currValue[watchDataKey.data] *
+        //       0.01,
+        //   0,
+        // ),
+        A: 30,
         fullMark: 100,
       }))}
     >
