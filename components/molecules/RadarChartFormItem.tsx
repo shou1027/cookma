@@ -86,7 +86,7 @@ export const RadarChartFormItem = ({
                       options={refData.map((value) => ({
                         label: value.name,
                       }))}
-                      onBlur={handleIngredientNameBlur}
+                      // onBlur={handleIngredientNameBlur}
                       renderInput={(params) => (
                         <TextField
                           {...params}
