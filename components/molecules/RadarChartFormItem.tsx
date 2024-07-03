@@ -8,7 +8,7 @@ import {
   Stack,
   TextField,
 } from '@mui/material';
-import { useState } from 'react';
+import { useMemo } from 'react';
 import { useFieldArray } from 'react-hook-form';
 
 type Props = {
@@ -31,17 +31,19 @@ export const RadarChartFormItem = ({
     name: 'ingredients',
   });
 
-  const [foundIngredients, setFoundIngredients] = useState([]);
+  // const [foundIngredients, setFoundIngredients] = useState([]);
+
+  const selectedIngredients = useMemo(() => {}, []);
 
   const handleIngredientNameBlur = () => {
-    // const ingredientNames = getValues('ingredients')?.map((value, index) => {
-    //   return value.name;
-    // });
-    // setFoundIngredients(
-    //   refData.filter((value, index) => {
-    //     return ingredientNames?.includes(value.name);
-    //   }),
-    // );
+    const ingredientNames = getValues('ingredients')?.map((value, index) => {
+      return value.name;
+    });
+    setFoundIngredients(
+      refData.filter((value, index) => {
+        return ingredientNames?.includes(value.name);
+      }),
+    );
   };
 
   return (
