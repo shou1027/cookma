@@ -1,4 +1,3 @@
-import { useMemo } from 'react';
 import { useWatch } from 'react-hook-form';
 import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from 'recharts';
 
@@ -10,6 +9,7 @@ type RefData = {
 type Props = {
   watchName: string;
   control: any;
+  getValues: any;
   refData: RefData[];
   subjects: string[];
   watchDataKey: {
@@ -21,23 +21,18 @@ type Props = {
 export const WatchedRadarChart = ({
   watchName,
   watchDataKey,
-  refData,
+  refDataObj,
   subjects,
   control,
+  getValues,
 }: Props) => {
   const watchData = useWatch({ name: watchName, control });
 
-  const refDataObj = useMemo(() => {
-    let _refDataObj: { [key: string]: RefData['data'] } = {};
-    refData.forEach((value) => {
-      _refDataObj[value.refKey] = value.data;
-    });
-
-    return _refDataObj;
-  }, [refData]);
-  console.log(111);
-  console.log(refData);
+  // console.log(111);
+  // console.log(refData);
+  // console.log(refDataObj);
   console.log(refDataObj);
+  console.log(getValues(watchName));
 
   return (
     <RadarChart
@@ -45,15 +40,19 @@ export const WatchedRadarChart = ({
       width={500}
       data={subjects.map((subject, index) => ({
         subject: subject,
-        // A: watchData.reduce(
-        //   (prevValue, currValue) =>
-        //     prevValue +
-        //     refDataObj[currValue[watchDataKey.ref]][index] *
-        //       currValue[watchDataKey.data] *
-        //       0.01,
-        //   0,
-        // ),
-        A: 30,
+        A: getValues(watchName).reduce((prevValue, currValue) => {
+          // console.log(watchData);
+
+          return (
+            prevValue +
+            (currValue[watchDataKey.ref] in refDataObj
+              ? refDataObj[currValue[watchDataKey.ref]][index]
+              : 0) *
+              currValue[watchDataKey.data] *
+              0.01
+          );
+        }, 0),
+        // A: 30,
         fullMark: 100,
       }))}
     >
