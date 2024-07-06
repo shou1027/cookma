@@ -31,8 +31,8 @@ export const WatchedRadarChart = ({
   // console.log(111);
   // console.log(refData);
   // console.log(refDataObj);
-  console.log(refDataObj);
-  console.log(getValues(watchName));
+  // console.log(refDataObj);
+  // console.log(getValues(watchName));
 
   return (
     <RadarChart
