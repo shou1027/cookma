@@ -96,18 +96,19 @@ const MainElement = () => {
     name: 'ways',
   });
 
+  //TODO: API通信実装
   const onSubmit: SubmitHandler<FormDataType> = async (data) => {
-    //入力したデータを使って任意の処理を実装する
-
     const formData = objToFormData(data);
 
-    const res = await fetch('http://api.localhost/form.php', {
-      method: 'POST',
-      body: formData,
-    });
+    console.log(data);
+
+    // const res = await fetch('http://api.localhost/form.php', {
+    //   method: 'POST',
+    //   body: formData,
+    // });
 
     // console.log(await res.json());
-    console.log(await res.text());
+    // console.log(await res.text());
   };
 
   return (
@@ -137,6 +138,7 @@ const MainElement = () => {
           errors={errors}
           getValues={getValues}
           name={{ parentName: 'ingredients', childNames: ['name', 'amount'] }}
+          labels={['材料・調味料', '分量']}
         />
       </Box>
 

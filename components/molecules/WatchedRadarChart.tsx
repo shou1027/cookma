@@ -6,6 +6,7 @@ type RefData = {
   data: number[];
 };
 
+//FIXME: 型定義、命名修正
 type Props = {
   watchName: string;
   control: any;
@@ -27,8 +28,10 @@ export const WatchedRadarChart = ({
   watchDataKey,
 }: Props) => {
   const watchData = useWatch({ name: watchName, control });
+  console.log(watchData);
 
   return (
+    //TODO: 型定義追加
     <RadarChart
       height={250}
       width={500}

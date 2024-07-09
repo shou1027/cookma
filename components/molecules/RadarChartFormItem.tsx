@@ -17,6 +17,7 @@ type Name = {
   childNames: [string, string];
 };
 
+//FIXME: 型定義、命名修正
 type Props = {
   initRefData: any[];
   register: any;
@@ -24,6 +25,7 @@ type Props = {
   errors: any;
   getValues: (name: string) => any;
   name: Name;
+  labels?: [string, string];
 };
 
 export const RadarChartFormItem = ({
@@ -33,12 +35,14 @@ export const RadarChartFormItem = ({
   errors,
   getValues,
   name,
+  labels,
 }: Props) => {
   const { fields, append, remove, update } = useFieldArray({
     control,
     name: name.parentName,
   });
 
+  //TODO: オートコンプリート参照データの更新処理追加（blur時）
   const [refData, setRefData] = useState(initRefData);
   const [selectedRef, setSelectedRef] = useState({});
 
@@ -67,28 +71,30 @@ export const RadarChartFormItem = ({
           {fields.length > 0 && (
             <Box mt={2}>
               <Stack gap={1}>
-                <Stack direction="row" gap={1}>
-                  <Stack
-                    maxWidth="223px"
-                    width="100%"
-                    bgcolor="#ccc"
-                    justifyContent="center"
-                    alignItems="center"
-                    py={0.5}
-                  >
-                    材料・調味料
+                {labels ? (
+                  <Stack direction="row" gap={1}>
+                    <Stack
+                      maxWidth="223px"
+                      width="100%"
+                      bgcolor="#ccc"
+                      justifyContent="center"
+                      alignItems="center"
+                      py={0.5}
+                    >
+                      {labels[0]}
+                    </Stack>
+                    <Stack
+                      maxWidth="100px"
+                      width="100%"
+                      bgcolor="#ccc"
+                      justifyContent="center"
+                      alignItems="center"
+                      py={0.5}
+                    >
+                      {labels[1]}
+                    </Stack>
                   </Stack>
-                  <Stack
-                    maxWidth="100px"
-                    width="100%"
-                    bgcolor="#ccc"
-                    justifyContent="center"
-                    alignItems="center"
-                    py={0.5}
-                  >
-                    分量
-                  </Stack>
-                </Stack>
+                ) : null}
                 {fields.map((field, index) => (
                   <Stack
                     direction="row"
