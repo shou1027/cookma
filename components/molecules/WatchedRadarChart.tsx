@@ -20,19 +20,13 @@ type Props = {
 
 export const WatchedRadarChart = ({
   watchName,
-  watchDataKey,
-  refDataObj,
-  subjects,
   control,
   getValues,
+  refData,
+  subjects,
+  watchDataKey,
 }: Props) => {
   const watchData = useWatch({ name: watchName, control });
-
-  // console.log(111);
-  // console.log(refData);
-  // console.log(refDataObj);
-  // console.log(refDataObj);
-  // console.log(getValues(watchName));
 
   return (
     <RadarChart
@@ -41,18 +35,15 @@ export const WatchedRadarChart = ({
       data={subjects.map((subject, index) => ({
         subject: subject,
         A: getValues(watchName).reduce((prevValue, currValue) => {
-          // console.log(watchData);
-
           return (
             prevValue +
-            (currValue[watchDataKey.ref] in refDataObj
-              ? refDataObj[currValue[watchDataKey.ref]][index]
+            (currValue[watchDataKey.ref] in refData
+              ? refData[currValue[watchDataKey.ref]][index]
               : 0) *
               currValue[watchDataKey.data] *
               0.01
           );
         }, 0),
-        // A: 30,
         fullMark: 100,
       }))}
     >

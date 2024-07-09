@@ -194,24 +194,15 @@ const MainElement = () => {
     defaultValues: {
       title: 'aaaaa',
       ingredients: [
-        { name: 'bbbbb', amount: 2 },
-        // { name: '', amount: 0 },
-        // { name: '', amount: 0 },
+        { name: 'おおむぎ　押麦　乾', amount: 2 },
+        { name: '', amount: 0 },
+        { name: '', amount: 0 },
       ],
       ways: [{ detail: 'ccccc' }],
       attention: 'ddddd',
     },
     resolver: yupResolver(schema),
     mode: 'onBlur',
-  });
-
-  const {
-    fields: ingreFields,
-    append: ingreAppend,
-    remove: ingreRemove,
-  } = useFieldArray({
-    control,
-    name: 'ingredients',
   });
 
   const {
@@ -265,7 +256,7 @@ const MainElement = () => {
       <Box mt={4}>
         <Typography variant="h5">材料</Typography>
         <RadarChartFormItem
-          refData={dammyIngredients.map((value) => ({
+          initRefData={dammyIngredients.map((value) => ({
             name: value.name,
             data: [
               value.protein,
@@ -279,6 +270,7 @@ const MainElement = () => {
           control={control}
           errors={errors}
           getValues={getValues}
+          name="ingredients"
         />
       </Box>
 

@@ -8,42 +8,51 @@ import {
   Stack,
   TextField,
 } from '@mui/material';
-import { useMemo } from 'react';
+import { useState } from 'react';
 import { useFieldArray } from 'react-hook-form';
+import { WatchedRadarChart } from './WatchedRadarChart';
 
 type Props = {
-  refData: any[];
+  initRefData: any[];
   register: any;
   control: any;
   errors: any;
   getValues: (name: string) => any;
+  name: string;
 };
 
 export const RadarChartFormItem = ({
-  refData,
+  initRefData,
   register,
   control,
   errors,
   getValues,
+  name,
 }: Props) => {
-  const { fields, append, remove } = useFieldArray({
+  const { fields, append, remove, update } = useFieldArray({
     control,
-    name: 'ingredients',
+    name: name,
   });
 
-  // const [foundIngredients, setFoundIngredients] = useState([]);
-
-  const selectedIngredients = useMemo(() => {}, []);
+  const [refData, setRefData] = useState(initRefData);
+  const [selectedRef, setSelectedRef] = useState({});
 
   const handleIngredientNameBlur = () => {
-    const ingredientNames = getValues('ingredients')?.map((value, index) => {
-      return value.name;
+    const refObj = {};
+    refData.forEach((value, index) => {
+      if (value.name != '') {
+        refObj[value.name] = value.data;
+      }
     });
-    setFoundIngredients(
-      refData.filter((value, index) => {
-        return ingredientNames?.includes(value.name);
-      }),
-    );
+
+    let _selectedRef = {};
+    getValues(name)?.forEach((value, index) => {
+      if (value.name in refObj) {
+        _selectedRef[value.name] = refObj[value.name];
+      }
+    });
+
+    setSelectedRef(_selectedRef);
   };
 
   return (
@@ -83,19 +92,21 @@ export const RadarChartFormItem = ({
                     key={field.id}
                   >
                     <Autocomplete
+                      options={refData.map((value) => value.name)}
                       size="small"
                       sx={{ width: 223 }}
-                      options={refData.map((value) => ({
-                        label: value.name,
-                      }))}
-                      // onBlur={handleIngredientNameBlur}
+                      freeSolo
+                      defaultValue={field.name}
                       renderInput={(params) => (
                         <TextField
                           {...params}
-                          {...register(`ingredients.${index}.name`)}
-                          error={
-                            errors.ingredients?.[index]?.name !== undefined
-                          }
+                          fullWidth
+                          {...register(`${name}.${index}.name`)}
+                          onBlur={(e) => {
+                            register(`${name}.${index}.name`).onBlur(e);
+                            handleIngredientNameBlur();
+                          }}
+                          error={errors[name]?.[index]?.name !== undefined}
                         />
                       )}
                     />
@@ -115,8 +126,8 @@ export const RadarChartFormItem = ({
                         },
                       }}
                       sx={{ maxWidth: 100 }}
-                      {...register(`ingredients.${index}.amount`)}
-                      error={errors.ingredients?.[index]?.amount !== undefined}
+                      {...register(`${name}.${index}.amount`)}
+                      error={errors[name]?.[index]?.amount !== undefined}
                     />
                     <IconButton onClick={() => remove(index)}>
                       <Delete />
@@ -127,11 +138,11 @@ export const RadarChartFormItem = ({
             </Box>
           )}
         </Box>
-        {/* <Box>
+        <Box>
           <WatchedRadarChart
-            watchName="ingredients"
-            watchDataKey={{ ref: '', data: '' }}
-            refData={foundIngredients}
+            watchName={name}
+            watchDataKey={{ ref: 'name', data: 'amount' }}
+            refData={selectedRef}
             subjects={[
               '炭水化物',
               'タンパク質',
@@ -140,8 +151,9 @@ export const RadarChartFormItem = ({
               'ミネラル',
             ]}
             control={control}
+            getValues={getValues}
           />
-        </Box> */}
+        </Box>
       </Stack>
 
       <Chip
