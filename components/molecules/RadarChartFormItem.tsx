@@ -12,13 +12,18 @@ import { useState } from 'react';
 import { useFieldArray } from 'react-hook-form';
 import { WatchedRadarChart } from './WatchedRadarChart';
 
+type Name = {
+  parentName: string;
+  childNames: [string, string];
+};
+
 type Props = {
   initRefData: any[];
   register: any;
   control: any;
   errors: any;
   getValues: (name: string) => any;
-  name: string;
+  name: Name;
 };
 
 export const RadarChartFormItem = ({
@@ -31,7 +36,7 @@ export const RadarChartFormItem = ({
 }: Props) => {
   const { fields, append, remove, update } = useFieldArray({
     control,
-    name: name,
+    name: name.parentName,
   });
 
   const [refData, setRefData] = useState(initRefData);
@@ -46,7 +51,7 @@ export const RadarChartFormItem = ({
     });
 
     let _selectedRef = {};
-    getValues(name)?.forEach((value, index) => {
+    getValues(name.parentName)?.forEach((value, index) => {
       if (value.name in refObj) {
         _selectedRef[value.name] = refObj[value.name];
       }
@@ -101,20 +106,26 @@ export const RadarChartFormItem = ({
                         <TextField
                           {...params}
                           fullWidth
-                          {...register(`${name}.${index}.name`)}
+                          {...register(
+                            `${name.parentName}.${index}.${name.childNames[0]}`,
+                          )}
                           onBlur={(e) => {
-                            register(`${name}.${index}.name`).onBlur(e);
+                            register(
+                              `${name.parentName}.${index}.${name.childNames[0]}`,
+                            ).onBlur(e);
                             handleIngredientNameBlur();
                           }}
-                          error={errors[name]?.[index]?.name !== undefined}
+                          error={
+                            errors[name.parentName]?.[index]?.[
+                              name.childNames[0]
+                            ] !== undefined
+                          }
                         />
                       )}
                     />
 
                     <TextField
                       type="number"
-                      // margin="none"
-
                       InputProps={{
                         endAdornment: (
                           <InputAdornment position="end">g</InputAdornment>
@@ -126,8 +137,14 @@ export const RadarChartFormItem = ({
                         },
                       }}
                       sx={{ maxWidth: 100 }}
-                      {...register(`${name}.${index}.amount`)}
-                      error={errors[name]?.[index]?.amount !== undefined}
+                      {...register(
+                        `${name.parentName}.${index}.${name.childNames[1]}`,
+                      )}
+                      error={
+                        errors[name.parentName]?.[index]?.[
+                          name.childNames[1]
+                        ] !== undefined
+                      }
                     />
                     <IconButton onClick={() => remove(index)}>
                       <Delete />
@@ -140,8 +157,8 @@ export const RadarChartFormItem = ({
         </Box>
         <Box>
           <WatchedRadarChart
-            watchName={name}
-            watchDataKey={{ ref: 'name', data: 'amount' }}
+            watchName={name.parentName}
+            watchDataKey={{ ref: name.childNames[0], data: name.childNames[1] }}
             refData={selectedRef}
             subjects={[
               '炭水化物',
@@ -160,7 +177,9 @@ export const RadarChartFormItem = ({
         label="材料を追加"
         icon={<Add />}
         color="primary"
-        onClick={() => append({ name: '', amount: 0 })}
+        onClick={() =>
+          append({ [name.childNames[0]]: '', [name.childNames[1]]: 0 })
+        }
         sx={{ mt: 2 }}
       />
     </Box>

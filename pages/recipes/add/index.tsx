@@ -2,7 +2,6 @@ import { Header } from '@/components/molecules/Header';
 import { RadarChartFormItem } from '@/components/molecules/RadarChartFormItem';
 import { MainTemplate } from '@/components/templates/MainTemplate';
 import { dammyIngredients } from '@/data/dammyIngredients';
-import { Ingredient } from '@/types/Ingredient';
 import { objToFormData } from '@/utils/objToFormData';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { Add, Delete } from '@mui/icons-material';
@@ -17,14 +16,7 @@ import {
   TextField,
   Typography,
 } from '@mui/material';
-import { useState } from 'react';
-import {
-  SubmitHandler,
-  useFieldArray,
-  useForm,
-  useWatch,
-} from 'react-hook-form';
-import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from 'recharts';
+import { SubmitHandler, useFieldArray, useForm } from 'react-hook-form';
 import * as Yup from 'yup';
 import { ImageSelector } from '../../../components/molecules/ImageSelector';
 
@@ -71,115 +63,6 @@ export const schema = Yup.object().shape({
 
 type FormDataType = Yup.InferType<typeof schema>;
 
-const IngredientsRadarChart = ({ name, control, foundIngredients }) => {
-  const ingredients = useWatch({ name, control });
-
-  let ingredientsObj = {};
-  ingredients?.forEach((value) => {
-    ingredientsObj[value.name] = value;
-  });
-
-  return (
-    <RadarChart
-      height={250}
-      width={500}
-      data={[
-        {
-          subject: '炭水化物',
-          A: foundIngredients.reduce(
-            (prevValue, currValue) =>
-              prevValue +
-              currValue.carbohydrate *
-                Number(
-                  currValue.name in ingredientsObj
-                    ? ingredientsObj[currValue.name].amount
-                    : 0,
-                ) *
-                0.01,
-            0,
-          ),
-          fullMark: 100,
-        },
-        {
-          subject: 'タンパク質',
-          A: foundIngredients.reduce(
-            (prevValue, currValue) =>
-              prevValue +
-              currValue.protein *
-                Number(
-                  currValue.name in ingredientsObj
-                    ? ingredientsObj[currValue.name].amount
-                    : 0,
-                ) *
-                0.01,
-            0,
-          ),
-          fullMark: 100,
-        },
-        {
-          subject: '脂質',
-          A: foundIngredients.reduce(
-            (prevValue, currValue) =>
-              prevValue +
-              currValue.lipid *
-                Number(
-                  currValue.name in ingredientsObj
-                    ? ingredientsObj[currValue.name].amount
-                    : 0,
-                ) *
-                0.01,
-            0,
-          ),
-          fullMark: 100,
-        },
-        {
-          subject: 'ビタミン',
-          A: foundIngredients.reduce(
-            (prevValue, currValue) =>
-              prevValue +
-              currValue.vitamin *
-                Number(
-                  currValue.name in ingredientsObj
-                    ? ingredientsObj[currValue.name].amount
-                    : 0,
-                ) *
-                0.01,
-            0,
-          ),
-          fullMark: 100,
-        },
-        {
-          subject: 'ミネラル',
-          A: foundIngredients.reduce(
-            (prevValue, currValue) =>
-              prevValue +
-              currValue.mineral *
-                Number(
-                  currValue.name in ingredientsObj
-                    ? ingredientsObj[currValue.name].amount
-                    : 0,
-                ) *
-                0.01,
-            0,
-          ),
-          fullMark: 100,
-        },
-      ]}
-    >
-      <PolarGrid />
-      <PolarAngleAxis dataKey="subject" />
-      {/* <PolarRadiusAxis angle={30} domain={[0, 100]} /> */}
-      <Radar
-        name="Mike"
-        dataKey="A"
-        stroke="#8884d8"
-        fill="#8884d8"
-        fillOpacity={0.5}
-      />
-    </RadarChart>
-  );
-};
-
 const MainElement = () => {
   const {
     register,
@@ -188,14 +71,13 @@ const MainElement = () => {
     reset,
     setValue,
     getValues,
-    watch,
     formState: { isValid, errors },
   } = useForm({
     defaultValues: {
       title: 'aaaaa',
       ingredients: [
         { name: 'おおむぎ　押麦　乾', amount: 2 },
-        { name: '', amount: 0 },
+        { name: 'タコライス', amount: 5 },
         { name: '', amount: 0 },
       ],
       ways: [{ detail: 'ccccc' }],
@@ -214,8 +96,6 @@ const MainElement = () => {
     name: 'ways',
   });
 
-  const [textImages, setTextImages] = useState<string[]>([]);
-
   const onSubmit: SubmitHandler<FormDataType> = async (data) => {
     //入力したデータを使って任意の処理を実装する
 
@@ -228,20 +108,6 @@ const MainElement = () => {
 
     // console.log(await res.json());
     console.log(await res.text());
-  };
-
-  const [foundIngredients, setFoundIngredients] = useState<Ingredient[]>([]);
-
-  const handleIngredientNameBlur = () => {
-    const ingredientNames = getValues('ingredients')?.map((value, index) => {
-      return value.name;
-    });
-
-    setFoundIngredients(
-      dammyIngredients.filter((value, index) => {
-        return ingredientNames?.includes(value.name);
-      }),
-    );
   };
 
   return (
@@ -270,7 +136,7 @@ const MainElement = () => {
           control={control}
           errors={errors}
           getValues={getValues}
-          name="ingredients"
+          name={{ parentName: 'ingredients', childNames: ['name', 'amount'] }}
         />
       </Box>
 
