@@ -28,7 +28,6 @@ export const WatchedRadarChart = ({
   watchDataKey,
 }: Props) => {
   const watchData = useWatch({ name: watchName, control });
-  console.log(watchData);
 
   return (
     //TODO: 型定義追加
