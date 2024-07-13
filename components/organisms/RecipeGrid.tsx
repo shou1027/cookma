@@ -33,19 +33,19 @@ export const RecipeGrid = ({ recipes }: Props) => {
             <Box>
               <LiquidText
                 variableText="炭水化物:"
-                fixText={`${recipe.carbohydrate}g`}
+                fixText={`${recipe.nutrition.carbohydrate}g`}
                 textWidth="3em"
                 direction="right"
               />
               <LiquidText
                 variableText="タンパク質:"
-                fixText={`${recipe.protein}g`}
+                fixText={`${recipe.nutrition.protein}g`}
                 textWidth="3em"
                 direction="right"
               />
               <LiquidText
                 variableText="脂質:"
-                fixText={`${recipe.lipid}g`}
+                fixText={`${recipe.nutrition.lipid}g`}
                 textWidth="3em"
                 direction="right"
               />

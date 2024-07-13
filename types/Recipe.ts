@@ -3,7 +3,20 @@ export type Recipe = {
   title: string;
   imagePath: string;
   calorie: number;
-  protein: number;
-  carbohydrate: number;
-  lipid: number;
+  ingredients: {
+    name: string;
+    amount: number;
+  }[];
+  nutrition: {
+    protein: number;
+    carbohydrate: number;
+    lipid: number;
+    vitamin: number;
+    mineral: number;
+  };
+  ways: {
+    image: string;
+    detail: string;
+  }[];
+  attention: string;
 };
