@@ -140,8 +140,8 @@ const Recipe = () => {
             <Typography variant="h4">{recipe.title}</Typography>
             <Box mt={4}>
               <Typography variant="h5">材料</Typography>
-              <Stack direction="row">
-                <Box flex={1}>
+              <Stack direction="row" gap={2}>
+                <Box>
                   <Box mt={2}>
                     <Stack gap={1}>
                       <Stack direction="row" gap={1}>
@@ -174,18 +174,10 @@ const Recipe = () => {
                           gap={1}
                           key={ingredient.name}
                         >
-                          <Typography
-                            variant="body1"
-                            width="100%"
-                            maxWidth={223}
-                          >
+                          <Typography variant="body1" width={223}>
                             {ingredient.name}
                           </Typography>
-                          <Typography
-                            variant="body1"
-                            width="100%"
-                            maxWidth={100}
-                          >
+                          <Typography variant="body1" width={100}>
                             {ingredient.amount}g
                           </Typography>
                         </Stack>
@@ -193,48 +185,50 @@ const Recipe = () => {
                     </Stack>
                   </Box>
                 </Box>
-                <RadarChart
-                  height={250}
-                  width={500}
-                  data={[
-                    {
-                      subject: '炭水化物',
-                      A: recipe.nutrition.carbohydrate,
-                      fullMark: 100,
-                    },
-                    {
-                      subject: 'タンパク質',
-                      A: recipe.nutrition.protein,
-                      fullMark: 100,
-                    },
-                    {
-                      subject: '脂質',
-                      A: recipe.nutrition.lipid,
-                      fullMark: 100,
-                    },
-                    {
-                      subject: 'ビタミン',
-                      A: recipe.nutrition.vitamin,
-                      fullMark: 100,
-                    },
-                    {
-                      subject: 'ミネラル',
-                      A: recipe.nutrition.mineral,
-                      fullMark: 100,
-                    },
-                  ]}
-                >
-                  <PolarGrid />
-                  <PolarAngleAxis dataKey="subject" />
-                  {/* <PolarRadiusAxis angle={30} domain={[0, 100]} /> */}
-                  <Radar
-                    name="Mike"
-                    dataKey="A"
-                    stroke="#8884d8"
-                    fill="#8884d8"
-                    fillOpacity={0.5}
-                  />
-                </RadarChart>
+                <Box>
+                  <RadarChart
+                    height={200}
+                    width={400}
+                    data={[
+                      {
+                        subject: '炭水化物',
+                        A: recipe.nutrition.carbohydrate,
+                        fullMark: 100,
+                      },
+                      {
+                        subject: 'タンパク質',
+                        A: recipe.nutrition.protein,
+                        fullMark: 100,
+                      },
+                      {
+                        subject: '脂質',
+                        A: recipe.nutrition.lipid,
+                        fullMark: 100,
+                      },
+                      {
+                        subject: 'ビタミン',
+                        A: recipe.nutrition.vitamin,
+                        fullMark: 100,
+                      },
+                      {
+                        subject: 'ミネラル',
+                        A: recipe.nutrition.mineral,
+                        fullMark: 100,
+                      },
+                    ]}
+                  >
+                    <PolarGrid />
+                    <PolarAngleAxis dataKey="subject" />
+                    {/* <PolarRadiusAxis angle={30} domain={[0, 100]} /> */}
+                    <Radar
+                      name="Mike"
+                      dataKey="A"
+                      stroke="#8884d8"
+                      fill="#8884d8"
+                      fillOpacity={0.5}
+                    />
+                  </RadarChart>
+                </Box>
               </Stack>
             </Box>
 
